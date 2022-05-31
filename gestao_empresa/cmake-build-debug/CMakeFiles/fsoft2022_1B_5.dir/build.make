@@ -82,19 +82,83 @@ CMakeFiles/fsoft2022_1B_5.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/fsoft2022_1B_5.dir/main.cpp.s"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\luis_\OneDrive\Ambiente de Trabalho\fsoft2022_1B_5\gestao_empresa\main.cpp" -o CMakeFiles\fsoft2022_1B_5.dir\main.cpp.s
 
+CMakeFiles/fsoft2022_1B_5.dir/sources/controllers/teste.cpp.obj: CMakeFiles/fsoft2022_1B_5.dir/flags.make
+CMakeFiles/fsoft2022_1B_5.dir/sources/controllers/teste.cpp.obj: ../sources/controllers/teste.cpp
+CMakeFiles/fsoft2022_1B_5.dir/sources/controllers/teste.cpp.obj: CMakeFiles/fsoft2022_1B_5.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\luis_\OneDrive\Ambiente de Trabalho\fsoft2022_1B_5\gestao_empresa\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/fsoft2022_1B_5.dir/sources/controllers/teste.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsoft2022_1B_5.dir/sources/controllers/teste.cpp.obj -MF CMakeFiles\fsoft2022_1B_5.dir\sources\controllers\teste.cpp.obj.d -o CMakeFiles\fsoft2022_1B_5.dir\sources\controllers\teste.cpp.obj -c "C:\Users\luis_\OneDrive\Ambiente de Trabalho\fsoft2022_1B_5\gestao_empresa\sources\controllers\teste.cpp"
+
+CMakeFiles/fsoft2022_1B_5.dir/sources/controllers/teste.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/fsoft2022_1B_5.dir/sources/controllers/teste.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\luis_\OneDrive\Ambiente de Trabalho\fsoft2022_1B_5\gestao_empresa\sources\controllers\teste.cpp" > CMakeFiles\fsoft2022_1B_5.dir\sources\controllers\teste.cpp.i
+
+CMakeFiles/fsoft2022_1B_5.dir/sources/controllers/teste.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/fsoft2022_1B_5.dir/sources/controllers/teste.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\luis_\OneDrive\Ambiente de Trabalho\fsoft2022_1B_5\gestao_empresa\sources\controllers\teste.cpp" -o CMakeFiles\fsoft2022_1B_5.dir\sources\controllers\teste.cpp.s
+
+CMakeFiles/fsoft2022_1B_5.dir/sources/exceptions/teste.cpp.obj: CMakeFiles/fsoft2022_1B_5.dir/flags.make
+CMakeFiles/fsoft2022_1B_5.dir/sources/exceptions/teste.cpp.obj: ../sources/exceptions/teste.cpp
+CMakeFiles/fsoft2022_1B_5.dir/sources/exceptions/teste.cpp.obj: CMakeFiles/fsoft2022_1B_5.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\luis_\OneDrive\Ambiente de Trabalho\fsoft2022_1B_5\gestao_empresa\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/fsoft2022_1B_5.dir/sources/exceptions/teste.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsoft2022_1B_5.dir/sources/exceptions/teste.cpp.obj -MF CMakeFiles\fsoft2022_1B_5.dir\sources\exceptions\teste.cpp.obj.d -o CMakeFiles\fsoft2022_1B_5.dir\sources\exceptions\teste.cpp.obj -c "C:\Users\luis_\OneDrive\Ambiente de Trabalho\fsoft2022_1B_5\gestao_empresa\sources\exceptions\teste.cpp"
+
+CMakeFiles/fsoft2022_1B_5.dir/sources/exceptions/teste.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/fsoft2022_1B_5.dir/sources/exceptions/teste.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\luis_\OneDrive\Ambiente de Trabalho\fsoft2022_1B_5\gestao_empresa\sources\exceptions\teste.cpp" > CMakeFiles\fsoft2022_1B_5.dir\sources\exceptions\teste.cpp.i
+
+CMakeFiles/fsoft2022_1B_5.dir/sources/exceptions/teste.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/fsoft2022_1B_5.dir/sources/exceptions/teste.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\luis_\OneDrive\Ambiente de Trabalho\fsoft2022_1B_5\gestao_empresa\sources\exceptions\teste.cpp" -o CMakeFiles\fsoft2022_1B_5.dir\sources\exceptions\teste.cpp.s
+
+CMakeFiles/fsoft2022_1B_5.dir/sources/model/teste.cpp.obj: CMakeFiles/fsoft2022_1B_5.dir/flags.make
+CMakeFiles/fsoft2022_1B_5.dir/sources/model/teste.cpp.obj: ../sources/model/teste.cpp
+CMakeFiles/fsoft2022_1B_5.dir/sources/model/teste.cpp.obj: CMakeFiles/fsoft2022_1B_5.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\luis_\OneDrive\Ambiente de Trabalho\fsoft2022_1B_5\gestao_empresa\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/fsoft2022_1B_5.dir/sources/model/teste.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsoft2022_1B_5.dir/sources/model/teste.cpp.obj -MF CMakeFiles\fsoft2022_1B_5.dir\sources\model\teste.cpp.obj.d -o CMakeFiles\fsoft2022_1B_5.dir\sources\model\teste.cpp.obj -c "C:\Users\luis_\OneDrive\Ambiente de Trabalho\fsoft2022_1B_5\gestao_empresa\sources\model\teste.cpp"
+
+CMakeFiles/fsoft2022_1B_5.dir/sources/model/teste.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/fsoft2022_1B_5.dir/sources/model/teste.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\luis_\OneDrive\Ambiente de Trabalho\fsoft2022_1B_5\gestao_empresa\sources\model\teste.cpp" > CMakeFiles\fsoft2022_1B_5.dir\sources\model\teste.cpp.i
+
+CMakeFiles/fsoft2022_1B_5.dir/sources/model/teste.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/fsoft2022_1B_5.dir/sources/model/teste.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\luis_\OneDrive\Ambiente de Trabalho\fsoft2022_1B_5\gestao_empresa\sources\model\teste.cpp" -o CMakeFiles\fsoft2022_1B_5.dir\sources\model\teste.cpp.s
+
+CMakeFiles/fsoft2022_1B_5.dir/sources/views/teste.cpp.obj: CMakeFiles/fsoft2022_1B_5.dir/flags.make
+CMakeFiles/fsoft2022_1B_5.dir/sources/views/teste.cpp.obj: ../sources/views/teste.cpp
+CMakeFiles/fsoft2022_1B_5.dir/sources/views/teste.cpp.obj: CMakeFiles/fsoft2022_1B_5.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\luis_\OneDrive\Ambiente de Trabalho\fsoft2022_1B_5\gestao_empresa\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/fsoft2022_1B_5.dir/sources/views/teste.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsoft2022_1B_5.dir/sources/views/teste.cpp.obj -MF CMakeFiles\fsoft2022_1B_5.dir\sources\views\teste.cpp.obj.d -o CMakeFiles\fsoft2022_1B_5.dir\sources\views\teste.cpp.obj -c "C:\Users\luis_\OneDrive\Ambiente de Trabalho\fsoft2022_1B_5\gestao_empresa\sources\views\teste.cpp"
+
+CMakeFiles/fsoft2022_1B_5.dir/sources/views/teste.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/fsoft2022_1B_5.dir/sources/views/teste.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\luis_\OneDrive\Ambiente de Trabalho\fsoft2022_1B_5\gestao_empresa\sources\views\teste.cpp" > CMakeFiles\fsoft2022_1B_5.dir\sources\views\teste.cpp.i
+
+CMakeFiles/fsoft2022_1B_5.dir/sources/views/teste.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/fsoft2022_1B_5.dir/sources/views/teste.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\luis_\OneDrive\Ambiente de Trabalho\fsoft2022_1B_5\gestao_empresa\sources\views\teste.cpp" -o CMakeFiles\fsoft2022_1B_5.dir\sources\views\teste.cpp.s
+
 # Object files for target fsoft2022_1B_5
 fsoft2022_1B_5_OBJECTS = \
-"CMakeFiles/fsoft2022_1B_5.dir/main.cpp.obj"
+"CMakeFiles/fsoft2022_1B_5.dir/main.cpp.obj" \
+"CMakeFiles/fsoft2022_1B_5.dir/sources/controllers/teste.cpp.obj" \
+"CMakeFiles/fsoft2022_1B_5.dir/sources/exceptions/teste.cpp.obj" \
+"CMakeFiles/fsoft2022_1B_5.dir/sources/model/teste.cpp.obj" \
+"CMakeFiles/fsoft2022_1B_5.dir/sources/views/teste.cpp.obj"
 
 # External object files for target fsoft2022_1B_5
 fsoft2022_1B_5_EXTERNAL_OBJECTS =
 
 fsoft2022_1B_5.exe: CMakeFiles/fsoft2022_1B_5.dir/main.cpp.obj
+fsoft2022_1B_5.exe: CMakeFiles/fsoft2022_1B_5.dir/sources/controllers/teste.cpp.obj
+fsoft2022_1B_5.exe: CMakeFiles/fsoft2022_1B_5.dir/sources/exceptions/teste.cpp.obj
+fsoft2022_1B_5.exe: CMakeFiles/fsoft2022_1B_5.dir/sources/model/teste.cpp.obj
+fsoft2022_1B_5.exe: CMakeFiles/fsoft2022_1B_5.dir/sources/views/teste.cpp.obj
 fsoft2022_1B_5.exe: CMakeFiles/fsoft2022_1B_5.dir/build.make
 fsoft2022_1B_5.exe: CMakeFiles/fsoft2022_1B_5.dir/linklibs.rsp
 fsoft2022_1B_5.exe: CMakeFiles/fsoft2022_1B_5.dir/objects1.rsp
 fsoft2022_1B_5.exe: CMakeFiles/fsoft2022_1B_5.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\luis_\OneDrive\Ambiente de Trabalho\fsoft2022_1B_5\gestao_empresa\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable fsoft2022_1B_5.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\luis_\OneDrive\Ambiente de Trabalho\fsoft2022_1B_5\gestao_empresa\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable fsoft2022_1B_5.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\fsoft2022_1B_5.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

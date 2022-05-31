@@ -152,6 +152,102 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2022_1B_5.dir\build.make CMakeFiles/fsoft2022_1B_5.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+sources/controllers/teste.obj: sources/controllers/teste.cpp.obj
+.PHONY : sources/controllers/teste.obj
+
+# target to build an object file
+sources/controllers/teste.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2022_1B_5.dir\build.make CMakeFiles/fsoft2022_1B_5.dir/sources/controllers/teste.cpp.obj
+.PHONY : sources/controllers/teste.cpp.obj
+
+sources/controllers/teste.i: sources/controllers/teste.cpp.i
+.PHONY : sources/controllers/teste.i
+
+# target to preprocess a source file
+sources/controllers/teste.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2022_1B_5.dir\build.make CMakeFiles/fsoft2022_1B_5.dir/sources/controllers/teste.cpp.i
+.PHONY : sources/controllers/teste.cpp.i
+
+sources/controllers/teste.s: sources/controllers/teste.cpp.s
+.PHONY : sources/controllers/teste.s
+
+# target to generate assembly for a file
+sources/controllers/teste.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2022_1B_5.dir\build.make CMakeFiles/fsoft2022_1B_5.dir/sources/controllers/teste.cpp.s
+.PHONY : sources/controllers/teste.cpp.s
+
+sources/exceptions/teste.obj: sources/exceptions/teste.cpp.obj
+.PHONY : sources/exceptions/teste.obj
+
+# target to build an object file
+sources/exceptions/teste.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2022_1B_5.dir\build.make CMakeFiles/fsoft2022_1B_5.dir/sources/exceptions/teste.cpp.obj
+.PHONY : sources/exceptions/teste.cpp.obj
+
+sources/exceptions/teste.i: sources/exceptions/teste.cpp.i
+.PHONY : sources/exceptions/teste.i
+
+# target to preprocess a source file
+sources/exceptions/teste.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2022_1B_5.dir\build.make CMakeFiles/fsoft2022_1B_5.dir/sources/exceptions/teste.cpp.i
+.PHONY : sources/exceptions/teste.cpp.i
+
+sources/exceptions/teste.s: sources/exceptions/teste.cpp.s
+.PHONY : sources/exceptions/teste.s
+
+# target to generate assembly for a file
+sources/exceptions/teste.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2022_1B_5.dir\build.make CMakeFiles/fsoft2022_1B_5.dir/sources/exceptions/teste.cpp.s
+.PHONY : sources/exceptions/teste.cpp.s
+
+sources/model/teste.obj: sources/model/teste.cpp.obj
+.PHONY : sources/model/teste.obj
+
+# target to build an object file
+sources/model/teste.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2022_1B_5.dir\build.make CMakeFiles/fsoft2022_1B_5.dir/sources/model/teste.cpp.obj
+.PHONY : sources/model/teste.cpp.obj
+
+sources/model/teste.i: sources/model/teste.cpp.i
+.PHONY : sources/model/teste.i
+
+# target to preprocess a source file
+sources/model/teste.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2022_1B_5.dir\build.make CMakeFiles/fsoft2022_1B_5.dir/sources/model/teste.cpp.i
+.PHONY : sources/model/teste.cpp.i
+
+sources/model/teste.s: sources/model/teste.cpp.s
+.PHONY : sources/model/teste.s
+
+# target to generate assembly for a file
+sources/model/teste.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2022_1B_5.dir\build.make CMakeFiles/fsoft2022_1B_5.dir/sources/model/teste.cpp.s
+.PHONY : sources/model/teste.cpp.s
+
+sources/views/teste.obj: sources/views/teste.cpp.obj
+.PHONY : sources/views/teste.obj
+
+# target to build an object file
+sources/views/teste.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2022_1B_5.dir\build.make CMakeFiles/fsoft2022_1B_5.dir/sources/views/teste.cpp.obj
+.PHONY : sources/views/teste.cpp.obj
+
+sources/views/teste.i: sources/views/teste.cpp.i
+.PHONY : sources/views/teste.i
+
+# target to preprocess a source file
+sources/views/teste.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2022_1B_5.dir\build.make CMakeFiles/fsoft2022_1B_5.dir/sources/views/teste.cpp.i
+.PHONY : sources/views/teste.cpp.i
+
+sources/views/teste.s: sources/views/teste.cpp.s
+.PHONY : sources/views/teste.s
+
+# target to generate assembly for a file
+sources/views/teste.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2022_1B_5.dir\build.make CMakeFiles/fsoft2022_1B_5.dir/sources/views/teste.cpp.s
+.PHONY : sources/views/teste.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -164,6 +260,18 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... sources/controllers/teste.obj
+	@echo ... sources/controllers/teste.i
+	@echo ... sources/controllers/teste.s
+	@echo ... sources/exceptions/teste.obj
+	@echo ... sources/exceptions/teste.i
+	@echo ... sources/exceptions/teste.s
+	@echo ... sources/model/teste.obj
+	@echo ... sources/model/teste.i
+	@echo ... sources/model/teste.s
+	@echo ... sources/views/teste.obj
+	@echo ... sources/views/teste.i
+	@echo ... sources/views/teste.s
 .PHONY : help
 
 
