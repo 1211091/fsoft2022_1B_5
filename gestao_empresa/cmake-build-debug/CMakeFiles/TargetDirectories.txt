@@ -1,3 +1,0 @@
-C:/Users/bilax/Dropbox/PC/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/cmake-build-debug/CMakeFiles/fsoft2022_1B_5.dir
-C:/Users/bilax/Dropbox/PC/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/bilax/Dropbox/PC/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/cmake-build-debug/CMakeFiles/rebuild_cache.dir
