@@ -1,12 +1,12 @@
 "C:\Program Files\JetBrains\CLion 2021.3.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" C:\Users\babis\Desktop\fsoft2022_1B_5\gestao_empresa
 -- Configuring done
-CMake Error at CMakeLists.txt:33 (add_executable):
+CMake Error at CMakeLists.txt:27 (add_executable):
   Cannot find source file:
 
     headers/views/teste.h
 
 
-CMake Error at CMakeLists.txt:33 (add_executable):
+CMake Error at CMakeLists.txt:27 (add_executable):
   No SOURCES given to target: fsoft2022_1B_5
 
 

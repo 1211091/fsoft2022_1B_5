@@ -23,11 +23,5 @@ set(EXCEPTIONS_SOURCE_FILES
         ${PROJECT_HEADERS_EXCEPTIONS_DIR}/InformacaoInvalidaException.h
         ${PROJECT_SOURCES_EXCEPTIONS_DIR}/InformacaoInvalidaException.cpp
         ${PROJECT_HEADERS_VIEWS_DIR}/AdministradorView.h
-        ${PROJECT_HEADERS_VIEWS_DIR}/ClienteView.h
-        ${PROJECT_HEADERS_VIEWS_DIR}/FuncionarioView.h
-        ${PROJECT_HEADERS_VIEWS_DIR}/AdministradorView.h
-        ${PROJECT_HEADERS_VIEWS_DIR}/AdministradorView.h
-        ${PROJECT_HEADERS_VIEWS_DIR}/AdministradorView.h
-        ${PROJECT_HEADERS_VIEWS_DIR}/AdministradorView.h
         )
 add_executable(fsoft2022_1B_5 main.cpp headers/controllers/InformacaoNaoExisteException.h headers/model/teste.h headers/views/teste.h sources/controllers/teste.cpp sources/exceptions/InformacaoNaoExisteException.cpp sources/model/teste.cpp sources/views/teste.cpp headers/exceptions/InformacaoInvalidaException.h headers/exceptions/InformacaoDuplicadaException.h headers/exceptions/InformacaoNaoExisteException.h mock/teste.h mock/teste.cpp sources/exceptions/InformacaoDuplicada.cpp sources/exceptions/InformacaoInvalida.cpp)
