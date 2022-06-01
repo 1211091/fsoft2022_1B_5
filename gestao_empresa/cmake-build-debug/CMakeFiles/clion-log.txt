@@ -12,5 +12,14 @@
 -- Detecting CXX compile features
 -- Detecting CXX compile features - done
 -- Configuring done
--- Generating done
--- Build files have been written to: C:/Users/bilax/Dropbox/PC/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/cmake-build-debug
+CMake Error at CMakeLists.txt:34 (add_executable):
+  Cannot find source file:
+
+    headers/views/teste.h
+
+
+CMake Error at CMakeLists.txt:34 (add_executable):
+  No SOURCES given to target: fsoft2022_1B_5
+
+
+CMake Generate step failed.  Build files cannot be regenerated correctly.

@@ -8,12 +8,19 @@
 #include <string>
 using namespace std;
 
+
 class Nome{
     protected:
         string nome;
-    public:
-        void setNome(const string &nome);
+        string nomeGerente;
+        string nomeLoja;
+        bool ValidacaoNome(const string& nome);
 
+    public:
+        Nome(const string& nome);
+        void setNome(const string &nome);
+        const string& getNome() const;
+        NomeGerente(const string& nomeGerente);
 
 };
 
