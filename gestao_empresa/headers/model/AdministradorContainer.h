@@ -1,0 +1,8 @@
+//
+// Created by bilax on 01/06/2022.
+//
+
+#ifndef LASTTEST_LOG_ADMINISTRADOR_H
+#define LASTTEST_LOG_ADMINISTRADOR_H
+
+#endif //LASTTEST_LOG_ADMINISTRADOR_H
