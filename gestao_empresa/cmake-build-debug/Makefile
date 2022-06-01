@@ -56,10 +56,10 @@ RM = "C:\Program Files\JetBrains\CLion 2021.3.3\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\bilax\Dropbox\PC\Documents\GitHub\fsoft2022_1B_5\gestao_empresa
+CMAKE_SOURCE_DIR = C:\Users\babis\Desktop\fsoft2022_1B_5\gestao_empresa
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\bilax\Dropbox\PC\Documents\GitHub\fsoft2022_1B_5\gestao_empresa\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\babis\Desktop\fsoft2022_1B_5\gestao_empresa\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\bilax\Dropbox\PC\Documents\GitHub\fsoft2022_1B_5\gestao_empresa\cmake-build-debug\CMakeFiles C:\Users\bilax\Dropbox\PC\Documents\GitHub\fsoft2022_1B_5\gestao_empresa\cmake-build-debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\babis\Desktop\fsoft2022_1B_5\gestao_empresa\cmake-build-debug\CMakeFiles C:\Users\babis\Desktop\fsoft2022_1B_5\gestao_empresa\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\bilax\Dropbox\PC\Documents\GitHub\fsoft2022_1B_5\gestao_empresa\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\babis\Desktop\fsoft2022_1B_5\gestao_empresa\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -152,174 +152,6 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2022_1B_5.dir\build.make CMakeFiles/fsoft2022_1B_5.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-mock/teste.obj: mock/teste.cpp.obj
-.PHONY : mock/teste.obj
-
-# target to build an object file
-mock/teste.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2022_1B_5.dir\build.make CMakeFiles/fsoft2022_1B_5.dir/mock/teste.cpp.obj
-.PHONY : mock/teste.cpp.obj
-
-mock/teste.i: mock/teste.cpp.i
-.PHONY : mock/teste.i
-
-# target to preprocess a source file
-mock/teste.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2022_1B_5.dir\build.make CMakeFiles/fsoft2022_1B_5.dir/mock/teste.cpp.i
-.PHONY : mock/teste.cpp.i
-
-mock/teste.s: mock/teste.cpp.s
-.PHONY : mock/teste.s
-
-# target to generate assembly for a file
-mock/teste.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2022_1B_5.dir\build.make CMakeFiles/fsoft2022_1B_5.dir/mock/teste.cpp.s
-.PHONY : mock/teste.cpp.s
-
-sources/controllers/teste.obj: sources/controllers/teste.cpp.obj
-.PHONY : sources/controllers/teste.obj
-
-# target to build an object file
-sources/controllers/teste.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2022_1B_5.dir\build.make CMakeFiles/fsoft2022_1B_5.dir/sources/controllers/teste.cpp.obj
-.PHONY : sources/controllers/teste.cpp.obj
-
-sources/controllers/teste.i: sources/controllers/teste.cpp.i
-.PHONY : sources/controllers/teste.i
-
-# target to preprocess a source file
-sources/controllers/teste.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2022_1B_5.dir\build.make CMakeFiles/fsoft2022_1B_5.dir/sources/controllers/teste.cpp.i
-.PHONY : sources/controllers/teste.cpp.i
-
-sources/controllers/teste.s: sources/controllers/teste.cpp.s
-.PHONY : sources/controllers/teste.s
-
-# target to generate assembly for a file
-sources/controllers/teste.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2022_1B_5.dir\build.make CMakeFiles/fsoft2022_1B_5.dir/sources/controllers/teste.cpp.s
-.PHONY : sources/controllers/teste.cpp.s
-
-sources/exceptions/InformacaoDuplicada.obj: sources/exceptions/InformacaoDuplicada.cpp.obj
-.PHONY : sources/exceptions/InformacaoDuplicada.obj
-
-# target to build an object file
-sources/exceptions/InformacaoDuplicada.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2022_1B_5.dir\build.make CMakeFiles/fsoft2022_1B_5.dir/sources/exceptions/InformacaoDuplicada.cpp.obj
-.PHONY : sources/exceptions/InformacaoDuplicada.cpp.obj
-
-sources/exceptions/InformacaoDuplicada.i: sources/exceptions/InformacaoDuplicada.cpp.i
-.PHONY : sources/exceptions/InformacaoDuplicada.i
-
-# target to preprocess a source file
-sources/exceptions/InformacaoDuplicada.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2022_1B_5.dir\build.make CMakeFiles/fsoft2022_1B_5.dir/sources/exceptions/InformacaoDuplicada.cpp.i
-.PHONY : sources/exceptions/InformacaoDuplicada.cpp.i
-
-sources/exceptions/InformacaoDuplicada.s: sources/exceptions/InformacaoDuplicada.cpp.s
-.PHONY : sources/exceptions/InformacaoDuplicada.s
-
-# target to generate assembly for a file
-sources/exceptions/InformacaoDuplicada.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2022_1B_5.dir\build.make CMakeFiles/fsoft2022_1B_5.dir/sources/exceptions/InformacaoDuplicada.cpp.s
-.PHONY : sources/exceptions/InformacaoDuplicada.cpp.s
-
-sources/exceptions/InformacaoInvalida.obj: sources/exceptions/InformacaoInvalida.cpp.obj
-.PHONY : sources/exceptions/InformacaoInvalida.obj
-
-# target to build an object file
-sources/exceptions/InformacaoInvalida.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2022_1B_5.dir\build.make CMakeFiles/fsoft2022_1B_5.dir/sources/exceptions/InformacaoInvalida.cpp.obj
-.PHONY : sources/exceptions/InformacaoInvalida.cpp.obj
-
-sources/exceptions/InformacaoInvalida.i: sources/exceptions/InformacaoInvalida.cpp.i
-.PHONY : sources/exceptions/InformacaoInvalida.i
-
-# target to preprocess a source file
-sources/exceptions/InformacaoInvalida.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2022_1B_5.dir\build.make CMakeFiles/fsoft2022_1B_5.dir/sources/exceptions/InformacaoInvalida.cpp.i
-.PHONY : sources/exceptions/InformacaoInvalida.cpp.i
-
-sources/exceptions/InformacaoInvalida.s: sources/exceptions/InformacaoInvalida.cpp.s
-.PHONY : sources/exceptions/InformacaoInvalida.s
-
-# target to generate assembly for a file
-sources/exceptions/InformacaoInvalida.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2022_1B_5.dir\build.make CMakeFiles/fsoft2022_1B_5.dir/sources/exceptions/InformacaoInvalida.cpp.s
-.PHONY : sources/exceptions/InformacaoInvalida.cpp.s
-
-sources/exceptions/InformacaoNaoExisteException.obj: sources/exceptions/InformacaoNaoExisteException.cpp.obj
-.PHONY : sources/exceptions/InformacaoNaoExisteException.obj
-
-# target to build an object file
-sources/exceptions/InformacaoNaoExisteException.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2022_1B_5.dir\build.make CMakeFiles/fsoft2022_1B_5.dir/sources/exceptions/InformacaoNaoExisteException.cpp.obj
-.PHONY : sources/exceptions/InformacaoNaoExisteException.cpp.obj
-
-sources/exceptions/InformacaoNaoExisteException.i: sources/exceptions/InformacaoNaoExisteException.cpp.i
-.PHONY : sources/exceptions/InformacaoNaoExisteException.i
-
-# target to preprocess a source file
-sources/exceptions/InformacaoNaoExisteException.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2022_1B_5.dir\build.make CMakeFiles/fsoft2022_1B_5.dir/sources/exceptions/InformacaoNaoExisteException.cpp.i
-.PHONY : sources/exceptions/InformacaoNaoExisteException.cpp.i
-
-sources/exceptions/InformacaoNaoExisteException.s: sources/exceptions/InformacaoNaoExisteException.cpp.s
-.PHONY : sources/exceptions/InformacaoNaoExisteException.s
-
-# target to generate assembly for a file
-sources/exceptions/InformacaoNaoExisteException.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2022_1B_5.dir\build.make CMakeFiles/fsoft2022_1B_5.dir/sources/exceptions/InformacaoNaoExisteException.cpp.s
-.PHONY : sources/exceptions/InformacaoNaoExisteException.cpp.s
-
-sources/model/teste.obj: sources/model/teste.cpp.obj
-.PHONY : sources/model/teste.obj
-
-# target to build an object file
-sources/model/teste.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2022_1B_5.dir\build.make CMakeFiles/fsoft2022_1B_5.dir/sources/model/teste.cpp.obj
-.PHONY : sources/model/teste.cpp.obj
-
-sources/model/teste.i: sources/model/teste.cpp.i
-.PHONY : sources/model/teste.i
-
-# target to preprocess a source file
-sources/model/teste.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2022_1B_5.dir\build.make CMakeFiles/fsoft2022_1B_5.dir/sources/model/teste.cpp.i
-.PHONY : sources/model/teste.cpp.i
-
-sources/model/teste.s: sources/model/teste.cpp.s
-.PHONY : sources/model/teste.s
-
-# target to generate assembly for a file
-sources/model/teste.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2022_1B_5.dir\build.make CMakeFiles/fsoft2022_1B_5.dir/sources/model/teste.cpp.s
-.PHONY : sources/model/teste.cpp.s
-
-sources/views/teste.obj: sources/views/teste.cpp.obj
-.PHONY : sources/views/teste.obj
-
-# target to build an object file
-sources/views/teste.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2022_1B_5.dir\build.make CMakeFiles/fsoft2022_1B_5.dir/sources/views/teste.cpp.obj
-.PHONY : sources/views/teste.cpp.obj
-
-sources/views/teste.i: sources/views/teste.cpp.i
-.PHONY : sources/views/teste.i
-
-# target to preprocess a source file
-sources/views/teste.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2022_1B_5.dir\build.make CMakeFiles/fsoft2022_1B_5.dir/sources/views/teste.cpp.i
-.PHONY : sources/views/teste.cpp.i
-
-sources/views/teste.s: sources/views/teste.cpp.s
-.PHONY : sources/views/teste.s
-
-# target to generate assembly for a file
-sources/views/teste.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2022_1B_5.dir\build.make CMakeFiles/fsoft2022_1B_5.dir/sources/views/teste.cpp.s
-.PHONY : sources/views/teste.cpp.s
-
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -332,27 +164,6 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
-	@echo ... mock/teste.obj
-	@echo ... mock/teste.i
-	@echo ... mock/teste.s
-	@echo ... sources/controllers/teste.obj
-	@echo ... sources/controllers/teste.i
-	@echo ... sources/controllers/teste.s
-	@echo ... sources/exceptions/InformacaoDuplicada.obj
-	@echo ... sources/exceptions/InformacaoDuplicada.i
-	@echo ... sources/exceptions/InformacaoDuplicada.s
-	@echo ... sources/exceptions/InformacaoInvalida.obj
-	@echo ... sources/exceptions/InformacaoInvalida.i
-	@echo ... sources/exceptions/InformacaoInvalida.s
-	@echo ... sources/exceptions/InformacaoNaoExisteException.obj
-	@echo ... sources/exceptions/InformacaoNaoExisteException.i
-	@echo ... sources/exceptions/InformacaoNaoExisteException.s
-	@echo ... sources/model/teste.obj
-	@echo ... sources/model/teste.i
-	@echo ... sources/model/teste.s
-	@echo ... sources/views/teste.obj
-	@echo ... sources/views/teste.i
-	@echo ... sources/views/teste.s
 .PHONY : help
 
 

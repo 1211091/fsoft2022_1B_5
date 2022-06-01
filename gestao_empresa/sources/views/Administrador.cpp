@@ -16,8 +16,8 @@ Administrador AdministradorView::getAdministrador(){
         try{
             flag = false;
             cout<<"Administrador"<<endl;
-            string name = Utils::getString("Name");
-            instructor.setName(name);
+            string nome = Utils::getString("Nome");
+            administrador.setNome(nome);
         }catch(InformacaoInvalidaException& e){
             flag = true;
         }
@@ -29,6 +29,10 @@ void AdministradorView::printAdministrador(Administrador *administrador) {
 }
 
 bool AdministradorView::adicionar(){
+
+
+}
+bool AdministradorView::eliminar(){
 
 
 }
