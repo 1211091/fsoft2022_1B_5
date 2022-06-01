@@ -13,7 +13,8 @@
 	{
 		"commands" : 
 		[
-			"add_executable"
+			"add_executable",
+			"include_directories"
 		],
 		"files" : 
 		[
@@ -27,7 +28,13 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 6,
+				"line" : 25,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 14,
 				"parent" : 0
 			}
 		]
@@ -44,6 +51,17 @@
 					"fragment" : "-std=gnu++14"
 				}
 			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/headers/exceptions"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/sources/exceptions"
+				}
+			],
 			"language" : "CXX",
 			"languageStandard" : 
 			{
@@ -56,10 +74,13 @@
 			"sourceIndexes" : 
 			[
 				0,
+				4,
 				5,
 				6,
 				7,
-				8
+				12,
+				13,
+				14
 			]
 		}
 	],
@@ -97,10 +118,13 @@
 			"sourceIndexes" : 
 			[
 				0,
+				4,
 				5,
 				6,
 				7,
-				8
+				12,
+				13,
+				14
 			]
 		},
 		{
@@ -110,7 +134,10 @@
 				1,
 				2,
 				3,
-				4
+				8,
+				9,
+				10,
+				11
 			]
 		}
 	],
@@ -124,12 +151,7 @@
 		},
 		{
 			"backtrace" : 1,
-			"path" : "headers/controllers/teste.h",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 1,
-			"path" : "headers/exceptions/teste.h",
+			"path" : "headers/controllers/InformacaoNaoExisteException.h",
 			"sourceGroupIndex" : 1
 		},
 		{
@@ -151,7 +173,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "sources/exceptions/teste.cpp",
+			"path" : "sources/exceptions/InformacaoNaoExisteException.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
@@ -164,6 +186,44 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "sources/views/teste.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "headers/exceptions/InformacaoInvalidaException.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "headers/exceptions/InformacaoDuplicadaException.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "headers/exceptions/InformacaoNaoExisteException.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "mock/teste.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "mock/teste.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "sources/exceptions/InformacaoDuplicada.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "sources/exceptions/InformacaoInvalida.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

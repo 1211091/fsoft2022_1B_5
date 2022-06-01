@@ -4,7 +4,7 @@
 # compile CXX with C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/bin/g++.exe
 CXX_DEFINES = 
 
-CXX_INCLUDES = 
+CXX_INCLUDES = @CMakeFiles/fsoft2022_1B_5.dir/includes_CXX.rsp
 
 CXX_FLAGS = -g -std=gnu++14
 
