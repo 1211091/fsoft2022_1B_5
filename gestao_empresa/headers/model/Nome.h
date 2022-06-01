@@ -20,7 +20,7 @@ class Nome{
         Nome(const string& nome);
         void setNome(const string &nome);
         const string& getNome() const;
-        NomeGerente(const string& nomeGerente);
+        string NomeGerente(const basic_string<char> &nomeGerente);
 
 };
 
