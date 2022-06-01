@@ -6,7 +6,7 @@
 #include <list>
 #include "View.h"
 #include "Utils.h"
-#include "InvalidDataException.h"
+#include "InformacaoInvalidaException.h"
 using namespace std;
 
 View::View(){
