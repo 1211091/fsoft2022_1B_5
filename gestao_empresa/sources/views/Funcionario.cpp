@@ -4,7 +4,7 @@
 #include <iostream>
 #include "FuncionarioView.h"
 #include "Utils.h"
-#include "InvalidDataException.h"
+#include "InformacaoInvalidaException.h"
 using namespace std;
 
 Funcionario FuncionarioView::getFuncionario(){

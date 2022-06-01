@@ -9,7 +9,7 @@ using namespace std;
 class Utils{
 
 public:
-    static int getNumber(const string&  label);
+    static int getNumero(const string&  label);
     static string getString(const string&  label);
 };
 
