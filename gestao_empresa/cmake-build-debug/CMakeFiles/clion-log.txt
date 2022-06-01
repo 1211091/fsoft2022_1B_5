@@ -1,7 +1,13 @@
-"C:\Program Files\JetBrains\CLion 2021.3.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" C:\Users\babis\Desktop\fsoft2022_1B_5\gestao_empresa
+"C:\Program Files\JetBrains\CLion 2021.3.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2021.3.3/bin/ninja/win/ninja.exe" -G Ninja C:\Users\clara\Documents\GitHub\fsoft2022_1B_5\gestao_empresa
+-- Configuring done
 CMake Error at CMakeLists.txt:49 (add_executable):
-  add_executable called with incorrect number of arguments
+  Cannot find source file:
+
+    C:/Users/clara/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/sources/exceptions/InformacaoDuplicadaException.cpp
 
 
--- Configuring incomplete, errors occurred!
-See also "C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/cmake-build-debug/CMakeFiles/CMakeOutput.log".
+CMake Error at CMakeLists.txt:49 (add_executable):
+  No SOURCES given to target: AplicacaoEmpresa
+
+
+CMake Generate step failed.  Build files cannot be regenerated correctly.

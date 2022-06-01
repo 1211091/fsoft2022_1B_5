@@ -46,6 +46,7 @@ set(VIEW_SOURCE_FILES
         ${PROJECT_SOURCES_VIEWS_DIR}/Utils.cpp
         ${PROJECT_HEADERS_VIEWS_DIR}/View.h
         ${PROJECT_SOURCES_VIEWS_DIR}/View.cpp)
+
 add_executable(
         AplicacaoEmpresa
         main.cpp
@@ -54,4 +55,4 @@ add_executable(
         ${EXCEPTIONS_SOURCE_FILES}
         ${CONTROLLERS_SOURCE_FILES}
         ${MOCK_SOURCE_FILES})
-)
+
