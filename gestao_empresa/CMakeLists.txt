@@ -31,4 +31,4 @@ set(EXCEPTIONS_SOURCE_FILES
         ${PROJECT_HEADERS_VIEWS_DIR}/Utils.h
         ${PROJECT_HEADERS_VIEWS_DIR}/View.h
         )
-add_executable(fsoft2022_1B_5 main.cpp headers/exceptions/InformacaoNaoExisteException.h headers/model/teste.h headers/views/teste.h sources/controllers/teste.cpp sources/exceptions/InformacaoNaoExisteException.cpp sources/model/teste.cpp headers/exceptions/InformacaoInvalidaException.h headers/exceptions/InformacaoDuplicadaException.h headers/exceptions/InformacaoNaoExisteException.h mock/teste.h mock/teste.cpp sources/exceptions/InformacaoDuplicada.cpp sources/exceptions/InformacaoInvalida.cpp)
+add_executable(fsoft2022_1B_5 main.cpp headers/exceptions/InformacaoNaoExisteException.h headers/views/teste.h sources/exceptions/InformacaoNaoExisteException.cpp headers/exceptions/InformacaoInvalidaException.h headers/exceptions/InformacaoDuplicadaException.h headers/exceptions/InformacaoNaoExisteException.h sources/exceptions/InformacaoDuplicada.cpp sources/exceptions/InformacaoInvalida.cpp)
