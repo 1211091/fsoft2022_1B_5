@@ -27,7 +27,6 @@ class Nome{
         void setNomeLoja(const string &nomeLoja);
         const string& getNomeLoja() const;
 
-
 };
 
 #endif //MAIN_CPP_NOME_H
