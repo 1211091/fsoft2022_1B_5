@@ -5,11 +5,12 @@
 #ifndef MAIN_CPP_CLIENTE_H
 #define MAIN_CPP_CLIENTE_H
 #include "Nome.h"
-#include <string.h>
+#include <string>
 
-class Cliente: public{
-private:
-    Cliente(const string& nome);
+class Cliente: public Nome{
+    private:
+    public:
+        Cliente(const string& nomeGerente,const string& nomeLoja);
 
 
 
