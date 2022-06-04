@@ -4,7 +4,7 @@
 #include <iostream>
 #include "StockView.h"
 #include "Utils.h"
-#include "InvalidDataException.h"
+#include "InformacaoInvalidaException.h"
 using namespace std;
 
 Stock StockView::getStock(){

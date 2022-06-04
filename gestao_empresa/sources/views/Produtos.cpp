@@ -4,7 +4,7 @@
 #include <iostream>
 #include "ProdutosView.h"
 #include "Utils.h"
-#include "InvalidDataException.h"
+#include "InformacaoInvalidaException.h"
 using namespace std;
 
 Produtos ProdutosView::getProdutos(){

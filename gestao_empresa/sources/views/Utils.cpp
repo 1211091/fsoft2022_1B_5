@@ -8,14 +8,14 @@ using namespace std;
 
 int Utils::getNumero(const string&  label){
     int numero;
-    bool flag = false;
+    bool flag;
     do{
         cout<<label<<": ";
         flag = false;
         cin >> numero;
         if(cin.fail()){
             cout << "Not a number, please enter a number" << endl;
-            cin.clear(); //corrects stream
+            cin.clear();
             cin.ignore(numeric_limits<streamsize>::max(), '\n');
             flag = true;
         }

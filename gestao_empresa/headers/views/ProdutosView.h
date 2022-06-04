@@ -9,7 +9,7 @@
 class ProdutosView{
 public:
 
-    Produto getProdutos();
+    Produtos getProdutos();
     Referencia getReferencia();
     void printProdutos(Produtos *produtos);
     void printReferencia(Referencia *produtos);

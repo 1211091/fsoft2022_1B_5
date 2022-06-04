@@ -31,7 +31,7 @@ include_directories(
         ${PROJECT_HEADERS_VIEWS_DIR}
         ${PROJECT_SOURCES_VIEWS_DIR})
 
-set(VIEW_SOURCE_FILES
+set(VIEWS_SOURCE_FILES
         ${PROJECT_HEADERS_VIEWS_DIR}/AdministradorView.h
         ${PROJECT_SOURCES_VIEWS_DIR}/AdministradorView.cpp
         ${PROJECT_HEADERS_VIEWS_DIR}/ClienteView.h
@@ -46,12 +46,12 @@ set(VIEW_SOURCE_FILES
         ${PROJECT_SOURCES_VIEWS_DIR}/Utils.cpp
         ${PROJECT_HEADERS_VIEWS_DIR}/View.h
         ${PROJECT_SOURCES_VIEWS_DIR}/View.cpp)
+
 add_executable(
-        AplicacaoEmpresa
         main.cpp
         ${VIEWS_SOURCE_FILES}
         ${MODEL_SOURCE_FILES}
         ${EXCEPTIONS_SOURCE_FILES}
         ${CONTROLLERS_SOURCE_FILES}
         ${MOCK_SOURCE_FILES})
-)
+

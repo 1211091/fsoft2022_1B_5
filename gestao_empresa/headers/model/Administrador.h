@@ -6,3 +6,18 @@
 #define LASTTEST_LOG_ADMINISTRADOR_H
 
 #endif //LASTTEST_LOG_ADMINISTRADOR_H
+
+#include <string>
+using namespace std;
+#include "Nome.h"
+
+class Administrador: public Nome{
+    private:
+    public:
+    Administrador(const string& Nome);
+    adicionar( funcionario);
+    remover(funcionario);
+
+
+
+};

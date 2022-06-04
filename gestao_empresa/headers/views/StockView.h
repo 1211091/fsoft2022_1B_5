@@ -10,7 +10,7 @@
 class StockView{
 public:
 
-    Funcionario getStock();
+    Stock getStock();
     void printStock(Stock *stock);
 };
 

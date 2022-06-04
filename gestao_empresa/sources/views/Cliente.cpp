@@ -4,7 +4,7 @@
 #include <iostream>
 #include "ClienteView.h"
 #include "Utils.h"
-#include "InvalidDataException.h"
+#include "InformacaoInvalidaException.h"
 using namespace std;
 
 Cliente ClienteView::getCliente(){
