@@ -9,8 +9,10 @@
 
 class Cliente: public Nome{
     private:
+    string nome;
     public:
         Cliente(const string& nomeGerente,const string& nomeLoja);
+        ~Cliente();
 
 
 
