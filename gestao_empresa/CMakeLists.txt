@@ -45,7 +45,7 @@ set(VIEWS_SOURCE_FILES
         ${PROJECT_HEADERS_VIEWS_DIR}/Utils.h
         ${PROJECT_SOURCES_VIEWS_DIR}/Utils.cpp
         ${PROJECT_HEADERS_VIEWS_DIR}/View.h
-        ${PROJECT_SOURCES_VIEWS_DIR}/View.cpp)
+        ${PROJECT_SOURCES_VIEWS_DIR}/View.cpp sources/controllers/controllers.cpp headers/controllers/controllers.h)
 
 add_executable(
         main.cpp
