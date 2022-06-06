@@ -48,6 +48,7 @@ set(VIEWS_SOURCE_FILES
         ${PROJECT_HEADERS_VIEWS_DIR}/Utils.h
         ${PROJECT_SOURCES_VIEWS_DIR}/Utils.cpp
         ${PROJECT_HEADERS_VIEWS_DIR}/View.h
+<<<<<<< HEAD
         ${PROJECT_SOURCES_VIEWS_DIR}/View.cpp
         ${PROJECT_HEADERS_VIEWS_DIR}/StockView.h
         ${PROJECT_SOURCES_VIEWS_DIR}/StockView.cpp
@@ -87,6 +88,9 @@ set(MODEL_SOURCE_FILES
         ${PROJECT_SOURCES_MODEL_DIR}/ProdutosContainer.cpp
         ${PROJECT_HEADERS_MODEL_DIR}/ProdutosContainer.h
         )
+=======
+        ${PROJECT_SOURCES_VIEWS_DIR}/View.cpp sources/controller/controller.cpp headers/controllers/controller.h)
+>>>>>>> origin/main
 
 add_executable(
         Gestao_Empresa
