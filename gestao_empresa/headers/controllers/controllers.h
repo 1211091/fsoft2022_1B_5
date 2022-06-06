@@ -1,8 +1,0 @@
-//
-// Created by babis on 6/6/2022.
-//
-
-#ifndef FUNCIONARIO_CPP_CONTROLLERS_H
-#define FUNCIONARIO_CPP_CONTROLLERS_H
-
-#endif //FUNCIONARIO_CPP_CONTROLLERS_H
