@@ -2,8 +2,8 @@
 // Created by clara on 01/06/2022.
 //
 
-#ifndef MAIN_CPP_ADMINISTRADORVIEW_H
-#define MAIN_CPP_ADMINISTRADORVIEW_H
+#ifndef HEADERS_VIEWS_ADMINISTRADORVIEW_H
+#define HEADERS_VIEWS_ADMINISTRADORVIEW_H
 
 #include <list>
 #include "Administrador.h"
@@ -19,4 +19,5 @@ public:
 
 
 
-#endif //MAIN_CPP_ADMINISTRADORVIEW_H
+#endif //HEADERS_VIEWS_ADMINISTRADORVIEW_H
+

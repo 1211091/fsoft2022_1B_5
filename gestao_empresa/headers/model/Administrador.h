@@ -2,10 +2,9 @@
 // Created by bilax on 01/06/2022.
 //
 
-#ifndef LASTTEST_LOG_ADMINISTRADOR_H
-#define LASTTEST_LOG_ADMINISTRADOR_H
+#ifndef HEADERS_MODEL_ADMINISTRADOR_H
+#define HEADERS_MODEL_ADMINISTRADOR_H
 
-#endif //LASTTEST_LOG_ADMINISTRADOR_H
 
 #include <string>
 using namespace std;
@@ -14,10 +13,10 @@ using namespace std;
 #include "Produtos.h"
 #include "Cliente.h"
 class Administrador: public Nome{
-    private:
+private:
     string nome;
 
-    public:
+public:
     Administrador(const string& Nome);
     ~Administrador();
     void setNome();
@@ -25,3 +24,6 @@ class Administrador: public Nome{
 
 
 };
+
+#endif HEADERS_MODEL_ADMINISTRADOR_H
+

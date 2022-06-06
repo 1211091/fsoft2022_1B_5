@@ -2,8 +2,8 @@
 // Created by bilax on 04/06/2022.
 //
 
-#ifndef HEAD_FUNCIONARIO_H
-#define HEAD_FUNCIONARIO_H
+#ifndef HEADERS_MODEL_FUNCIONARIO_H
+#define HEADERS_MODEL_FUNCIONARIO_H
 #include "Nome.h"
 #include <string>
 

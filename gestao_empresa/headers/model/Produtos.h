@@ -2,8 +2,8 @@
 // Created by bilax on 01/06/2022.
 //
 
-#ifndef LASTTEST_LOG_PRODUTOS_H
-#define LASTTEST_LOG_PRODUTOS_H
+#ifndef HEADERS_MODEL_PRODUTOS_H
+#define HEADERS_MODEL_PRODUTOS_H
 #include <string>
 using namespace std;
 class Produtos{
@@ -25,4 +25,4 @@ public :
 };
 
 
-#endif //LASTTEST_LOG_PRODUTOS_H
+#endif //HEADERS_MODEL_PRODUTOS_H
