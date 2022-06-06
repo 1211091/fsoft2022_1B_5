@@ -11,43 +11,19 @@ using namespace std;
 #include "Nome.h"
 #include "Funcionario.h"
 #include "Produtos.h"
+#include "Cliente.h"
 class Administrador: public Nome{
 private:
     string nome;
 
 public:
     Administrador(const string& Nome);
-    void adicionarFuncionario( Funcionario);
-    void removerFuncionario(Funcionario);
-    void adicionarProdutos(Produtos);
-    void removerProdutos(Produtos);
-    const string get(Funcionario);
-    int getQuantidade();
-
+    ~Administrador();
+    void setNome();
+    string getNome(nome);
 
 
 };
 
 #endif HEADERS_MODEL_ADMINISTRADOR_H
 
-#include <string>
-using namespace std;
-#include "Nome.h"
-#include "Funcionario.h"
-#include "Produtos.h"
-class Administrador: public Nome{
-    private:
-    string nome;
-
-    public:
-    Administrador(const string& Nome);
-    void adicionarFuncionario( Funcionario);
-    void removerFuncionario(Funcionario);
-    void adicionarProdutos(Produtos);
-    void removerProdutos(Produtos);
-    const string get(Funcionario);
-    int getQuantidade();
-
-
-
-};

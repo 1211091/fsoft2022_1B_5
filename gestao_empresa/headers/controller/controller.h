@@ -2,14 +2,14 @@
 // Created by babis on 6/6/2022.
 //
 
-#ifndef FUNCIONARIO_CPP_CONTROLLERS_H
-#define FUNCIONARIO_CPP_CONTROLLERS_H
+#ifndef HEADERS_CONTROLLERS_CONTROLLERS_H
+#define HEADERS_CONTROLLERS_CONTROLLERS_H
 
 
 #include "AdministradorView.h"
 #include "Cliente.h"
 #include "FuncionarioView.h"
-#include "ProdutosView.h.
+#include "ProdutosView.h."
 #include "StockView.h"
 #include "Utils.h"
 #include "View.h"
@@ -32,4 +32,4 @@ public:
     Controller(Empresa& empresa);
     void run();
 };
-#endif //FUNCIONARIO_CPP_CONTROLLERS_H
+#endif //HEADERS_CONTROLLERS_CONTROLLERS_H

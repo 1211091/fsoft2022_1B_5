@@ -2,12 +2,12 @@
 // Created by bilax on 01/06/2022.
 //
 
-#ifndef HEADERS_MODEL_NOME_H
-#define HEADERS_MODEL_NOME_H
-
+#ifndef MAIN_CPP_NOME_H
+#define MAIN_CPP_NOME_H
+#include <vector>
 #include <string>
 using namespace std;
-
+using std::vector;
 
 class Nome{
     protected:
@@ -29,4 +29,4 @@ class Nome{
 
 };
 
-#endif //HEADERS_MODEL_NOME_H
+#endif //MAIN_CPP_NOME_H

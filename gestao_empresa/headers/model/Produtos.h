@@ -12,6 +12,7 @@ private :
     string referencia;
     int quantidade;
 public :
+    Produtos(const string& tipo, const string& referencia);
     string Tipo(const string& tipo);
     const string& getTipo();
     void setTipo(const string &tipo);
