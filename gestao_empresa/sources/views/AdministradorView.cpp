@@ -29,7 +29,7 @@ void AdministradorView::printAdministrador(Administrador *administrador) {
 }
 
 bool AdministradorView::adicionar(){
-if
+
 
 }
 bool AdministradorView::eliminar(){
