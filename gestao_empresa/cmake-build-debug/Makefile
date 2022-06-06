@@ -56,10 +56,10 @@ RM = "C:\Program Files\JetBrains\CLion 2021.3.3\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\babis\Desktop\fsoft2022_1B_5\gestao_empresa
+CMAKE_SOURCE_DIR = "C:\Users\luis_\OneDrive\Ambiente de Trabalho\fsoft2022_1B_5\gestao_empresa"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\babis\Desktop\fsoft2022_1B_5\gestao_empresa\cmake-build-debug
+CMAKE_BINARY_DIR = "C:\Users\luis_\OneDrive\Ambiente de Trabalho\fsoft2022_1B_5\gestao_empresa\cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\babis\Desktop\fsoft2022_1B_5\gestao_empresa\cmake-build-debug\CMakeFiles C:\Users\babis\Desktop\fsoft2022_1B_5\gestao_empresa\cmake-build-debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\luis_\OneDrive\Ambiente de Trabalho\fsoft2022_1B_5\gestao_empresa\cmake-build-debug\CMakeFiles" "C:\Users\luis_\OneDrive\Ambiente de Trabalho\fsoft2022_1B_5\gestao_empresa\cmake-build-debug\\CMakeFiles\progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\babis\Desktop\fsoft2022_1B_5\gestao_empresa\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\luis_\OneDrive\Ambiente de Trabalho\fsoft2022_1B_5\gestao_empresa\cmake-build-debug\CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -115,43 +115,6 @@ depend:
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
-#=============================================================================
-# Target rules for targets named fsoft2022_1B_5
-
-# Build rule for target.
-fsoft2022_1B_5: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 fsoft2022_1B_5
-.PHONY : fsoft2022_1B_5
-
-# fast build rule for target.
-fsoft2022_1B_5/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2022_1B_5.dir\build.make CMakeFiles/fsoft2022_1B_5.dir/build
-.PHONY : fsoft2022_1B_5/fast
-
-main.obj: main.cpp.obj
-.PHONY : main.obj
-
-# target to build an object file
-main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2022_1B_5.dir\build.make CMakeFiles/fsoft2022_1B_5.dir/main.cpp.obj
-.PHONY : main.cpp.obj
-
-main.i: main.cpp.i
-.PHONY : main.i
-
-# target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2022_1B_5.dir\build.make CMakeFiles/fsoft2022_1B_5.dir/main.cpp.i
-.PHONY : main.cpp.i
-
-main.s: main.cpp.s
-.PHONY : main.s
-
-# target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2022_1B_5.dir\build.make CMakeFiles/fsoft2022_1B_5.dir/main.cpp.s
-.PHONY : main.cpp.s
-
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -160,10 +123,6 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... fsoft2022_1B_5
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
 .PHONY : help
 
 

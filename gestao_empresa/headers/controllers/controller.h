@@ -9,7 +9,7 @@
 #include "AdministradorView.h"
 #include "Cliente.h"
 #include "FuncionarioView.h"
-#include "ProdutosView.h.
+#include "ProdutosView.h."
 #include "StockView.h"
 #include "Utils.h"
 #include "View.h"
