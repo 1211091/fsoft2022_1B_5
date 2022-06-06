@@ -4,10 +4,10 @@
 
 #ifndef MAIN_CPP_NOME_H
 #define MAIN_CPP_NOME_H
-
+#include <vector>
 #include <string>
 using namespace std;
-
+using std::vector;
 
 class Nome{
     protected:
