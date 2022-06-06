@@ -1,9 +1,7 @@
-"C:\Program Files\JetBrains\CLion 2021.3.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" "C:\Users\luis_\OneDrive\Ambiente de Trabalho\fsoft2022_1B_5\gestao_empresa"
-CMake Error: Parse error in cache file C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/cmake-build-debug/CMakeCache.txt on line 248. Offending entry: <<<<<<< HEAD
-CMake Error: Parse error in cache file C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/cmake-build-debug/CMakeCache.txt on line 252. Offending entry: >>>>>>> origin/main
-CMake Error: Parse error in cache file C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/cmake-build-debug/CMakeCache.txt on line 258. Offending entry: <<<<<<< HEAD
-CMake Error: Parse error in cache file C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/cmake-build-debug/CMakeCache.txt on line 262. Offending entry: >>>>>>> origin/main
-CMake Error: Parse error in cache file C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/cmake-build-debug/CMakeCache.txt on line 359. Offending entry: <<<<<<< HEAD
-CMake Error: Parse error in cache file C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/cmake-build-debug/CMakeCache.txt on line 363. Offending entry: >>>>>>> origin/main
-CMake Error: The current CMakeCache.txt directory C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/cmake-build-debug/CMakeCache.txt is different than the directory c:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/cmake-build-debug where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt
-CMake Error: The source "C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/CMakeLists.txt" does not match the source "C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/CMakeLists.txt" used to generate cache.  Re-run cmake with a different source directory.
+"C:\Program Files\JetBrains\CLion 2021.3.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2021.3.3/bin/ninja/win/ninja.exe" -G Ninja C:\Users\clara\Documents\GitHub\fsoft2022_1B_5\gestao_empresa
+CMake Error at CMakeLists.txt:91:
+  Parse error.  Expected a command name, got unquoted argument with text
+  "=======".
+
+
+-- Configuring incomplete, errors occurred!
