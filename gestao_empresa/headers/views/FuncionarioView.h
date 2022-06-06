@@ -2,8 +2,8 @@
 // Created by clara on 01/06/2022.
 //
 
-#ifndef MAIN_CPP_FUNCIONARIOVIEW_H
-#define MAIN_CPP_FUNCIONARIOVIEW_H
+#ifndef HEADERS_VIEWS_FUNCIONARIOVIEW_H
+#define HEADERS_VIEWS_FUNCIONARIOVIEW_H
 
 #include <list>
 #include "Funcionario.h"
@@ -18,4 +18,4 @@ public:
 };
 
 
-#endif //MAIN_CPP_FUNCIONARIOVIEW_H
+#endif //HEADERS_VIEWS_FUNCIONARIOVIEW_H

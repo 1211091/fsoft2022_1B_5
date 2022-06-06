@@ -2,7 +2,19 @@
 // Created by luis_ on 31/05/2022.
 //
 
-#ifndef MAIN_CPP_INFORMACAONAOEXISTEEXCEPTION_H
-#define MAIN_CPP_INFORMACAONAOEXISTEEXCEPTION_H
+#ifndef HEADERS_EXCEPTIONS_INFORMACAONAOEXISTEEXCEPTION_H
+#define HEADERS_EXCEPTIONS_INFORMACAONAOEXISTEEXCEPTION_H
 
-#endif //MAIN_CPP_INFORMACAONAOEXISTEEXCEPTION_H
+
+#include <exception>
+#include <string>
+using namespace std;
+
+class InformacaoNaoExisteException :public exception{
+private:
+    string data;
+public:
+    __attribute__((unused)) InformacaoNaoExisteException(string data);
+    const char* what();
+};
+#endif //HEADERS_EXCEPTIONS_INFORMACAONAOEXISTEEXCEPTION_H

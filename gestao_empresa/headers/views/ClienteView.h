@@ -2,8 +2,8 @@
 // Created by clara on 01/06/2022.
 //
 
-#ifndef MAIN_CPP_CLIENTEVIEW_H
-#define MAIN_CPP_CLIENTEVIEW_H
+#ifndef HEADERS_VIEWS_CLIENTEVIEW_H
+#define HEADERS_VIEWS_CLIENTEVIEW_H
 
 #include <list>
 #include "Cliente.h"
@@ -24,4 +24,4 @@ public:
 
 
 
-#endif //MAIN_CPP_CLIENTEVIEW_H
+#endif //HEADERS_VIEWS_CLIENTEVIEW_H

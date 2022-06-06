@@ -2,8 +2,8 @@
 // Created by luis_ on 31/05/2022.
 //
 
-#ifndef MAIN_CPP_VIEW_H
-#define MAIN_CPP_VIEW_H
+#ifndef HEADERS_VIEWS_VIEW_H
+#define HEADERS_VIEWS_VIEW_H
 #include <string>
 
 using namespace std;
@@ -19,4 +19,4 @@ public:
 };
 
 
-#endif //MAIN_CPP_VIEW_H
+#endif //HEADERS_VIEWS_VIEW_H

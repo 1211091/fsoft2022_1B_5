@@ -2,8 +2,8 @@
 // Created by bilax on 01/06/2022.
 //
 
-#ifndef MAIN_CPP_NOME_H
-#define MAIN_CPP_NOME_H
+#ifndef HEADERS_MODEL_NOME_H
+#define HEADERS_MODEL_NOME_H
 
 #include <string>
 using namespace std;
@@ -29,4 +29,4 @@ class Nome{
 
 };
 
-#endif //MAIN_CPP_NOME_H
+#endif //HEADERS_MODEL_NOME_H
