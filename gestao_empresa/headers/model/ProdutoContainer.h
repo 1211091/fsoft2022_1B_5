@@ -2,10 +2,10 @@
 // Created by bilax on 01/06/2022.
 //
 
-#ifndef LASTTEST_LOG_PRODUTOSCONTAINER_H
-#define LASTTEST_LOG_PRODUTOSCONTAINER_H
+#ifndef HEADERS_MODEL_PRODUTOCONTAINER_H
+#define HEADERS_MODEL_PRODUTOCONTAINER_H
 
-#include "Produtos.h"
+#include "Produto.h"
 #include <list>
 
 class ProdutosContainer {
@@ -19,4 +19,4 @@ public:
 };
 
 
-#endif //LASTTEST_LOG_PRODUTOSCONTAINER_H
+#endif //HEADERS_MODEL_PRODUTOCONTAINER_H

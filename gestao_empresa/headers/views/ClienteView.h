@@ -17,11 +17,4 @@ public:
 
 };
 
-
-
-
-
-
-
-
 #endif //HEADERS_VIEWS_CLIENTEVIEW_H

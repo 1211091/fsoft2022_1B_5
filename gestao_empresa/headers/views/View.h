@@ -4,6 +4,7 @@
 
 #ifndef HEADERS_VIEWS_VIEW_H
 #define HEADERS_VIEWS_VIEW_H
+
 #include <string>
 
 using namespace std;

@@ -2,8 +2,8 @@
 // Created by bilax on 01/06/2022.
 //
 
-#ifndef LASTTEST_LOG_ADMINISTRADOR_H
-#define LASTTEST_LOG_ADMINISTRADOR_H
+#ifndef HEADERS_MODEL_ADMINISTRADOR_H
+#define HEADERS_MODEL_ADMINISTRADOR_H
 #include "Nome.h"
 #include "Administrador.h"
 #include <list>
@@ -23,4 +23,4 @@ public:
     void removerCliente(Cliente);
 };
 
-#endif //LASTTEST_LOG_ADMINISTRADOR_H
+#endif //HEADERS_MODEL_ADMINISTRADOR_H

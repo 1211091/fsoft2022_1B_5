@@ -5,13 +5,13 @@
 #ifndef HEADERS_MODEL_ADMINISTRADOR_H
 #define HEADERS_MODEL_ADMINISTRADOR_H
 
-
+#include <stdio>
 #include <string>
-using namespace std;
 #include "Nome.h"
 #include "Funcionario.h"
-#include "Produtos.h"
+#include "Produto.h"
 #include "Cliente.h"
+using namespace std;
 class Administrador: public Nome{
 private:
     string nome;
