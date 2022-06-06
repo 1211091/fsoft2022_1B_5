@@ -200,8 +200,8 @@ void Controller::runProduto(){
                 break;
             case 5: {
                 try {
-                    string nome = Utils::getString("Insira o nome do cliente");
-                    ClienteContainer &container = this->model.getCLienteContainer();
+                    string nome = Utils::getString("Insira o nome da loja");
+                    ProdutoContainer &container = this->model.getProdutoContainer();
                     container.remove(nome);
                 } catch (InformacaoNaoExiste &e) {
                     string str(e.what());
