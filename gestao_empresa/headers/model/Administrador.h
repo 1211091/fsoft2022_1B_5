@@ -10,13 +10,20 @@
 #include <string>
 using namespace std;
 #include "Nome.h"
-
+#include "Funcionario.h"
+#include "Produtos.h"
 class Administrador: public Nome{
     private:
+    string nome;
+
     public:
     Administrador(const string& Nome);
-    adicionar( funcionario);
-    remover(funcionario);
+    void adicionarFuncionario( Funcionario);
+    void removerFuncionario(Funcionario);
+    void adicionarProdutos(Produtos);
+    void removerProdutos(Produtos);
+    const string get(Funcionario);
+    int getQuantidade();
 
 
 

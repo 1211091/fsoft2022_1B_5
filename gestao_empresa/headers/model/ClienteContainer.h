@@ -8,11 +8,14 @@
 #include <list>
 #include "Cliente.h"
 
-class ClienteContainer{
+class ClienteContainer {
 private:
     list<Cliente> clientes;
-};
+    list<Cliente>::iterator procura(int numero);
 
+public:
+
+};
 
 
 #endif //LASTTEST_LOG_CLIENTECONTAINER_H
