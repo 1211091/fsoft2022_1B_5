@@ -94,9 +94,6 @@ set(VIEWS_SOURCE_FILES
         ${PROJECT_SOURCES_VIEWS_DIR}/AdministradorView.cpp)
 
 
-
-
-
 add_executable(
         Gestao_Empresa
         main.cpp
