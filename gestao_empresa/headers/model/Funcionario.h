@@ -22,4 +22,4 @@ class Funcionario: public Nome{
 };
 
 
-#endif //HEAD_FUNCIONARIO_H
+#endif //HEADERS_MODEL_FUNCIONARIO_H

@@ -2,8 +2,8 @@
 // Created by bilax on 01/06/2022.
 //
 
-#ifndef HEADERS_MODEL_PRODUTOS_H
-#define HEADERS_MODEL_PRODUTOS_H
+#ifndef HEADERS_MODEL_PRODUTO_H
+#define HEADERS_MODEL_PRODUTO_H
 #include <string>
 using namespace std;
 class Produtos{
@@ -12,6 +12,7 @@ private :
     string referencia;
     int quantidade;
 public :
+    Produtos(const string& tipo, const string& referencia);
     string Tipo(const string& tipo);
     const string& getTipo();
     void setTipo(const string &tipo);
@@ -24,4 +25,4 @@ public :
 };
 
 
-#endif //HEADERS_MODEL_PRODUTOS_H
+#endif //HEADERS_MODEL_PRODUTO_H

@@ -1,4 +1,15 @@
 //
-// Created by luis_ on 06/06/2022.
+// Created by bilax on 06/06/2022.
 //
+#include "Nome.h"
+#include "Funcionario.h"
 
+
+Funcionario::Funcionario(const string& funcao);{
+        setFuncao(funcao);
+}
+Funcionario::Nome(const string& nome){
+    setNome(nome);
+}
+Funcionario::~Funcionario{
+};

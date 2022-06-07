@@ -2,8 +2,8 @@
 // Created by clara on 01/06/2022.
 //
 
-#ifndef HEADERS_VIEWS_PRODUTOSVIEW_H
-#define HEADERS_VIEWS_PRODUTOSVIEW_H
+#ifndef HEADERS_VIEWS_PRODUTOVIEW_H
+#define HEADERS_VIEWS_PRODUTOVIEW_H
 #include "Produtos.h"
 
 class ProdutosView{
@@ -15,4 +15,4 @@ public:
     void printReferencia(Referencia *produtos);
 
 };
-#endif //HEADERS_VIEWS_PRODUTOSVIEW_H
+#endif //HEADERS_VIEWS_PRODUTOVIEW_H

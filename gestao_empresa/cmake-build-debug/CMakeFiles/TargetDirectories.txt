@@ -1,2 +1,0 @@
-C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/cmake-build-debug/CMakeFiles/rebuild_cache.dir
