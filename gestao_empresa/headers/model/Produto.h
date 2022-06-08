@@ -10,15 +10,14 @@ class Produto{
 private :
     string tipo;
     int referencia;
-    int quantidade;
 public :
     Produto(const string& tipo, const string& referencia);
     string Tipo(const string& tipo);
     const string& getTipo();
     void setTipo(const string &tipo);
-    string Referencia(const string& Referencia);
-    const string& getReferencia();
-    void setReferencia(const string &referencia);
+    int Referencia(const int& Referencia);
+    const int& getReferencia();
+    void setReferencia(const int &referencia);
 };
 
 
