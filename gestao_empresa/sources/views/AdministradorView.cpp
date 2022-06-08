@@ -25,7 +25,7 @@ Administrador AdministradorView::getAdministrador(){
     return administrador;
 }
 void AdministradorView::printAdministrador(Administrador *administrador) {
-    cout << administrador->getName() << endl;
+    cout << administrador->getNome() << endl;
 }
 
 bool AdministradorView::adicionar(){

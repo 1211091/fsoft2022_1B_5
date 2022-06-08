@@ -7,6 +7,7 @@
 #include "controller.h"
 #include "Utils.h"
 #include "InformacaoNaoExisteException.h"
+#include "Empresa.h"
 using namespace std;
 
 Controller::Controller(Empresa& empresa){
@@ -26,7 +27,7 @@ void Controller::run(){
             break;
             case 4:runStock();
             break;
-            case 5:runProdutos();
+            case 5:runProduto();
             break;
             default:
                 break;
@@ -98,7 +99,7 @@ void Controller::runFuncionario(){
                     string nome = Utils::getString("Insira o nome do funcionario");
                     FuncioanrioContainer &container = this->model.getFuncionarioContainer();
                     container.remove(nome);
-                } catch (InformacaoNaoExiste &e) {
+                } catch (InformacaoNaoExisteException &e) {
                     string str(e.what());
                     cout << str << endl;
                 }
@@ -151,7 +152,7 @@ void Controller::runCliente(){
                     string nome = Utils::getString("Insira o nome do cliente");
                     ClienteContainer &container = this->model.getCLienteContainer();
                     container.remove(nome);
-                } catch (InformacaoNaoExiste &e) {
+                } catch (InformacaoNaoExisteException &e) {
                     string str(e.what());
                     cout << str << endl;
                 }
@@ -193,7 +194,7 @@ void Controller::runProduto(){
                     int numero = Utils::getNumero("Insira a quantidade");
                     ProdutoContainer &container = this->model.getProdutoContainer();
                     container.remove(nome);
-                } catch (InformacaoNaoExiste &e) {
+                } catch (InformacaoNaoExisteException &e) {
                     string str(e.what());
                     cout << str << endl;
                 }
@@ -234,7 +235,7 @@ void Controller::runStock(){
                     string nome = Utils::getString("Insira o nome do produto");
                     StockContainer &container = this->model.getStockContainer();
                     container.remove(nome);
-                } catch (InformacaoNaoExiste &e) {
+                } catch (InformacaoNaoExisteException &e) {
                     string str(e.what());
                     cout << str << endl;
                 }
