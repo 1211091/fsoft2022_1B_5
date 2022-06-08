@@ -24,7 +24,7 @@ void Controller::run(){
             break;
             case 2:runFuncionario();
             break;
-            case3:runCliente();
+            case 3:runCliente();
             break;
             case 4:runStock();
             break;
@@ -74,7 +74,7 @@ void Controller::runFuncionario(){
                 string nome = Utils::getString("Insira o nome do funcionario");
                 string funcao = Utils::getString("Insira a funcao do funcionario");
                 FuncionarioContainer &container = this->model.getFuncionarioContainer();
-                container.update(nome, funcao);
+                container.atualizar(nome, funcao);
             }
                 break;
             case 3: {
@@ -99,7 +99,7 @@ void Controller::runFuncionario(){
                 try {
                     string nome = Utils::getString("Insira o nome do funcionario");
                     FuncionarioContainer &container = this->model.getFuncionarioContainer();
-                    container.remove(nome);
+                    container.eliminar(nome);
                 } catch (InformacaoNaoExisteException &e) {
                     string str(e.what());
                     cout << str << endl;
@@ -127,7 +127,7 @@ void Controller::runCliente(){
                 string nome = Utils::getString("Insira o nome da loja");
                 string nome_1 = Utils::getString("Insira o nome do gerente");
                 ClienteContainer &container = this->model.getClienteContainer();
-                container.update(nome, nome_1);
+                container.atualizar(nome, nome_1);
             }
                 break;
             case 3: {
@@ -179,7 +179,7 @@ void Controller::runProduto(){
                 string nome = Utils::getString("Insira o tipo do produto");
                 int numero = Utils::getNumero("Insira a referência");
                 ProdutoContainer &container = this->model.getProdutoContainer();
-                container.update(nome, numero);
+                container.atualizar(nome, numero);
             }
                 break;
             case 3: {
@@ -228,7 +228,7 @@ void Controller::runStock(){
                 cout << this->model.getNome() << endl;
                 StockContainer container = this->model.getStockContainer();
                 list <Stock> stocks = container.getAll();
-                this->stockView.printStock(stocks);
+                this->stockView.printStock(stock);
             }
                 break;
             case 4: {

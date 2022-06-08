@@ -9,6 +9,7 @@
 #include "AdministradorContainer.h"
 #include "ClienteContainer.h"
 #include "ProdutoContainer.h"
+#include "StockContainer.h"
 
 using namespace std;
 

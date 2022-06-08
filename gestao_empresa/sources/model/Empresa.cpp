@@ -41,4 +41,8 @@ ClienteContainer & Empresa::getClienteContainer(){
 }
 ProdutoContainer & Empresa::getProdutoContainer(){
     return this->produtos;
+
+StockContainer & Empresa::getStockContainer(){
+    return this->stock;
+
 }
