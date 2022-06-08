@@ -19,9 +19,6 @@ public :
     string Referencia(const string& Referencia);
     const string& getReferencia();
     void setReferencia(const string &referencia);
-    int Quantidade(int quantidade);
-    int getQuantidade();
-    void setQuantidade(const string &quantidade);-.--
 };
 
 
