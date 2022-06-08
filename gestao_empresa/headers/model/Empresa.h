@@ -2,8 +2,8 @@
 // Created by clara on 08/06/2022.
 //
 
-#ifndef FSOFT_2022_1B_5_EMPRESA_H
-#define FSOFT_2022_1B_5_EMPRESA_H
+#ifndef HEADERS_MODEL_EMPRESA_H
+#define HEADERS_MODEL_EMPRESA_H
 
 #include <string>
 #include "AdministradorContainer.h"
@@ -43,4 +43,4 @@ public:
 
 
 
-#endif //FSOFT_2022_1B_5_EMPRESA_H
+#endif //HEADERS_MODEL_EMPRESA_H
