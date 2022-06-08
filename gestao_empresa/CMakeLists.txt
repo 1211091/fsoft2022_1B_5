@@ -109,7 +109,7 @@ set(VIEWS_SOURCE_FILES
         ${PROJECT_SOURCES_VIEWS_DIR}/ClienteView.cpp
         ${PROJECT_HEADERS_VIEWS_DIR}/AdministradorView.h
         ${PROJECT_SOURCES_VIEWS_DIR}/AdministradorView.cpp
-        )
+        sources/model/Empresa.cpp)
 
 add_executable(
         fsoft_2022_1B_5
