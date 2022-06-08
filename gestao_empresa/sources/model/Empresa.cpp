@@ -18,8 +18,8 @@ Empresa::Empresa(const Empresa& obj){
     this->nome = obj.nome;
 
     this->administrador = obj.administrador;
-    this->cliente = obj.clientes;
-    this->produto = obj.produtos;
+    this->clientes = obj.clientes;
+    this->produtos = obj.produtos;
 
     void setInformacaoNaoExisteException();
 }
@@ -32,22 +32,12 @@ void Empresa::setNome(const string &nome) {
     this->nome = nome;
 }
 
-SubjectContainer & School::getSubjectContainer(){
-    return this->subjects;
+AdministradorContainer & Empresa::getAdministradorContainer(){
+    return this->administrador;
 }
-StudentContainer & School::getStudentContainer(){
-    return this->students;
+ClienteContainer & Empresa::getClienteContainer(){
+    return this->clientes;
 }
-InstructorContainer & School::getInstructorContainer(){
-    return this->instructors;
-}
-EnrollContainer & School::getEnrollContainer(){
-    return this->enrolls;
-}
-
-
-void School::setDataForConsistency(){
-    this->students.setEnrolls(&this->enrolls);
-    this->subjects.setEnrolls(&this->enrolls);
-    this->subjects.setInstructors(&this->instructors);
+ProdutoContainer & Empresa::getProdutoContainer(){
+    return this->produtos;
 }
