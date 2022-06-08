@@ -16,7 +16,7 @@ include_directories(
         )
 set(MOCK_SOURCE_FILES
         ${PROJECT_MOCK_DIR}/MockData.h
-        ${PROJECT_MOCK_DIR}/MockData.cpp mock/MockData.h)
+        ${PROJECT_MOCK_DIR}/MockData.cpp)
 
 set(PROJECT_HEADERS_CONTROLLERS_DIR
         ${PROJECT_HEADERS_DIR}/controller)
