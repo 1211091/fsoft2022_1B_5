@@ -124,6 +124,9 @@
 		<Unit filename="C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/headers/model/ClienteContainer.h">
 			<Option target="fsoft_2022_1B_5"/>
 		</Unit>
+		<Unit filename="C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/headers/model/Empresa.h">
+			<Option target="fsoft_2022_1B_5"/>
+		</Unit>
 		<Unit filename="C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/headers/model/Funcionario.h">
 			<Option target="fsoft_2022_1B_5"/>
 		</Unit>
@@ -194,6 +197,9 @@
 			<Option target="fsoft_2022_1B_5"/>
 		</Unit>
 		<Unit filename="C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/sources/model/ClienteContainer.cpp">
+			<Option target="fsoft_2022_1B_5"/>
+		</Unit>
+		<Unit filename="C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/sources/model/Empresa.cpp">
 			<Option target="fsoft_2022_1B_5"/>
 		</Unit>
 		<Unit filename="C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/sources/model/Funcionario.cpp">

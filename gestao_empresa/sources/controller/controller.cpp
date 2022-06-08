@@ -177,9 +177,9 @@ void Controller::runProduto(){
                 break;
             case 2: {
                 string nome = Utils::getString("Insira o tipo do produto");
-                int numero = Utils::getNumero("Insira a referência");
+                int referencia = Utils::getReferencia("Insira a referência");
                 ProdutoContainer &container = this->model.getProdutoContainer();
-                container.update(nome, numero);
+                container.update(nome, referencia);
             }
                 break;
             case 3: {
