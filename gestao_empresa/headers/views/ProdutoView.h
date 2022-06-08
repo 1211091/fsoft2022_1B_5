@@ -4,15 +4,21 @@
 
 #ifndef HEADERS_VIEWS_PRODUTOVIEW_H
 #define HEADERS_VIEWS_PRODUTOVIEW_H
-#include "Produtos.h"
+#include "Produto.h"
 
-class ProdutosView{
+class ProdutoView{
 public:
 
-    Produtos getProdutos();
+    Produto getProdutos();
+<<<<<<< HEAD
     Referencia getReferencia();
-    void printProdutos(Produtos *produtos);
+    void printProdutos(Produto *produtos);
     void printReferencia(Referencia *produtos);
+=======
+    Produto getReferencia();
+    void printProdutos(Produto *produtos);
+    void printReferencia(Produto *produtos);
+>>>>>>> 96ff32bacd698b0bc2c259820c6ecf053a35dd02
 
 };
 #endif //HEADERS_VIEWS_PRODUTOVIEW_H

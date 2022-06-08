@@ -6,13 +6,13 @@
 #define HEADERS_MODEL_PRODUTO_H
 #include <string>
 using namespace std;
-class Produtos{
+class Produto{
 private :
     string tipo;
     string referencia;
     int quantidade;
 public :
-    Produtos(const string& tipo, const string& referencia);
+    Produto(const string& tipo, const string& referencia);
     string Tipo(const string& tipo);
     const string& getTipo();
     void setTipo(const string &tipo);
