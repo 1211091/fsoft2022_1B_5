@@ -536,6 +536,30 @@ sources/model/Stock.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft_2022_1B_5.dir\build.make CMakeFiles/fsoft_2022_1B_5.dir/sources/model/Stock.cpp.s
 .PHONY : sources/model/Stock.cpp.s
 
+sources/model/StockContainer.obj: sources/model/StockContainer.cpp.obj
+.PHONY : sources/model/StockContainer.obj
+
+# target to build an object file
+sources/model/StockContainer.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft_2022_1B_5.dir\build.make CMakeFiles/fsoft_2022_1B_5.dir/sources/model/StockContainer.cpp.obj
+.PHONY : sources/model/StockContainer.cpp.obj
+
+sources/model/StockContainer.i: sources/model/StockContainer.cpp.i
+.PHONY : sources/model/StockContainer.i
+
+# target to preprocess a source file
+sources/model/StockContainer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft_2022_1B_5.dir\build.make CMakeFiles/fsoft_2022_1B_5.dir/sources/model/StockContainer.cpp.i
+.PHONY : sources/model/StockContainer.cpp.i
+
+sources/model/StockContainer.s: sources/model/StockContainer.cpp.s
+.PHONY : sources/model/StockContainer.s
+
+# target to generate assembly for a file
+sources/model/StockContainer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft_2022_1B_5.dir\build.make CMakeFiles/fsoft_2022_1B_5.dir/sources/model/StockContainer.cpp.s
+.PHONY : sources/model/StockContainer.cpp.s
+
 sources/views/AdministradorView.obj: sources/views/AdministradorView.cpp.obj
 .PHONY : sources/views/AdministradorView.obj
 
@@ -764,6 +788,9 @@ help:
 	@echo ... sources/model/Stock.obj
 	@echo ... sources/model/Stock.i
 	@echo ... sources/model/Stock.s
+	@echo ... sources/model/StockContainer.obj
+	@echo ... sources/model/StockContainer.i
+	@echo ... sources/model/StockContainer.s
 	@echo ... sources/views/AdministradorView.obj
 	@echo ... sources/views/AdministradorView.i
 	@echo ... sources/views/AdministradorView.s

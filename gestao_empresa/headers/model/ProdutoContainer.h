@@ -10,7 +10,11 @@
 
 class ProdutoContainer {
     private:
+<<<<<<< HEAD
+    list<Produto> produto;
+=======
     list<Produto> produtos;
+>>>>>>> 78c571fbabf16a6d13223f60a102a8365c22cbe9
     list<Produto>::iterator procura(string referencia);
 
 public:
