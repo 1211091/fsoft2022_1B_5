@@ -136,6 +136,9 @@
 		<Unit filename="C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/headers/model/ProdutoContainer.h">
 			<Option target="fsoft_2022_1B_5"/>
 		</Unit>
+		<Unit filename="C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/headers/model/Referencia.h">
+			<Option target="fsoft_2022_1B_5"/>
+		</Unit>
 		<Unit filename="C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/headers/model/Stock.h">
 			<Option target="fsoft_2022_1B_5"/>
 		</Unit>
@@ -203,6 +206,9 @@
 			<Option target="fsoft_2022_1B_5"/>
 		</Unit>
 		<Unit filename="C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/sources/model/ProdutoContainer.cpp">
+			<Option target="fsoft_2022_1B_5"/>
+		</Unit>
+		<Unit filename="C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/sources/model/Referencia.cpp">
 			<Option target="fsoft_2022_1B_5"/>
 		</Unit>
 		<Unit filename="C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/sources/model/Stock.cpp">
