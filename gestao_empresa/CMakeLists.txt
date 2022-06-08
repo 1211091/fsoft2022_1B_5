@@ -83,6 +83,8 @@ set(MODEL_SOURCE_FILES
         ${PROJECT_SOURCES_MODEL_DIR}/Stock.cpp
         ${PROJECT_HEADERS_MODEL_DIR}/Referencia.h
         ${PROJECT_SOURCES_MODEL_DIR}/Referencia.cpp
+        ${PROJECT_HEADERS_MODEL_DIR}/Empresa.h
+        ${PROJECT_SOURCES_MODEL_DIR}/Empresa .cpp
         )
 
 
