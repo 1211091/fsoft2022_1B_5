@@ -11,5 +11,6 @@ Funcionario::Funcionario(const string& funcao);{
 Funcionario::Nome(const string& nome){
     setNome(nome);
 }
+Funcionario::Funcionario(const string& )
 Funcionario::~Funcionario{
 };

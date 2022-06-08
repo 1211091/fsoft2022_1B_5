@@ -1,4 +1,4 @@
-"C:\Program Files\JetBrains\CLion 2021.3.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2021.3.3/bin/ninja/win/ninja.exe" -G Ninja C:\Users\clara\Documents\GitHub\fsoft2022_1B_5\gestao_empresa
+"C:\Program Files\JetBrains\CLion 2021.3.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" C:\Users\bilax\Dropbox\PC\Documents\GitHub\fsoft2022_1B_5\gestao_empresa
 -- The C compiler identification is GNU 11.2.0
 -- The CXX compiler identification is GNU 11.2.0
 -- Detecting C compiler ABI info
@@ -12,14 +12,14 @@
 -- Detecting CXX compile features
 -- Detecting CXX compile features - done
 -- Configuring done
-CMake Error at CMakeLists.txt:100 (add_executable):
+CMake Error at CMakeLists.txt:108 (add_executable):
   Cannot find source file:
 
-    C:/Users/clara/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/sources/exceptions/InformacaoDuplicadaException.cpp
+    C:/Users/bilax/Dropbox/PC/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/sources/exceptions/InformacaoDuplicadaException.cpp
 
 
-CMake Error at CMakeLists.txt:100 (add_executable):
-  No SOURCES given to target: Gestao_Empresa
+CMake Error at CMakeLists.txt:108 (add_executable):
+  No SOURCES given to target: fsoft_2022_1B_5
 
 
 CMake Generate step failed.  Build files cannot be regenerated correctly.

@@ -13,6 +13,11 @@ class Cliente: public Nome{
     public:
         Cliente(const string& nomeGerente,const string& nomeLoja);
         ~Cliente();
+    const Nome& getNomeGerente() const;
+    void setNomeGerente (const Nome &NomeGerente);
+    const Nome& getNomeLoja() const;
+    void setNomeLoja(Nome &NomeLoja);
+
 
 
 

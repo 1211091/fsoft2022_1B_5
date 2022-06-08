@@ -4,7 +4,6 @@
 
 #ifndef HEADERS_MODEL_NOME_H
 #define HEADERS_MODEL_NOME_H
-#include <vector>
 #include <string>
 using namespace std;
 using std::vector;
