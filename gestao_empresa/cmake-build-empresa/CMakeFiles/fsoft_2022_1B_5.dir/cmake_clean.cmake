@@ -27,6 +27,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/fsoft_2022_1B_5.dir/sources/model/Produto.cpp.obj.d"
   "CMakeFiles/fsoft_2022_1B_5.dir/sources/model/ProdutoContainer.cpp.obj"
   "CMakeFiles/fsoft_2022_1B_5.dir/sources/model/ProdutoContainer.cpp.obj.d"
+  "CMakeFiles/fsoft_2022_1B_5.dir/sources/model/Stock.cpp.obj"
+  "CMakeFiles/fsoft_2022_1B_5.dir/sources/model/Stock.cpp.obj.d"
   "CMakeFiles/fsoft_2022_1B_5.dir/sources/views/AdministradorView.cpp.obj"
   "CMakeFiles/fsoft_2022_1B_5.dir/sources/views/AdministradorView.cpp.obj.d"
   "CMakeFiles/fsoft_2022_1B_5.dir/sources/views/ClienteView.cpp.obj"
