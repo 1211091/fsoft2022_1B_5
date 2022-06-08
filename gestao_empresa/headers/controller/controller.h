@@ -2,8 +2,8 @@
 // Created by babis on 6/6/2022.
 //
 
-#ifndef HEADERS_CONTROLLERS_CONTROLLERS_H
-#define HEADERS_CONTROLLERS_CONTROLLERS_H
+#ifndef HEADERS_CONTROLLER_CONTROLLER_H
+#define HEADERS_CONTROLLER_CONTROLLER_H
 
 
 #include "AdministradorView.h"
@@ -32,4 +32,4 @@ public:
     Controller(Empresa& empresa);
     void run();
 };
-#endif //HEADERS_CONTROLLERS_CONTROLLERS_H
+#endif //HEADERS_CONTROLLER_CONTROLLER_H

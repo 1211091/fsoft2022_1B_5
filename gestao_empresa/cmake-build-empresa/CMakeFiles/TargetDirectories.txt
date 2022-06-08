@@ -1,0 +1,3 @@
+C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/cmake-build-empresa/CMakeFiles/fsoft_2022_1B_5.dir
+C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/cmake-build-empresa/CMakeFiles/edit_cache.dir
+C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/cmake-build-empresa/CMakeFiles/rebuild_cache.dir

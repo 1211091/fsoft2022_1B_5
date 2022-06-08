@@ -5,7 +5,7 @@
 #include <iostream>
 #include "AdministradorView.h"
 #include "Utils.h"
-#include "InvalidDataException.h"
+#include "InformacaoInvalidaException.h"
 using namespace std;
 
 
