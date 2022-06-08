@@ -8,6 +8,7 @@
 #include "Utils.h"
 #include "InformacaoNaoExisteException.h"
 #include "Empresa.h"
+
 using namespace std;
 
 Controller::Controller(Empresa& empresa){
@@ -97,7 +98,7 @@ void Controller::runFuncionario(){
             case 5: {
                 try {
                     string nome = Utils::getString("Insira o nome do funcionario");
-                    FuncioanrioContainer &container = this->model.getFuncionarioContainer();
+                    FuncionarioContainer &container = this->model.getFuncionarioContainer();
                     container.remove(nome);
                 } catch (InformacaoNaoExisteException &e) {
                     string str(e.what());
@@ -151,7 +152,7 @@ void Controller::runCliente(){
                 try {
                     string nome = Utils::getString("Insira o nome do cliente");
                     ClienteContainer &container = this->model.getCLienteContainer();
-                    container.remove(nome);
+                    container.eliminar(nome);
                 } catch (InformacaoNaoExisteException &e) {
                     string str(e.what());
                     cout << str << endl;
@@ -193,7 +194,7 @@ void Controller::runProduto(){
                     string nome = Utils::getString("Insira o nome do produto");
                     int numero = Utils::getNumero("Insira a quantidade");
                     ProdutoContainer &container = this->model.getProdutoContainer();
-                    container.remove(nome);
+                    container.eliminar(nome);
                 } catch (InformacaoNaoExisteException &e) {
                     string str(e.what());
                     cout << str << endl;

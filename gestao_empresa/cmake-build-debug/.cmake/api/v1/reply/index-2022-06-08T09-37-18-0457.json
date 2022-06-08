@@ -4,7 +4,7 @@
 		"generator" : 
 		{
 			"multiConfig" : false,
-			"name" : "MinGW Makefiles"
+			"name" : "Ninja"
 		},
 		"paths" : 
 		{
@@ -26,7 +26,11 @@
 	"objects" : 
 	[
 		{
-			"jsonFile" : "codemodel-v2-647c46a2bb8cdcbd947b.json",
+<<<<<<<< HEAD:gestao_empresa/cmake-build-debug/.cmake/api/v1/reply/index-2022-06-08T09-38-32-0675.json
+			"jsonFile" : "codemodel-v2-23f8df2ea8760b6372f5.json",
+========
+			"jsonFile" : "codemodel-v2-13ac90539349fdfecee0.json",
+>>>>>>>> bb4d468c6204f635ddfe29c64c492e52b10cfff2:gestao_empresa/cmake-build-debug/.cmake/api/v1/reply/index-2022-06-08T09-37-18-0457.json
 			"kind" : "codemodel",
 			"version" : 
 			{
@@ -35,7 +39,7 @@
 			}
 		},
 		{
-			"jsonFile" : "cache-v2-08e63b51c281c244da0d.json",
+			"jsonFile" : "cache-v2-90f0a02179e2ca966d45.json",
 			"kind" : "cache",
 			"version" : 
 			{
@@ -44,7 +48,7 @@
 			}
 		},
 		{
-			"jsonFile" : "cmakeFiles-v1-2af0bc34bbd232b3bf55.json",
+			"jsonFile" : "cmakeFiles-v1-1a6a20c64d0c63fe29b3.json",
 			"kind" : "cmakeFiles",
 			"version" : 
 			{
@@ -66,7 +70,7 @@
 	{
 		"cache-v2" : 
 		{
-			"jsonFile" : "cache-v2-08e63b51c281c244da0d.json",
+			"jsonFile" : "cache-v2-90f0a02179e2ca966d45.json",
 			"kind" : "cache",
 			"version" : 
 			{
@@ -76,7 +80,7 @@
 		},
 		"cmakeFiles-v1" : 
 		{
-			"jsonFile" : "cmakeFiles-v1-2af0bc34bbd232b3bf55.json",
+			"jsonFile" : "cmakeFiles-v1-1a6a20c64d0c63fe29b3.json",
 			"kind" : "cmakeFiles",
 			"version" : 
 			{
@@ -86,7 +90,11 @@
 		},
 		"codemodel-v2" : 
 		{
-			"jsonFile" : "codemodel-v2-647c46a2bb8cdcbd947b.json",
+<<<<<<<< HEAD:gestao_empresa/cmake-build-debug/.cmake/api/v1/reply/index-2022-06-08T09-38-32-0675.json
+			"jsonFile" : "codemodel-v2-23f8df2ea8760b6372f5.json",
+========
+			"jsonFile" : "codemodel-v2-13ac90539349fdfecee0.json",
+>>>>>>>> bb4d468c6204f635ddfe29c64c492e52b10cfff2:gestao_empresa/cmake-build-debug/.cmake/api/v1/reply/index-2022-06-08T09-37-18-0457.json
 			"kind" : "codemodel",
 			"version" : 
 			{

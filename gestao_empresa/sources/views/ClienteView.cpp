@@ -15,7 +15,7 @@ Cliente ClienteView::getCliente(){
             flag = false;
             cout<<"Cliente"<<endl;
             string nome_gerente = Utils::getString("Nome do gerente");
-            cliente.setNome(name);
+            cliente.setNome(nome);
             string nome = Utils::getString("Nome da loja");
             cliente.setFuncao(nome);
         }catch(InformacaoInvalidaException& e){

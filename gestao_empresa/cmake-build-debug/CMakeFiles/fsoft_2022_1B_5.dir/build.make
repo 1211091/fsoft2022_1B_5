@@ -308,11 +308,41 @@ CMakeFiles/fsoft_2022_1B_5.dir/sources/model/ProdutoContainer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/fsoft_2022_1B_5.dir/sources/model/ProdutoContainer.cpp.s"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\babis\Desktop\fsoft2022_1B_5\gestao_empresa\sources\model\ProdutoContainer.cpp -o CMakeFiles\fsoft_2022_1B_5.dir\sources\model\ProdutoContainer.cpp.s
 
+CMakeFiles/fsoft_2022_1B_5.dir/sources/model/Stock.cpp.obj: CMakeFiles/fsoft_2022_1B_5.dir/flags.make
+CMakeFiles/fsoft_2022_1B_5.dir/sources/model/Stock.cpp.obj: CMakeFiles/fsoft_2022_1B_5.dir/includes_CXX.rsp
+CMakeFiles/fsoft_2022_1B_5.dir/sources/model/Stock.cpp.obj: ../sources/model/Stock.cpp
+CMakeFiles/fsoft_2022_1B_5.dir/sources/model/Stock.cpp.obj: CMakeFiles/fsoft_2022_1B_5.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\babis\Desktop\fsoft2022_1B_5\gestao_empresa\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/fsoft_2022_1B_5.dir/sources/model/Stock.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsoft_2022_1B_5.dir/sources/model/Stock.cpp.obj -MF CMakeFiles\fsoft_2022_1B_5.dir\sources\model\Stock.cpp.obj.d -o CMakeFiles\fsoft_2022_1B_5.dir\sources\model\Stock.cpp.obj -c C:\Users\babis\Desktop\fsoft2022_1B_5\gestao_empresa\sources\model\Stock.cpp
+
+CMakeFiles/fsoft_2022_1B_5.dir/sources/model/Stock.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/fsoft_2022_1B_5.dir/sources/model/Stock.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\babis\Desktop\fsoft2022_1B_5\gestao_empresa\sources\model\Stock.cpp > CMakeFiles\fsoft_2022_1B_5.dir\sources\model\Stock.cpp.i
+
+CMakeFiles/fsoft_2022_1B_5.dir/sources/model/Stock.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/fsoft_2022_1B_5.dir/sources/model/Stock.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\babis\Desktop\fsoft2022_1B_5\gestao_empresa\sources\model\Stock.cpp -o CMakeFiles\fsoft_2022_1B_5.dir\sources\model\Stock.cpp.s
+
+CMakeFiles/fsoft_2022_1B_5.dir/sources/model/Referencia.cpp.obj: CMakeFiles/fsoft_2022_1B_5.dir/flags.make
+CMakeFiles/fsoft_2022_1B_5.dir/sources/model/Referencia.cpp.obj: CMakeFiles/fsoft_2022_1B_5.dir/includes_CXX.rsp
+CMakeFiles/fsoft_2022_1B_5.dir/sources/model/Referencia.cpp.obj: ../sources/model/Referencia.cpp
+CMakeFiles/fsoft_2022_1B_5.dir/sources/model/Referencia.cpp.obj: CMakeFiles/fsoft_2022_1B_5.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\babis\Desktop\fsoft2022_1B_5\gestao_empresa\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/fsoft_2022_1B_5.dir/sources/model/Referencia.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsoft_2022_1B_5.dir/sources/model/Referencia.cpp.obj -MF CMakeFiles\fsoft_2022_1B_5.dir\sources\model\Referencia.cpp.obj.d -o CMakeFiles\fsoft_2022_1B_5.dir\sources\model\Referencia.cpp.obj -c C:\Users\babis\Desktop\fsoft2022_1B_5\gestao_empresa\sources\model\Referencia.cpp
+
+CMakeFiles/fsoft_2022_1B_5.dir/sources/model/Referencia.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/fsoft_2022_1B_5.dir/sources/model/Referencia.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\babis\Desktop\fsoft2022_1B_5\gestao_empresa\sources\model\Referencia.cpp > CMakeFiles\fsoft_2022_1B_5.dir\sources\model\Referencia.cpp.i
+
+CMakeFiles/fsoft_2022_1B_5.dir/sources/model/Referencia.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/fsoft_2022_1B_5.dir/sources/model/Referencia.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\babis\Desktop\fsoft2022_1B_5\gestao_empresa\sources\model\Referencia.cpp -o CMakeFiles\fsoft_2022_1B_5.dir\sources\model\Referencia.cpp.s
+
 CMakeFiles/fsoft_2022_1B_5.dir/sources/exceptions/InformacaoNaoExisteException.cpp.obj: CMakeFiles/fsoft_2022_1B_5.dir/flags.make
 CMakeFiles/fsoft_2022_1B_5.dir/sources/exceptions/InformacaoNaoExisteException.cpp.obj: CMakeFiles/fsoft_2022_1B_5.dir/includes_CXX.rsp
 CMakeFiles/fsoft_2022_1B_5.dir/sources/exceptions/InformacaoNaoExisteException.cpp.obj: ../sources/exceptions/InformacaoNaoExisteException.cpp
 CMakeFiles/fsoft_2022_1B_5.dir/sources/exceptions/InformacaoNaoExisteException.cpp.obj: CMakeFiles/fsoft_2022_1B_5.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\babis\Desktop\fsoft2022_1B_5\gestao_empresa\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/fsoft_2022_1B_5.dir/sources/exceptions/InformacaoNaoExisteException.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\babis\Desktop\fsoft2022_1B_5\gestao_empresa\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/fsoft_2022_1B_5.dir/sources/exceptions/InformacaoNaoExisteException.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsoft_2022_1B_5.dir/sources/exceptions/InformacaoNaoExisteException.cpp.obj -MF CMakeFiles\fsoft_2022_1B_5.dir\sources\exceptions\InformacaoNaoExisteException.cpp.obj.d -o CMakeFiles\fsoft_2022_1B_5.dir\sources\exceptions\InformacaoNaoExisteException.cpp.obj -c C:\Users\babis\Desktop\fsoft2022_1B_5\gestao_empresa\sources\exceptions\InformacaoNaoExisteException.cpp
 
 CMakeFiles/fsoft_2022_1B_5.dir/sources/exceptions/InformacaoNaoExisteException.cpp.i: cmake_force
@@ -327,7 +357,7 @@ CMakeFiles/fsoft_2022_1B_5.dir/sources/exceptions/InformacaoInvalidaException.cp
 CMakeFiles/fsoft_2022_1B_5.dir/sources/exceptions/InformacaoInvalidaException.cpp.obj: CMakeFiles/fsoft_2022_1B_5.dir/includes_CXX.rsp
 CMakeFiles/fsoft_2022_1B_5.dir/sources/exceptions/InformacaoInvalidaException.cpp.obj: ../sources/exceptions/InformacaoInvalidaException.cpp
 CMakeFiles/fsoft_2022_1B_5.dir/sources/exceptions/InformacaoInvalidaException.cpp.obj: CMakeFiles/fsoft_2022_1B_5.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\babis\Desktop\fsoft2022_1B_5\gestao_empresa\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/fsoft_2022_1B_5.dir/sources/exceptions/InformacaoInvalidaException.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\babis\Desktop\fsoft2022_1B_5\gestao_empresa\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/fsoft_2022_1B_5.dir/sources/exceptions/InformacaoInvalidaException.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsoft_2022_1B_5.dir/sources/exceptions/InformacaoInvalidaException.cpp.obj -MF CMakeFiles\fsoft_2022_1B_5.dir\sources\exceptions\InformacaoInvalidaException.cpp.obj.d -o CMakeFiles\fsoft_2022_1B_5.dir\sources\exceptions\InformacaoInvalidaException.cpp.obj -c C:\Users\babis\Desktop\fsoft2022_1B_5\gestao_empresa\sources\exceptions\InformacaoInvalidaException.cpp
 
 CMakeFiles/fsoft_2022_1B_5.dir/sources/exceptions/InformacaoInvalidaException.cpp.i: cmake_force
@@ -342,7 +372,7 @@ CMakeFiles/fsoft_2022_1B_5.dir/sources/exceptions/InformacaoDuplicadaException.c
 CMakeFiles/fsoft_2022_1B_5.dir/sources/exceptions/InformacaoDuplicadaException.cpp.obj: CMakeFiles/fsoft_2022_1B_5.dir/includes_CXX.rsp
 CMakeFiles/fsoft_2022_1B_5.dir/sources/exceptions/InformacaoDuplicadaException.cpp.obj: ../sources/exceptions/InformacaoDuplicadaException.cpp
 CMakeFiles/fsoft_2022_1B_5.dir/sources/exceptions/InformacaoDuplicadaException.cpp.obj: CMakeFiles/fsoft_2022_1B_5.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\babis\Desktop\fsoft2022_1B_5\gestao_empresa\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/fsoft_2022_1B_5.dir/sources/exceptions/InformacaoDuplicadaException.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\babis\Desktop\fsoft2022_1B_5\gestao_empresa\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/fsoft_2022_1B_5.dir/sources/exceptions/InformacaoDuplicadaException.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsoft_2022_1B_5.dir/sources/exceptions/InformacaoDuplicadaException.cpp.obj -MF CMakeFiles\fsoft_2022_1B_5.dir\sources\exceptions\InformacaoDuplicadaException.cpp.obj.d -o CMakeFiles\fsoft_2022_1B_5.dir\sources\exceptions\InformacaoDuplicadaException.cpp.obj -c C:\Users\babis\Desktop\fsoft2022_1B_5\gestao_empresa\sources\exceptions\InformacaoDuplicadaException.cpp
 
 CMakeFiles/fsoft_2022_1B_5.dir/sources/exceptions/InformacaoDuplicadaException.cpp.i: cmake_force
@@ -357,7 +387,7 @@ CMakeFiles/fsoft_2022_1B_5.dir/sources/controller/controller.cpp.obj: CMakeFiles
 CMakeFiles/fsoft_2022_1B_5.dir/sources/controller/controller.cpp.obj: CMakeFiles/fsoft_2022_1B_5.dir/includes_CXX.rsp
 CMakeFiles/fsoft_2022_1B_5.dir/sources/controller/controller.cpp.obj: ../sources/controller/controller.cpp
 CMakeFiles/fsoft_2022_1B_5.dir/sources/controller/controller.cpp.obj: CMakeFiles/fsoft_2022_1B_5.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\babis\Desktop\fsoft2022_1B_5\gestao_empresa\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/fsoft_2022_1B_5.dir/sources/controller/controller.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\babis\Desktop\fsoft2022_1B_5\gestao_empresa\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/fsoft_2022_1B_5.dir/sources/controller/controller.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsoft_2022_1B_5.dir/sources/controller/controller.cpp.obj -MF CMakeFiles\fsoft_2022_1B_5.dir\sources\controller\controller.cpp.obj.d -o CMakeFiles\fsoft_2022_1B_5.dir\sources\controller\controller.cpp.obj -c C:\Users\babis\Desktop\fsoft2022_1B_5\gestao_empresa\sources\controller\controller.cpp
 
 CMakeFiles/fsoft_2022_1B_5.dir/sources/controller/controller.cpp.i: cmake_force
@@ -372,7 +402,7 @@ CMakeFiles/fsoft_2022_1B_5.dir/mock/MockData.cpp.obj: CMakeFiles/fsoft_2022_1B_5
 CMakeFiles/fsoft_2022_1B_5.dir/mock/MockData.cpp.obj: CMakeFiles/fsoft_2022_1B_5.dir/includes_CXX.rsp
 CMakeFiles/fsoft_2022_1B_5.dir/mock/MockData.cpp.obj: ../mock/MockData.cpp
 CMakeFiles/fsoft_2022_1B_5.dir/mock/MockData.cpp.obj: CMakeFiles/fsoft_2022_1B_5.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\babis\Desktop\fsoft2022_1B_5\gestao_empresa\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/fsoft_2022_1B_5.dir/mock/MockData.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\babis\Desktop\fsoft2022_1B_5\gestao_empresa\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/fsoft_2022_1B_5.dir/mock/MockData.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsoft_2022_1B_5.dir/mock/MockData.cpp.obj -MF CMakeFiles\fsoft_2022_1B_5.dir\mock\MockData.cpp.obj.d -o CMakeFiles\fsoft_2022_1B_5.dir\mock\MockData.cpp.obj -c C:\Users\babis\Desktop\fsoft2022_1B_5\gestao_empresa\mock\MockData.cpp
 
 CMakeFiles/fsoft_2022_1B_5.dir/mock/MockData.cpp.i: cmake_force
@@ -401,6 +431,8 @@ fsoft_2022_1B_5_OBJECTS = \
 "CMakeFiles/fsoft_2022_1B_5.dir/sources/model/Nome.cpp.obj" \
 "CMakeFiles/fsoft_2022_1B_5.dir/sources/model/Produto.cpp.obj" \
 "CMakeFiles/fsoft_2022_1B_5.dir/sources/model/ProdutoContainer.cpp.obj" \
+"CMakeFiles/fsoft_2022_1B_5.dir/sources/model/Stock.cpp.obj" \
+"CMakeFiles/fsoft_2022_1B_5.dir/sources/model/Referencia.cpp.obj" \
 "CMakeFiles/fsoft_2022_1B_5.dir/sources/exceptions/InformacaoNaoExisteException.cpp.obj" \
 "CMakeFiles/fsoft_2022_1B_5.dir/sources/exceptions/InformacaoInvalidaException.cpp.obj" \
 "CMakeFiles/fsoft_2022_1B_5.dir/sources/exceptions/InformacaoDuplicadaException.cpp.obj" \
@@ -426,6 +458,8 @@ fsoft_2022_1B_5.exe: CMakeFiles/fsoft_2022_1B_5.dir/sources/model/Funcionario.cp
 fsoft_2022_1B_5.exe: CMakeFiles/fsoft_2022_1B_5.dir/sources/model/Nome.cpp.obj
 fsoft_2022_1B_5.exe: CMakeFiles/fsoft_2022_1B_5.dir/sources/model/Produto.cpp.obj
 fsoft_2022_1B_5.exe: CMakeFiles/fsoft_2022_1B_5.dir/sources/model/ProdutoContainer.cpp.obj
+fsoft_2022_1B_5.exe: CMakeFiles/fsoft_2022_1B_5.dir/sources/model/Stock.cpp.obj
+fsoft_2022_1B_5.exe: CMakeFiles/fsoft_2022_1B_5.dir/sources/model/Referencia.cpp.obj
 fsoft_2022_1B_5.exe: CMakeFiles/fsoft_2022_1B_5.dir/sources/exceptions/InformacaoNaoExisteException.cpp.obj
 fsoft_2022_1B_5.exe: CMakeFiles/fsoft_2022_1B_5.dir/sources/exceptions/InformacaoInvalidaException.cpp.obj
 fsoft_2022_1B_5.exe: CMakeFiles/fsoft_2022_1B_5.dir/sources/exceptions/InformacaoDuplicadaException.cpp.obj
@@ -435,7 +469,7 @@ fsoft_2022_1B_5.exe: CMakeFiles/fsoft_2022_1B_5.dir/build.make
 fsoft_2022_1B_5.exe: CMakeFiles/fsoft_2022_1B_5.dir/linklibs.rsp
 fsoft_2022_1B_5.exe: CMakeFiles/fsoft_2022_1B_5.dir/objects1.rsp
 fsoft_2022_1B_5.exe: CMakeFiles/fsoft_2022_1B_5.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\babis\Desktop\fsoft2022_1B_5\gestao_empresa\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Linking CXX executable fsoft_2022_1B_5.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\babis\Desktop\fsoft2022_1B_5\gestao_empresa\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Linking CXX executable fsoft_2022_1B_5.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\fsoft_2022_1B_5.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
