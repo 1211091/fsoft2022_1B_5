@@ -16,25 +16,26 @@ include_directories(
         )
 set(MOCK_SOURCE_FILES
         ${PROJECT_MOCK_DIR}/MockData.h
-        ${PROJECT_MOCK_DIR}/MockData.cpp mock/MockData.h)
+        ${PROJECT_MOCK_DIR}/MockData.cpp
+        )
 
-set(PROJECT_HEADERS_CONTROLLERS_DIR
+set(PROJECT_HEADERS_CONTROLLER_DIR
         ${PROJECT_HEADERS_DIR}/controller)
-set(PROJECT_SOURCES_CONTROLLERS_DIR
+set(PROJECT_SOURCES_CONTROLLER_DIR
         ${PROJECT_SOURCES_DIR}/controller)
 include_directories(
         ${PROJECT_HEADERS_CONTROLLER_DIR}
         ${PROJECT_SOURCES_CONTROLLER_DIR})
-set(CONTROLLERS_SOURCE_FILES
+set(CONTROLLER_SOURCE_FILES
         ${PROJECT_HEADERS_CONTROLLER_DIR}/controller.h
         ${PROJECT_SOURCES_CONTROLLER_DIR}/controller.cpp
         )
 
 set(PROJECT_HEADERS_EXCEPTIONS_DIR
-        ${PROJECT_HEADERS_DIR}/exceptions
+        ${PROJECT_SOURCE_DIR}/headers/exceptions
         )
 set(PROJECT_SOURCES_EXCEPTIONS_DIR
-        ${PROJECT_SOURCES_DIR}/exceptions
+        ${PROJECT_SOURCE_DIR}/sources/exceptions
         )
 include_directories(
         ${PROJECT_HEADERS_EXCEPTIONS_DIR}
@@ -42,13 +43,13 @@ include_directories(
         )
 
 set(EXCEPTIONS_SOURCE_FILES
-        ${PROJECT_HEADERS_EXCEPTIONS_DIR}/InformacaoNaoExisteException.h
         ${PROJECT_SOURCES_EXCEPTIONS_DIR}/InformacaoNaoExisteException.cpp
+        ${PROJECT_HEADERS_EXCEPTIONS_DIR}/InformacaoNaoExisteException.h
+        ${PROJECT_SOURCES_EXCEPTIONS_DIR}/InformacaoInvalidaException.cpp
+        ${PROJECT_HEADERS_EXCEPTIONS_DIR}/InformacaoInvalidaException.h
         ${PROJECT_HEADERS_EXCEPTIONS_DIR}/InformacaoDuplicadaException.h
         ${PROJECT_SOURCES_EXCEPTIONS_DIR}/InformacaoDuplicadaException.cpp
-        ${PROJECT_HEADERS_EXCEPTIONS_DIR}/InformacaoInvalidaException.h
-        ${PROJECT_SOURCES_EXCEPTIONS_DIR}/InformacaoInvalidaException.cpp
-        )
+       )
 
 set(PROJECT_HEADERS_MODEL_DIR
         ${PROJECT_HEADERS_DIR}/model
@@ -78,7 +79,14 @@ set(MODEL_SOURCE_FILES
         ${PROJECT_SOURCES_MODEL_DIR}/Produto.cpp
         ${PROJECT_HEADERS_MODEL_DIR}/ProdutoContainer.h
         ${PROJECT_SOURCES_MODEL_DIR}/ProdutoContainer.cpp
+        ${PROJECT_HEADERS_MODEL_DIR}/Stock.h
+        ${PROJECT_SOURCES_MODEL_DIR}/Stock.cpp
+        ${PROJECT_HEADERS_MODEL_DIR}/Referencia.h
+        ${PROJECT_SOURCES_MODEL_DIR}/Referencia.cpp
+        ${PROJECT_HEADERS_MODEL_DIR}/Empresa.h
+        ${PROJECT_SOURCES_MODEL_DIR}/Empresa .cpp
         )
+
 
 set(PROJECT_HEADERS_VIEWS_DIR
         ${PROJECT_HEADERS_DIR}/views)
@@ -111,7 +119,7 @@ add_executable(
         ${VIEWS_SOURCE_FILES}
         ${MODEL_SOURCE_FILES}
         ${EXCEPTIONS_SOURCE_FILES}
-        ${CONTROLLERS_SOURCE_FILES}
+        ${CONTROLLER_SOURCE_FILES}
         ${MOCK_SOURCE_FILES}
 )
 

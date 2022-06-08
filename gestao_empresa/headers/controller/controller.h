@@ -2,14 +2,14 @@
 // Created by babis on 6/6/2022.
 //
 
-#ifndef HEADERS_CONTROLLERS_CONTROLLERS_H
-#define HEADERS_CONTROLLERS_CONTROLLERS_H
+#ifndef HEADERS_CONTROLLER_CONTROLLER_H
+#define HEADERS_CONTROLLER_CONTROLLER_H
 
-
+#include "Empresa.h"
 #include "AdministradorView.h"
-#include "Cliente.h"
+#include "ClienteView.h"
 #include "FuncionarioView.h"
-#include "ProdutosView.h."
+#include "ProdutoView.h."
 #include "StockView.h"
 #include "Utils.h"
 #include "View.h"
@@ -21,10 +21,10 @@ private:
     AdministradorView administradorView;
     FuncionarioView funcionarioView;
     ClienteView clienteView;
-    ProdutosView produtosView;
+    ProdutoView produtosView;
     StockView stockView;
     void runFuncionario();
-    void runProdutos();
+    void runProduto();
     void runAdministrador();
     void runStock();
     void runCliente();
@@ -32,4 +32,5 @@ public:
     Controller(Empresa& empresa);
     void run();
 };
-#endif //HEADERS_CONTROLLERS_CONTROLLERS_H
+
+#endif //HEADERS_CONTROLLER_CONTROLLER_H

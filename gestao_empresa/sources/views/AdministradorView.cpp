@@ -5,7 +5,7 @@
 #include <iostream>
 #include "AdministradorView.h"
 #include "Utils.h"
-#include "InvalidDataException.h"
+#include "InformacaoInvalidaException.h"
 using namespace std;
 
 
@@ -25,7 +25,7 @@ Administrador AdministradorView::getAdministrador(){
     return administrador;
 }
 void AdministradorView::printAdministrador(Administrador *administrador) {
-    cout << administrador->getName() << endl;
+    cout << administrador->getNome() << endl;
 }
 
 bool AdministradorView::adicionar(){

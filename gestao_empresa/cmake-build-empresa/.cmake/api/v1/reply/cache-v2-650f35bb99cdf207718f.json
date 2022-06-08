@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/cmake-build-debug"
+			"value" : "c:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/cmake-build-empresa"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -719,7 +719,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/Program Files (x86)/fsoft2022_1B_5"
+			"value" : "C:/Program Files (x86)/fsoft_2022_1B_5"
 		},
 		{
 			"name" : "CMAKE_LINKER",
@@ -939,7 +939,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "fsoft2022_1B_5"
+			"value" : "fsoft_2022_1B_5"
 		},
 		{
 			"name" : "CMAKE_RANLIB",
@@ -1318,7 +1318,7 @@
 			"value" : "FALSE"
 		},
 		{
-			"name" : "fsoft2022_1B_5_BINARY_DIR",
+			"name" : "fsoft_2022_1B_5_BINARY_DIR",
 			"properties" : 
 			[
 				{
@@ -1327,10 +1327,10 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/cmake-build-debug"
+			"value" : "C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/cmake-build-empresa"
 		},
 		{
-			"name" : "fsoft2022_1B_5_IS_TOP_LEVEL",
+			"name" : "fsoft_2022_1B_5_IS_TOP_LEVEL",
 			"properties" : 
 			[
 				{
@@ -1342,7 +1342,7 @@
 			"value" : "ON"
 		},
 		{
-			"name" : "fsoft2022_1B_5_SOURCE_DIR",
+			"name" : "fsoft_2022_1B_5_SOURCE_DIR",
 			"properties" : 
 			[
 				{

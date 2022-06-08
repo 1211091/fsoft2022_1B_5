@@ -6,7 +6,7 @@
 		},
 		{
 			"isGenerated" : true,
-			"path" : "cmake-build-debug/CMakeFiles/3.21.1/CMakeSystem.cmake"
+			"path" : "cmake-build-empresa/CMakeFiles/3.21.1/CMakeSystem.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -15,11 +15,11 @@
 		},
 		{
 			"isGenerated" : true,
-			"path" : "cmake-build-debug/CMakeFiles/3.21.1/CMakeCCompiler.cmake"
+			"path" : "cmake-build-empresa/CMakeFiles/3.21.1/CMakeCCompiler.cmake"
 		},
 		{
 			"isGenerated" : true,
-			"path" : "cmake-build-debug/CMakeFiles/3.21.1/CMakeCXXCompiler.cmake"
+			"path" : "cmake-build-empresa/CMakeFiles/3.21.1/CMakeCXXCompiler.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -98,7 +98,7 @@
 		},
 		{
 			"isGenerated" : true,
-			"path" : "cmake-build-debug/CMakeFiles/3.21.1/CMakeRCCompiler.cmake"
+			"path" : "cmake-build-empresa/CMakeFiles/3.21.1/CMakeRCCompiler.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -164,7 +164,7 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/cmake-build-debug",
+		"build" : "C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/cmake-build-empresa",
 		"source" : "C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa"
 	},
 	"version" : 

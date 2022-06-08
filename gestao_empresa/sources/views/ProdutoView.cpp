@@ -2,13 +2,13 @@
 // Created by babis on 6/1/2022.
 //
 #include <iostream>
-#include "ProdutosView.h"
+#include "ProdutoView.h"
 #include "Utils.h"
 #include "InformacaoInvalidaException.h"
 using namespace std;
 
-Produtos ProdutosView::getProdutos(){
-    Produtos produtos ("Nome");
+Produto ProdutoView::getProduto(){
+    Produto produtos ("Nome");
     bool flag = false;
     do{
         try{
@@ -24,7 +24,7 @@ Produtos ProdutosView::getProdutos(){
     }while(flag == true);
     return produtos;
 }
-void ProdutosView::printProdutos(Produtos *produtos) {
+void ProdutoView::printProduto(Produto *produtos) {
     cout<<produtos->getProduto()<<":"<<produtos->getReferencia()<<endl;
 }
 
