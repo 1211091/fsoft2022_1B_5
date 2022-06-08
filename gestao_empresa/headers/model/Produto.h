@@ -9,7 +9,7 @@ using namespace std;
 class Produto{
 private :
     string tipo;
-    string referencia;
+    int referencia;
     int quantidade;
 public :
     Produto(const string& tipo, const string& referencia);
@@ -19,9 +19,6 @@ public :
     string Referencia(const string& Referencia);
     const string& getReferencia();
     void setReferencia(const string &referencia);
-    int Quantidade(int quantidade);
-    int getQuantidade();
-    void setQuantidade(const string &quantidade);-.--
 };
 
 
