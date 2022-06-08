@@ -20,6 +20,7 @@ Empresa::Empresa(const Empresa& obj){
     this->administrador = obj.administrador;
     this->clientes = obj.clientes;
     this->produtos = obj.produtos;
+    this->stock = obj.stock;
 
     void setInformacaoNaoExisteException();
 }

@@ -18,6 +18,7 @@ private :
     AdministradorContainer administrador;
     ClienteContainer clientes;
     ProdutoContainer produtos;
+    StockContainer stock;
 
 
     void setInformacaoNaoExisteException();
