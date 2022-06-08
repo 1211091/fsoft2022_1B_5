@@ -19,6 +19,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/fsoft_2022_1B_5.dir/sources/model/Cliente.cpp.obj.d"
   "CMakeFiles/fsoft_2022_1B_5.dir/sources/model/ClienteContainer.cpp.obj"
   "CMakeFiles/fsoft_2022_1B_5.dir/sources/model/ClienteContainer.cpp.obj.d"
+  "CMakeFiles/fsoft_2022_1B_5.dir/sources/model/Empresa.cpp.obj"
+  "CMakeFiles/fsoft_2022_1B_5.dir/sources/model/Empresa.cpp.obj.d"
   "CMakeFiles/fsoft_2022_1B_5.dir/sources/model/Funcionario.cpp.obj"
   "CMakeFiles/fsoft_2022_1B_5.dir/sources/model/Funcionario.cpp.obj.d"
   "CMakeFiles/fsoft_2022_1B_5.dir/sources/model/Nome.cpp.obj"

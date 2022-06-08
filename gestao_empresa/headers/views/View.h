@@ -15,7 +15,8 @@ public:
     int menuFuncionario();
     int menuStock();
     int menuCliente();
-    int menuProdutos();
+    int menuProduto();
+    int menuEmpresa();
 
 };
 
