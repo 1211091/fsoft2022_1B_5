@@ -8,7 +8,7 @@
 #include "Produto.h"
 #include <list>
 
-class ProdutosContainer {
+class ProdutoContainer {
     private:
     list<Produtos> produtos;
     list<Produtos>::iterator procura(string referencia);

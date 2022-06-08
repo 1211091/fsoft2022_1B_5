@@ -1,0 +1,132 @@
+{
+	"cmake" : 
+	{
+		"generator" : 
+		{
+			"multiConfig" : false,
+			"name" : "Ninja"
+		},
+		"paths" : 
+		{
+			"cmake" : "C:/Program Files/JetBrains/CLion 2021.3.3/bin/cmake/win/bin/cmake.exe",
+			"cpack" : "C:/Program Files/JetBrains/CLion 2021.3.3/bin/cmake/win/bin/cpack.exe",
+			"ctest" : "C:/Program Files/JetBrains/CLion 2021.3.3/bin/cmake/win/bin/ctest.exe",
+			"root" : "C:/Program Files/JetBrains/CLion 2021.3.3/bin/cmake/win/share/cmake-3.21"
+		},
+		"version" : 
+		{
+			"isDirty" : false,
+			"major" : 3,
+			"minor" : 21,
+			"patch" : 1,
+			"string" : "3.21.1",
+			"suffix" : ""
+		}
+	},
+	"objects" : 
+	[
+		{
+<<<<<<<< HEAD:gestao_empresa/cmake-build-debug/.cmake/api/v1/reply/index-2022-06-08T09-19-43-0879.json
+			"jsonFile" : "codemodel-v2-17de1b83fe0a459c2a0a.json",
+========
+			"jsonFile" : "codemodel-v2-647c46a2bb8cdcbd947b.json",
+>>>>>>>> 7ed5e3dc924901dcf12194eb249b8587705f62af:gestao_empresa/cmake-build-debug/.cmake/api/v1/reply/index-2022-06-08T09-09-10-0926.json
+			"kind" : "codemodel",
+			"version" : 
+			{
+				"major" : 2,
+				"minor" : 3
+			}
+		},
+		{
+<<<<<<<< HEAD:gestao_empresa/cmake-build-debug/.cmake/api/v1/reply/index-2022-06-08T09-19-43-0879.json
+			"jsonFile" : "cache-v2-90f0a02179e2ca966d45.json",
+========
+			"jsonFile" : "cache-v2-08e63b51c281c244da0d.json",
+>>>>>>>> 7ed5e3dc924901dcf12194eb249b8587705f62af:gestao_empresa/cmake-build-debug/.cmake/api/v1/reply/index-2022-06-08T09-09-10-0926.json
+			"kind" : "cache",
+			"version" : 
+			{
+				"major" : 2,
+				"minor" : 0
+			}
+		},
+		{
+<<<<<<<< HEAD:gestao_empresa/cmake-build-debug/.cmake/api/v1/reply/index-2022-06-08T09-19-43-0879.json
+			"jsonFile" : "cmakeFiles-v1-f4903ac9faa447c1933f.json",
+========
+			"jsonFile" : "cmakeFiles-v1-106c3c62602ddd0e59cd.json",
+>>>>>>>> 7ed5e3dc924901dcf12194eb249b8587705f62af:gestao_empresa/cmake-build-debug/.cmake/api/v1/reply/index-2022-06-08T09-09-10-0926.json
+			"kind" : "cmakeFiles",
+			"version" : 
+			{
+				"major" : 1,
+				"minor" : 0
+			}
+		},
+		{
+			"jsonFile" : "toolchains-v1-40a45361301b1337b711.json",
+			"kind" : "toolchains",
+			"version" : 
+			{
+				"major" : 1,
+				"minor" : 0
+			}
+		}
+	],
+	"reply" : 
+	{
+		"cache-v2" : 
+		{
+<<<<<<<< HEAD:gestao_empresa/cmake-build-debug/.cmake/api/v1/reply/index-2022-06-08T09-19-43-0879.json
+			"jsonFile" : "cache-v2-90f0a02179e2ca966d45.json",
+========
+			"jsonFile" : "cache-v2-08e63b51c281c244da0d.json",
+>>>>>>>> 7ed5e3dc924901dcf12194eb249b8587705f62af:gestao_empresa/cmake-build-debug/.cmake/api/v1/reply/index-2022-06-08T09-09-10-0926.json
+			"kind" : "cache",
+			"version" : 
+			{
+				"major" : 2,
+				"minor" : 0
+			}
+		},
+		"cmakeFiles-v1" : 
+		{
+<<<<<<<< HEAD:gestao_empresa/cmake-build-debug/.cmake/api/v1/reply/index-2022-06-08T09-19-43-0879.json
+			"jsonFile" : "cmakeFiles-v1-f4903ac9faa447c1933f.json",
+========
+			"jsonFile" : "cmakeFiles-v1-106c3c62602ddd0e59cd.json",
+>>>>>>>> 7ed5e3dc924901dcf12194eb249b8587705f62af:gestao_empresa/cmake-build-debug/.cmake/api/v1/reply/index-2022-06-08T09-09-10-0926.json
+			"kind" : "cmakeFiles",
+			"version" : 
+			{
+				"major" : 1,
+				"minor" : 0
+			}
+		},
+		"codemodel-v2" : 
+		{
+<<<<<<<< HEAD:gestao_empresa/cmake-build-debug/.cmake/api/v1/reply/index-2022-06-08T09-19-43-0879.json
+			"jsonFile" : "codemodel-v2-17de1b83fe0a459c2a0a.json",
+========
+			"jsonFile" : "codemodel-v2-647c46a2bb8cdcbd947b.json",
+>>>>>>>> 7ed5e3dc924901dcf12194eb249b8587705f62af:gestao_empresa/cmake-build-debug/.cmake/api/v1/reply/index-2022-06-08T09-09-10-0926.json
+			"kind" : "codemodel",
+			"version" : 
+			{
+				"major" : 2,
+				"minor" : 3
+			}
+		},
+		"toolchains-v1" : 
+		{
+			"jsonFile" : "toolchains-v1-40a45361301b1337b711.json",
+			"kind" : "toolchains",
+			"version" : 
+			{
+				"major" : 1,
+				"minor" : 0
+			}
+		}
+	}
+}

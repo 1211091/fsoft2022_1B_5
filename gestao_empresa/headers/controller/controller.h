@@ -5,7 +5,7 @@
 #ifndef HEADERS_CONTROLLER_CONTROLLER_H
 #define HEADERS_CONTROLLER_CONTROLLER_H
 
-
+#include "Empresa.h"
 #include "AdministradorView.h"
 #include "ClienteView.h"
 #include "FuncionarioView.h"
