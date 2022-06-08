@@ -5,11 +5,11 @@
 #ifndef HEADERS_CONTROLLER_CONTROLLER_H
 #define HEADERS_CONTROLLER_CONTROLLER_H
 
-
+#include "Empresa.h"
 #include "AdministradorView.h"
-#include "Cliente.h"
+#include "ClienteView.h"
 #include "FuncionarioView.h"
-#include "ProdutosView.h."
+#include "ProdutoView.h."
 #include "StockView.h"
 #include "Utils.h"
 #include "View.h"
@@ -21,7 +21,7 @@ private:
     AdministradorView administradorView;
     FuncionarioView funcionarioView;
     ClienteView clienteView;
-    ProdutosView produtosView;
+    ProdutoView produtosView;
     StockView stockView;
     void runFuncionario();
     void runProdutos();
