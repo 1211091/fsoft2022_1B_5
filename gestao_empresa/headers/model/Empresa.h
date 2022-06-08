@@ -14,7 +14,7 @@ using namespace std;
 
 class Empresa{
 private :
-    string name;
+    string nome;
     AdministradorContainer administrador;
     ClienteContainer clientes;
     ProdutoContainer produtos;
@@ -23,10 +23,10 @@ private :
     void setDataForConsistency();
 public:
     Empresa();
-    Empresa(const string& name);
+    Empresa(const string& nome);
     Empresa(const Empresa& obj);
-    const string& getName() const ;
-    void setName(const string &name) ;
+    const string& getNome() const ;
+    void setNome(const string &nome) ;
 
     AdministradorContainer & getAdministradorContainer();
     ClienteContainer & getClienteContainer();
