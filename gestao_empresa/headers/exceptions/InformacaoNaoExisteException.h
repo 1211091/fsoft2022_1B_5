@@ -11,7 +11,7 @@ using namespace std;
 
 class InformacaoNaoExisteException :public exception{
 private:
-    string data;
+    string informacao;
 public:
     __attribute__((unused)) InformacaoNaoExisteException(string data);
     const char* what();

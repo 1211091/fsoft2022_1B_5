@@ -5,7 +5,6 @@
 #ifndef HEADERS_MODEL_ADMINISTRADOR_H
 #define HEADERS_MODEL_ADMINISTRADOR_H
 
-#include <stdio>
 #include <string>
 #include "Nome.h"
 #include "Funcionario.h"

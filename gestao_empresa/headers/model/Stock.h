@@ -21,7 +21,7 @@ public:
     void setTipo(const string &tipo);
 
     bool operator == (const Stock& produto) const;
-    bool operator == (int nr) const;
+    bool operator == (string tp) const;
 
 };
 

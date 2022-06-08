@@ -8,6 +8,7 @@
 #include <vector>
 #include <list>
 #include "Stock.h"
+#include "Referencia.h"
 #include "ProdutoContainer.h"
 using namespace std;
 
@@ -15,15 +16,15 @@ class StockContainer{
 private:
     vector<Stock> produtos;
     ProdutoContainer *produto;
-    int procurar(const string& produto);
+    int procurar(const string& referencia);
 public:
     list<Stock> getAll();
-    Stock* get(const string& produto);
+    vector<Stock> get(const string& referencia);
     void adicionar(const Stock& obj);
-    void remover(const string& produto);
-    void atualizar(const string& produto);
+    void remover(const string& referencia);
+    void atualizar(const string& quantidade);
 
+    void adicionar(Stock obj);
 };
-
 
 #endif //HEADERS_MODEL_STOCKCONTAINER_H
