@@ -9,7 +9,7 @@ using namespace std;
 class Produto{
 private :
     string tipo;
-    string referencia;
+    int referencia;
     int quantidade;
 public :
     Produto(const string& tipo, const string& referencia);
