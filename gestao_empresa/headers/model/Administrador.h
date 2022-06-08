@@ -5,7 +5,6 @@
 #ifndef HEADERS_MODEL_ADMINISTRADOR_H
 #define HEADERS_MODEL_ADMINISTRADOR_H
 
-#include <stdio>
 #include <string>
 #include "Nome.h"
 #include "Funcionario.h"
@@ -15,14 +14,17 @@ using namespace std;
 class Administrador: public Nome{
 private:
     string nome;
+    bool ValidacaoNome(const string& nome);
 
 public:
     Administrador(const string& Nome);
+    Administrador(const Administrador& obj);
     ~Administrador();
-    void setNome();
-    string getNome(nome);
-
-
+    void setNome(const string &nome);
+    const string &getNome() const;
+    bool operator == (const Administrador& obj) const;
+    bool operator == (const string initials) const;
+    void adicionar(const Administrador& obj);
 };
 
 #endif HEADERS_MODEL_ADMINISTRADOR_H
