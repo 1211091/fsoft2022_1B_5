@@ -5,8 +5,10 @@
 #ifndef HEADERS_MODEL_PRODUTO_H
 #define HEADERS_MODEL_PRODUTO_H
 #include <string>
+#include "Stock.h"
+
 using namespace std;
-class Produto{
+class Produto: public Stock{
 private :
     string tipo;
     int referencia;
@@ -19,6 +21,9 @@ public :
     string Referencia(const string& Referencia);
     const string& getReferencia();
     void setReferencia(const string &referencia);
+    int Quantidade(int quantidade);
+    int getQuantidade();
+    void setQuantidade(const string &quantidade);
 };
 
 
