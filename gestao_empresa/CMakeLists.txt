@@ -79,7 +79,12 @@ set(MODEL_SOURCE_FILES
         ${PROJECT_SOURCES_MODEL_DIR}/Produto.cpp
         ${PROJECT_HEADERS_MODEL_DIR}/ProdutoContainer.h
         ${PROJECT_SOURCES_MODEL_DIR}/ProdutoContainer.cpp
+        ${PROJECT_HEADERS_MODEL_DIR}/Stock.h
+        ${PROJECT_SOURCES_MODEL_DIR}/Stock.cpp
+        ${PROJECT_HEADERS_MODEL_DIR}/Referencia.h
+        ${PROJECT_SOURCES_MODEL_DIR}/Referencia.cpp
         )
+
 
 set(PROJECT_HEADERS_VIEWS_DIR
         ${PROJECT_HEADERS_DIR}/views)
@@ -104,7 +109,7 @@ set(VIEWS_SOURCE_FILES
         ${PROJECT_SOURCES_VIEWS_DIR}/ClienteView.cpp
         ${PROJECT_HEADERS_VIEWS_DIR}/AdministradorView.h
         ${PROJECT_SOURCES_VIEWS_DIR}/AdministradorView.cpp
-        )
+        headers/model/Stock.h sources/model/Stock.cpp)
 
 add_executable(
         fsoft_2022_1B_5
