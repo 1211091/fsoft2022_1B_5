@@ -7,8 +7,20 @@
 
 #include <string>
 using namespace std;
-class stock{
+class Stock {
 private :
+    string tipo;
+    int quantidade;
+public:
+    int Quantidade(int quantidade);
+    int getQuantidade();
+    void setQuantidade(const string &quantidade);
+    Stock(const string &tipo, const string &referencia);
+    string Tipo(const string &tipo);
+    const string &getTipo();
+    void setTipo(const string &tipo);
+
+};
 
 
 #endif //HEADERS_MODEL_STOCK_H
