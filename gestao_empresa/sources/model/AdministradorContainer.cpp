@@ -3,22 +3,21 @@
 //
 
 #include "AdministradorContainer.h"
-#include <tuple>
+#include <iostream>
 
-string AdministradorContainer::getFuncionario(const string &nome, const string &funcao){
-    tuple<string,string>
-    return nome,funcao;
+int AdministradorContainer::getFuncionario(){
+    return funcionario;
 
 }
-string AdministradorContainer::getStock(){
+int AdministradorContainer::getStock(){
     return stock;
 
 }
-string AdministradorContainer::getCliente(){
+int AdministradorContainer::getCliente(){
     return cliente;
 
 }
-string AdministradorContainer::getProduto(){
+int AdministradorContainer::getProduto(){
     return produto;
 
 }

@@ -13,7 +13,6 @@ class ClienteContainer {
 private:
     list<Cliente> clientes;
     list<Cliente>::iterator procurarCliente(string&nomeLoja);
-    int numero;
 
 public:
     list<Cliente> getAll();
@@ -21,6 +20,7 @@ public:
     void eliminarCliente(string&nomeLoja);
     void atualizarCliente(string&nomeLoja);
     Cliente* getCliente(const Cliente& nomeLoja);
+
 };
 
 

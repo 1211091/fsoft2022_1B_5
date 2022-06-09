@@ -6,16 +6,14 @@
 #include "FuncionarioContainer.h"
 
 
-Funcionario::Funcionario(const string &nome,const string &funcao){
+Funcionario::Funcionario(const string &nomefuncionario,const string &funcao){
         setFuncao(funcao);
+        setNomeFuncionario(nomefuncionario);
 }
-Funcionario::N(const string& nome){
-    setNomeFuncionario(nome);
-}
-};
 void setFuncao(const string &funcao){
 
 }
+
 const string getFuncao(){
     return this->funcao;
 }

@@ -10,15 +10,16 @@
 #include "Produto.h"
 #include "Cliente.h"
 #include <list>
-#include <tuple>
 
 class AdministradorContainer{
 private:
+    int quantidade;
 
-    //int quantidade;
 public:
-    string getFuncionario(const string &nome, const string &funcao);
-    getStock();
+    int getFuncionario();
+    int getStock();
+    int getProduto();
+    int getCliente();
 };
 
 #endif //HEADERS_MODEL_ADMINISTRADORCONTAINER_H

@@ -6,7 +6,7 @@
 #include "Referencia.h"
 
 
-list<Produto>:: iterator ProdutoContainer::procurarProduto(const string&referencia, const string &tipo) {
+list<Produto>:: iterator ProdutoContainer::procurarProduto(const string&referencia) {
     list<Produto>::iterator it= this->produtos.begin();
     for(it = this->produtos.begin(); it != this->produtos.end();++it){
         if((*it) == referencia){
@@ -35,10 +35,10 @@ void ProdutoContainer::eliminarProduto(const string& referencia){
     list<Produto>::iterator it = procurarProduto(referencia);
     if (it != this->produto.end()) {
         this->produto.erase(it);
-        cout << "Produto com referencia:" << to_string(referencia) << "removido" << endl;
+        cout << "Produto com referencia:" << referencia << "removido" << endl;
 
     } else {
-        cout << "Produto com referencia:" << to_string(referencia) << "não existe" << endl;
+        cout << "Produto com referencia:" << referencia << "não existe" << endl;
     }
 
 }
