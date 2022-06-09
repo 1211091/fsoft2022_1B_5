@@ -6,11 +6,7 @@
 #include "Referencia.h"
 
 
-<<<<<<< HEAD
-list<Produto>:: iterator ProdutoContainer::procurarProduto(Produto referencia, const string &tipo) {
-=======
 list<Produto>:: iterator ProdutoContainer::procurarProduto(const string&referencia) {
->>>>>>> 8ecce03757338d7c25649082cac7c1187621c50e
     list<Produto>::iterator it= this->produtos.begin();
     for(it = this->produtos.begin(); it != this->produtos.end();++it){
         if((*it) == referencia){
@@ -29,7 +25,7 @@ list<Produto> ProdutoContainer::getAll(){
 
 void ProdutoContainer::adicionarProduto(Produto referencia) {
     string referencia1 = referencia.getReferencia();
-    list<Produto>::iterator it = procurarProduto(referencia,tipo);
+    list<Produto>::iterator it = procurarProduto(referencia);
     if (it == this->produto.end()) {
         this->produto.push_back(referencia);
 
@@ -48,7 +44,7 @@ void ProdutoContainer::eliminarProduto(const string& referencia){
 }
 
 
-void  ProdutoContainer::atualizarProduto(string& referencia,string &tipo){
+void ProdutoContainer::atualizarProduto(string& referencia,string &tipo){
     list<Produto>::iterator it = procurarProduto(referencia);
     list<Produto>::iterator its = procurarProduto(tipo);
     if(it != this->produtos.end()){
@@ -56,4 +52,3 @@ void  ProdutoContainer::atualizarProduto(string& referencia,string &tipo){
         its->setTipo(tipo);
     }
 }
-
