@@ -14,7 +14,8 @@ class Nome{
         string nome;
         string nomeGerente;
         string nomeLoja;
-        bool ValidacaoNome(const string& nome);
+
+    virtual bool ValidacaoNome(const string& nome);
 
     public:
         Nome(const string& nome);

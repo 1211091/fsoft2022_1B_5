@@ -15,13 +15,13 @@ class Administrador: public Nome{
 private:
     string nome;
     bool ValidacaoNome(const string& nome);
-
 public:
+
     Administrador(const string& Nome);
-    Administrador(const Administrador& obj);
+    Administrador(const Administrador &obj);
     ~Administrador();
-    void setNome(const string &nome);
     const string &getNome() const;
+    void setNome(const string &nome);
     bool operator == (const Administrador& obj) const;
     bool operator == (const string initials) const;
     void adicionar(const Administrador& obj);

@@ -42,7 +42,8 @@ void Controller::runAdministrador(){
         switch(opcao){
             case 1:
             {
-                Administrador administrador = this->administradorView.getAdministrador();
+                Administrador administrador = this->administradorView.getAdministrador()(<#initializer#>,
+                                                                                         <#initializer#>);
                 AdministradorContainer& container = this->model.getAdministradorContainer();
             }
             break;

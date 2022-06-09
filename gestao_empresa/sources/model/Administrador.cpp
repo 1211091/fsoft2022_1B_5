@@ -12,11 +12,11 @@ bool Administrador::ValidacaoNome(const string& nome){
     return true;
 }
 
-Administrador::Administrador(const string& nome):{
+Administrador::Administrador(const string& nome) : Nome(nome){
     setNome(nome);
 }
 
-Administrador::Administrador(const Administrador& obj){
+Administrador::Administrador(const Administrador &obj) : Nome(nome) {
     setNome(obj.nome);
 }
 
