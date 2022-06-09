@@ -12,7 +12,7 @@ class ProdutoContainer {
     private:
     list<Produto> produto;
     list<Produto> produtos;
-    list<Produto>::iterator procura(string referencia);
+    list<Produto>::iterator procurar(string referencia);
 public:
     list<Produto>getAll (string tipo);
     Produto* get(string tipo);

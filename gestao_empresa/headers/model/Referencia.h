@@ -14,16 +14,15 @@ using namespace std;
 
 class Referencia{
 private :
-    int referencia;
-
+    string referencia;
+    static bool isReferenciaValid(const string& referencia);
     void setInformacaoNaoExisteException();
 public:
     Referencia();
-    Referencia(const int& referencia);
-    const int getReferencia();
-    void setReferencia(const int &referencia);
+    Referencia(const string& referencia);
+    const string getReferencia();
+    void setReferencia(const string &referencia);
 
-    void setNumero(const Referencia &numero) ;
 };
 
 #endif //HEADERS_MODEL_REFERENCIA_H

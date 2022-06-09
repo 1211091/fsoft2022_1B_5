@@ -23,9 +23,11 @@ bool Stock::operator == (string tp) const{
 
 void Stock::setTipo(const string &tipo) {
 
+
 }
 
 const string &Stock::getTipo() {
+
     return <#initializer#>;
 }
 
@@ -61,9 +63,9 @@ list<Stock> StockContainer::getAll(){
     return list;
 }
 
-vector<Stock> StockContainer::get(const string& initials){
+vector<Stock> StockContainer::get(const string& referencia){
     Stock*subject = NULL;
-    int i = procurar(initials);
+    int i = procurar(referencia);
     if(i != -1){
         subject= &this->produtos[i];
     }
@@ -81,22 +83,16 @@ void StockContainer::adicionarStock(Stock obj) {
 
 }
 
-void StockContainer::removerStock(const string& tipo){
-    list<Stock *> listEnrolls;
-    bool exist;
-    int i = procurar(tipo);
-    if(i != -1){
-        listEnrolls = this->->getStudents(initials);
-        exist = this->instructors->isThereSubject(initials);
-        if(listEnrolls.size() == 0 && exist==false){
-            this->subjects.erase(this->subjects.begin() + i);
-        }else{
-            string msg = "Subject: " + initials;
-            throw DataConsistencyException(msg);
-
-        }
+void StockContainer::removerStock(const string& referencia){
+    vector<Stock>::iterator it = procurar(referencia);
+    if(it != this->produtos.end()){
+        this->produtos.erase(it);
     }
 }
-void StockContainer::atualizarStock(const string& quantidade){
-
+void StockContainer::atualizarStock(const string& quantidade, const string& referencia){
+    int i = procurar(referencia);
+    if(i != -1){
+        this->produtos[i].setQuantidade(quantidade);
+    }
 }
+

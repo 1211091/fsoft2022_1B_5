@@ -87,7 +87,9 @@ set(MODEL_SOURCE_FILES
         ${PROJECT_SOURCES_MODEL_DIR}/Empresa.cpp
         ${PROJECT_HEADERS_MODEL_DIR}/StockContainer.h
         ${PROJECT_SOURCES_MODEL_DIR}/StockContainer.cpp
-        sources/model/FuncionarioContainer.cpp)
+        ${PROJECT_HEADERS_MODEL_DIR}/FuncionarioContainer.h
+        ${PROJECT_SOURCES_MODEL_DIR}/FuncionarioContainer.cpp
+        )
 
 
 set(PROJECT_HEADERS_VIEWS_DIR
