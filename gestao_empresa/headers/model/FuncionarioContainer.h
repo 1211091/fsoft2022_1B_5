@@ -18,11 +18,11 @@ private:
     list<Funcionario>::iterator procurarFuncionario(string&nomeFuncionario);
 public:
     list<Funcionario> getAll();
-    void adicionarFuncionario(const Cliente& nomeFuncionario);
+    void adicionarFuncionario(const Funcionario& nomeFuncionario);
     void eliminarFuncionario(string&nomeFuncionario);
     void atualizar(string&nomeFuncionario, string&funcao);
+    Funcionario* getFuncionario(const Funcionario& nomeFuncionario);
 
-    bool operator == (const Stock& produto) const;
-    bool operator == (string tp) const;
+
 };
 #endif //MAIN_CPP_FUNCIONARIOCONTAINER_H
