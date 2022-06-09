@@ -15,13 +15,20 @@ Produto* getProduto(string referencia,const string &tipo) {
     }
 }
 
-Produto::Produto(const string &tipo, const string &referencia){
+Produto::Produto(const string& referencia, const string&tipo){
+    setProduto(produto);
+}
+Produto::~Produto(){
+}
+
+
+/*Produto::Produto(const string &tipo, const string &referencia){
         this->referencia=referencia;
         this->tipo= tipo;
     }
-}
+}*/
 
-Produto::~Produto(){
+
 
 
 
