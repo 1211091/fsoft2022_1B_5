@@ -20,7 +20,11 @@ list<Cliente> ClienteContainer::getAll(){
 }
 void ClienteContainer::adicionarCliente(const Cliente& nomeLoja){
     string nomedaLoja = nomeLoja.getNome();
+<<<<<<< HEAD
+    list<Cliente>::iterator it = procurar(nomedaLoja);
+=======
     list<Cliente>::iterator it = procurarCliente(nomeLoja);
+>>>>>>> 5b7253b7cf05091320404dee5705264e7bc236e1
     if(it == this->clientes.end()){
         this->clientes.push_back(nomeLoja);
     }
