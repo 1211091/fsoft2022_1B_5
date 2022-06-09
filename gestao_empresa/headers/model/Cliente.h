@@ -8,11 +8,16 @@
 #include <string>
 
 class Cliente: public Nome{
-    private:
+protected:
     string nome;
-    public:
+    string nomeLoja;
+public:
         Cliente(const string& nomeGerente,const string& nomeLoja);
         ~Cliente();
+        bool operator == (const Cliente& produto) const;
+        bool operator == (string tp) const;
+        Cliente* getCliente(const Cliente& nomeLoja);
+
 };
 
 #endif //HEADERS_MODEL_CLIENTE_H
