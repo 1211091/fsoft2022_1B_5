@@ -12,18 +12,13 @@ using std::vector;
 class Nome{
     protected:
         string nome;
-<<<<<<< HEAD
         string nomeGerente;
         string nomeLoja;
 
     virtual bool ValidacaoNome(const string& nome);
-=======
-        bool ValidacaoNome(const string& nome);
->>>>>>> 37afafc7e15f9cbfd38cae54bf680d22315972ee
 
     public:
-        string nomeGerente;
-        string nomeLoja;
+
         Nome(const string& nome);
         void setNome(const string &nome);
         string getNome();

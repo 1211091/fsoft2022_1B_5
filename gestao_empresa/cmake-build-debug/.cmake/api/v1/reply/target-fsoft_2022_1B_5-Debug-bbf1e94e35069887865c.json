@@ -133,25 +133,6 @@
 				10,
 				12,
 				14,
-<<<<<<<< HEAD:gestao_empresa/cmake-build-debug/.cmake/api/v1/reply/target-fsoft_2022_1B_5-Debug-da4bc33408bbf678f840.json
-				16,
-				18,
-				20,
-				22,
-				24,
-				26,
-				28,
-				30,
-				32,
-				34,
-				36,
-				38,
-				39,
-				41,
-				44,
-				46,
-				48
-========
 				17,
 				19,
 				21,
@@ -170,7 +151,6 @@
 				46,
 				48,
 				50
->>>>>>>> 37afafc7e15f9cbfd38cae54bf680d22315972ee:gestao_empresa/cmake-build-debug/.cmake/api/v1/reply/target-fsoft_2022_1B_5-Debug-7010b7c43999a8459662.json
 			]
 		}
 	],
@@ -215,25 +195,6 @@
 				10,
 				12,
 				14,
-<<<<<<<< HEAD:gestao_empresa/cmake-build-debug/.cmake/api/v1/reply/target-fsoft_2022_1B_5-Debug-da4bc33408bbf678f840.json
-				16,
-				18,
-				20,
-				22,
-				24,
-				26,
-				28,
-				30,
-				32,
-				34,
-				36,
-				38,
-				39,
-				41,
-				44,
-				46,
-				48
-========
 				17,
 				19,
 				21,
@@ -252,7 +213,6 @@
 				46,
 				48,
 				50
->>>>>>>> 37afafc7e15f9cbfd38cae54bf680d22315972ee:gestao_empresa/cmake-build-debug/.cmake/api/v1/reply/target-fsoft_2022_1B_5-Debug-7010b7c43999a8459662.json
 			]
 		},
 		{
@@ -267,24 +227,6 @@
 				11,
 				13,
 				15,
-<<<<<<<< HEAD:gestao_empresa/cmake-build-debug/.cmake/api/v1/reply/target-fsoft_2022_1B_5-Debug-da4bc33408bbf678f840.json
-				17,
-				19,
-				21,
-				23,
-				25,
-				27,
-				29,
-				31,
-				33,
-				35,
-				37,
-				40,
-				42,
-				43,
-				45,
-				47
-========
 				16,
 				18,
 				20,
@@ -302,7 +244,6 @@
 				45,
 				47,
 				49
->>>>>>>> 37afafc7e15f9cbfd38cae54bf680d22315972ee:gestao_empresa/cmake-build-debug/.cmake/api/v1/reply/target-fsoft_2022_1B_5-Debug-7010b7c43999a8459662.json
 			]
 		}
 	],
@@ -393,14 +334,11 @@
 		},
 		{
 			"backtrace" : 1,
-<<<<<<<< HEAD:gestao_empresa/cmake-build-debug/.cmake/api/v1/reply/target-fsoft_2022_1B_5-Debug-da4bc33408bbf678f840.json
-========
 			"path" : "headers/model/FuncionarioContainer.h",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
->>>>>>>> 37afafc7e15f9cbfd38cae54bf680d22315972ee:gestao_empresa/cmake-build-debug/.cmake/api/v1/reply/target-fsoft_2022_1B_5-Debug-7010b7c43999a8459662.json
 			"path" : "headers/model/Administrador.h",
 			"sourceGroupIndex" : 1
 		},
@@ -534,15 +472,12 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-<<<<<<<< HEAD:gestao_empresa/cmake-build-debug/.cmake/api/v1/reply/target-fsoft_2022_1B_5-Debug-da4bc33408bbf678f840.json
-========
 			"path" : "sources/model/FuncionarioContainer.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
->>>>>>>> 37afafc7e15f9cbfd38cae54bf680d22315972ee:gestao_empresa/cmake-build-debug/.cmake/api/v1/reply/target-fsoft_2022_1B_5-Debug-7010b7c43999a8459662.json
 			"path" : "sources/exceptions/InformacaoNaoExisteException.cpp",
 			"sourceGroupIndex" : 0
 		},

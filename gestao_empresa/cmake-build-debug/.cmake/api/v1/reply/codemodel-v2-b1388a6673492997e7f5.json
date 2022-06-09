@@ -39,11 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "fsoft_2022_1B_5::@6890427a1f51a3e7e1df",
-<<<<<<<< HEAD:gestao_empresa/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-a54ba54a184756366800.json
-					"jsonFile" : "target-fsoft_2022_1B_5-Debug-da4bc33408bbf678f840.json",
-========
-					"jsonFile" : "target-fsoft_2022_1B_5-Debug-7010b7c43999a8459662.json",
->>>>>>>> 37afafc7e15f9cbfd38cae54bf680d22315972ee:gestao_empresa/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-1e6a5d0220dc2cd00a49.json
+					"jsonFile" : "target-fsoft_2022_1B_5-Debug-bbf1e94e35069887865c.json",
 					"name" : "fsoft_2022_1B_5",
 					"projectIndex" : 0
 				}

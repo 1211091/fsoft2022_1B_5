@@ -16,14 +16,10 @@ private:
     string nome;
     bool ValidacaoNome(const string& nome);
 public:
-<<<<<<< HEAD
+
 
     Administrador(const string& Nome);
     Administrador(const Administrador &obj);
-=======
-    Administrador(const string& nome);
-    Administrador(const Administrador& obj);
->>>>>>> 37afafc7e15f9cbfd38cae54bf680d22315972ee
     ~Administrador();
     const string &getNome() const;
     void setNome(const string &nome);
