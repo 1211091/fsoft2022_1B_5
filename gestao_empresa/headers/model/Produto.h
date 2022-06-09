@@ -28,5 +28,7 @@ public :
     int Referencia(const int &Referencia);
     const int &getReferencia();
     void setReferencia(const int &referencia);
+
+
 }
 #endif //HEADERS_MODEL_PRODUTO_H
