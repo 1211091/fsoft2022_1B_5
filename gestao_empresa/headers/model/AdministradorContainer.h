@@ -17,8 +17,6 @@ private:
     list<Administrador>::iterator procura(string nome);
     int quantidade;
 public:
-    void adicionarFuncionario(Funcionario);
-    void eliminarFuncionario(Funcionario);
     void adicionarProdutos(Produto);
     void eliminarProdutos(Produto);
     string get(Funcionario);

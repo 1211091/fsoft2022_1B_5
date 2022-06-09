@@ -5,6 +5,8 @@
 #include "StockContainer.h"
 #include "InformacaoDuplicadaException.h"
 #include "InformacaoNaoExisteException.h"
+#include "Stock.h"
+
 
 bool Stock::operator == (const Stock& obj) const{
     if(this->tipo == obj.tipo){
@@ -18,6 +20,31 @@ bool Stock::operator == (string tp) const{
     }
     return false;
 }
+
+void Stock::setTipo(const string &tipo) {
+
+}
+
+const string &Stock::getTipo() {
+    return <#initializer#>;
+}
+
+string Stock::Tipo(const string &tipo) {
+    return std::string();
+}
+
+Stock::Stock(const string &tipo, const string &referencia) {
+
+}
+
+void Stock::setQuantidade(const string &quantidade) {
+
+}
+
+int Stock::getQuantidade() {
+    return this->quantidade;
+}
+
 int StockContainer::procurar(const string &produto){
     for (unsigned i=0; i<this->produtos.size(); ++i){
         if( this->produtos[i] == produto){
@@ -43,7 +70,7 @@ vector<Stock> StockContainer::get(const string& initials){
     return produtos;
 }
 
-void StockContainer::adicionar(Stock obj) {
+void StockContainer::adicionarStock(Stock obj) {
     int i = procurar(obj.getTipo());
     if(i == -1){
         this->produtos.push_back(obj);
@@ -54,7 +81,7 @@ void StockContainer::adicionar(Stock obj) {
 
 }
 
-void StockContainer::eliminar(const string& tipo){
+void StockContainer::removerStock(const string& tipo){
     list<Stock *> listEnrolls;
     bool exist;
     int i = procurar(tipo);
@@ -70,6 +97,6 @@ void StockContainer::eliminar(const string& tipo){
         }
     }
 }
-void StockContainer::atualizar(const string& quantidade){
+void StockContainer::atualizarStock(const string& quantidade){
 
 }

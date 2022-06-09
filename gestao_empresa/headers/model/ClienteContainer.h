@@ -7,6 +7,7 @@
 
 #include <list>
 #include "Cliente.h"
+#include "Nome.h"
 
 class ClienteContainer {
 private:
@@ -17,10 +18,9 @@ private:
 public:
     list<Cliente> getAll();
     Cliente* get(string nomeLoja);
-
-
-
-
+    void adicionarCliente(Cliente);
+    void eliminarCliente(Cliente);
+    void atualizarCliente(string&nomeLoja, string&nomeGerente);
 };
 
 

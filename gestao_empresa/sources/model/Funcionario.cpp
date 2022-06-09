@@ -19,3 +19,4 @@ void setFuncao(const string &funcao){
 const string getFuncao(){
     return this->funcao;
 }
+

@@ -14,3 +14,6 @@ void FuncionarioContainer::adicionarFuncionario(Funcionario){
 void FuncionarioContainer::eliminarFuncionario(Funcionario){
 
 }
+void FuncionarioContainer::atualizar(string&nome, string&funcao){
+
+}

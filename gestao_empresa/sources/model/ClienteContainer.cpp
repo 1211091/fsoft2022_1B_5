@@ -12,3 +12,12 @@ list<Cliente> getAll(){
 Cliente* get(string nomeLoja){
 
 }
+void ClienteContainer::adicionarCliente(Cliente){
+
+}
+void ClienteContainer::eliminarCliente(Cliente){
+
+}
+void ClienteContainer::atualizarCliente(string&nomeLoja, string&nomeGerente){
+
+}

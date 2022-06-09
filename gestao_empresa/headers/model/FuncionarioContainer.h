@@ -20,7 +20,6 @@ public:
     list<Stock> getAll();
     void adicionarFuncionario(Funcionario);
     void eliminarFuncionario(Funcionario);
-
-
+    void atualizar(string&nome, string&funcao);
 };
 #endif //MAIN_CPP_FUNCIONARIOCONTAINER_H

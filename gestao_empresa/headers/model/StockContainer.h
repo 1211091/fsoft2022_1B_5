@@ -20,10 +20,10 @@ private:
 public:
     list<Stock> getAll();
     vector<Stock> get(const string& referencia);
-    void eliminar(const string& referencia);
-    void atualizar(const string& quantidade);
+    void removerStock(const string& referencia);
+    void atualizarStock(const string& quantidade);
 
-    void adicionar(Stock obj);
+    void adicionarStock(Stock obj);
 };
 
 #endif //HEADERS_MODEL_STOCKCONTAINER_H

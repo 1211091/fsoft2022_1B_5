@@ -13,10 +13,6 @@ class Cliente: public Nome{
     public:
         Cliente(const string& nomeGerente,const string& nomeLoja);
         ~Cliente();
-        void adicionarCliente(const Cliente& obj);
-        void eliminarCliente(const Cliente& obj);
-
-
 };
 
 #endif //HEADERS_MODEL_CLIENTE_H
