@@ -21,9 +21,9 @@ public:
     list<Stock> getAll();
     vector<Stock> get(const string& referencia);
     void removerStock(const string& referencia);
-    void atualizarStock(const string& quantidade);
-
+    void atualizarStock(const string& quantidade, const string& referencia);
     void adicionarStock(Stock obj);
+
 };
 
 #endif //HEADERS_MODEL_STOCKCONTAINER_H

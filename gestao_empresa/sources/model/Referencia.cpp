@@ -2,13 +2,27 @@
 // Created by babis on 6/8/2022.
 //
 #include "Referencia.h"
+#include "InformacaoInvalidaException.h"
 
-const int Referencia::getReferencia(){
+const string Referencia::getReferencia(){
     return this->referencia;
 }
-void Referencia::setReferencia(const int &referencia){
 
+bool Referencia::isReferenciaValid(const string &referencia){
+    if(referencia.length() != 10){
+        return false;
+    }
+    return true;
 }
-void Referencia::setNumero(const Referencia &numero){
+void Referencia::setReferencia(const string &referencia){
 
+        if(isReferenciaValid(referencia)){
+            this->referencia = referencia;
+        }
+        else{
+
+            string msg = "Produto: " + referencia;
+            throw InformacaoInvalidaException(msg);
+        }
 }
+

@@ -8,9 +8,10 @@
 #include <string>
 using namespace std;
 class Stock {
-private:
+protected:
     string tipo;
     int quantidade;
+    string referencia;
 public:
     int Quantidade(int quantidade);
     int getQuantidade();
