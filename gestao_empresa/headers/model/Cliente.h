@@ -21,6 +21,7 @@ public:
         string getNomeLoja();
         Cliente* getCliente(const Cliente& nomeLoja);
 
+
 };
 
 #endif //HEADERS_MODEL_CLIENTE_H

@@ -6,8 +6,8 @@
 #include "ProdutoContainer.h"
 
 
-Produto* getProduto(string referencia,const string &tipo) {
-    list<Produto>::iterator it = procurarProduto(referencia){
+Produto* ProdutoContainer::getProduto(string referencia,const string &tipo) {
+    list<Produto>::iterator it = procurarProduto(referencia);
         if (it != this->produtos.end()) {
             return &(*it);
         }
