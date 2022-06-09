@@ -8,15 +8,18 @@
 #include <string>
 
 
-class Funcionario: public Nome{
+class Funcionario{
+private:
     string funcao;
     string nome;
 
+public:
+    Funcionario(const string &nome,const string &funcao);
+    ~Funcionario();
     void setFuncao(const string &funcao);
-    private:
-    string Funcao(const string& funcao);
+    void setNome(const string &nome);
     const string getFuncao();
-    Funcionario(const string& nome, const string& funcao);
+
 };
 
 

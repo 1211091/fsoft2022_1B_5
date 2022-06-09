@@ -105,13 +105,6 @@ build CMakeFiles/fsoft_2022_1B_5.dir/sources/views/AdministradorView.cpp.obj: CX
   OBJECT_DIR = CMakeFiles\fsoft_2022_1B_5.dir
   OBJECT_FILE_DIR = CMakeFiles\fsoft_2022_1B_5.dir\sources\views
 
-build CMakeFiles/fsoft_2022_1B_5.dir/sources/model/Empresa.cpp.obj: CXX_COMPILER__fsoft_2022_1B_5_Debug C$:/Users/clara/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/sources/model/Empresa.cpp || cmake_object_order_depends_target_fsoft_2022_1B_5
-  DEP_FILE = CMakeFiles\fsoft_2022_1B_5.dir\sources\model\Empresa.cpp.obj.d
-  FLAGS = -g -std=gnu++14
-  INCLUDES = -IC:/Users/clara/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/mock -IC:/Users/clara/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/headers/controller -IC:/Users/clara/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/sources/controller -IC:/Users/clara/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/headers/exceptions -IC:/Users/clara/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/sources/exceptions -IC:/Users/clara/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/headers/model -IC:/Users/clara/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/sources/model -IC:/Users/clara/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/headers/views -IC:/Users/clara/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/sources/views
-  OBJECT_DIR = CMakeFiles\fsoft_2022_1B_5.dir
-  OBJECT_FILE_DIR = CMakeFiles\fsoft_2022_1B_5.dir\sources\model
-
 build CMakeFiles/fsoft_2022_1B_5.dir/sources/model/Administrador.cpp.obj: CXX_COMPILER__fsoft_2022_1B_5_Debug C$:/Users/clara/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/sources/model/Administrador.cpp || cmake_object_order_depends_target_fsoft_2022_1B_5
   DEP_FILE = CMakeFiles\fsoft_2022_1B_5.dir\sources\model\Administrador.cpp.obj.d
   FLAGS = -g -std=gnu++14
@@ -182,6 +175,27 @@ build CMakeFiles/fsoft_2022_1B_5.dir/sources/model/Referencia.cpp.obj: CXX_COMPI
   OBJECT_DIR = CMakeFiles\fsoft_2022_1B_5.dir
   OBJECT_FILE_DIR = CMakeFiles\fsoft_2022_1B_5.dir\sources\model
 
+build CMakeFiles/fsoft_2022_1B_5.dir/sources/model/Empresa.cpp.obj: CXX_COMPILER__fsoft_2022_1B_5_Debug C$:/Users/clara/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/sources/model/Empresa.cpp || cmake_object_order_depends_target_fsoft_2022_1B_5
+  DEP_FILE = CMakeFiles\fsoft_2022_1B_5.dir\sources\model\Empresa.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  INCLUDES = -IC:/Users/clara/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/mock -IC:/Users/clara/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/headers/controller -IC:/Users/clara/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/sources/controller -IC:/Users/clara/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/headers/exceptions -IC:/Users/clara/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/sources/exceptions -IC:/Users/clara/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/headers/model -IC:/Users/clara/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/sources/model -IC:/Users/clara/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/headers/views -IC:/Users/clara/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/sources/views
+  OBJECT_DIR = CMakeFiles\fsoft_2022_1B_5.dir
+  OBJECT_FILE_DIR = CMakeFiles\fsoft_2022_1B_5.dir\sources\model
+
+build CMakeFiles/fsoft_2022_1B_5.dir/sources/model/StockContainer.cpp.obj: CXX_COMPILER__fsoft_2022_1B_5_Debug C$:/Users/clara/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/sources/model/StockContainer.cpp || cmake_object_order_depends_target_fsoft_2022_1B_5
+  DEP_FILE = CMakeFiles\fsoft_2022_1B_5.dir\sources\model\StockContainer.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  INCLUDES = -IC:/Users/clara/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/mock -IC:/Users/clara/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/headers/controller -IC:/Users/clara/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/sources/controller -IC:/Users/clara/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/headers/exceptions -IC:/Users/clara/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/sources/exceptions -IC:/Users/clara/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/headers/model -IC:/Users/clara/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/sources/model -IC:/Users/clara/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/headers/views -IC:/Users/clara/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/sources/views
+  OBJECT_DIR = CMakeFiles\fsoft_2022_1B_5.dir
+  OBJECT_FILE_DIR = CMakeFiles\fsoft_2022_1B_5.dir\sources\model
+
+build CMakeFiles/fsoft_2022_1B_5.dir/sources/model/FuncionarioContainer.cpp.obj: CXX_COMPILER__fsoft_2022_1B_5_Debug C$:/Users/clara/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/sources/model/FuncionarioContainer.cpp || cmake_object_order_depends_target_fsoft_2022_1B_5
+  DEP_FILE = CMakeFiles\fsoft_2022_1B_5.dir\sources\model\FuncionarioContainer.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  INCLUDES = -IC:/Users/clara/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/mock -IC:/Users/clara/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/headers/controller -IC:/Users/clara/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/sources/controller -IC:/Users/clara/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/headers/exceptions -IC:/Users/clara/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/sources/exceptions -IC:/Users/clara/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/headers/model -IC:/Users/clara/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/sources/model -IC:/Users/clara/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/headers/views -IC:/Users/clara/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/sources/views
+  OBJECT_DIR = CMakeFiles\fsoft_2022_1B_5.dir
+  OBJECT_FILE_DIR = CMakeFiles\fsoft_2022_1B_5.dir\sources\model
+
 build CMakeFiles/fsoft_2022_1B_5.dir/sources/exceptions/InformacaoNaoExisteException.cpp.obj: CXX_COMPILER__fsoft_2022_1B_5_Debug C$:/Users/clara/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/sources/exceptions/InformacaoNaoExisteException.cpp || cmake_object_order_depends_target_fsoft_2022_1B_5
   DEP_FILE = CMakeFiles\fsoft_2022_1B_5.dir\sources\exceptions\InformacaoNaoExisteException.cpp.obj.d
   FLAGS = -g -std=gnu++14
@@ -225,7 +239,7 @@ build CMakeFiles/fsoft_2022_1B_5.dir/mock/MockData.cpp.obj: CXX_COMPILER__fsoft_
 #############################################
 # Link the executable fsoft_2022_1B_5.exe
 
-build fsoft_2022_1B_5.exe: CXX_EXECUTABLE_LINKER__fsoft_2022_1B_5_Debug CMakeFiles/fsoft_2022_1B_5.dir/main.cpp.obj CMakeFiles/fsoft_2022_1B_5.dir/sources/views/Utils.cpp.obj CMakeFiles/fsoft_2022_1B_5.dir/sources/views/View.cpp.obj CMakeFiles/fsoft_2022_1B_5.dir/sources/views/StockView.cpp.obj CMakeFiles/fsoft_2022_1B_5.dir/sources/views/ProdutoView.cpp.obj CMakeFiles/fsoft_2022_1B_5.dir/sources/views/FuncionarioView.cpp.obj CMakeFiles/fsoft_2022_1B_5.dir/sources/views/ClienteView.cpp.obj CMakeFiles/fsoft_2022_1B_5.dir/sources/views/AdministradorView.cpp.obj CMakeFiles/fsoft_2022_1B_5.dir/sources/model/Empresa.cpp.obj CMakeFiles/fsoft_2022_1B_5.dir/sources/model/Administrador.cpp.obj CMakeFiles/fsoft_2022_1B_5.dir/sources/model/AdministradorContainer.cpp.obj CMakeFiles/fsoft_2022_1B_5.dir/sources/model/Cliente.cpp.obj CMakeFiles/fsoft_2022_1B_5.dir/sources/model/ClienteContainer.cpp.obj CMakeFiles/fsoft_2022_1B_5.dir/sources/model/Funcionario.cpp.obj CMakeFiles/fsoft_2022_1B_5.dir/sources/model/Nome.cpp.obj CMakeFiles/fsoft_2022_1B_5.dir/sources/model/Produto.cpp.obj CMakeFiles/fsoft_2022_1B_5.dir/sources/model/ProdutoContainer.cpp.obj CMakeFiles/fsoft_2022_1B_5.dir/sources/model/Stock.cpp.obj CMakeFiles/fsoft_2022_1B_5.dir/sources/model/Referencia.cpp.obj CMakeFiles/fsoft_2022_1B_5.dir/sources/exceptions/InformacaoNaoExisteException.cpp.obj CMakeFiles/fsoft_2022_1B_5.dir/sources/exceptions/InformacaoInvalidaException.cpp.obj CMakeFiles/fsoft_2022_1B_5.dir/sources/exceptions/InformacaoDuplicadaException.cpp.obj CMakeFiles/fsoft_2022_1B_5.dir/sources/controller/controller.cpp.obj CMakeFiles/fsoft_2022_1B_5.dir/mock/MockData.cpp.obj
+build fsoft_2022_1B_5.exe: CXX_EXECUTABLE_LINKER__fsoft_2022_1B_5_Debug CMakeFiles/fsoft_2022_1B_5.dir/main.cpp.obj CMakeFiles/fsoft_2022_1B_5.dir/sources/views/Utils.cpp.obj CMakeFiles/fsoft_2022_1B_5.dir/sources/views/View.cpp.obj CMakeFiles/fsoft_2022_1B_5.dir/sources/views/StockView.cpp.obj CMakeFiles/fsoft_2022_1B_5.dir/sources/views/ProdutoView.cpp.obj CMakeFiles/fsoft_2022_1B_5.dir/sources/views/FuncionarioView.cpp.obj CMakeFiles/fsoft_2022_1B_5.dir/sources/views/ClienteView.cpp.obj CMakeFiles/fsoft_2022_1B_5.dir/sources/views/AdministradorView.cpp.obj CMakeFiles/fsoft_2022_1B_5.dir/sources/model/Administrador.cpp.obj CMakeFiles/fsoft_2022_1B_5.dir/sources/model/AdministradorContainer.cpp.obj CMakeFiles/fsoft_2022_1B_5.dir/sources/model/Cliente.cpp.obj CMakeFiles/fsoft_2022_1B_5.dir/sources/model/ClienteContainer.cpp.obj CMakeFiles/fsoft_2022_1B_5.dir/sources/model/Funcionario.cpp.obj CMakeFiles/fsoft_2022_1B_5.dir/sources/model/Nome.cpp.obj CMakeFiles/fsoft_2022_1B_5.dir/sources/model/Produto.cpp.obj CMakeFiles/fsoft_2022_1B_5.dir/sources/model/ProdutoContainer.cpp.obj CMakeFiles/fsoft_2022_1B_5.dir/sources/model/Stock.cpp.obj CMakeFiles/fsoft_2022_1B_5.dir/sources/model/Referencia.cpp.obj CMakeFiles/fsoft_2022_1B_5.dir/sources/model/Empresa.cpp.obj CMakeFiles/fsoft_2022_1B_5.dir/sources/model/StockContainer.cpp.obj CMakeFiles/fsoft_2022_1B_5.dir/sources/model/FuncionarioContainer.cpp.obj CMakeFiles/fsoft_2022_1B_5.dir/sources/exceptions/InformacaoNaoExisteException.cpp.obj CMakeFiles/fsoft_2022_1B_5.dir/sources/exceptions/InformacaoInvalidaException.cpp.obj CMakeFiles/fsoft_2022_1B_5.dir/sources/exceptions/InformacaoDuplicadaException.cpp.obj CMakeFiles/fsoft_2022_1B_5.dir/sources/controller/controller.cpp.obj CMakeFiles/fsoft_2022_1B_5.dir/mock/MockData.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\fsoft_2022_1B_5.dir

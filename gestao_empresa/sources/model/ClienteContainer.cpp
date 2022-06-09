@@ -2,22 +2,40 @@
 // Created by luis_ on 06/06/2022.
 //
 #include "ClienteContainer.h"
+#include <iostream>
+#include "Nome.h"
 
-list<Cliente>::iterator procura(string nomeLoja){
-
+list<Cliente>::iterator ClienteContainer::procurar(string&nomeLoja){
+    list<Cliente>::iterator it = this->clientes.begin();
+    for(it = this->clientes.begin(); it != this->clientes.end(); ++it){
+        if((*it) == nomeLoja){
+            return it;
+        }
+    }
+    return it;
 }
 list<Cliente> getAll(){
 
 }
-Cliente* get(string nomeLoja){
-
+void ClienteContainer::adicionarCliente(const Cliente& nomeLoja){
+    string nomedaLoja = nomeLoja.getCliente();
+    list<Cliente>::iterator it = procurar(nomeLoja);
+    if(it == this->clientes.end()){
+        this->clientes.push_back(nomeLoja);
+    }
 }
-void ClienteContainer::adicionarCliente(Cliente){
-
+void ClienteContainer::eliminarCliente(string&nomeLoja){
+    list<Cliente>::iterator it = procurar(nomeLoja);
+    if(it != this->clientes.end()){
+        this->clientes.erase(it);
+        cout <<"O cliente: "<<nomeLoja<<"foi removido" <<endl;
+    }else{
+        cout<<"O cliente"<<nomeLoja<<"nao existe"<<endl;
+    }
 }
-void ClienteContainer::eliminarCliente(Cliente){
-
-}
-void ClienteContainer::atualizarCliente(string&nomeLoja, string&nomeGerente){
-
+void ClienteContainer::atualizarCliente(string&nomeLoja){
+    list<Cliente>::iterator it = procurar(nomeLoja);
+    if(it != this->clientes.end()){
+        it->setNome(nomeLoja);
+    }
 }

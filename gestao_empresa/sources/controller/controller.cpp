@@ -43,7 +43,8 @@ void Controller::runAdministrador(){
         switch(opcao){
             case 1:
             {
-                Administrador administrador = this->administradorView.getAdministrador();
+                Administrador administrador = this->administradorView.getAdministrador()(<#initializer#>,
+                                                                                         <#initializer#>);
                 AdministradorContainer& container = this->model.getAdministradorContainer();
             }
             break;
@@ -141,7 +142,7 @@ void Controller::runCliente(){
             case 4: {
                 string nome = Utils::getString("Insira o nome da loja");
                 ClienteContainer &container = this->model.getClienteContainer();
-                Cliente *ptr = container.get(nome);
+                Cliente *ptr = container.getCliente(nome);
                 if (ptr != NULL) {
                     this->clienteView.printCliente(ptr);
                 } else {
