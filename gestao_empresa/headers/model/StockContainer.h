@@ -20,8 +20,7 @@ private:
 public:
     list<Stock> getAll();
     vector<Stock> get(const string& referencia);
-    void adicionar(const Stock& obj);
-    void remover(const string& referencia);
+    void eliminar(const string& referencia);
     void atualizar(const string& quantidade);
 
     void adicionar(Stock obj);

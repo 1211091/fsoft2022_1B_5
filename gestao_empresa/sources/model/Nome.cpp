@@ -20,7 +20,7 @@ Nome::Nome(const string& nome){
 }
 Nome::~Nome(){
 }
-const Nome::setNome(const string &nome){
+void Nome::setNome(const string &nome){
 if(ValidacaoNome(nome)){
     this->nome=nome;
 }else{
@@ -28,4 +28,15 @@ if(ValidacaoNome(nome)){
 throw InformacaoInvalidaException(msg);
 }
 
+}
+
+string Nome::getNome() {
+    return this->nome;
+}
+
+string Nome::getNomeLoja(){
+    return  this->nomeLoja;
+}
+string Nome::getNomeGerente(){
+    return this->nomeGerente;
 }

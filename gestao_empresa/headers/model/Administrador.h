@@ -17,14 +17,13 @@ private:
     bool ValidacaoNome(const string& nome);
 
 public:
-    Administrador(const string& Nome);
+    Administrador(const string& nome);
     Administrador(const Administrador& obj);
     ~Administrador();
     void setNome(const string &nome);
     const string &getNome() const;
     bool operator == (const Administrador& obj) const;
-    bool operator == (const string initials) const;
-    void adicionar(const Administrador& obj);
+    bool operator == (const string nome) const;
 };
 
 #endif HEADERS_MODEL_ADMINISTRADOR_H

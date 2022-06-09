@@ -53,4 +53,3 @@ bool Administrador::operator == (const string nome) const{
     return false;
 }
 
-

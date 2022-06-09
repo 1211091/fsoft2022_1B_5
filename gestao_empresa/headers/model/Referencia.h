@@ -20,7 +20,7 @@ private :
 public:
     Referencia();
     Referencia(const int& referencia);
-    const int& getReferencia();
+    const int getReferencia();
     void setReferencia(const int &referencia);
 
     void setNumero(const Referencia &numero) ;

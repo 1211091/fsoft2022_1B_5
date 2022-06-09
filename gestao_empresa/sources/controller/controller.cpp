@@ -8,6 +8,7 @@
 #include "Utils.h"
 #include "InformacaoNaoExisteException.h"
 #include "Empresa.h"
+#include "FuncionarioContainer.h"
 
 using namespace std;
 
@@ -67,7 +68,7 @@ void Controller::runFuncionario(){
             case 1: {
                 Funcionario funcionario = this->funcionarioView.getFuncionario();
                 FuncionarioContainer &container = this->model.getFuncionarioContainer();
-                container.adicionar(funcionario);
+                container.adicionarFuncionario(funcionario);
             }
                 break;
             case 2: {
@@ -99,7 +100,7 @@ void Controller::runFuncionario(){
                 try {
                     string nome = Utils::getString("Insira o nome do funcionario");
                     FuncionarioContainer &container = this->model.getFuncionarioContainer();
-                    container.eliminar(nome);
+                    container.eliminarFuncionario(nome);
                 } catch (InformacaoNaoExisteException &e) {
                     string str(e.what());
                     cout << str << endl;

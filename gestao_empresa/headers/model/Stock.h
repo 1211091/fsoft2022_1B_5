@@ -8,7 +8,7 @@
 #include <string>
 using namespace std;
 class Stock {
-private :
+private:
     string tipo;
     int quantidade;
 public:

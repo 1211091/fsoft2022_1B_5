@@ -19,13 +19,13 @@ class Nome{
     public:
         Nome(const string& nome);
         void setNome(const string &nome);
-        const string& getNome() const;
+        string getNome();
         string NomeGerente(const string& nomeGerente);
         void setNomeGerente(const string &nomeGerente);
-        const string& getNomeGerente() const;
+        string getNomeGerente();
         string NomeLoja(const string& nomeLoja);
-        void setNomeLoja(const string &nomeLoja);
-        const string& getNomeLoja() const;
+        string setNomeLoja(const string &nomeLoja);
+        string getNomeLoja();
 
 };
 

@@ -54,7 +54,7 @@ void StockContainer::adicionar(Stock obj) {
 
 }
 
-void StockContainer::remover(const string& tipo){
+void StockContainer::eliminar(const string& tipo){
     list<Stock *> listEnrolls;
     bool exist;
     int i = procurar(tipo);
@@ -69,4 +69,7 @@ void StockContainer::remover(const string& tipo){
 
         }
     }
+}
+void StockContainer::atualizar(const string& quantidade){
+
 }

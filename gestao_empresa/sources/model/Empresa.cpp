@@ -3,6 +3,7 @@
 //
 
 #include "Empresa.h"
+#include "InformacaoNaoExisteException.h"
 
 Empresa::Empresa(){
     this->nome = "";
@@ -39,10 +40,12 @@ AdministradorContainer & Empresa::getAdministradorContainer(){
 ClienteContainer & Empresa::getClienteContainer(){
     return this->clientes;
 }
-ProdutoContainer & Empresa::getProdutoContainer(){
+ProdutoContainer & Empresa::getProdutoContainer() {
     return this->produtos;
-
+}
 StockContainer & Empresa::getStockContainer(){
     return this->stock;
-
+}
+FuncionarioContainer & Empresa::getFuncionarioContainer(){
+    return this->funcionarios;
 }

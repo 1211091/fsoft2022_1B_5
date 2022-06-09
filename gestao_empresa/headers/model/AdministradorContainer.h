@@ -15,15 +15,16 @@ class AdministradorContainer{
 private:
     list<Administrador> administradores;
     list<Administrador>::iterator procura(string nome);
+    int quantidade;
 public:
     void adicionarFuncionario(Funcionario);
-    void removerFuncionario(Funcionario);
+    void eliminarFuncionario(Funcionario);
     void adicionarProdutos(Produto);
-    void removerProdutos(Produto);
-    const string get(Funcionario);
+    void eliminarProdutos(Produto);
+    string get(Funcionario);
     int getQuantidade();
     void adicionarCliente(Cliente);
-    void removerCliente(Cliente);
+    void eliminarCliente(Cliente);
 };
 
 #endif //HEADERS_MODEL_ADMINISTRADORCONTAINER_H

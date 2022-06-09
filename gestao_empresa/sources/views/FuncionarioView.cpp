@@ -15,7 +15,7 @@ Funcionario FuncionarioView::getFuncionario(){
             flag = false;
             cout<<"Funcionario"<<endl;
             string nome = Utils::getString("Nome");
-            funcionario.setNome(name);
+            funcionario.setNome(nome);
             string funcao = Utils::getString("Funcao");
             funcionario.setFuncao(funcao);
         }catch(InformacaoInvalidaException& e){
