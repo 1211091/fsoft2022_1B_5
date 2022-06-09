@@ -11,17 +11,17 @@
 class Funcionario{
 private:
     string funcao;
-    string nome;
     string nomeFuncionario;
 public:
     Funcionario(const string &nomefuncionario,const string &funcao);
     ~Funcionario();
     void setFuncao(const string &funcao);
+    const string getFuncao();
     string setNomeFuncionario(const string &nomeFuncionario);
     string getNomeFuncionario();
-    
-    const string getFuncao();
     Funcionario* getFuncionario(const Funcionario& nomeFuncionario);
+    string setFuncionario(const string &funcionario);
+
 
     bool operator == (const Funcionario& nomeFuncionario) const;
     bool operator == (string nf) const;

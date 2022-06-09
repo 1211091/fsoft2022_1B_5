@@ -10,18 +10,11 @@ Funcionario::Funcionario(const string &nomefuncionario,const string &funcao){
         setFuncao(funcao);
         setNomeFuncionario(nomefuncionario);
 }
-<<<<<<< HEAD
-Funcionario::(const string& nome){
-    setNomeFuncionario(nome);
-}
-}
-=======
->>>>>>> 8ecce03757338d7c25649082cac7c1187621c50e
 void setFuncao(const string &funcao){
 
 }
 
-const string getFuncao(){
+const string Funcionario::getFuncao(){
     return this->funcao;
 }
 Funcionario* FuncionarioContainer::getFuncionario(const Funcionario& nomeFuncionario){
@@ -30,4 +23,16 @@ Funcionario* FuncionarioContainer::getFuncionario(const Funcionario& nomeFuncion
         return &(*it);
     }
     return NULL;
+}
+
+string Funcionario::setNomeFuncionario(const string &nomeFuncionario){
+    return nomeFuncionario;
+}
+
+string Funcionario::getNomeFuncionario(){
+    return this->nomeFuncionario;
+}
+
+string Funcionario::setFuncionario(const string &funcionario) {
+    return funcionario;
 }

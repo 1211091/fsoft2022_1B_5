@@ -8,7 +8,7 @@
 #include "Stock.h"
 
 using namespace std;
-class Produto: public Stock {
+class Produto:{
 private :
     Produto(string &referencia, string &tipo);
 

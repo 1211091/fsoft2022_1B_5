@@ -16,7 +16,8 @@ private:
     int quantidade;
 
 public:
-    int getFuncionario();
+    Funcionario* getFuncionario();
+
     int getStock();
     int getProduto();
     int getCliente();
