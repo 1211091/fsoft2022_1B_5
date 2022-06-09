@@ -20,6 +20,7 @@ public:
     string NomeFuncionario(const string& nomeFuncionario);
     string setNomeFuncionario(const string &nomeFuncionario);
     string getNomeFuncionario();
+    
     const string getFuncao();
     Funcionario* getFuncionario(const Funcionario& nomeFuncionario);
 

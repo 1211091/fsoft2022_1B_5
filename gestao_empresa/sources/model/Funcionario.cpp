@@ -9,10 +9,10 @@
 Funcionario::Funcionario(const string &nome,const string &funcao){
         setFuncao(funcao);
 }
-Funcionario::N(const string& nome){
+Funcionario::(const string& nome){
     setNomeFuncionario(nome);
 }
-};
+}
 void setFuncao(const string &funcao){
 
 }

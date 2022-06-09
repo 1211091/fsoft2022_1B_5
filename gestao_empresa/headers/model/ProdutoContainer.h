@@ -13,13 +13,14 @@ class ProdutoContainer {
     list<Produto> produto;
     list<Produto> produtos;
     string referencia;
+    string tipo;
 
 public:
     list<Produto>getAll();
-    void adicionarProduto(const Produto& referencia1);
+    void adicionarProduto(Produto referencia1);
     void eliminarProduto(const string& referencia);
     void atualizarProduto(const string& referencia, const string &tipo);
-    list<Produto>::iterator procurarProduto(const string&referencia, const string &tipo);
+    list<Produto>::iterator procurarProduto(Produto referencia);
     void setReferencia(const string &referencia);
     void setTipo(const string &tipo);
 
