@@ -6,25 +6,30 @@
 #define HEADERS_MODEL_STOCK_H
 
 #include <string>
+#include "Referencia.h"
 
 using namespace std;
 class Stock {
 protected:
-    string tipo;
+    Stock(Referencia &referencia);
+    Produto * tipo;
     int quantidade;
-    string referencia;
+    Referencia * referencia;
 public:
     int Quantidade(int quantidade);
     int getQuantidade();
-    void setQuantidade(const string &quantidade);
-    Stock(const string &tipo, const string &referencia);
-    string Tipo(const string &tipo);
-    const string &getTipo();
-    void setTipo(const string &tipo);
+    int setQuantidade(int quantidade);
+    Stock (Produto * tipo, Referencia *referencia);
+    Produto* getTipo(Produto * tipo);
+    Produto* getTipo() const;
+    void setTipo(Produto * tipo);
+    Referencia * getReferencia() const;
+    void setReferencia(Referencia * referencia);
     bool produto_existe(int quantidade);
 
     bool operator == (const Stock& produto) const;
     bool operator == (string tp) const;
+
 
 };
 

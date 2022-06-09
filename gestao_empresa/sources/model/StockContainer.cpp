@@ -21,32 +21,6 @@ bool Stock::operator == (string tp) const{
     return false;
 }
 
-void Stock::setTipo(const string &tipo) {
-
-
-}
-
-const string &Stock::getTipo() {
-
-    return <#initializer#>;
-}
-
-string Stock::Tipo(const string &tipo) {
-    return std::string();
-}
-
-Stock::Stock(const string &tipo, const string &referencia) {
-
-}
-
-void Stock::setQuantidade(const string &quantidade) {
-
-}
-
-int Stock::getQuantidade() {
-    return this->quantidade;
-}
-
 int StockContainer::procurar(const string &produto){
     for (unsigned i=0; i<this->produtos.size(); ++i){
         if( this->produtos[i] == produto){
@@ -89,7 +63,7 @@ void StockContainer::removerStock(const string& referencia){
         this->produtos.erase(it);
     }
 }
-void StockContainer::atualizarStock(const string& quantidade, const string& referencia){
+void StockContainer::atualizarStock(const int quantidade, const string& referencia){
     int i = procurar(referencia);
     if(i != -1){
         this->produtos[i].setQuantidade(quantidade);

@@ -23,7 +23,7 @@ list<Produto> ProdutoContainer::getAll(){
 }
 
 
-void ProdutoContainer::adicionarProduto(const Produto & referencia) {
+void ProdutoContainer::adicionarProduto(Produto referencia) {
     string referencia1 = referencia.getReferencia();
     list<Produto>::iterator it = procurarProduto(referencia);
     if (it == this->produto.end()) {
@@ -32,7 +32,7 @@ void ProdutoContainer::adicionarProduto(const Produto & referencia) {
     }
 }
 void ProdutoContainer::eliminarProduto(const string& referencia){
-    list<Produto>::iterator it = procurarProduto(referencia);
+    list<Produto>::iterator it = procurarProduto((const Produto &) referencia);
     if (it != this->produto.end()) {
         this->produto.erase(it);
         cout << "Produto com referencia:" << referencia << "removido" << endl;
@@ -44,7 +44,7 @@ void ProdutoContainer::eliminarProduto(const string& referencia){
 }
 
 
-void  ProdutoContainer::atualizarProduto(const string& referencia, const string &tipo){
+void ProdutoContainer::atualizarProduto(string& referencia,string &tipo){
     list<Produto>::iterator it = procurarProduto(referencia);
     list<Produto>::iterator its = procurarProduto(tipo);
     if(it != this->produtos.end()){
@@ -52,4 +52,3 @@ void  ProdutoContainer::atualizarProduto(const string& referencia, const string 
         its->setTipo(tipo);
     }
 }
-

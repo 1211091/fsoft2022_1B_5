@@ -3,24 +3,36 @@
 //
 
 #include "Stock.h"
-bool Stock::produto_existe(int qualidade){
+
+bool Stock::produto_existe(int quantidade){
     if(quantidade<0){
         bool resultado = false;
     }
     bool resultado=true;
     return resultado;
 }
-int Stock::Quantidade(int quantidade){
+int Stock::setQuantidade(int quantidade){
     if(produto_existe(quantidade)){
         this->quantidade = quantidade;
     }else{
-        string str = "Quantidade de produto inválida"
+        string str = "Quantidade de produto inválida";
+
     }
     this->quantidade = quantidade;
 }
-int getQuantidade(){
-    return this->quantidade;
+int Stock::getQuantidade(){
+    return quantidade;
 }
-const string &getTipo(){
-    return this->tipo;
+
+Produto* Stock::getTipo()const {
+    return tipo;
+}
+
+Stock::Stock (Produto *tipo, Referencia *referencia) {
+    this->setReferencia(referencia);
+    this->setTipo(tipo);
+}
+
+Referencia* Stock::getReferencia() const {
+    return referencia;
 }

@@ -8,26 +8,24 @@
 #include "Stock.h"
 
 using namespace std;
-class Produto: public Stock {
-private :
+class Produto:{
+protected:
     Produto(const string &referencia, const string &tipo);
 
     string tipo;
     string produto;
     string referencia;
 public :
-    string Tipo(const string &tipo);
-    const string &getTipo();
-    void setTipo(const string &tipo);
-    void setProduto(const string &produto);
-    string referencia(const string &referencia);
-    const string &getReferencia();
-    void setReferencia(const string &referencia);
-    //void setQuantidade(const string &quantidade);
-    string referencia(const string &referencia);
-    const int &getReferencia();
-    void setReferencia(const string &referencia);
+    string Tipo(string &tipo);
+    string getTipo();
+    string setTipo(string &tipo);
+    string setProduto(string &produto);
+    string getReferencia();
+    string setReferencia(const string &referencia);
+    string setQuantidade(const string &quantidade);
     Produto* getProduto(string referencia,const string &tipo);
     ~Produto();
+    bool operator == (const Produto& referencia) const;
+    bool operator == (string rfr) const;
 }
 #endif //HEADERS_MODEL_PRODUTO_H
