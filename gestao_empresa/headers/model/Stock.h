@@ -20,6 +20,7 @@ public:
     string Tipo(const string &tipo);
     const string &getTipo();
     void setTipo(const string &tipo);
+    bool produto_existe(int quantidade);
 
     bool operator == (const Stock& produto) const;
     bool operator == (string tp) const;

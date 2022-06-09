@@ -14,12 +14,15 @@
 class FuncionarioContainer{
 private:
     list<Funcionario> funcionarios;
-    vector<Funcionario> produtos;
     FuncionarioContainer *funcionario;
+    list<Funcionario>::iterator procurarFuncionario(string&nomeFuncionario);
 public:
-    list<Stock> getAll();
-    void adicionarFuncionario(Funcionario);
-    void eliminarFuncionario(Funcionario);
-    void atualizar(string&nome, string&funcao);
+    list<Funcionario> getAll();
+    void adicionarFuncionario(const Funcionario& nomeFuncionario);
+    void eliminarFuncionario(string&nomeFuncionario);
+    void atualizar(string&nomeFuncionario, string&funcao);
+    Funcionario* getFuncionario(const Funcionario& nomeFuncionario);
+
+
 };
 #endif //MAIN_CPP_FUNCIONARIOCONTAINER_H

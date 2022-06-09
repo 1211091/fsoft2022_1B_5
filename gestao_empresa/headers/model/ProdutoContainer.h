@@ -1,5 +1,5 @@
 //
-// Created by bilax on 01/06/2022.
+// Created by clara on 09/06/2022.
 //
 
 #ifndef HEADERS_MODEL_PRODUTOCONTAINER_H
@@ -12,15 +12,18 @@ class ProdutoContainer {
     private:
     list<Produto> produto;
     list<Produto> produtos;
-    list<Produto>::iterator procurar(string referencia);
-public:
-    list<Produto>getAll (string tipo);
-    Produto* get(string tipo);
-    void adicionarProduto(const Produto& obj);
-    void eliminarProduto(string&nome);
-    void atualizarProduto(string&nome, int&numero);
 
-};
+public:
+    list<Produto>getAll();
+    Produto* getProduto(string referencia);
+
+    void adicionarProduto(const Produto& re);
+    void eliminarProduto(string&referencia);
+    void atualizarProduto(string&referencia);
+    list<Produto>::iterator procurarProduto(string&referencia);
+
+
+}
 
 
 #endif //HEADERS_MODEL_PRODUTOCONTAINER_H

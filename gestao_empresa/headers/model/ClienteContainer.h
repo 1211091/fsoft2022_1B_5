@@ -12,7 +12,7 @@
 class ClienteContainer {
 private:
     list<Cliente> clientes;
-    list<Cliente>::iterator procurar(string&nomeLoja);
+    list<Cliente>::iterator procurarCliente(string&nomeLoja);
     int numero;
 
 public:

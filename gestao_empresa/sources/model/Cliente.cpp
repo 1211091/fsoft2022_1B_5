@@ -8,7 +8,7 @@ Cliente::Cliente(const string& nomeGerente,const string& nomeLoja){
 
 }
 Cliente* ClienteContainer::getCliente(const Cliente& nomeLoja){
-    list<Cliente>::iterator it = procurar(nomeLoja);
+    list<Cliente>::iterator it = procurarCliente(nomeLoja);
     if(it != this->clientes.end()){
         return &(*it);
     }
