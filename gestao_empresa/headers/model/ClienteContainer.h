@@ -17,7 +17,7 @@ private:
 
 public:
     list<Cliente> getAll();
-    void adicionarCliente(const Cliente& nomeLoja);
+    void adicionarCliente(Cliente nomeLoja);
     void eliminarCliente(string&nomeLoja);
     void atualizarCliente(string&nomeLoja);
     Cliente* getCliente(const Cliente& nomeLoja);

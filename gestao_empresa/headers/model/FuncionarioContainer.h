@@ -18,7 +18,7 @@ private:
     list<Funcionario>::iterator procurarFuncionario(string&nomeFuncionario);
 public:
     list<Funcionario> getAll();
-    void adicionarFuncionario(const Funcionario& nomeFuncionario);
+    void adicionarFuncionario(Funcionario nomeFuncionario);
     void eliminarFuncionario(string&nomeFuncionario);
     void atualizar(string&nomeFuncionario, string&funcao);
     Funcionario* getFuncionario(const Funcionario& nomeFuncionario);

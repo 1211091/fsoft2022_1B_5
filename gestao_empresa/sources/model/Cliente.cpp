@@ -4,11 +4,16 @@
 #include "Cliente.h"
 #include "ClienteContainer.h"
 
-Cliente::Cliente(const string& nomeGerente,const string& nomeLoja){
-
+Cliente::Cliente(const string &nomeLoja){
+    setNomeLoja(nomeLoja);
 }
+
+string Cliente::getNomeLoja(){
+    return  this->nomeLoja;
+}
+
 Cliente* ClienteContainer::getCliente(const Cliente& nomeLoja){
-    list<Cliente>::iterator it = procurarCliente(nomeLoja);
+    list<Cliente>::iterator it = procurarCliente((string&)nomeLoja);
     if(it != this->clientes.end()){
         return &(*it);
     }

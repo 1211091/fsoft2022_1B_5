@@ -31,9 +31,9 @@ list<Funcionario> FuncionarioContainer::getAll(){
     list<Funcionario> lista(this->funcionarios);
     return lista;
 }
-void FuncionarioContainer::adicionarFuncionario(const Funcionario& nomeFuncionario){
-    string nomedoFuncionario = nomeFuncionario.getFuncionario();
-    list<Funcionario>::iterator it = procurarFuncionario(nomeFuncionario);
+void FuncionarioContainer::adicionarFuncionario(Funcionario nomeFuncionario){
+    string nomedoFuncionario =  nomeFuncionario.getNomeFuncionario();
+    list<Funcionario>::iterator it = procurarFuncionario(nomedoFuncionario);
     if(it == this->funcionarios.end()){
         this->funcionarios.push_back(nomeFuncionario);
     }
@@ -51,8 +51,8 @@ void FuncionarioContainer::atualizar(string&nomeFuncionario, string&funcao){
     list<Funcionario>::iterator it = procurarFuncionario(nomeFuncionario);
     list<Funcionario>::iterator its = procurarFuncionario(funcao);
     if(it != this->funcionarios.end()){
-        it->setNome(nomeFuncionario);
-        its->setNome(funcao);
+        it->setNomeFuncionario(nomeFuncionario);
+        its->setFuncao(funcao);
 
     }
 }

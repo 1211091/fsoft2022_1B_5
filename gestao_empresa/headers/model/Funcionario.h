@@ -17,9 +17,12 @@ public:
     Funcionario(const string &nome,const string &funcao);
     ~Funcionario();
     void setFuncao(const string &funcao);
-    void setNome(const string &nome);
+    string NomeFuncionario(const string& nomeFuncionario);
+    string setNomeFuncionario(const string &nomeFuncionario);
+    string getNomeFuncionario();
     const string getFuncao();
     Funcionario* getFuncionario(const Funcionario& nomeFuncionario);
+
     bool operator == (const Funcionario& nomeFuncionario) const;
     bool operator == (string nf) const;
 };

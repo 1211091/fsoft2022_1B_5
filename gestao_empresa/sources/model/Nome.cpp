@@ -18,8 +18,7 @@ bool Nome::ValidacaoNome(const string& nome) {
 Nome::Nome(const string& nome){
     setNome(nome);
 }
-Nome::~Nome(){
-}
+
 void Nome::setNome(const string &nome){
 if(ValidacaoNome(nome)){
     this->nome=nome;
@@ -34,9 +33,4 @@ string Nome::getNome() {
     return this->nome;
 }
 
-string Nome::getNomeLoja(){
-    return  this->nomeLoja;
-}
-string Nome::getNomeGerente(){
-    return this->nomeGerente;
-}
+

@@ -7,15 +7,18 @@
 #include "Nome.h"
 #include <string>
 
-class Cliente: public Nome{
-protected:
+class Cliente {
+private:
     string nome;
     string nomeLoja;
 public:
-        Cliente(const string& nomeGerente,const string& nomeLoja);
+        Cliente(const string &nomeLoja);
         ~Cliente();
         bool operator == (const Cliente& produto) const;
         bool operator == (string tp) const;
+        string NomeLoja(const string& nomeLoja);
+        string setNomeLoja(const string &nomeLoja);
+        string getNomeLoja();
         Cliente* getCliente(const Cliente& nomeLoja);
 
 };

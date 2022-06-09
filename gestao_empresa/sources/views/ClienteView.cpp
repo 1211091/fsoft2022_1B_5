@@ -9,7 +9,7 @@
 using namespace std;
 
 Cliente ClienteView::getCliente(){
-    Cliente cliente ("Nome");
+    Cliente cliente(<#initializer#>, "Nome");
     bool flag = false;
     do{
         try{
