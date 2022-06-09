@@ -24,15 +24,11 @@ int Stock::getQuantidade(){
     return quantidade;
 }
 
-void Stock::setTipo( string &tipo){
-    this->tipo = tipo;
-}
-
-string Stock::getTipo(){
+Produto* Stock::getTipo()const {
     return tipo;
 }
 
-Stock::Stock (string &tipo, Referencia *referencia) {
+Stock::Stock (Produto *tipo, Referencia *referencia) {
     this->setReferencia(referencia);
     this->setTipo(tipo);
 }

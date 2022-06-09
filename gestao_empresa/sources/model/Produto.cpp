@@ -24,7 +24,7 @@ Produto* ProdutoContainer::getProduto(string referencia,const string &tipo) {
         }
         return NULL;
     }
-}
+
 
 Produto::Produto(const string& referencia, const string&tipo){
     setProduto(produto);
