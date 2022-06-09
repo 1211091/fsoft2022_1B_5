@@ -21,8 +21,6 @@ public:
     void eliminarProdutos(Produto);
     string get(Funcionario);
     int getQuantidade();
-    void adicionarCliente(Cliente);
-    void eliminarCliente(Cliente);
 };
 
 #endif //HEADERS_MODEL_ADMINISTRADORCONTAINER_H

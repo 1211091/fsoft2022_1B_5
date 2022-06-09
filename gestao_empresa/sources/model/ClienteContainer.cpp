@@ -9,7 +9,7 @@ list<Cliente>::iterator procura(string nomeLoja){
 list<Cliente> getAll(){
 
 }
-Cliente* get(string nomeLoja){
+Cliente* getCliente(string nomeLoja){
 
 }
 void ClienteContainer::adicionarCliente(Cliente){
