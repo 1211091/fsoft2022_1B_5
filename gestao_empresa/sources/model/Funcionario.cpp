@@ -13,3 +13,10 @@ Funcionario::Nome(const string& nome){
 }
 Funcionario::~Funcionario{
 };
+void setFuncao(const string &funcao){
+
+}
+const string getFuncao(){
+    return this->funcao;
+}
+

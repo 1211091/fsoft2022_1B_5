@@ -4,6 +4,7 @@
 #include <iostream>
 #include "ClienteView.h"
 #include "Utils.h"
+#include "Nome.h"
 #include "InformacaoInvalidaException.h"
 using namespace std;
 

@@ -11,14 +11,12 @@
 class Funcionario: public Nome{
     string funcao;
     string nome;
+
+    void setFuncao(const string &funcao);
     private:
     string Funcao(const string& funcao);
-    void setFuncao(const string &funcao);
     const string getFuncao();
     Funcionario(const string& nome, const string& funcao);
-
-
-
 };
 
 

@@ -12,21 +12,27 @@ using std::vector;
 class Nome{
     protected:
         string nome;
+<<<<<<< HEAD
         string nomeGerente;
         string nomeLoja;
 
     virtual bool ValidacaoNome(const string& nome);
+=======
+        bool ValidacaoNome(const string& nome);
+>>>>>>> 37afafc7e15f9cbfd38cae54bf680d22315972ee
 
     public:
+        string nomeGerente;
+        string nomeLoja;
         Nome(const string& nome);
         void setNome(const string &nome);
-        const string& getNome() const;
+        string getNome();
         string NomeGerente(const string& nomeGerente);
         void setNomeGerente(const string &nomeGerente);
-        const string& getNomeGerente() const;
+        string getNomeGerente();
         string NomeLoja(const string& nomeLoja);
-        void setNomeLoja(const string &nomeLoja);
-        const string& getNomeLoja() const;
+        string setNomeLoja(const string &nomeLoja);
+        string getNomeLoja();
 
 };
 

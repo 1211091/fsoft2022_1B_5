@@ -13,9 +13,6 @@ class Cliente: public Nome{
     public:
         Cliente(const string& nomeGerente,const string& nomeLoja);
         ~Cliente();
-
-
-
 };
 
 #endif //HEADERS_MODEL_CLIENTE_H

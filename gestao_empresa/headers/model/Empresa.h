@@ -10,7 +10,8 @@
 #include "ClienteContainer.h"
 #include "ProdutoContainer.h"
 #include "StockContainer.h"
-
+#include "FuncionarioContainer.h"
+#include "InformacaoNaoExisteException.h"
 using namespace std;
 
 class Empresa{
@@ -20,6 +21,7 @@ private :
     ClienteContainer clientes;
     ProdutoContainer produtos;
     StockContainer stock;
+    FuncionarioContainer funcionarios;
 
 
     void setInformacaoNaoExisteException();
@@ -33,6 +35,8 @@ public:
     AdministradorContainer & getAdministradorContainer();
     ClienteContainer & getClienteContainer();
     ProdutoContainer & getProdutoContainer();
+    StockContainer & getStockContainer();
+    FuncionarioContainer & getFuncionarioContainer();
 
 
 };

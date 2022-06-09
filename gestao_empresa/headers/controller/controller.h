@@ -21,7 +21,7 @@ private:
     AdministradorView administradorView;
     FuncionarioView funcionarioView;
     ClienteView clienteView;
-    ProdutoView produtosView;
+    ProdutoView produtoView;
     StockView stockView;
     void runFuncionario();
     void runProduto();
