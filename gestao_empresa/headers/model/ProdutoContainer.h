@@ -15,13 +15,10 @@ class ProdutoContainer {
 
 public:
     list<Produto>getAll();
-    Produto* getProduto(string referencia);
-
     void adicionarProduto(const Produto& re);
     void eliminarProduto(string&referencia);
     void atualizarProduto(string&referencia);
     list<Produto>::iterator procurarProduto(string&referencia);
-
 
 }
 

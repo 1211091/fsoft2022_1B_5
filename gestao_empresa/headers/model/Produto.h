@@ -10,11 +10,12 @@
 using namespace std;
 class Produto: public Stock {
 private :
+    Produto(const string &tipo1, const string &referencia1, const string &referencia, const string &tipo);
+
     string tipo;
     string produto;
-    int referencia;
+    string referencia;
 public :
-    Produto(const string &tipo, const string &referencia);
     string Tipo(const string &tipo);
     const string &getTipo();
     void setTipo(const string &tipo);
@@ -22,12 +23,12 @@ public :
     string Referencia(const string &Referencia);
     const string &getReferencia();
     void setReferencia(const string &referencia);
-    int Quantidade(int quantidade);
-    int getQuantidade();
     void setQuantidade(const string &quantidade);
     int Referencia(const int &Referencia);
     const int &getReferencia();
-    void setReferencia(const int &referencia);
+    void setReferencia(const string &referencia);
+    Produto* getProduto(string referencia,const string &tipo);
+    Produto::~Produto(){}
 
 
 }

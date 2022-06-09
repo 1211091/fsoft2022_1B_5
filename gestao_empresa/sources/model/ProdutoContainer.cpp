@@ -7,17 +7,19 @@
 list<Produto>:: iterator ProdutoContainer::procurarProduto(string&referencia) {
     list<Produto>::iterator it= this->produtos.begin();
     for(it = this->produtos.begin(); it != this->produtos.end();++it){
-        if((*it)== referencia){
+        if((*it) == referencia){
             return it;
         }
     }
     return it;
 }
 
+
 list<Produto> ProdutoContainer::getAll(){
     list<Produto> lista(this->produtos);
     return lista;
 }
+
 
 void ProdutoContainer::adicionarProduto(const Produto & referencia){
         string referencia1= referencia.getReferencia();

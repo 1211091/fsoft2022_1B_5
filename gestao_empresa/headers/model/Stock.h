@@ -6,6 +6,7 @@
 #define HEADERS_MODEL_STOCK_H
 
 #include <string>
+
 using namespace std;
 class Stock {
 protected:
