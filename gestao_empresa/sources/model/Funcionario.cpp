@@ -3,6 +3,7 @@
 //
 #include "Nome.h"
 #include "Funcionario.h"
+#include "FuncionarioContainer.h"
 
 
 Funcionario::Funcionario(const string& funcao);{
@@ -14,9 +15,15 @@ Funcionario::Nome(const string& nome){
 Funcionario::~Funcionario{
 };
 void setFuncao(const string &funcao){
-
+    
 }
 const string getFuncao(){
     return this->funcao;
 }
-
+Funcionario* FuncionarioContainer::getFuncionario(const Funcionario& nomeFuncionario){
+    list<Funcionario>::iterator it = procurarFuncionario(nomeFuncionario);
+    if(it != this->funcionarios.end()){
+        return &(*it);
+    }
+    return NULL;
+}
