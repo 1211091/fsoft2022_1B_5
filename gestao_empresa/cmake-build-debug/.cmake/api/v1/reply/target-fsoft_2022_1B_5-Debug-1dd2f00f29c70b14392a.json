@@ -28,7 +28,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 119,
+				"line" : 120,
 				"parent" : 0
 			},
 			{
@@ -58,7 +58,7 @@
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 98,
+				"line" : 99,
 				"parent" : 0
 			}
 		]
@@ -79,75 +79,39 @@
 			[
 				{
 					"backtrace" : 2,
-<<<<<<<< HEAD:gestao_empresa/cmake-build-debug/.cmake/api/v1/reply/target-fsoft_2022_1B_5-Debug-91a403b982bea2163880.json
-					"path" : "C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/mock"
+					"path" : "C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/mock"
 				},
 				{
 					"backtrace" : 3,
-					"path" : "C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/headers/controller"
+					"path" : "C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/headers/controller"
 				},
 				{
 					"backtrace" : 3,
-					"path" : "C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/sources/controller"
+					"path" : "C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/sources/controller"
 				},
 				{
 					"backtrace" : 4,
-					"path" : "C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/headers/exceptions"
+					"path" : "C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/headers/exceptions"
 				},
 				{
 					"backtrace" : 4,
-					"path" : "C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/sources/exceptions"
+					"path" : "C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/sources/exceptions"
 				},
 				{
 					"backtrace" : 5,
-					"path" : "C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/headers/model"
+					"path" : "C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/headers/model"
 				},
 				{
 					"backtrace" : 5,
-					"path" : "C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/sources/model"
+					"path" : "C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/sources/model"
 				},
 				{
 					"backtrace" : 6,
-					"path" : "C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/headers/views"
+					"path" : "C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/headers/views"
 				},
 				{
 					"backtrace" : 6,
-					"path" : "C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/sources/views"
-========
-					"path" : "C:/Users/clara/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/mock"
-				},
-				{
-					"backtrace" : 3,
-					"path" : "C:/Users/clara/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/headers/controller"
-				},
-				{
-					"backtrace" : 3,
-					"path" : "C:/Users/clara/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/sources/controller"
-				},
-				{
-					"backtrace" : 4,
-					"path" : "C:/Users/clara/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/headers/exceptions"
-				},
-				{
-					"backtrace" : 4,
-					"path" : "C:/Users/clara/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/sources/exceptions"
-				},
-				{
-					"backtrace" : 5,
-					"path" : "C:/Users/clara/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/headers/model"
-				},
-				{
-					"backtrace" : 5,
-					"path" : "C:/Users/clara/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/sources/model"
-				},
-				{
-					"backtrace" : 6,
-					"path" : "C:/Users/clara/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/headers/views"
-				},
-				{
-					"backtrace" : 6,
-					"path" : "C:/Users/clara/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/sources/views"
->>>>>>>> 618c554516d8547368bc6dfcde1e89a84648472b:gestao_empresa/cmake-build-debug/.cmake/api/v1/reply/target-fsoft_2022_1B_5-Debug-bbf1e94e35069887865c.json
+					"path" : "C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/sources/views"
 				}
 			],
 			"language" : "CXX",

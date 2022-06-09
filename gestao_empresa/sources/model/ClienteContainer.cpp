@@ -5,7 +5,7 @@
 #include <iostream>
 #include "Nome.h"
 
-list<Cliente>::iterator ClienteContainer::procurar(string&nomeLoja){
+list<Cliente>::iterator ClienteContainer::procurarCliente(string&nomeLoja){
     list<Cliente>::iterator it = this->clientes.begin();
     for(it = this->clientes.begin(); it != this->clientes.end(); ++it){
         if((*it) == nomeLoja){
@@ -14,18 +14,19 @@ list<Cliente>::iterator ClienteContainer::procurar(string&nomeLoja){
     }
     return it;
 }
-list<Cliente> getAll(){
-
+list<Cliente> ClienteContainer::getAll(){
+    list<Cliente> lista(this->clientes);
+    return lista;
 }
 void ClienteContainer::adicionarCliente(const Cliente& nomeLoja){
-    string nomedaLoja = nomeLoja.getCliente();
-    list<Cliente>::iterator it = procurar(nomeLoja);
+    string nomedaLoja = nomeLoja.getNome();
+    list<Cliente>::iterator it = procurarCliente(nomeLoja);
     if(it == this->clientes.end()){
         this->clientes.push_back(nomeLoja);
     }
 }
 void ClienteContainer::eliminarCliente(string&nomeLoja){
-    list<Cliente>::iterator it = procurar(nomeLoja);
+    list<Cliente>::iterator it = procurarCliente(nomeLoja);
     if(it != this->clientes.end()){
         this->clientes.erase(it);
         cout <<"O cliente: "<<nomeLoja<<"foi removido" <<endl;
@@ -34,7 +35,7 @@ void ClienteContainer::eliminarCliente(string&nomeLoja){
     }
 }
 void ClienteContainer::atualizarCliente(string&nomeLoja){
-    list<Cliente>::iterator it = procurar(nomeLoja);
+    list<Cliente>::iterator it = procurarCliente(nomeLoja);
     if(it != this->clientes.end()){
         it->setNome(nomeLoja);
     }
