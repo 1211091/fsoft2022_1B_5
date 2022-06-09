@@ -14,7 +14,7 @@ void setFuncao(const string &funcao){
 
 }
 
-const string getFuncao(){
+const string Funcionario::getFuncao(){
     return this->funcao;
 }
 Funcionario* FuncionarioContainer::getFuncionario(const Funcionario& nomeFuncionario){

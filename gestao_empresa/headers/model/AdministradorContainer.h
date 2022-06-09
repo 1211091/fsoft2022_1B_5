@@ -9,6 +9,7 @@
 #include "Funcionario.h"
 #include "Produto.h"
 #include "Cliente.h"
+#include "Stock.h"
 #include <list>
 
 class AdministradorContainer{
@@ -16,7 +17,7 @@ private:
     int quantidade;
 
 public:
-    int getFuncionario();
+    Funcionario* getFuncionario();
     int getStock();
     int getProduto();
     int getCliente();

@@ -1,16 +1,16 @@
 //
 // Created by bilax on 06/06/2022.
 //
-
-#include "AdministradorContainer.h"
 #include <iostream>
+#include "AdministradorContainer.h"
 
-int AdministradorContainer::getFuncionario(){
-    return funcionario;
+
+Funcionario* AdministradorContainer::getFuncionario(){
+    return Funcionario;
 
 }
 int AdministradorContainer::getStock(){
-    return stock;
+    return Stock;
 
 }
 int AdministradorContainer::getCliente(){
