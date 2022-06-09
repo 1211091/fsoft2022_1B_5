@@ -18,8 +18,8 @@ list<Cliente> getAll(){
 
 }
 void ClienteContainer::adicionarCliente(const Cliente& nomeLoja){
-    string nomedaLoja = nomeLoja.getCliente();
-    list<Cliente>::iterator it = procurar(nomeLoja);
+    string nomedaLoja = nomeLoja.getNome();
+    list<Cliente>::iterator it = procurar(nomedaLoja);
     if(it == this->clientes.end()){
         this->clientes.push_back(nomeLoja);
     }
