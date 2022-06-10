@@ -30,10 +30,10 @@ public:
     bool operator == (const Administrador& obj) const;
     bool operator == (const string nome) const;
 
-    ClienteContainer & getClienteContainer();
-    ProdutoContainer & getProdutoContainer();
-    StockContainer & getStockContainer();
-    FuncionarioContainer & getFuncionarioContainer();
+    Cliente & getCliente();
+    Produto & getProduto();
+    Stock & getStock();
+    Funcionario & getFuncionario();
 };
 
 #endif HEADERS_MODEL_ADMINISTRADOR_H
