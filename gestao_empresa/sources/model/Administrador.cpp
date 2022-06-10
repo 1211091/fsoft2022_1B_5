@@ -54,3 +54,4 @@ bool Administrador::operator == (const string nome) const{
 int Administrador::getAdministrador(){
     return administrador;
 }
+

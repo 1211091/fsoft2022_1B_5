@@ -19,13 +19,13 @@ list<Cliente> ClienteContainer::getAll(){
     list<Cliente> lista(this->clientes);
     return lista;
 }
-/*Cliente* ClienteContainer::getCliente(string nomeLoja){
+Cliente* ClienteContainer::getCliente(string nomeLoja){
     list<Cliente>::iterator it= procura(nomeLoja);
     if(it != this-> clientes.end()){
         return &(*it);
     }
     return NULL;
-}*/
+}
 void ClienteContainer:: adicionarCliente(Cliente NomeLoja){
     string NomedaLoja = NomeLoja.getNomeLoja();
     list<Cliente>::iterator it = procurarCliente(NomedaLoja);

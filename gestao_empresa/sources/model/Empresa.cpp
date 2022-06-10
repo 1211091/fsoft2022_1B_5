@@ -31,6 +31,10 @@ void Empresa::setNome(const string &nome) {
 AdministradorContainer & Empresa::getAdministradorContainer(){
     return this->administrador;
 }
+
+Empresa::~Empresa() {
+
+}
 /*ClienteContainer & Empresa::getClienteContainer(){
     return this->clientes;
 }

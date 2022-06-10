@@ -21,14 +21,13 @@ public :
     Produto(const string &referencia, const string &tipo);
     ~Produto();
     string setProduto(string &produto);
-    string getProduto()const ;
+    string getProduto();
     const string getTipo();
     void setTipo(const string &tipo);
     string Referencia();
     string Referencia(const string& referencia);
-    const string getReferencia();
+    string getReferencia();
     void setReferencia(const string &referencia);
-    int Quantidade(int quantidade);
     /*int setReferencia(Referencia * referencia);
     void setQuantidade(int quantidade);
     const static Stock getQuantidade() const;*/
