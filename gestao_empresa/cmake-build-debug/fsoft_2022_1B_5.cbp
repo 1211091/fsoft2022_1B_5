@@ -8,31 +8,31 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/cmake-build-debug"/>
+				<Option working_dir="C:/Users/bilax/Dropbox/PC/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/bilax/Dropbox/PC/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/bilax/Dropbox/PC/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/bilax/Dropbox/PC/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/bilax/Dropbox/PC/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="fsoft_2022_1B_5">
-				<Option output="C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/cmake-build-debug/fsoft_2022_1B_5.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/cmake-build-debug"/>
+				<Option output="C:/Users/bilax/Dropbox/PC/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/cmake-build-debug/fsoft_2022_1B_5.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/bilax/Dropbox/PC/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/mock"/>
-					<Add directory="C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/headers/controller"/>
-					<Add directory="C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/sources/controller"/>
-					<Add directory="C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/headers/exceptions"/>
-					<Add directory="C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/sources/exceptions"/>
-					<Add directory="C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/headers/model"/>
-					<Add directory="C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/sources/model"/>
-					<Add directory="C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/headers/views"/>
-					<Add directory="C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/sources/views"/>
+					<Add directory="C:/Users/bilax/Dropbox/PC/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/mock"/>
+					<Add directory="C:/Users/bilax/Dropbox/PC/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/headers/controller"/>
+					<Add directory="C:/Users/bilax/Dropbox/PC/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/sources/controller"/>
+					<Add directory="C:/Users/bilax/Dropbox/PC/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/headers/exceptions"/>
+					<Add directory="C:/Users/bilax/Dropbox/PC/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/sources/exceptions"/>
+					<Add directory="C:/Users/bilax/Dropbox/PC/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/headers/model"/>
+					<Add directory="C:/Users/bilax/Dropbox/PC/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/sources/model"/>
+					<Add directory="C:/Users/bilax/Dropbox/PC/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/headers/views"/>
+					<Add directory="C:/Users/bilax/Dropbox/PC/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/sources/views"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
@@ -42,28 +42,28 @@
 					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/cmake-build-debug/Makefile&quot;  VERBOSE=1 fsoft_2022_1B_5"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/bilax/Dropbox/PC/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/cmake-build-debug/Makefile&quot;  VERBOSE=1 fsoft_2022_1B_5"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/bilax/Dropbox/PC/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/bilax/Dropbox/PC/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/bilax/Dropbox/PC/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="fsoft_2022_1B_5/fast">
-				<Option output="C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/cmake-build-debug/fsoft_2022_1B_5.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/cmake-build-debug"/>
+				<Option output="C:/Users/bilax/Dropbox/PC/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/cmake-build-debug/fsoft_2022_1B_5.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/bilax/Dropbox/PC/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/mock"/>
-					<Add directory="C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/headers/controller"/>
-					<Add directory="C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/sources/controller"/>
-					<Add directory="C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/headers/exceptions"/>
-					<Add directory="C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/sources/exceptions"/>
-					<Add directory="C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/headers/model"/>
-					<Add directory="C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/sources/model"/>
-					<Add directory="C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/headers/views"/>
-					<Add directory="C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/sources/views"/>
+					<Add directory="C:/Users/bilax/Dropbox/PC/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/mock"/>
+					<Add directory="C:/Users/bilax/Dropbox/PC/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/headers/controller"/>
+					<Add directory="C:/Users/bilax/Dropbox/PC/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/sources/controller"/>
+					<Add directory="C:/Users/bilax/Dropbox/PC/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/headers/exceptions"/>
+					<Add directory="C:/Users/bilax/Dropbox/PC/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/sources/exceptions"/>
+					<Add directory="C:/Users/bilax/Dropbox/PC/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/headers/model"/>
+					<Add directory="C:/Users/bilax/Dropbox/PC/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/sources/model"/>
+					<Add directory="C:/Users/bilax/Dropbox/PC/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/headers/views"/>
+					<Add directory="C:/Users/bilax/Dropbox/PC/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/sources/views"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
@@ -73,187 +73,187 @@
 					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/cmake-build-debug/Makefile&quot;  VERBOSE=1 fsoft_2022_1B_5/fast"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/bilax/Dropbox/PC/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/cmake-build-debug/Makefile&quot;  VERBOSE=1 fsoft_2022_1B_5/fast"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/bilax/Dropbox/PC/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/bilax/Dropbox/PC/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/bilax/Dropbox/PC/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/cmake-build-debug"/>
+				<Option working_dir="C:/Users/bilax/Dropbox/PC/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/bilax/Dropbox/PC/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/bilax/Dropbox/PC/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/bilax/Dropbox/PC/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/bilax/Dropbox/PC/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/cmake-build-debug"/>
+				<Option working_dir="C:/Users/bilax/Dropbox/PC/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/bilax/Dropbox/PC/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/bilax/Dropbox/PC/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/bilax/Dropbox/PC/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/bilax/Dropbox/PC/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/headers/controller/controller.h">
+		<Unit filename="C:/Users/bilax/Dropbox/PC/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/headers/controller/controller.h">
 			<Option target="fsoft_2022_1B_5"/>
 		</Unit>
-		<Unit filename="C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/headers/exceptions/InformacaoDuplicadaException.h">
+		<Unit filename="C:/Users/bilax/Dropbox/PC/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/headers/exceptions/InformacaoDuplicadaException.h">
 			<Option target="fsoft_2022_1B_5"/>
 		</Unit>
-		<Unit filename="C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/headers/exceptions/InformacaoInvalidaException.h">
+		<Unit filename="C:/Users/bilax/Dropbox/PC/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/headers/exceptions/InformacaoInvalidaException.h">
 			<Option target="fsoft_2022_1B_5"/>
 		</Unit>
-		<Unit filename="C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/headers/exceptions/InformacaoNaoExisteException.h">
+		<Unit filename="C:/Users/bilax/Dropbox/PC/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/headers/exceptions/InformacaoNaoExisteException.h">
 			<Option target="fsoft_2022_1B_5"/>
 		</Unit>
-		<Unit filename="C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/headers/model/Administrador.h">
+		<Unit filename="C:/Users/bilax/Dropbox/PC/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/headers/model/Administrador.h">
 			<Option target="fsoft_2022_1B_5"/>
 		</Unit>
-		<Unit filename="C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/headers/model/AdministradorContainer.h">
+		<Unit filename="C:/Users/bilax/Dropbox/PC/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/headers/model/AdministradorContainer.h">
 			<Option target="fsoft_2022_1B_5"/>
 		</Unit>
-		<Unit filename="C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/headers/model/Cliente.h">
+		<Unit filename="C:/Users/bilax/Dropbox/PC/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/headers/model/Cliente.h">
 			<Option target="fsoft_2022_1B_5"/>
 		</Unit>
-		<Unit filename="C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/headers/model/ClienteContainer.h">
+		<Unit filename="C:/Users/bilax/Dropbox/PC/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/headers/model/ClienteContainer.h">
 			<Option target="fsoft_2022_1B_5"/>
 		</Unit>
-		<Unit filename="C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/headers/model/Empresa.h">
+		<Unit filename="C:/Users/bilax/Dropbox/PC/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/headers/model/Empresa.h">
 			<Option target="fsoft_2022_1B_5"/>
 		</Unit>
-		<Unit filename="C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/headers/model/Funcionario.h">
+		<Unit filename="C:/Users/bilax/Dropbox/PC/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/headers/model/Funcionario.h">
 			<Option target="fsoft_2022_1B_5"/>
 		</Unit>
-		<Unit filename="C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/headers/model/FuncionarioContainer.h">
+		<Unit filename="C:/Users/bilax/Dropbox/PC/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/headers/model/FuncionarioContainer.h">
 			<Option target="fsoft_2022_1B_5"/>
 		</Unit>
-		<Unit filename="C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/headers/model/Nome.h">
+		<Unit filename="C:/Users/bilax/Dropbox/PC/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/headers/model/Nome.h">
 			<Option target="fsoft_2022_1B_5"/>
 		</Unit>
-		<Unit filename="C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/headers/model/Produto.h">
+		<Unit filename="C:/Users/bilax/Dropbox/PC/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/headers/model/Produto.h">
 			<Option target="fsoft_2022_1B_5"/>
 		</Unit>
-		<Unit filename="C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/headers/model/ProdutoContainer.h">
+		<Unit filename="C:/Users/bilax/Dropbox/PC/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/headers/model/ProdutoContainer.h">
 			<Option target="fsoft_2022_1B_5"/>
 		</Unit>
-		<Unit filename="C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/headers/model/Referencia.h">
+		<Unit filename="C:/Users/bilax/Dropbox/PC/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/headers/model/Referencia.h">
 			<Option target="fsoft_2022_1B_5"/>
 		</Unit>
-		<Unit filename="C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/headers/model/Stock.h">
+		<Unit filename="C:/Users/bilax/Dropbox/PC/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/headers/model/Stock.h">
 			<Option target="fsoft_2022_1B_5"/>
 		</Unit>
-		<Unit filename="C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/headers/model/StockContainer.h">
+		<Unit filename="C:/Users/bilax/Dropbox/PC/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/headers/model/StockContainer.h">
 			<Option target="fsoft_2022_1B_5"/>
 		</Unit>
-		<Unit filename="C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/headers/views/AdministradorView.h">
+		<Unit filename="C:/Users/bilax/Dropbox/PC/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/headers/views/AdministradorView.h">
 			<Option target="fsoft_2022_1B_5"/>
 		</Unit>
-		<Unit filename="C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/headers/views/ClienteView.h">
+		<Unit filename="C:/Users/bilax/Dropbox/PC/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/headers/views/ClienteView.h">
 			<Option target="fsoft_2022_1B_5"/>
 		</Unit>
-		<Unit filename="C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/headers/views/FuncionarioView.h">
+		<Unit filename="C:/Users/bilax/Dropbox/PC/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/headers/views/FuncionarioView.h">
 			<Option target="fsoft_2022_1B_5"/>
 		</Unit>
-		<Unit filename="C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/headers/views/ProdutoView.h">
+		<Unit filename="C:/Users/bilax/Dropbox/PC/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/headers/views/ProdutoView.h">
 			<Option target="fsoft_2022_1B_5"/>
 		</Unit>
-		<Unit filename="C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/headers/views/StockView.h">
+		<Unit filename="C:/Users/bilax/Dropbox/PC/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/headers/views/StockView.h">
 			<Option target="fsoft_2022_1B_5"/>
 		</Unit>
-		<Unit filename="C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/headers/views/Utils.h">
+		<Unit filename="C:/Users/bilax/Dropbox/PC/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/headers/views/Utils.h">
 			<Option target="fsoft_2022_1B_5"/>
 		</Unit>
-		<Unit filename="C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/headers/views/View.h">
+		<Unit filename="C:/Users/bilax/Dropbox/PC/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/headers/views/View.h">
 			<Option target="fsoft_2022_1B_5"/>
 		</Unit>
-		<Unit filename="C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/main.cpp">
+		<Unit filename="C:/Users/bilax/Dropbox/PC/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/main.cpp">
 			<Option target="fsoft_2022_1B_5"/>
 		</Unit>
-		<Unit filename="C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/mock/MockData.cpp">
+		<Unit filename="C:/Users/bilax/Dropbox/PC/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/mock/MockData.cpp">
 			<Option target="fsoft_2022_1B_5"/>
 		</Unit>
-		<Unit filename="C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/mock/MockData.h">
+		<Unit filename="C:/Users/bilax/Dropbox/PC/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/mock/MockData.h">
 			<Option target="fsoft_2022_1B_5"/>
 		</Unit>
-		<Unit filename="C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/sources/controller/controller.cpp">
+		<Unit filename="C:/Users/bilax/Dropbox/PC/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/sources/controller/controller.cpp">
 			<Option target="fsoft_2022_1B_5"/>
 		</Unit>
-		<Unit filename="C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/sources/exceptions/InformacaoDuplicadaException.cpp">
+		<Unit filename="C:/Users/bilax/Dropbox/PC/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/sources/exceptions/InformacaoDuplicadaException.cpp">
 			<Option target="fsoft_2022_1B_5"/>
 		</Unit>
-		<Unit filename="C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/sources/exceptions/InformacaoInvalidaException.cpp">
+		<Unit filename="C:/Users/bilax/Dropbox/PC/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/sources/exceptions/InformacaoInvalidaException.cpp">
 			<Option target="fsoft_2022_1B_5"/>
 		</Unit>
-		<Unit filename="C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/sources/exceptions/InformacaoNaoExisteException.cpp">
+		<Unit filename="C:/Users/bilax/Dropbox/PC/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/sources/exceptions/InformacaoNaoExisteException.cpp">
 			<Option target="fsoft_2022_1B_5"/>
 		</Unit>
-		<Unit filename="C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/sources/model/Administrador.cpp">
+		<Unit filename="C:/Users/bilax/Dropbox/PC/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/sources/model/Administrador.cpp">
 			<Option target="fsoft_2022_1B_5"/>
 		</Unit>
-		<Unit filename="C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/sources/model/AdministradorContainer.cpp">
+		<Unit filename="C:/Users/bilax/Dropbox/PC/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/sources/model/AdministradorContainer.cpp">
 			<Option target="fsoft_2022_1B_5"/>
 		</Unit>
-		<Unit filename="C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/sources/model/Cliente.cpp">
+		<Unit filename="C:/Users/bilax/Dropbox/PC/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/sources/model/Cliente.cpp">
 			<Option target="fsoft_2022_1B_5"/>
 		</Unit>
-		<Unit filename="C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/sources/model/ClienteContainer.cpp">
+		<Unit filename="C:/Users/bilax/Dropbox/PC/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/sources/model/ClienteContainer.cpp">
 			<Option target="fsoft_2022_1B_5"/>
 		</Unit>
-		<Unit filename="C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/sources/model/Empresa.cpp">
+		<Unit filename="C:/Users/bilax/Dropbox/PC/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/sources/model/Empresa.cpp">
 			<Option target="fsoft_2022_1B_5"/>
 		</Unit>
-		<Unit filename="C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/sources/model/Funcionario.cpp">
+		<Unit filename="C:/Users/bilax/Dropbox/PC/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/sources/model/Funcionario.cpp">
 			<Option target="fsoft_2022_1B_5"/>
 		</Unit>
-		<Unit filename="C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/sources/model/FuncionarioContainer.cpp">
+		<Unit filename="C:/Users/bilax/Dropbox/PC/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/sources/model/FuncionarioContainer.cpp">
 			<Option target="fsoft_2022_1B_5"/>
 		</Unit>
-		<Unit filename="C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/sources/model/Nome.cpp">
+		<Unit filename="C:/Users/bilax/Dropbox/PC/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/sources/model/Nome.cpp">
 			<Option target="fsoft_2022_1B_5"/>
 		</Unit>
-		<Unit filename="C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/sources/model/Produto.cpp">
+		<Unit filename="C:/Users/bilax/Dropbox/PC/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/sources/model/Produto.cpp">
 			<Option target="fsoft_2022_1B_5"/>
 		</Unit>
-		<Unit filename="C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/sources/model/ProdutoContainer.cpp">
+		<Unit filename="C:/Users/bilax/Dropbox/PC/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/sources/model/ProdutoContainer.cpp">
 			<Option target="fsoft_2022_1B_5"/>
 		</Unit>
-		<Unit filename="C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/sources/model/Referencia.cpp">
+		<Unit filename="C:/Users/bilax/Dropbox/PC/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/sources/model/Referencia.cpp">
 			<Option target="fsoft_2022_1B_5"/>
 		</Unit>
-		<Unit filename="C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/sources/model/Stock.cpp">
+		<Unit filename="C:/Users/bilax/Dropbox/PC/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/sources/model/Stock.cpp">
 			<Option target="fsoft_2022_1B_5"/>
 		</Unit>
-		<Unit filename="C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/sources/model/StockContainer.cpp">
+		<Unit filename="C:/Users/bilax/Dropbox/PC/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/sources/model/StockContainer.cpp">
 			<Option target="fsoft_2022_1B_5"/>
 		</Unit>
-		<Unit filename="C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/sources/views/AdministradorView.cpp">
+		<Unit filename="C:/Users/bilax/Dropbox/PC/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/sources/views/AdministradorView.cpp">
 			<Option target="fsoft_2022_1B_5"/>
 		</Unit>
-		<Unit filename="C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/sources/views/ClienteView.cpp">
+		<Unit filename="C:/Users/bilax/Dropbox/PC/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/sources/views/ClienteView.cpp">
 			<Option target="fsoft_2022_1B_5"/>
 		</Unit>
-		<Unit filename="C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/sources/views/FuncionarioView.cpp">
+		<Unit filename="C:/Users/bilax/Dropbox/PC/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/sources/views/FuncionarioView.cpp">
 			<Option target="fsoft_2022_1B_5"/>
 		</Unit>
-		<Unit filename="C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/sources/views/ProdutoView.cpp">
+		<Unit filename="C:/Users/bilax/Dropbox/PC/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/sources/views/ProdutoView.cpp">
 			<Option target="fsoft_2022_1B_5"/>
 		</Unit>
-		<Unit filename="C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/sources/views/StockView.cpp">
+		<Unit filename="C:/Users/bilax/Dropbox/PC/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/sources/views/StockView.cpp">
 			<Option target="fsoft_2022_1B_5"/>
 		</Unit>
-		<Unit filename="C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/sources/views/Utils.cpp">
+		<Unit filename="C:/Users/bilax/Dropbox/PC/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/sources/views/Utils.cpp">
 			<Option target="fsoft_2022_1B_5"/>
 		</Unit>
-		<Unit filename="C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/sources/views/View.cpp">
+		<Unit filename="C:/Users/bilax/Dropbox/PC/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/sources/views/View.cpp">
 			<Option target="fsoft_2022_1B_5"/>
 		</Unit>
-		<Unit filename="C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/CMakeLists.txt">
+		<Unit filename="C:/Users/bilax/Dropbox/PC/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
