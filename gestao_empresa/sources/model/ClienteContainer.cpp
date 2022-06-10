@@ -9,7 +9,7 @@ using namespace std;
 
 list<Cliente>::iterator ClienteContainer::procura(string nomeLoja){
     list<Cliente>::iterator str = this->clientes.begin();
-    for(str != this->students.end();it++){
+    for(str != this->clientes.end();it++){
         if(str.compare(nomeLoja)!= 0){
         return str; }
     }
