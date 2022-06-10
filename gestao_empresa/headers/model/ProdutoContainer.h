@@ -5,22 +5,21 @@
 #ifndef HEADERS_MODEL_PRODUTOCONTAINER_H
 #define HEADERS_MODEL_PRODUTOCONTAINER_H
 #include "Stock.h"
+#include "Referencia.h"
 #include "Produto.h"
 #include <list>
 
 class ProdutoContainer {
     protected:
-    list<Produto> produto;
+    ProdutoContainer* produto;
     list<Produto> produtos;
-    string referencia;
-    string tipo;
-
+    list<Produto>::iterator procurarProduto(string& referencia);
 public:
     list<Produto>getAll();
-    void adicionarProduto(Produto referencia1);
-    void eliminarProduto(const string& referencia);
-    void atualizarProduto(string& referencia, string &tipo);
-    Produto* getProduto(string referencia,const string &tipo);
+    void adicionarProduto(const Produto& obj);
+    void eliminarProduto(string& referencia);
+    void atualizarProduto(string& referencia, string& tipo);
+    Produto* getProduto(Produto& referencia, Produto &tipo);
 
 }
 

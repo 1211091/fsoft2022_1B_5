@@ -5,6 +5,8 @@
 #include "StockView.h"
 #include "Utils.h"
 #include "InformacaoInvalidaException.h"
+
+
 using namespace std;
 
 Stock StockView::getStock(){

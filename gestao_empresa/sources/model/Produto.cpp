@@ -4,58 +4,66 @@
 #include "Produto.h"
 #include "ProdutoContainer.cpp"
 #include "ProdutoContainer.h"
+#include "InformacaoInvalidaException.h"
 
+bool Produto::isPointerNotNull(void * ptr){
+    if(ptr == NULL){
+        return false;
+    }
+    return true;
+}
 bool Produto::operator == (const Produto& obj) const{
     if(this->referencia == obj.referencia){
         return true;
     }
     return false;
 }
-bool Produto::operator == (string rfr) const{
+
+bool Produto::operator == (Referencia* rfr) const{
     if(this->referencia == rfr){
         return true;
     }
     return false;
 }
-Produto* ProdutoContainer::getProduto(string referencia,const string &tipo) {
-    list<Produto>::iterator it = procurarProduto(referencia);
-        if (it != this->produtos.end()) {
-            return &(*it);
-        }
-        return NULL;
-    }
-
 
 Produto::Produto(const string& referencia, const string&tipo){
     setProduto(produto);
 }
 Produto::~Produto(){
 }
-string Produto::getTipo(){
+const string Produto::getTipo(){
     return this->tipo;
 }
-string Produto::setTipo(string &tipo){
-    return tipo;
+void Produto::setTipo(const string &tipo){
+    this-> tipo;
 }
 string Produto::setProduto(string &produto){
     return produto;
 }
-string Produto::getReferencia(){
-    return this->referencia;
-}
-string Produto::setReferencia(const string &referencia){
+Referencia* Produto::getReferencia() const {
     return referencia;
 }
-string Produto::setQuantidade(const string &quantidade){
-    return quantidade;
+int Produto::setReferencia(Referencia * referencia){
+    if(isPointerNotNull(referencia)==true){
+        this->referencia = referencia;
+    }else{
+        string msg = "Stock: referencia = NULL";
+        throw InformacaoInvalidaException(msg);
+    }
 }
+
 string Produto::Tipo(string &tipo){
+
 }
 
 string Produto::getProduto() {
     return produto;
 }
-
-const Produto::setTipo(Const string &tipo){
-
+void Produto::setQuantidade(int quantidade){
+    this->quantidade = quantidade;
 }
+int Produto::getQuantidade()const {
+    return quantidade;
+}
+
+
