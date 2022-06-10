@@ -18,7 +18,6 @@ public:
     Funcionario(const string &nomefuncionario,const string &funcao);
     ~Funcionario();
     void setFuncao(const string &funcao);
-    string Funcao(const string &funcao);
     void setNomeFuncionario(const string &nomeFuncionario);
     string getNomeFuncionario();
     string getFuncao();

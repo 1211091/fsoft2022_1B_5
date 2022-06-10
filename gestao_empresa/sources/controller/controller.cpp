@@ -78,7 +78,7 @@ void Controller::runFuncionario(){
                 string nome = Utils::getString("Insira o nome do funcionario");
                 string funcao = Utils::getString("Insira a funcao do funcionario");
                 FuncionarioContainer &container = this->model.getFuncionarioContainer();
-                container.atualizar(nome, funcao);
+                container.atualizarFuncionario(nome, funcao);
             }
                 break;
             case 3: {

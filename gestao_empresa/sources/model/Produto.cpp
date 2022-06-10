@@ -40,7 +40,9 @@ void Produto::setTipo(const string &tipo){
 string Produto::setProduto(string &produto){
     return produto;
 }
-
+string Produto::getReferencia(){
+    return referencia;
+}
 string Produto::getProduto() {
     return produto;
 }
@@ -76,8 +78,3 @@ string Produto::Referencia(const string &referencia) {
 
 string Produto::Referencia() {
 }
-
-void Produto::setInformacaoNaoExisteException() {
-
-}
-

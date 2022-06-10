@@ -59,10 +59,9 @@ void StockContainer::eliminarStock(Produto& produto){
     }
 }
 
-void StockContainer::atualizarStock(const int quantidade,const Produto& referencia){
+void StockContainer::atualizarStock(int quantidade,Produto& referencia){
     int i = procurar(referencia);
     if(i != -1){
         this->produtos[i].setQuantidade(quantidade);
     }
 }
-

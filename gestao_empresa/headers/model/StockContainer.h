@@ -20,7 +20,7 @@ public:
     list<Stock> getAll();
     Stock* get( Produto& referencia);
     void eliminarStock(Produto& produto);
-    void atualizarStock(const int quantidade,Produto& referencia);
+    void atualizarStock(int quantidade,Produto& referencia);
     void adicionarStock(Stock produto);
 
 };
