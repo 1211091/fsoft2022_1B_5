@@ -36,7 +36,7 @@ void Empresa::setNome(const string &nome) {
 AdministradorContainer & Empresa::getAdministradorContainer(){
     return this->administrador;
 }
-ClienteContainer & Empresa::getClienteContainer(){
+/*ClienteContainer & Empresa::getClienteContainer(){
     return this->clientes;
 }
 ProdutoContainer & Empresa::getProdutoContainer() {
@@ -47,7 +47,7 @@ StockContainer & Empresa::getStockContainer(){
 }
 FuncionarioContainer & Empresa::getFuncionarioContainer(){
     return this->funcionarios;
-}
+}*/
 
 void Empresa::setInformacaoNaoExisteException() {
 
