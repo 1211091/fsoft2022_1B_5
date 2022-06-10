@@ -47,7 +47,7 @@ string Produto::getProduto() {
 void Produto::setQuantidade(int quantidade){
     this->quantidade = quantidade;
 }
-int Produto::getQuantidade()const {
+const Stock Produto::getQuantidade()const {
     return quantidade;
 }
 
@@ -73,6 +73,7 @@ string Produto::Referencia(const string &referencia) {
 
 }
 
+<<<<<<< HEAD
 string Produto::Referencia() {
 }
 
@@ -80,3 +81,5 @@ void Produto::setInformacaoNaoExisteException() {
 
 }
 
+=======
+>>>>>>> 5e299e5a3577eed7fab26b4713d059c5ae39cebf
