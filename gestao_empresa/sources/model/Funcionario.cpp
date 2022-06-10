@@ -4,30 +4,30 @@
 #include "Nome.h"
 #include "Funcionario.h"
 
-
-Funcionario::Funcionario(const string& funcao);{
+Funcionario::Funcionario(const string &nomefuncionario,const string &funcao){
     this->setFuncao(funcao);
+    this->setNomeFuncionario(nomefuncionario);
 }
-Funcionario::Nome(const string& nome){
-    this-> setNomeFuncionario(nomeFuncionario);
-}
-Funcionario::Funcionario(const Funcionario &obj){
- this->setFuncao(obj.funcao);
-}
-Funcionario::Nome(const Funcionario &obj)
 
-Funcionario::~Funcionario{
+Funcionario::~Funcionario(){
 };
-const Funcionario::getFuncao(){
+string Funcionario::getFuncao(){
     return funcao;
 }
-const Funcionario::getNomeFuncionario(){
+string Funcionario::getNomeFuncionario(){
     return nomeFuncionario;
 }
-bool Funcionario::operator ==(const funcao& obj)const{
-    if(*(this->funcao)==*(obj.subject)) {
+
+
+bool Funcionario::operator == (const Funcionario& obj) const{
+    if(this->nomeFuncionario == obj.nomeFuncionario){
         return true;
     }
     return false;
 }
-
+bool Funcionario::operator == (string nf) const{
+    if(this->nomeFuncionario == nf){
+        return true;
+    }
+    return false;
+}
