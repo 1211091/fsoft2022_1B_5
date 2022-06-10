@@ -9,6 +9,8 @@
 #include "InformacaoNaoExisteException.h"
 #include "Empresa.h"
 #include "FuncionarioContainer.h"
+#include "AdministradorContainer.h"
+#include "Administrador.h"
 
 
 using namespace std;
@@ -52,7 +54,7 @@ void Controller::runAdministrador(){
             {
                 cout<<this->model.getNome()<<endl;
                 AdministradorContainer container = this-> model.getAdministradorContainer();
-                Administrador* administrador = container.getAdministrador();
+                Administrador* administrador = container.getAdministradorContainer();
                 this->administradorView.printAdministrador(administrador);
             }
             break;

@@ -40,6 +40,7 @@ public:
     ProdutoContainer & getProdutoContainer();
     StockContainer & getStockContainer();
     FuncionarioContainer & getFuncionarioContainer();
+
 };
 
 #endif HEADERS_MODEL_ADMINISTRADOR_H
