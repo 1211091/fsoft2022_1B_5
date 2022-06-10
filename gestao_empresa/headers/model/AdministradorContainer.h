@@ -23,6 +23,10 @@ public:
     string cliente;
     //Funcionario Funcionario;
     //Funcionario* getFuncionario();
+    ClienteContainer & getClienteContainer();
+    ProdutoContainer & getProdutoContainer();
+    StockContainer & getStockContainer();
+    FuncionarioContainer & getFuncionarioContainer();
 };
 
 #endif //HEADERS_MODEL_ADMINISTRADORCONTAINER_H
