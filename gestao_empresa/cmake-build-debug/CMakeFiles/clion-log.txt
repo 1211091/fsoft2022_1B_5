@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 "C:\Program Files\JetBrains\CLion 2021.3.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2021.3.3/bin/ninja/win/ninja.exe" -G Ninja C:\Users\clara\Documents\GitHub\fsoft2022_1B_5\gestao_empresa
+=======
+"C:\Program Files\JetBrains\CLion 2021.3.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" C:\Users\babis\Desktop\fsoft2022_1B_5\gestao_empresa
+>>>>>>> 03723a3fda9003e89584263dc4bc82574974134e
 -- The C compiler identification is GNU 11.2.0
 -- The CXX compiler identification is GNU 11.2.0
 -- Detecting C compiler ABI info
@@ -13,4 +17,8 @@
 -- Detecting CXX compile features - done
 -- Configuring done
 -- Generating done
+<<<<<<< HEAD
 -- Build files have been written to: C:/Users/clara/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/cmake-build-debug
+=======
+-- Build files have been written to: C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/cmake-build-debug
+>>>>>>> 03723a3fda9003e89584263dc4bc82574974134e

@@ -1,3 +1,9 @@
+<<<<<<< HEAD
 C:/Users/clara/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/cmake-build-debug/CMakeFiles/fsoft_2022_1B_5.dir
 C:/Users/clara/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/clara/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+=======
+C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/cmake-build-debug/CMakeFiles/fsoft_2022_1B_5.dir
+C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+>>>>>>> 03723a3fda9003e89584263dc4bc82574974134e
