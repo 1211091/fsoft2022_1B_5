@@ -50,9 +50,12 @@ string Produto::setQuantidade(const string &quantidade){
     return quantidade;
 }
 string Produto::Tipo(string &tipo){
-
 }
 
 string Produto::getProduto() {
     return produto;
+}
+
+const Produto::setTipo(Const string &tipo){
+
 }

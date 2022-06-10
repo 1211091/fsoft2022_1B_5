@@ -1,5 +1,6 @@
 //
-// Created by bilax on 04/06/2022.
+// Created by bila
+// 6x on 04/06/2022.
 //
 
 #ifndef HEADERS_MODEL_FUNCIONARIO_H
