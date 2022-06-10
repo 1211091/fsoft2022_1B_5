@@ -14,7 +14,7 @@ protected:
     Produto produto{};
     Produto* tipo{};
     string referencia;
-    int quantidade{};
+    Stock quantidade;
     bool isPointerNotNull(void * ptr);
     bool produto_existe(int quantidade);
     bool isReferenciaValid(const string& referencia);
@@ -25,14 +25,10 @@ public:
     ~Stock();
 
 
-    void setQuantidade(int quantidade);
-    int getQuantidade() const;
+    void setQuantidade(Stock quantidade);
+    static Stock getQuantidade() const;
     Produto getProduto() ;
 
-
-    void setQuantidade(int quantidade);
-    int getQuantidade() const;
-    Produto* getProduto();
 
     void setProduto(Produto *produto);
     Produto* getTipo();
@@ -45,11 +41,6 @@ public:
     bool operator == (const Stock& obj) const;
     bool operator == (string& referencia) const;
 
-
-
-
-    int getQuantidade() const;
-    void setQuantidade(int quantidade);
 
 };
 

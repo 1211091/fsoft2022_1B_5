@@ -4,6 +4,7 @@
 #include <iostream>
 #include "StockView.h"
 #include "Utils.h"
+#include "Stock.h"
 #include "InformacaoInvalidaException.h"
 #include "StockContainer.h"
 #include "Produto.h"
@@ -17,13 +18,13 @@ Stock StockView::getStock(){
         try{
             flag = false;
             cout<<"Stock"<<endl;
-            Stock stock = Produto::getQuantidade();
+            Stock stock = Stock::getQuantidade();
             stock.setQuantidade(stock);
         }catch(InformacaoInvalidaException& e){
             flag = true;
         }
     }while(flag == true);
-    return stock;
+    return reinterpret_cast<const Stock &>(stock);
 }
 void StockView::printStock(Stock *stock) {
     cout<<stock->getQuantidade()<<endl;

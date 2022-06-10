@@ -69,11 +69,11 @@ Produto* Stock::setTipo(Produto *tipo){
         }
     }
 
-void Stock::setQuantidade(int quantidade){
+void Stock::setQuantidade(Stock quantidade){
     this->quantidade = quantidade;
 }
 
-int Stock::getQuantidade()const {
+ Stock Stock::getQuantidade()const {
     return quantidade;
 }
 
@@ -83,7 +83,7 @@ void Stock::setProduto(Produto *produto){
     if(isPointerNotNull(produto)==true){
         this->produto = produto;
     }else{
-        string msg = "Enroll: student = NULL";
+        string msg = "Stock: produto = NULL";
         throw InformacaoInvalidaException(msg);
     }
 

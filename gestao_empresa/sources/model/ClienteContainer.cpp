@@ -43,7 +43,6 @@ void ClienteContainer::eliminarCliente(string &nomeLoja){
         }
     }
 
-}
 void ClienteContainer::atualizarCliente(string&nomeLoja){
     list<Cliente>::iterator it = procurarCliente(nomeLoja);
     if(it != this->clientes.end()){

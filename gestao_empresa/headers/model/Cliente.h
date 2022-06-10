@@ -9,7 +9,7 @@
 
 class Cliente{
     private:
-    Cliente nomeLoja;
+    string nomeLoja;
     public:
         Cliente(const string& nomeLoja);
         ~Cliente();

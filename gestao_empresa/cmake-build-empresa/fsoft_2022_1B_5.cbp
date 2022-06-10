@@ -148,6 +148,9 @@
 		<Unit filename="C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/headers/model/StockContainer.h">
 			<Option target="fsoft_2022_1B_5"/>
 		</Unit>
+		<Unit filename="C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/headers/model/administrador1.h">
+			<Option target="fsoft_2022_1B_5"/>
+		</Unit>
 		<Unit filename="C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/headers/views/AdministradorView.h">
 			<Option target="fsoft_2022_1B_5"/>
 		</Unit>

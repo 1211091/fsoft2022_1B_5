@@ -13,7 +13,6 @@ protected:
     Produto(const string &referencia, const string &tipo);
     string tipo;
     string produto;
-    int quantidade;
     bool isPointerNotNull(void * ptr);
     string referencia;
     static bool isReferenciaValid(const string& referencia);

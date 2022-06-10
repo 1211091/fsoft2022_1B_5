@@ -145,11 +145,11 @@
 				35,
 				37,
 				38,
-				39,
-				41,
-				44,
-				46,
-				48
+				40,
+				42,
+				45,
+				47,
+				49
 			]
 		}
 	],
@@ -206,11 +206,11 @@
 				35,
 				37,
 				38,
-				39,
-				41,
-				44,
-				46,
-				48
+				40,
+				42,
+				45,
+				47,
+				49
 			]
 		},
 		{
@@ -236,11 +236,12 @@
 				32,
 				34,
 				36,
-				40,
-				42,
+				39,
+				41,
 				43,
-				45,
-				47
+				44,
+				46,
+				48
 			]
 		}
 	],
@@ -460,6 +461,11 @@
 			"compileGroupIndex" : 0,
 			"path" : "sources/model/FuncionarioContainer.cpp",
 			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "headers/model/administrador1.h",
+			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
