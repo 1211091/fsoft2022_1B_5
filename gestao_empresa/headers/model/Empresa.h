@@ -33,10 +33,7 @@ public:
     void setNome(const string &nome) ;
     ~Empresa();
     AdministradorContainer & getAdministradorContainer();
-    ClienteContainer & getClienteContainer();
-    ProdutoContainer & getProdutoContainer();
-    StockContainer & getStockContainer();
-    FuncionarioContainer & getFuncionarioContainer();
+
 
 
 };
