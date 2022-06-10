@@ -3,6 +3,17 @@
 //
 
 #include "Stock.h"
+#include "InformacaoInvalidaException.h"
+
+Stock::Stock (Produto *tipo, Referencia *referencia) {
+    this->setReferencia(referencia);
+    this->setTipo(tipo);
+}
+
+Stock::Stock (const Stock& obj) {
+    this->setReferencia(obj.referencia);
+    this->setTipo(obj.tipo);
+}
 
 bool Stock::produto_existe(int quantidade){
     if(quantidade<0){
@@ -11,6 +22,11 @@ bool Stock::produto_existe(int quantidade){
     bool resultado=true;
     return resultado;
 }
+
+int Stock::Quantidade(int quantidade){
+
+}
+
 int Stock::setQuantidade(int quantidade){
     if(produto_existe(quantidade)){
         this->quantidade = quantidade;
@@ -24,27 +40,27 @@ int Stock::getQuantidade(){
     return quantidade;
 }
 
-Produto* Stock::getTipo()const {
-    return tipo;
-}
-
-Stock::Stock (Produto *tipo, Referencia *referencia) {
-    this->setReferencia(referencia);
-    this->setTipo(tipo);
-}
-
 Referencia* Stock::getReferencia() const {
     return referencia;
 }
-int Stock::Quantidade(int quantidade){
-
-}
-Produto* Stock::getTipo(Produto *tipo){
-
+Produto* Stock::getTipo(){
+    return tipo;
 }
 int Stock::setTipo(Produto *tipo){
+        if(isPointerNotNull(tipo)==true){
+            this->tipo = tipo;
+        }else{
+            string msg = "Stock: tipo = NULL";
+            throw InformacaoInvalidaException(msg);
+        }
+    }
 
-}
 int Stock::setReferencia(Referencia * referencia){
-
+    if(isPointerNotNull(referencia)==true){
+        this->referencia = referencia;
+    }else{
+        string msg = "Stock: referencia = NULL";
+        throw InformacaoInvalidaException(msg);
+    }
+}
 }

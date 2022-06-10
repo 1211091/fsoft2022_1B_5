@@ -15,13 +15,14 @@ protected:
     Produto *tipo;
     int quantidade;
     Referencia * referencia;
+    bool isPointerNotNull(void * ptr);
 public:
     int Quantidade(int quantidade);
     int getQuantidade();
     int setQuantidade(int quantidade);
     Stock (Produto * tipo, Referencia *referencia);
-    Produto* getTipo(Produto *tipo);
-    Produto* getTipo() const;
+    Stock (const Stock& obj);
+    Produto* getTipo();
     int setTipo(Produto *tipo);
     Referencia * getReferencia() const;
     int setReferencia(Referencia * referencia);

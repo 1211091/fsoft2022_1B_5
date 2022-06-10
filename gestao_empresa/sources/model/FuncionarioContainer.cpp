@@ -5,18 +5,7 @@
 #include "InformacaoDuplicadaException.h"
 #include "InformacaoNaoExisteException.h"
 #include <iostream>
-bool Funcionario::operator == (const Funcionario& obj) const{
-    if(this->nomeFuncionario == obj.nomeFuncionario){
-        return true;
-    }
-    return false;
-}
-bool Funcionario::operator == (string nf) const{
-    if(this->nomeFuncionario == nf){
-        return true;
-    }
-    return false;
-}
+
 list<Funcionario>::iterator FuncionarioContainer::procurarFuncionario(string&nomeFuncionario, string&funcao){
     list<Funcionario>::iterator it = this->funcionarios.begin();
     for(it = this->funcionarios.begin(); it != this->funcionarios.end(); ++it){
