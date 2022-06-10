@@ -20,13 +20,12 @@ Nome::Nome(const string& nome){
 }
 
 void Nome::setNome(const string &nome){
-if(ValidacaoNome(nome)){
-    this->nome=nome;
-}else{
-    string msg="Nome "+nome;
-throw InformacaoInvalidaException(msg);
-}
-
+    if(ValidacaoNome(nome)){
+        this->nome=nome;
+    }else{
+        string msg="Nome "+nome;
+    throw InformacaoInvalidaException(msg);
+    }
 }
 
 string Nome::getNome() {

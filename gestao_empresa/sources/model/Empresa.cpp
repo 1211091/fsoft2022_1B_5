@@ -8,12 +8,9 @@
 Empresa::Empresa(){
     this->nome = "";
 
-    setInformacaoNaoExisteException();
-
 }
 Empresa::Empresa(const string& nome){
     this->nome = nome;
-    setInformacaoNaoExisteException();
 }
 Empresa::Empresa(const Empresa& obj){
     this->nome = obj.nome;
@@ -21,8 +18,6 @@ Empresa::Empresa(const Empresa& obj){
     this->clientes = obj.clientes;
     this->produtos = obj.produtos;
     this->stock = obj.stock;
-
-    void setInformacaoNaoExisteException();
 }
 
 const string& Empresa::getNome() const {
@@ -49,6 +44,3 @@ FuncionarioContainer & Empresa::getFuncionarioContainer(){
     return this->funcionarios;
 }*/
 
-void Empresa::setInformacaoNaoExisteException() {
-
-}

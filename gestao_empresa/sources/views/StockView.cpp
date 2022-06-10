@@ -5,7 +5,8 @@
 #include "StockView.h"
 #include "Utils.h"
 #include "InformacaoInvalidaException.h"
-
+#include "StockContainer.h"
+#include "Stock.h"
 
 using namespace std;
 
@@ -16,7 +17,7 @@ Stock StockView::getStock(){
         try{
             flag = false;
             cout<<"Stock"<<endl;
-            string stock = Utils::getStock("Stock");
+            string stock = Stock::getStock("Stock");
             stock.setStock(stock);
         }catch(InformacaoInvalidaException& e){
             flag = true;

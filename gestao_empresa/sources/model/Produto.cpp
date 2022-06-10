@@ -79,11 +79,3 @@ string Produto::Referencia(const string &referencia) {
 
 }
 
-string Produto::Referencia() {
-
-}
-
-void Produto::setInformacaoNaoExisteException() {
-
-}
-

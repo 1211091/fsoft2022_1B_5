@@ -23,10 +23,6 @@ public:
     int nomeLoja;
     Funcionario Funcionario;
     Funcionario* getFuncionario();
-    int getStock();
-    int getProduto();
-    int getNomeLoja();
-    int getAdministrador();
 };
 
 #endif //HEADERS_MODEL_ADMINISTRADORCONTAINER_H
