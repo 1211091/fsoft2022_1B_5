@@ -13,6 +13,8 @@
 #include "StockView.h"
 #include "Utils.h"
 #include "View.h"
+#include "Stock.h"
+#include "Produto.h"
 
 class Controller{
 private:

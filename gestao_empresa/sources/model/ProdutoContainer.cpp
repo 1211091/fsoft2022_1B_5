@@ -3,7 +3,7 @@
 //
 #include <iostream>
 #include "ProdutoContainer.h"
-#include "Referencia.h"
+
 
 
 list<Produto>::iterator ProdutoContainer::procurarProduto(string& referencia){
@@ -23,7 +23,7 @@ list<Produto> ProdutoContainer::getAll(){
 }
 
 
-void ProdutoContainer::adicionarProduto(const Produto&obj) {
+void ProdutoContainer::adicionarProduto(Produto&obj) {
     string referencia1 = obj.getReferencia();
     list<Produto>::iterator it = procurarProduto(referencia1);
     if (it == this->produtos.end()) {
@@ -31,7 +31,7 @@ void ProdutoContainer::adicionarProduto(const Produto&obj) {
 
     }
 }
-void ProdutoContainer::eliminarProduto(string& referencia){
+void ProdutoContainer::eliminarProduto(string&referencia){
     list<Produto>::iterator it = procurarProduto(referencia);
     if (it != this->produtos.end()) {
         this->produtos.erase(it);

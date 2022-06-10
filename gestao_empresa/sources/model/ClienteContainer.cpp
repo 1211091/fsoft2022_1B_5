@@ -2,51 +2,56 @@
 // Created by luis_ on 06/06/2022.
 //
 #include "ClienteContainer.h"
-#include "InformacaoDuplicadaExpection"
+#include "InformacaoDuplicadaException.h"
 #include <string>
-#include <tuple>
+#include <iostream>
 using namespace std;
 
-list<Cliente>::iterator ClienteContainer::procura(string nomeLoja){
-    list<Cliente>::iterator str = this->clientes.begin();
-    for(str != this->clientes.end();it++){
-        if(str.compare(nomeLoja)!= 0){
-        return str; }
+list<Cliente>::iterator ClienteContainer::procurarCliente(string&nomeLoja) {
+    list<Cliente>::iterator it = this->clientes.begin();
+    for (it = this->clientes.begin(); it != this->clientes.end(); ++it) {
+        if ((*it) == nomeLoja) {
+            return it;
+        }
     }
-    return str;
 }
-list<CLiente> ClienteContainer::getAll(){
-    list<Cliente> novalist(this-> clientes);
-    return novalist;
+list<Cliente> ClienteContainer::getAll(){
+    list<Cliente> lista(this->clientes);
+    return lista;
 }
-list<Cliente>::iterator ClienteContainer procura(string nomeLoja){
-    list<Cliente>::iterator string str
-}
-Cliente* ClienteContainer::get(string nomeLoja){
-    list<CLiente>::iterator str= procura(nomeLoja);
-    if(str != this-> clientes.end()){
+/*Cliente* ClienteContainer::getCliente(string nomeLoja){
+    list<Cliente>::iterator it= procura(nomeLoja);
+    if(it != this-> clientes.end()){
         return &(*it);
     }
     return NULL;
-}
-void ClienteContainer:: adicionarCliente(const Cliente& obj){
-    list<Cliente>::iterator str= procura(obj.getNome());
-    if (str== this->clientes.end()) {
-        this->clientes.push_back(obj);
-    }else{ string msg = "Cliente: " + str;
-        throw InformacaoDuplicadaExpection(msg);
+}*/
+void ClienteContainer:: adicionarCliente(Cliente NomeLoja){
+    string NomedaLoja = NomeLoja.getNomeLoja();
+    list<Cliente>::iterator it = procurarCliente(NomedaLoja);
+    if (it== this->clientes.end()) {
+        this->clientes.push_back(NomeLoja);
     }
 }
-void ClienteContainer::removerCliente(const string nomeLoja){
-    list<Cliente> ::iterator str =procura(nomeLoja);
-    if(str!= this-> students.end()){
-        if(str,size()==0){
-            this-> Cliente.erase(str);
-
+void ClienteContainer::eliminarCliente(string &nomeLoja){
+    list<Cliente> ::iterator it = procurarCliente(nomeLoja);
+    if(it != this-> clientes.end()){
+            this-> clientes.erase(it);
+            cout << "O funcionario"<< nomeLoja << "foi removido" <<endl;
         }else {
-            string msg="Cliente: " + str;
-        throw InformacaoNaoExisteExpection(msg);
+            cout << "O funcionario"<< nomeLoja << "nao existe" <<endl;
         }
     }
 
+}
+void ClienteContainer::atualizarCliente(string&nomeLoja){
+    list<Cliente>::iterator it = procurarCliente(nomeLoja);
+    if(it != this->clientes.end()){
+        it->setNomeLoja(nomeLoja);
+
+    }
+}
+
+string ClienteContainer::getNomeLoja() {
+    return nomeLoja;
 }

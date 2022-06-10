@@ -21,7 +21,6 @@ Administrador::Administrador(const Administrador &obj) : Nome(nome) {
 }
 
 Administrador::~Administrador(){
-
 }
 
 const string& Administrador::getNome() const {

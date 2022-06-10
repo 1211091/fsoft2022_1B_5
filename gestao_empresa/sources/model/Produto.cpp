@@ -19,7 +19,7 @@ bool Produto::operator == (const Produto& obj) const{
     return false;
 }
 
-bool Produto::operator == (Referencia* rfr) const{
+bool Produto::operator == (string rfr) const{
     if(this->referencia == rfr){
         return true;
     }
@@ -40,17 +40,7 @@ void Produto::setTipo(const string &tipo){
 string Produto::setProduto(string &produto){
     return produto;
 }
-Referencia* Produto::getReferencia() const {
-    return referencia;
-}
-int Produto::setReferencia(Referencia * referencia){
-    if(isPointerNotNull(referencia)==true){
-        this->referencia = referencia;
-    }else{
-        string msg = "Stock: referencia = NULL";
-        throw InformacaoInvalidaException(msg);
-    }
-}
+
 
 string Produto::Tipo(string &tipo){
 
@@ -66,4 +56,34 @@ int Produto::getQuantidade()const {
     return quantidade;
 }
 
+
+bool Produto::isReferenciaValid(const string &referencia){
+    if(referencia.length() != 10){
+        return false;
+    }
+    return true;
+}
+void Produto::setReferencia(const string &referencia){
+
+    if(isReferenciaValid(referencia)){
+        this->referencia = referencia;
+    }
+    else{
+
+        string msg = "Produto: " + referencia;
+        throw InformacaoInvalidaException(msg);
+    }
+}
+
+string Produto::Referencia(const string &referencia) {
+
+}
+
+string Produto::Referencia() {
+
+}
+
+void Produto::setInformacaoNaoExisteException() {
+
+}
 

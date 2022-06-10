@@ -24,9 +24,9 @@ Produto ProdutoView::getProduto(){
     }while(flag == true);
     return produtos;
 }
-string ProdutoView::printProdutos(Produto *produto, Referencia *referencias) {
+string ProdutoView::printProdutos(Produto *produto, Produto *referencias) {
     cout<<produto->getProduto()<<":"<<referencias->getReferencia()<<endl;
 }
-Referencia ProdutoView::getReferencia(){
+Produto ProdutoView::getReferencia(){
     return referencia;
 }
