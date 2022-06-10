@@ -10,11 +10,9 @@
 
 class ClienteView{
 public:
-
     Cliente getCliente();
     void printCliente(Cliente *cliente);
     void printClientes(list<Cliente>& clientes);
-
 };
 
 #endif //HEADERS_VIEWS_CLIENTEVIEW_H
