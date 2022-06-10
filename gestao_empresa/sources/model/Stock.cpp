@@ -26,7 +26,22 @@ bool Stock::operator == (const Stock& obj) const{
     return false;
 }
 
-Stock::Stock (Produto* produto) {
+bool Stock::operator == (Produto produto) const{
+    if(this->referencia == referencia){
+        return true;
+    }
+    return false;
+}
+bool Stock::operator == (string& referencia) const {
+    if(this->referencia == referencia){
+        return true;
+    }
+    return false;
+}
+
+
+Stock::Stock (Produto* produto, Produto* tipo, int quantidade) {
+    this->setProduto(produto);
     this->setReferencia(referencia);
     this->setTipo(tipo);
 }
@@ -93,6 +108,13 @@ Stock::~Stock() {
 
 }
 
- const Produto Stock::getProduto()  {
-    return this->produto;
+Produto Stock::getProduto()  {
+    return produto;
 }
+
+Produto *Stock::getTipo() {
+    return tipo;
+}
+
+
+

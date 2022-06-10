@@ -13,8 +13,8 @@ class Cliente{
     public:
         Cliente(const string& nomeLoja);
         ~Cliente();
-        string getNomeLoja() ;
-        void setNomeLoja( string &nomeLoja);
+        string getCliente();
+        void setCliente(string &nomeLoja);
         bool operator == (const Cliente& NomeLoja) const;
         bool operator == (Cliente* nl) const;
 

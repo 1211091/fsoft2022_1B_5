@@ -3,6 +3,7 @@
 //
 #include <iostream>
 #include "AdministradorContainer.h"
+#include "Administrador.h"
 
 
 /*Funcionario* AdministradorContainer::getFuncionario(){
@@ -13,8 +14,8 @@ int AdministradorContainer::getStock(){
     return Stock;
 
 }
-int AdministradorContainer::getNomeLoja(){
-    return nomeLoja;
+int AdministradorContainer::getCliente(){
+    return Cliente;
 
 }
 int AdministradorContainer::getProduto(){
@@ -25,15 +26,20 @@ int AdministradorContainer::getAdministrador(){
     return administrador;
 }*/
 
-ClienteContainer & AdministradorContainer::getCliente(){
-    return this->clientes;
+
+ProdutoContainer &Administrador::getProdutoContainer() {
+    return produtos;
 }
-ProdutoContainer & AdministradorContainer::getProduto() {
-    return this->produtos;
+
+StockContainer &Administrador::getStockContainer() {
+    return stock;
 }
-StockContainer & AdministradorContainer::getStock(){
-    return this->stock;
+
+FuncionarioContainer &Administrador::getFuncionarioContainer() {
+    return funcionarios;
 }
-FuncionarioContainer & AdministradorContainer::getFuncionario(){
-    return this->funcionarios;
+
+ClienteContainer &Administrador::getClienteContainer() {
+    return clientes;
 }
+
