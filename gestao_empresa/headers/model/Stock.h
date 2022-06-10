@@ -23,9 +23,14 @@ public:
     Stock(Produto* produto);
     Stock(const Stock& obj);
     ~Stock();
+<<<<<<< HEAD
     void setQuantidade(int quantidade);
     int getQuantidade() const;
     const Produto getProduto() const;
+=======
+
+    Produto* getProduto();
+>>>>>>> 68e3fbe30ddf5bb45d32d03f2f3b246512b46d38
     void setProduto(Produto *produto);
     Produto* getTipo();
     Produto* setTipo(Produto *tipo);
@@ -37,7 +42,13 @@ public:
     bool operator == (const Produto& tp) const;
 
 
+<<<<<<< HEAD
     Stock(Produto *produto);
+=======
+    int getQuantidade() const;
+
+    void setQuantidade(int quantidade);
+>>>>>>> 68e3fbe30ddf5bb45d32d03f2f3b246512b46d38
 };
 
 
