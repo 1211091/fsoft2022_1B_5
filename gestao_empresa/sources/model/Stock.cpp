@@ -44,10 +44,6 @@ bool Stock::produto_existe(int quantidade){
     return resultado;
 }
 
-int Stock::Quantidade(int quantidade){
-
-}
-
 int Stock::setQuantidade(int quantidade){
     if(produto_existe(quantidade)){
         this->quantidade = quantidade;

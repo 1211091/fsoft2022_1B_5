@@ -12,15 +12,16 @@ class ClienteContainer {
 private:
     list<Cliente> clientes;
     list<Cliente>::iterator procura(string nomeLoja);
-
+    string nomeLoja;
 
 public:
     list<Cliente> getAll();
-    Cliente* get(string nomeLoja);
-    void adicionarCliente(const string& CLiente);
-    void removerCliente (const string& CLiente);
-
-
+    Cliente* getCliente(string nomeLoja);
+    void adicionarCliente(Cliente NomeLoja);
+    void eliminarCliente (string& NomeLoja);
+    list<Cliente>::iterator procurarCliente(string&nomeLoja);
+    void atualizarCliente(string&nomeLoja);
+    string getNomeLoja();
 
 };
 

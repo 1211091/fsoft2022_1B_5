@@ -20,12 +20,12 @@ public:
     int administrador;
     int produto;
     int Stock;
-    int cliente;
+    int nomeLoja;
     Funcionario Funcionario;
     Funcionario* getFuncionario();
     int getStock();
     int getProduto();
-    int getCliente();
+    int getNomeLoja();
     int getAdministrador();
 };
 

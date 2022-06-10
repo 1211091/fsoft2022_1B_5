@@ -22,12 +22,10 @@ public :
     ~Produto();
     string setProduto(string &produto);
     string getProduto();
-    string Tipo(string &tipo);
     const string getTipo();
     void setTipo(const string &tipo);
     Referencia * getReferencia() const;
     int setReferencia(Referencia * referencia);
-    int Quantidade(int quantidade);
     void setQuantidade(int quantidade);
     int getQuantidade() const;
 

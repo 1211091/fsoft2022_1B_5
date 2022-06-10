@@ -13,8 +13,8 @@ int AdministradorContainer::getStock(){
     return Stock;
 
 }
-int AdministradorContainer::getCliente(){
-    return cliente;
+int AdministradorContainer::getNomeLoja(){
+    return nomeLoja;
 
 }
 int AdministradorContainer::getProduto(){

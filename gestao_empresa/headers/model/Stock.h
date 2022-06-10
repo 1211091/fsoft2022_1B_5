@@ -18,7 +18,6 @@ protected:
     Referencia * referencia;
     bool isPointerNotNull(void * ptr);
 public:
-    int Quantidade(int quantidade);
     int getQuantidade();
     int setQuantidade(int quantidade);
     Stock (Produto * tipo, Referencia *referencia);
