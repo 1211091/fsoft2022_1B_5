@@ -31,7 +31,7 @@ public :
     Referencia * getReferencia() const;
     int setReferencia(Referencia * referencia);
     void setQuantidade(int quantidade);
-    int getQuantidade() const;
+    const static Stock getQuantidade() const;
 
     bool operator == (const Produto& referencia) const;
     bool operator == (string rfr) const;

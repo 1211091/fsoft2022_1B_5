@@ -6,7 +6,7 @@
 #include "Utils.h"
 #include "InformacaoInvalidaException.h"
 #include "StockContainer.h"
-#include "Stock.h"
+#include "Produto.h"
 
 using namespace std;
 
@@ -17,8 +17,8 @@ Stock StockView::getStock(){
         try{
             flag = false;
             cout<<"Stock"<<endl;
-            string stock = Stock::getStock("Stock");
-            stock.setStock(stock);
+            Stock stock = Produto::getQuantidade();
+            stock.setQuantidade(stock);
         }catch(InformacaoInvalidaException& e){
             flag = true;
         }
@@ -26,6 +26,6 @@ Stock StockView::getStock(){
     return stock;
 }
 void StockView::printStock(Stock *stock) {
-    cout<<stock->getStock()<<endl;
+    cout<<stock->getQuantidade()<<endl;
 }
 

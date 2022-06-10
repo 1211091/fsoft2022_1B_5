@@ -52,7 +52,7 @@ string Produto::getProduto() {
 void Produto::setQuantidade(int quantidade){
     this->quantidade = quantidade;
 }
-int Produto::getQuantidade()const {
+const Stock Produto::getQuantidade()const {
     return quantidade;
 }
 
