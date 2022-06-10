@@ -5,6 +5,7 @@
 #include "StockContainer.h"
 #include "InformacaoDuplicadaException.h"
 #include "InformacaoNaoExisteException.h"
+#include "Produto.h"
 
 
 int StockContainer::procurar(Produto produto){
@@ -44,18 +45,14 @@ void StockContainer::adicionarStock(Stock produto) {
 
 }
 
-void StockContainer::eliminarStock(Produto& produto){
-    list<Produto*> listStock;
-    int i = procurar(produto);
-    if(i != -1){
-        listStock = this->produtos->getProduto();
-        if(listStock.size() == 0 ){
-            this->produtos.erase(this->produtos.begin() + i);
-        }else{
-            string msg = "Produto: " + produto;
-            throw InformacaoNaoExisteException(msg);
-
-        }
+void StockContainer::eliminarStock(Produto produto){
+    int f = procurar(produto);
+    if(f != -1){
+    for(unsigned i=0; i<produtos.size() ;i++)
+    {
+        if(produtos[i] == reinterpret_cast<string &>(f))
+            produtos.erase(produtos.begin()+i);
+    }
     }
 }
 
