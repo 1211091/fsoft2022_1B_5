@@ -9,7 +9,7 @@
 #include "Produto.h"
 
 using namespace std;
-class Stock:{
+class Stock{
 protected:
     Produto produto{};
     Produto* tipo{};

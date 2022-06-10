@@ -416,6 +416,30 @@ sources/model/Funcionario.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft_2022_1B_5.dir\build.make CMakeFiles/fsoft_2022_1B_5.dir/sources/model/Funcionario.cpp.s
 .PHONY : sources/model/Funcionario.cpp.s
 
+sources/model/FuncionarioContainer.obj: sources/model/FuncionarioContainer.cpp.obj
+.PHONY : sources/model/FuncionarioContainer.obj
+
+# target to build an object file
+sources/model/FuncionarioContainer.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft_2022_1B_5.dir\build.make CMakeFiles/fsoft_2022_1B_5.dir/sources/model/FuncionarioContainer.cpp.obj
+.PHONY : sources/model/FuncionarioContainer.cpp.obj
+
+sources/model/FuncionarioContainer.i: sources/model/FuncionarioContainer.cpp.i
+.PHONY : sources/model/FuncionarioContainer.i
+
+# target to preprocess a source file
+sources/model/FuncionarioContainer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft_2022_1B_5.dir\build.make CMakeFiles/fsoft_2022_1B_5.dir/sources/model/FuncionarioContainer.cpp.i
+.PHONY : sources/model/FuncionarioContainer.cpp.i
+
+sources/model/FuncionarioContainer.s: sources/model/FuncionarioContainer.cpp.s
+.PHONY : sources/model/FuncionarioContainer.s
+
+# target to generate assembly for a file
+sources/model/FuncionarioContainer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft_2022_1B_5.dir\build.make CMakeFiles/fsoft_2022_1B_5.dir/sources/model/FuncionarioContainer.cpp.s
+.PHONY : sources/model/FuncionarioContainer.cpp.s
+
 sources/model/Nome.obj: sources/model/Nome.cpp.obj
 .PHONY : sources/model/Nome.obj
 
@@ -487,30 +511,6 @@ sources/model/ProdutoContainer.s: sources/model/ProdutoContainer.cpp.s
 sources/model/ProdutoContainer.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft_2022_1B_5.dir\build.make CMakeFiles/fsoft_2022_1B_5.dir/sources/model/ProdutoContainer.cpp.s
 .PHONY : sources/model/ProdutoContainer.cpp.s
-
-sources/model/Referencia.obj: sources/model/Referencia.cpp.obj
-.PHONY : sources/model/Referencia.obj
-
-# target to build an object file
-sources/model/Referencia.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft_2022_1B_5.dir\build.make CMakeFiles/fsoft_2022_1B_5.dir/sources/model/Referencia.cpp.obj
-.PHONY : sources/model/Referencia.cpp.obj
-
-sources/model/Referencia.i: sources/model/Referencia.cpp.i
-.PHONY : sources/model/Referencia.i
-
-# target to preprocess a source file
-sources/model/Referencia.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft_2022_1B_5.dir\build.make CMakeFiles/fsoft_2022_1B_5.dir/sources/model/Referencia.cpp.i
-.PHONY : sources/model/Referencia.cpp.i
-
-sources/model/Referencia.s: sources/model/Referencia.cpp.s
-.PHONY : sources/model/Referencia.s
-
-# target to generate assembly for a file
-sources/model/Referencia.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft_2022_1B_5.dir\build.make CMakeFiles/fsoft_2022_1B_5.dir/sources/model/Referencia.cpp.s
-.PHONY : sources/model/Referencia.cpp.s
 
 sources/model/Stock.obj: sources/model/Stock.cpp.obj
 .PHONY : sources/model/Stock.obj
@@ -773,6 +773,9 @@ help:
 	@echo ... sources/model/Funcionario.obj
 	@echo ... sources/model/Funcionario.i
 	@echo ... sources/model/Funcionario.s
+	@echo ... sources/model/FuncionarioContainer.obj
+	@echo ... sources/model/FuncionarioContainer.i
+	@echo ... sources/model/FuncionarioContainer.s
 	@echo ... sources/model/Nome.obj
 	@echo ... sources/model/Nome.i
 	@echo ... sources/model/Nome.s
@@ -782,9 +785,6 @@ help:
 	@echo ... sources/model/ProdutoContainer.obj
 	@echo ... sources/model/ProdutoContainer.i
 	@echo ... sources/model/ProdutoContainer.s
-	@echo ... sources/model/Referencia.obj
-	@echo ... sources/model/Referencia.i
-	@echo ... sources/model/Referencia.s
 	@echo ... sources/model/Stock.obj
 	@echo ... sources/model/Stock.i
 	@echo ... sources/model/Stock.s

@@ -323,26 +323,11 @@ CMakeFiles/fsoft_2022_1B_5.dir/sources/model/Stock.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/fsoft_2022_1B_5.dir/sources/model/Stock.cpp.s"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\luis_\OneDrive\Ambiente de Trabalho\fsoft2022_1B_5\gestao_empresa\sources\model\Stock.cpp" -o CMakeFiles\fsoft_2022_1B_5.dir\sources\model\Stock.cpp.s
 
-CMakeFiles/fsoft_2022_1B_5.dir/sources/model/Referencia.cpp.obj: CMakeFiles/fsoft_2022_1B_5.dir/flags.make
-CMakeFiles/fsoft_2022_1B_5.dir/sources/model/Referencia.cpp.obj: CMakeFiles/fsoft_2022_1B_5.dir/includes_CXX.rsp
-CMakeFiles/fsoft_2022_1B_5.dir/sources/model/Referencia.cpp.obj: ../sources/model/Referencia.cpp
-CMakeFiles/fsoft_2022_1B_5.dir/sources/model/Referencia.cpp.obj: CMakeFiles/fsoft_2022_1B_5.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\luis_\OneDrive\Ambiente de Trabalho\fsoft2022_1B_5\gestao_empresa\cmake-build-empresa\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/fsoft_2022_1B_5.dir/sources/model/Referencia.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsoft_2022_1B_5.dir/sources/model/Referencia.cpp.obj -MF CMakeFiles\fsoft_2022_1B_5.dir\sources\model\Referencia.cpp.obj.d -o CMakeFiles\fsoft_2022_1B_5.dir\sources\model\Referencia.cpp.obj -c "C:\Users\luis_\OneDrive\Ambiente de Trabalho\fsoft2022_1B_5\gestao_empresa\sources\model\Referencia.cpp"
-
-CMakeFiles/fsoft_2022_1B_5.dir/sources/model/Referencia.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/fsoft_2022_1B_5.dir/sources/model/Referencia.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\luis_\OneDrive\Ambiente de Trabalho\fsoft2022_1B_5\gestao_empresa\sources\model\Referencia.cpp" > CMakeFiles\fsoft_2022_1B_5.dir\sources\model\Referencia.cpp.i
-
-CMakeFiles/fsoft_2022_1B_5.dir/sources/model/Referencia.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/fsoft_2022_1B_5.dir/sources/model/Referencia.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\luis_\OneDrive\Ambiente de Trabalho\fsoft2022_1B_5\gestao_empresa\sources\model\Referencia.cpp" -o CMakeFiles\fsoft_2022_1B_5.dir\sources\model\Referencia.cpp.s
-
 CMakeFiles/fsoft_2022_1B_5.dir/sources/model/Empresa.cpp.obj: CMakeFiles/fsoft_2022_1B_5.dir/flags.make
 CMakeFiles/fsoft_2022_1B_5.dir/sources/model/Empresa.cpp.obj: CMakeFiles/fsoft_2022_1B_5.dir/includes_CXX.rsp
 CMakeFiles/fsoft_2022_1B_5.dir/sources/model/Empresa.cpp.obj: ../sources/model/Empresa.cpp
 CMakeFiles/fsoft_2022_1B_5.dir/sources/model/Empresa.cpp.obj: CMakeFiles/fsoft_2022_1B_5.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\luis_\OneDrive\Ambiente de Trabalho\fsoft2022_1B_5\gestao_empresa\cmake-build-empresa\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/fsoft_2022_1B_5.dir/sources/model/Empresa.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\luis_\OneDrive\Ambiente de Trabalho\fsoft2022_1B_5\gestao_empresa\cmake-build-empresa\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/fsoft_2022_1B_5.dir/sources/model/Empresa.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsoft_2022_1B_5.dir/sources/model/Empresa.cpp.obj -MF CMakeFiles\fsoft_2022_1B_5.dir\sources\model\Empresa.cpp.obj.d -o CMakeFiles\fsoft_2022_1B_5.dir\sources\model\Empresa.cpp.obj -c "C:\Users\luis_\OneDrive\Ambiente de Trabalho\fsoft2022_1B_5\gestao_empresa\sources\model\Empresa.cpp"
 
 CMakeFiles/fsoft_2022_1B_5.dir/sources/model/Empresa.cpp.i: cmake_force
@@ -357,7 +342,7 @@ CMakeFiles/fsoft_2022_1B_5.dir/sources/model/StockContainer.cpp.obj: CMakeFiles/
 CMakeFiles/fsoft_2022_1B_5.dir/sources/model/StockContainer.cpp.obj: CMakeFiles/fsoft_2022_1B_5.dir/includes_CXX.rsp
 CMakeFiles/fsoft_2022_1B_5.dir/sources/model/StockContainer.cpp.obj: ../sources/model/StockContainer.cpp
 CMakeFiles/fsoft_2022_1B_5.dir/sources/model/StockContainer.cpp.obj: CMakeFiles/fsoft_2022_1B_5.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\luis_\OneDrive\Ambiente de Trabalho\fsoft2022_1B_5\gestao_empresa\cmake-build-empresa\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/fsoft_2022_1B_5.dir/sources/model/StockContainer.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\luis_\OneDrive\Ambiente de Trabalho\fsoft2022_1B_5\gestao_empresa\cmake-build-empresa\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/fsoft_2022_1B_5.dir/sources/model/StockContainer.cpp.obj"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsoft_2022_1B_5.dir/sources/model/StockContainer.cpp.obj -MF CMakeFiles\fsoft_2022_1B_5.dir\sources\model\StockContainer.cpp.obj.d -o CMakeFiles\fsoft_2022_1B_5.dir\sources\model\StockContainer.cpp.obj -c "C:\Users\luis_\OneDrive\Ambiente de Trabalho\fsoft2022_1B_5\gestao_empresa\sources\model\StockContainer.cpp"
 
 CMakeFiles/fsoft_2022_1B_5.dir/sources/model/StockContainer.cpp.i: cmake_force
@@ -367,6 +352,21 @@ CMakeFiles/fsoft_2022_1B_5.dir/sources/model/StockContainer.cpp.i: cmake_force
 CMakeFiles/fsoft_2022_1B_5.dir/sources/model/StockContainer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/fsoft_2022_1B_5.dir/sources/model/StockContainer.cpp.s"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\luis_\OneDrive\Ambiente de Trabalho\fsoft2022_1B_5\gestao_empresa\sources\model\StockContainer.cpp" -o CMakeFiles\fsoft_2022_1B_5.dir\sources\model\StockContainer.cpp.s
+
+CMakeFiles/fsoft_2022_1B_5.dir/sources/model/FuncionarioContainer.cpp.obj: CMakeFiles/fsoft_2022_1B_5.dir/flags.make
+CMakeFiles/fsoft_2022_1B_5.dir/sources/model/FuncionarioContainer.cpp.obj: CMakeFiles/fsoft_2022_1B_5.dir/includes_CXX.rsp
+CMakeFiles/fsoft_2022_1B_5.dir/sources/model/FuncionarioContainer.cpp.obj: ../sources/model/FuncionarioContainer.cpp
+CMakeFiles/fsoft_2022_1B_5.dir/sources/model/FuncionarioContainer.cpp.obj: CMakeFiles/fsoft_2022_1B_5.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\luis_\OneDrive\Ambiente de Trabalho\fsoft2022_1B_5\gestao_empresa\cmake-build-empresa\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/fsoft_2022_1B_5.dir/sources/model/FuncionarioContainer.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsoft_2022_1B_5.dir/sources/model/FuncionarioContainer.cpp.obj -MF CMakeFiles\fsoft_2022_1B_5.dir\sources\model\FuncionarioContainer.cpp.obj.d -o CMakeFiles\fsoft_2022_1B_5.dir\sources\model\FuncionarioContainer.cpp.obj -c "C:\Users\luis_\OneDrive\Ambiente de Trabalho\fsoft2022_1B_5\gestao_empresa\sources\model\FuncionarioContainer.cpp"
+
+CMakeFiles/fsoft_2022_1B_5.dir/sources/model/FuncionarioContainer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/fsoft_2022_1B_5.dir/sources/model/FuncionarioContainer.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\luis_\OneDrive\Ambiente de Trabalho\fsoft2022_1B_5\gestao_empresa\sources\model\FuncionarioContainer.cpp" > CMakeFiles\fsoft_2022_1B_5.dir\sources\model\FuncionarioContainer.cpp.i
+
+CMakeFiles/fsoft_2022_1B_5.dir/sources/model/FuncionarioContainer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/fsoft_2022_1B_5.dir/sources/model/FuncionarioContainer.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\luis_\OneDrive\Ambiente de Trabalho\fsoft2022_1B_5\gestao_empresa\sources\model\FuncionarioContainer.cpp" -o CMakeFiles\fsoft_2022_1B_5.dir\sources\model\FuncionarioContainer.cpp.s
 
 CMakeFiles/fsoft_2022_1B_5.dir/sources/exceptions/InformacaoNaoExisteException.cpp.obj: CMakeFiles/fsoft_2022_1B_5.dir/flags.make
 CMakeFiles/fsoft_2022_1B_5.dir/sources/exceptions/InformacaoNaoExisteException.cpp.obj: CMakeFiles/fsoft_2022_1B_5.dir/includes_CXX.rsp
@@ -462,9 +462,9 @@ fsoft_2022_1B_5_OBJECTS = \
 "CMakeFiles/fsoft_2022_1B_5.dir/sources/model/Produto.cpp.obj" \
 "CMakeFiles/fsoft_2022_1B_5.dir/sources/model/ProdutoContainer.cpp.obj" \
 "CMakeFiles/fsoft_2022_1B_5.dir/sources/model/Stock.cpp.obj" \
-"CMakeFiles/fsoft_2022_1B_5.dir/sources/model/Referencia.cpp.obj" \
 "CMakeFiles/fsoft_2022_1B_5.dir/sources/model/Empresa.cpp.obj" \
 "CMakeFiles/fsoft_2022_1B_5.dir/sources/model/StockContainer.cpp.obj" \
+"CMakeFiles/fsoft_2022_1B_5.dir/sources/model/FuncionarioContainer.cpp.obj" \
 "CMakeFiles/fsoft_2022_1B_5.dir/sources/exceptions/InformacaoNaoExisteException.cpp.obj" \
 "CMakeFiles/fsoft_2022_1B_5.dir/sources/exceptions/InformacaoInvalidaException.cpp.obj" \
 "CMakeFiles/fsoft_2022_1B_5.dir/sources/exceptions/InformacaoDuplicadaException.cpp.obj" \
@@ -491,9 +491,9 @@ fsoft_2022_1B_5.exe: CMakeFiles/fsoft_2022_1B_5.dir/sources/model/Nome.cpp.obj
 fsoft_2022_1B_5.exe: CMakeFiles/fsoft_2022_1B_5.dir/sources/model/Produto.cpp.obj
 fsoft_2022_1B_5.exe: CMakeFiles/fsoft_2022_1B_5.dir/sources/model/ProdutoContainer.cpp.obj
 fsoft_2022_1B_5.exe: CMakeFiles/fsoft_2022_1B_5.dir/sources/model/Stock.cpp.obj
-fsoft_2022_1B_5.exe: CMakeFiles/fsoft_2022_1B_5.dir/sources/model/Referencia.cpp.obj
 fsoft_2022_1B_5.exe: CMakeFiles/fsoft_2022_1B_5.dir/sources/model/Empresa.cpp.obj
 fsoft_2022_1B_5.exe: CMakeFiles/fsoft_2022_1B_5.dir/sources/model/StockContainer.cpp.obj
+fsoft_2022_1B_5.exe: CMakeFiles/fsoft_2022_1B_5.dir/sources/model/FuncionarioContainer.cpp.obj
 fsoft_2022_1B_5.exe: CMakeFiles/fsoft_2022_1B_5.dir/sources/exceptions/InformacaoNaoExisteException.cpp.obj
 fsoft_2022_1B_5.exe: CMakeFiles/fsoft_2022_1B_5.dir/sources/exceptions/InformacaoInvalidaException.cpp.obj
 fsoft_2022_1B_5.exe: CMakeFiles/fsoft_2022_1B_5.dir/sources/exceptions/InformacaoDuplicadaException.cpp.obj

@@ -9,8 +9,8 @@ int main() {
 
     Empresa empresa ("Empresa");
 
-    MockData mock;
-    mock.generateData(empresa);
+    //MockData mock;
+    //mock.generateData(empresa);
 
     Controller controller(empresa);
     controller.run();
