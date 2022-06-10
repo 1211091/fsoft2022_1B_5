@@ -15,13 +15,13 @@ class StockContainer{
 private:
     vector<Stock> produtos;
     ProdutoContainer *produto;
-    int procurar(const Produto& produto);
+    int procurar(Produto produto);
 public:
     list<Stock> getAll();
-    Stock* get(const Produto& referencia);
-    void eliminarStock(const Produto& referencia);
-    void atualizarStock(const int quantidade,const Produto& referencia);
-    void adicionarStock(const Stock& obj);
+    Stock* get( Produto& referencia);
+    void eliminarStock(Produto& produto);
+    void atualizarStock(int quantidade,Produto& referencia);
+    void adicionarStock(Stock produto);
 
 };
 

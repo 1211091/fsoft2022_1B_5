@@ -24,18 +24,13 @@ public :
     string getProduto();
     const string getTipo();
     void setTipo(const string &tipo);
-<<<<<<< HEAD
     string Referencia();
-=======
->>>>>>> 5e299e5a3577eed7fab26b4713d059c5ae39cebf
     string Referencia(const string& referencia);
-    const string getReferencia();
+    string getReferencia();
     void setReferencia(const string &referencia);
-    int Quantidade(int quantidade);
-    Referencia * getReferencia() const;
-    int setReferencia(Referencia * referencia);
+    /*int setReferencia(Referencia * referencia);
     void setQuantidade(int quantidade);
-    const static Stock getQuantidade() const;
+    const static Stock getQuantidade() const;*/
 
     bool operator == (const Produto& referencia) const;
     bool operator == (string rfr) const;

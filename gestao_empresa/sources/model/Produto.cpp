@@ -40,16 +40,19 @@ void Produto::setTipo(const string &tipo){
 string Produto::setProduto(string &produto){
     return produto;
 }
-
+string Produto::getReferencia(){
+    return referencia;
+}
 string Produto::getProduto() {
     return produto;
 }
+/*
 void Produto::setQuantidade(int quantidade){
     this->quantidade = quantidade;
 }
 const Stock Produto::getQuantidade()const {
     return quantidade;
-}
+}*/
 
 bool Produto::isReferenciaValid(const string &referencia){
     if(referencia.length() != 10){
@@ -73,13 +76,5 @@ string Produto::Referencia(const string &referencia) {
 
 }
 
-<<<<<<< HEAD
 string Produto::Referencia() {
 }
-
-void Produto::setInformacaoNaoExisteException() {
-
-}
-
-=======
->>>>>>> 5e299e5a3577eed7fab26b4713d059c5ae39cebf

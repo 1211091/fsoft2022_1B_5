@@ -20,7 +20,7 @@ public:
     list<Funcionario> getAll();
     void adicionarFuncionario(Funcionario nomeFuncionario, Funcionario funcao);
     void eliminarFuncionario(string&nomeFuncionario);
-    void atualizar(string&nomeFuncionario, string&funcao);
+    void atualizarFuncionario(string&nomeFuncionario, string&funcao);
     Funcionario* getFuncionario(const Funcionario& nomeFuncionario);
 
 

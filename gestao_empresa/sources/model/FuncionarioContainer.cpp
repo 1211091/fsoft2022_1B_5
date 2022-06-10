@@ -3,7 +3,6 @@
 //
 #include "FuncionarioContainer.h"
 #include "InformacaoDuplicadaException.h"
-#include "InformacaoNaoExisteException.h"
 #include <iostream>
 
 list<Funcionario>::iterator FuncionarioContainer::procurarFuncionario(string&nomeFuncionario){
@@ -38,7 +37,7 @@ void FuncionarioContainer::eliminarFuncionario(string&nomeFuncionario){
         cout<<"O cliente"<<nomeFuncionario<<"nao existe"<<endl;
     }
 }
-void FuncionarioContainer::atualizar(string&nomeFuncionario, string&funcao){
+void FuncionarioContainer::atualizarFuncionario(string&nomeFuncionario, string&funcao){
     list<Funcionario>::iterator it = procurarFuncionario(nomeFuncionario);
     if(it != this->funcionarios.end()){
         it->setNomeFuncionario(nomeFuncionario);

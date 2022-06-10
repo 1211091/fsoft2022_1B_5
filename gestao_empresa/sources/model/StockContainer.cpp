@@ -7,7 +7,7 @@
 #include "InformacaoNaoExisteException.h"
 
 
-int StockContainer::procurar(const Produto& produto){
+int StockContainer::procurar(Produto produto){
     for (unsigned i=0; i<this->produtos.size(); ++i){
         if( this->produtos[i] == produto){
             return i;
@@ -24,7 +24,7 @@ list<Stock> StockContainer::getAll(){
     return list;
 }
 
-Stock* StockContainer::get(const Produto& referencia){
+Stock* StockContainer::get(Produto& referencia){
     Stock* Stock = NULL;
     int i = procurar(referencia);
     if(i != -1){
@@ -33,36 +33,35 @@ Stock* StockContainer::get(const Produto& referencia){
     return Stock;
 }
 
-void StockContainer::adicionarStock(const Stock& obj) {
-    int i = procurar(obj.getReferencia());
+void StockContainer::adicionarStock(Stock produto) {
+    int i = procurar(produto.getProduto());
     if(i == -1){
-        this->produtos.push_back(obj);
+        this->produtos.push_back(produto);
     }else{
-        string msg = "Stock: " + obj.getReferencia();
-        throw InformacaoNaoExisteException(msg);
+        string msg = "Stock: " + produto.getReferencia();
+        throw InformacaoDuplicadaException(msg);
     }
 
 }
 
-void StockContainer::eliminarStock(const Produto& referencia){
+void StockContainer::eliminarStock(Produto& produto){
     list<Produto*> listStock;
-    int i = procurar(referencia);
+    int i = procurar(produto);
     if(i != -1){
         listStock = this->produtos->getProduto();
         if(listStock.size() == 0 ){
             this->produtos.erase(this->produtos.begin() + i);
         }else{
-            string msg = "Subject: " + referencia;
+            string msg = "Produto: " + produto;
             throw InformacaoNaoExisteException(msg);
 
         }
     }
 }
 
-void StockContainer::atualizarStock(const int quantidade,const Produto& referencia){
+void StockContainer::atualizarStock(int quantidade,Produto& referencia){
     int i = procurar(referencia);
     if(i != -1){
         this->produtos[i].setQuantidade(quantidade);
     }
 }
-
