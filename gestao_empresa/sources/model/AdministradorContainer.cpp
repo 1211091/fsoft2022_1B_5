@@ -6,8 +6,8 @@
 
 
 Funcionario* AdministradorContainer::getFuncionario(){
-    return Funcionario;
-
+    list<Administrador>::iterator it = getAdministrador();
+        return it;
 }
 int AdministradorContainer::getStock(){
     return Stock;
@@ -20,4 +20,7 @@ int AdministradorContainer::getCliente(){
 int AdministradorContainer::getProduto(){
     return produto;
 
+}
+int AdministradorContainer::getAdministrador(){
+    return administrador;
 }

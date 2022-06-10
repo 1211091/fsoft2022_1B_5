@@ -14,14 +14,9 @@ private:
 public:
         Cliente(const string &nomeLoja);
         ~Cliente();
-        bool operator == (const Cliente& produto) const;
-        bool operator == (string tp) const;
         string NomeLoja(const string& nomeLoja);
         string setNomeLoja(const string &nomeLoja);
         string getNomeLoja();
-        Cliente* getCliente(const Cliente& nomeLoja);
-
-
 };
 
 #endif //HEADERS_MODEL_CLIENTE_H

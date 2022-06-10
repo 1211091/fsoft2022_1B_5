@@ -49,3 +49,7 @@ StockContainer & Empresa::getStockContainer(){
 FuncionarioContainer & Empresa::getFuncionarioContainer(){
     return this->funcionarios;
 }
+
+void Empresa::setInformacaoNaoExisteException() {
+
+}

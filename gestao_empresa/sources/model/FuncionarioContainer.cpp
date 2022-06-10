@@ -17,7 +17,7 @@ bool Funcionario::operator == (string nf) const{
     }
     return false;
 }
-list<Funcionario>::iterator FuncionarioContainer::procurarFuncionario(string&nomeFuncionario){
+list<Funcionario>::iterator FuncionarioContainer::procurarFuncionario(string&nomeFuncionario, string&funcao){
     list<Funcionario>::iterator it = this->funcionarios.begin();
     for(it = this->funcionarios.begin(); it != this->funcionarios.end(); ++it){
         if((*it) == nomeFuncionario){
@@ -31,11 +31,13 @@ list<Funcionario> FuncionarioContainer::getAll(){
     list<Funcionario> lista(this->funcionarios);
     return lista;
 }
-void FuncionarioContainer::adicionarFuncionario(Funcionario nomeFuncionario){
+void FuncionarioContainer::adicionarFuncionario(Funcionario nomeFuncionario, Funcionario funcao){
     string nomedoFuncionario =  nomeFuncionario.getNomeFuncionario();
-    list<Funcionario>::iterator it = procurarFuncionario(nomedoFuncionario);
+    string funcaodofuncionario =  funcao.getFuncao();
+    list<Funcionario>::iterator it = procurarFuncionario(nomedoFuncionario, funcaodofuncionario);
     if(it == this->funcionarios.end()){
         this->funcionarios.push_back(nomeFuncionario);
+        this->funcionarios.push_back(funcao);
     }
 }
 void FuncionarioContainer::eliminarFuncionario(string&nomeFuncionario){

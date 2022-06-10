@@ -26,3 +26,15 @@ void Referencia::setReferencia(const string &referencia){
         }
 }
 
+Referencia::Referencia(const string &referencia) {
+
+}
+
+Referencia::Referencia() {
+
+}
+
+void Referencia::setInformacaoNaoExisteException() {
+
+}
+

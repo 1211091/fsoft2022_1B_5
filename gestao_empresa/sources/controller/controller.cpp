@@ -43,8 +43,7 @@ void Controller::runAdministrador(){
         switch(opcao){
             case 1:
             {
-                Administrador administrador = this->administradorView.getAdministrador()(<#initializer#>,
-                                                                                         <#initializer#>);
+                Administrador administrador = this->administradorView.getAdministrador();
                 AdministradorContainer& container = this->model.getAdministradorContainer();
             }
             break;
@@ -52,6 +51,7 @@ void Controller::runAdministrador(){
             {
                 cout<<this->model.getNome()<<endl;
                 AdministradorContainer container = this-> model.getAdministradorContainer();
+                Administrador* administrador = container.getAdministrador();
                 this->administradorView.printAdministrador(administrador);
             }
             break;
@@ -68,8 +68,9 @@ void Controller::runFuncionario(){
         switch (opcao) {
             case 1: {
                 Funcionario funcionario = this->funcionarioView.getFuncionario();
+                Funcionario funcao = this->funcionarioView.getFuncao();
                 FuncionarioContainer &container = this->model.getFuncionarioContainer();
-                container.adicionarFuncionario(funcionario);
+                container.adicionarFuncionario(funcionario, funcao);
             }
                 break;
             case 2: {
@@ -89,7 +90,7 @@ void Controller::runFuncionario(){
             case 4: {
                 string nome = Utils::getString("Insira o nome do funcioanrio");
                 FuncionarioContainer &container = this->model.getFuncionarioContainer();
-                Funcionario *ptr = container.get(nome);
+                Funcionario *ptr = container.getFuncionario(nome);
                 if (ptr != NULL) {
                     this->funcionarioView.printFuncionario(ptr);
                 } else {
@@ -127,16 +128,15 @@ void Controller::runCliente(){
                 break;
             case 2: {
                 string nomeLoja = Utils::getString("Insira o nome da loja");
-                string nomeGerente = Utils::getString("Insira o nome do gerente");
                 ClienteContainer &container = this->model.getClienteContainer();
-                container.atualizarCliente(nomeLoja, nomeGerente);
+                container.atualizarCliente(nomeLoja);
             }
                 break;
             case 3: {
                 cout << this->model.getNome() << endl;
                 ClienteContainer container = this->model.getClienteContainer();
                 list <Cliente> clientes = container.getAll();
-                this->clienteView.printCliente(clientes);
+                this->clienteView.printClientes(clientes);
             }
                 break;
             case 4: {
@@ -179,16 +179,17 @@ void Controller::runProduto(){
                 break;
             case 2: {
                 string nomeProduto = Utils::getString("Insira o tipo do produto");
-                int numero = Utils::getNumero("Insira a referência");
+                string referencia = Utils::getString("Insira a referência");
                 ProdutoContainer &container = this->model.getProdutoContainer();
-                container.atualizarProduto(nomeProduto, numero);
+                container.atualizarProduto(nomeProduto, referencia);
             }
                 break;
             case 3: {
                 cout << this->model.getNome() << endl;
                 ProdutoContainer container = this->model.getProdutoContainer();
                 list <Produto> produtos = container.getAll();
-                this->produtoView.printProduto(produtos);
+                list <Referencia> referencias = container.getAll();
+                this->produtoView.printProdutos(produtos, referencias);
             }
                 break;
             case 4: {

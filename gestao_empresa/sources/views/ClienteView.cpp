@@ -9,16 +9,14 @@
 using namespace std;
 
 Cliente ClienteView::getCliente(){
-    Cliente cliente(<#initializer#>, "Nome");
+    Cliente cliente("Nome da Loja");
     bool flag = false;
     do{
         try{
             flag = false;
             cout<<"Cliente"<<endl;
-            string nome_gerente = Utils::getString("Nome do gerente");
-            cliente.setNome(nome);
-            string nome = Utils::getString("Nome da loja");
-            cliente.setFuncao(nome);
+            string nomeLoja = Utils::getString("Nome da loja");
+            cliente.setNomeLoja(nomeLoja);
         }catch(InformacaoInvalidaException& e){
             flag = true;
         }
@@ -26,7 +24,7 @@ Cliente ClienteView::getCliente(){
     return cliente;
 }
 void ClienteView::printCliente(Cliente *cliente) {
-    cout << cliente->getNome() << endl;
+    cout << cliente->getNomeLoja() << endl;
 }
 void ClienteView::printClientes(list<Cliente>& clientes){
     for (list<Cliente>::iterator it=clientes.begin(); it != clientes.end(); ++it){

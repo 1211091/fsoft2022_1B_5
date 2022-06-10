@@ -38,6 +38,11 @@ string Funcionario::setNomeFuncionario(const string &nomeFuncionario){
 string Funcionario::getNomeFuncionario(){
     return nomeFuncionario;
 }
+
+string Funcionario::Funcao(const string &funcao) {
+
+}
+
 string Funcionario::getFuncao(){
     return funcao;
 }

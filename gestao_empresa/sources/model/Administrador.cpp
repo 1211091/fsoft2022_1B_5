@@ -28,7 +28,7 @@ const string& Administrador::getNome() const {
     return nome;
 }
 
-void Administrador::setNome(const string &nome) {
+void Administrador::setNomeAdministrador(const string &nome) {
 
     if(ValidacaoNome(nome)){
         this->nome = nome;
@@ -52,4 +52,6 @@ bool Administrador::operator == (const string nome) const{
     }
     return false;
 }
-
+int Administrador::getAdministrador(){
+    return administrador;
+}

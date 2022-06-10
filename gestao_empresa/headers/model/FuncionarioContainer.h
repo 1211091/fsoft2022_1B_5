@@ -15,10 +15,10 @@ class FuncionarioContainer{
 private:
     list<Funcionario> funcionarios;
     FuncionarioContainer *funcionario;
-    list<Funcionario>::iterator procurarFuncionario(string&nomeFuncionario);
+    list<Funcionario>::iterator procurarFuncionario(string&nomeFuncionario, string&funcao);
 public:
     list<Funcionario> getAll();
-    void adicionarFuncionario(Funcionario nomeFuncionario);
+    void adicionarFuncionario(Funcionario nomeFuncionario, Funcionario funcao);
     void eliminarFuncionario(string&nomeFuncionario);
     void atualizar(string&nomeFuncionario, string&funcao);
     Funcionario* getFuncionario(const Funcionario& nomeFuncionario);

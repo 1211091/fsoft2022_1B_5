@@ -11,6 +11,16 @@ Cliente::Cliente(const string &nomeLoja){
 string Cliente::getNomeLoja(){
     return  this->nomeLoja;
 }
+string Cliente::setNomeLoja(const string &nomeLoja){
+    return nomeLoja;
+}
+string Cliente::NomeLoja(const string& nomeLoja){
+
+}
+
+Cliente::~Cliente() {
+
+}
 
 Cliente* ClienteContainer::getCliente(const Cliente& nomeLoja){
     list<Cliente>::iterator it = procurarCliente((string&)nomeLoja);

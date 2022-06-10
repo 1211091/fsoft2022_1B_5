@@ -36,3 +36,15 @@ Stock::Stock (Produto *tipo, Referencia *referencia) {
 Referencia* Stock::getReferencia() const {
     return referencia;
 }
+int Stock::Quantidade(int quantidade){
+
+}
+Produto* Stock::getTipo(Produto *tipo){
+
+}
+int Stock::setTipo(Produto *tipo){
+
+}
+int Stock::setReferencia(Referencia * referencia){
+
+}

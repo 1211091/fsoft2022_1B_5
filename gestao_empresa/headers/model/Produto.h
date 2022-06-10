@@ -20,10 +20,10 @@ public :
     string getTipo();
     string setTipo(string &tipo);
     string setProduto(string &produto);
+    string getProduto();
     string getReferencia();
     string setReferencia(const string &referencia);
     string setQuantidade(const string &quantidade);
-    Produto* getProduto(string referencia,const string &tipo);
     ~Produto();
     bool operator == (const Produto& referencia) const;
     bool operator == (string rfr) const;

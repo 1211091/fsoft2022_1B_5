@@ -52,3 +52,7 @@ string Produto::setQuantidade(const string &quantidade){
 string Produto::Tipo(string &tipo){
 
 }
+
+string Produto::getProduto() {
+    return produto;
+}

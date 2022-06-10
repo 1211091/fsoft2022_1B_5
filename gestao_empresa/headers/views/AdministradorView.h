@@ -11,8 +11,6 @@ class AdministradorView{
 public:
     Administrador getAdministrador();
     void printAdministrador (Administrador *administrador);
-    bool eliminar();
-    bool adicionar();
 };
 
 

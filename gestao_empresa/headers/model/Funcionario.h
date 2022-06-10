@@ -20,9 +20,7 @@ public:
     string Funcao(const string &funcao);
     string setNomeFuncionario(const string &nomeFuncionario);
     string getNomeFuncionario();
-    
     string getFuncao();
-    Funcionario* getFuncionario(const Funcionario& nomeFuncionario);
 
     bool operator == (const Funcionario& nomeFuncionario) const;
     bool operator == (string nf) const;

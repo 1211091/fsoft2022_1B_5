@@ -17,10 +17,16 @@ private:
     int quantidade;
 
 public:
+    int administrador;
+    int produto;
+    int Stock;
+    int cliente;
+    Funcionario Funcionario;
     Funcionario* getFuncionario();
     int getStock();
     int getProduto();
     int getCliente();
+    int getAdministrador();
 };
 
 #endif //HEADERS_MODEL_ADMINISTRADORCONTAINER_H

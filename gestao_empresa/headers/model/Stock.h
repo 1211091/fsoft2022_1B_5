@@ -12,7 +12,7 @@ using namespace std;
 class Stock {
 protected:
     Stock(Referencia &referencia);
-    Produto * tipo;
+    Produto *tipo;
     int quantidade;
     Referencia * referencia;
 public:
@@ -20,11 +20,11 @@ public:
     int getQuantidade();
     int setQuantidade(int quantidade);
     Stock (Produto * tipo, Referencia *referencia);
-    Produto* getTipo(Produto * tipo);
+    Produto* getTipo(Produto *tipo);
     Produto* getTipo() const;
-    void setTipo(Produto * tipo);
+    int setTipo(Produto *tipo);
     Referencia * getReferencia() const;
-    void setReferencia(Referencia * referencia);
+    int setReferencia(Referencia * referencia);
     bool produto_existe(int quantidade);
 
     bool operator == (const Stock& produto) const;
