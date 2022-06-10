@@ -10,7 +10,7 @@
 using namespace std;
 class Produto:{
 protected:
-    Produto(const string &referencia, const string &tipo, int quantidade);
+    Produto(const string &referencia, const string &tipo);
     string tipo;
     string produto;
     int quantidade;
@@ -28,9 +28,6 @@ public :
     string Referencia(const string& referencia);
     string getReferencia();
     void setReferencia(const string &referencia);
-    /*int setReferencia(Referencia * referencia);
-    void setQuantidade(int quantidade);
-    const static Stock getQuantidade() const;*/
 
     bool operator == (const Produto& referencia) const;
     bool operator == (string rfr) const;

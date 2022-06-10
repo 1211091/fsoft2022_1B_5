@@ -26,7 +26,7 @@ bool Produto::operator == (string rfr) const{
     return false;
 }
 
-Produto::Produto(const string& referencia, const string&tipo, int quantidade){
+Produto::Produto(const string& referencia, const string&tipo){
     setProduto(produto);
 }
 Produto::~Produto(){

@@ -5,6 +5,7 @@
 #ifndef HEADERS_MODEL_STOCKCONTAINER_H
 #define HEADERS_MODEL_STOCKCONTAINER_H
 
+#include <iostream>
 #include <vector>
 #include <list>
 #include "Stock.h"
@@ -19,7 +20,7 @@ private:
 public:
     list<Stock> getAll();
     Stock* get( Produto& referencia);
-    void eliminarStock(Produto& produto);
+    void eliminarStock( Produto produto);
     void atualizarStock(int quantidade,Produto& referencia);
     void adicionarStock(Stock produto);
 
