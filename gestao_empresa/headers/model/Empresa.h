@@ -23,8 +23,6 @@ private :
     StockContainer stock;
     FuncionarioContainer funcionarios;
 
-
-    void setInformacaoNaoExisteException();
 public:
     Empresa();
     Empresa(const string& nome);
