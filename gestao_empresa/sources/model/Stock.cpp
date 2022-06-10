@@ -5,6 +5,27 @@
 #include "Stock.h"
 #include "InformacaoInvalidaException.h"
 
+bool Stock::isPointerNotNull(void * ptr){
+    if(ptr == NULL){
+        return false;
+    }
+    return true;
+}
+
+bool Stock::operator == (const Stock& obj) const{
+    if(this->tipo == obj.tipo){
+        return true;
+    }
+    return false;
+}
+
+bool Stock::operator == (Produto* tp) const{
+    if(this->tipo == tp){
+        return true;
+    }
+    return false;
+}
+
 Stock::Stock (Produto *tipo, Referencia *referencia) {
     this->setReferencia(referencia);
     this->setTipo(tipo);
@@ -40,9 +61,6 @@ int Stock::getQuantidade(){
     return quantidade;
 }
 
-Referencia* Stock::getReferencia() const {
-    return referencia;
-}
 Produto* Stock::getTipo(){
     return tipo;
 }
@@ -55,6 +73,9 @@ int Stock::setTipo(Produto *tipo){
         }
     }
 
+Referencia* Stock::getReferencia() const {
+    return referencia;
+}
 int Stock::setReferencia(Referencia * referencia){
     if(isPointerNotNull(referencia)==true){
         this->referencia = referencia;
@@ -62,5 +83,4 @@ int Stock::setReferencia(Referencia * referencia){
         string msg = "Stock: referencia = NULL";
         throw InformacaoInvalidaException(msg);
     }
-}
 }

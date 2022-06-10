@@ -3,17 +3,17 @@
 //
 #include "Cliente.h"
 
-int cliente::numero=0;
-Cliente::ClienteC(const string& nomeLoja,const string& nomeGerente ){
+
+Cliente::Cliente(const string& nomeLoja){
   this->nomeLoja =nomeLoja;
-  this->nomeGerente=nomeGerente;
-  this numero=numero++;
 }
 Cliente::~Cliente(){
 }
-const Cliente::getGerente(){
-    return nomeGerente;
+
+string Cliente::getNomeLoja() {
+    return nomeLoja;
 }
-const Cliente::getNomeLoja(){
-    return NomeLoja;
+
+void Cliente::setNomeLoja( string &nomeLoja){
+    this-> nomeLoja = nomeLoja;
 }

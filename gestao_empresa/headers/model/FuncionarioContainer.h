@@ -2,8 +2,8 @@
 // Created by babis on 6/9/2022.
 //
 
-#ifndef MAIN_CPP_FUNCIONARIOCONTAINER_H
-#define MAIN_CPP_FUNCIONARIOCONTAINER_H
+#ifndef HEADERS_MODEL_FUNCIONARIOCONTAINER_H
+#define HEADERS_MODEL_FUNCIONARIOCONTAINER_H
 #include "Nome.h"
 #include "Administrador.h"
 #include "Funcionario.h"
@@ -15,7 +15,7 @@ class FuncionarioContainer{
 private:
     list<Funcionario> funcionarios;
     FuncionarioContainer *funcionario;
-    list<Funcionario>::iterator procurarFuncionario(string&nomeFuncionario, string&funcao);
+    list<Funcionario>::iterator procurarFuncionario(string&nomeFuncionario);
 public:
     list<Funcionario> getAll();
     void adicionarFuncionario(Funcionario nomeFuncionario, Funcionario funcao);
@@ -25,4 +25,4 @@ public:
 
 
 };
-#endif //MAIN_CPP_FUNCIONARIOCONTAINER_H
+#endif //HEADERS_MODEL_FUNCIONARIOCONTAINER_H

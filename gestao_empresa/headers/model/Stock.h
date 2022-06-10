@@ -7,12 +7,13 @@
 
 #include <string>
 #include "Referencia.h"
+#include "Produto.h"
 
 using namespace std;
 class Stock {
 protected:
     Stock(Referencia &referencia);
-    Produto *tipo;
+    Produto * tipo;
     int quantidade;
     Referencia * referencia;
     bool isPointerNotNull(void * ptr);
@@ -29,7 +30,7 @@ public:
     bool produto_existe(int quantidade);
 
     bool operator == (const Stock& produto) const;
-    bool operator == (string tp) const;
+    bool operator == (Produto* tp) const;
 
 
 };

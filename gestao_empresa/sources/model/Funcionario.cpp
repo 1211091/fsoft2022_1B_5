@@ -10,10 +10,23 @@ Funcionario::Funcionario(const string &nomefuncionario,const string &funcao){
 }
 
 Funcionario::~Funcionario(){
-};
+}
+string Funcao(const string &funcao){
+
+
+}
+
+void Funcionario::setFuncao(const string &funcao) {
+  this->funcao;
+}
 string Funcionario::getFuncao(){
     return funcao;
 }
+
+void Funcionario::setNomeFuncionario(const string &nomeFuncionario){
+    this->nomeFuncionario;
+}
+
 string Funcionario::getNomeFuncionario(){
     return nomeFuncionario;
 }

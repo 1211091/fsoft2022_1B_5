@@ -31,7 +31,7 @@ public:
     Empresa(const Empresa& obj);
     const string& getNome() const ;
     void setNome(const string &nome) ;
-
+    ~Empresa();
     AdministradorContainer & getAdministradorContainer();
     ClienteContainer & getClienteContainer();
     ProdutoContainer & getProdutoContainer();

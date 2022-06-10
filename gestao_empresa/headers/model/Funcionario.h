@@ -17,9 +17,9 @@ private:
 public:
     Funcionario(const string &nomefuncionario,const string &funcao);
     ~Funcionario();
-    string setFuncao(const string &funcao);
+    void setFuncao(const string &funcao);
     string Funcao(const string &funcao);
-    string setNomeFuncionario(const string &nomeFuncionario);
+    void setNomeFuncionario(const string &nomeFuncionario);
     string getNomeFuncionario();
     string getFuncao();
 

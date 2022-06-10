@@ -7,16 +7,15 @@
 #include "Nome.h"
 #include <string>
 
-class Cliente: public Nome{
+class Cliente{
     private:
-    string nome;
+    string nomeLoja;
     public:
-        Cliente(const string& nomeGerente,const string& nomeLoja);
+        Cliente(const string& nomeLoja);
         ~Cliente();
-    const Nome& getNomeGerente() const;
-    void setNomeGerente (const Nome &NomeGerente);
-    const Nome& getNomeLoja() const;
-    void setNomeLoja(Nome &NomeLoja);
+        string NomeLoja(string nomeLoja);
+        string getNomeLoja() ;
+        void setNomeLoja( string &nomeLoja);
 
 
 

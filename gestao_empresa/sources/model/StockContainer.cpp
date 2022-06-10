@@ -8,21 +8,8 @@
 #include "Stock.h"
 
 
-bool Stock::operator == (const Stock& obj) const{
-    if(this->tipo == obj.tipo){
-        return true;
-    }
-    return false;
-}
-bool Stock::operator == (string tp) const{
-    if(this->tipo == tp){
-        return true;
-    }
-    return false;
-}
-
 int StockContainer::procurar(const string &produto){
-    for (unsigned i=0; i<this->produtos.size(); ++i){
+    for (unsigned int i=0; i<this->produtos.size(); ++i){
         if( this->produtos[i] == produto){
             return i;
         }

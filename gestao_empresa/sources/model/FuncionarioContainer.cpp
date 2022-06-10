@@ -6,7 +6,7 @@
 #include "InformacaoNaoExisteException.h"
 #include <iostream>
 
-list<Funcionario>::iterator FuncionarioContainer::procurarFuncionario(string&nomeFuncionario, string&funcao){
+list<Funcionario>::iterator FuncionarioContainer::procurarFuncionario(string&nomeFuncionario){
     list<Funcionario>::iterator it = this->funcionarios.begin();
     for(it = this->funcionarios.begin(); it != this->funcionarios.end(); ++it){
         if((*it) == nomeFuncionario){
@@ -23,7 +23,7 @@ list<Funcionario> FuncionarioContainer::getAll(){
 void FuncionarioContainer::adicionarFuncionario(Funcionario nomeFuncionario, Funcionario funcao){
     string nomedoFuncionario =  nomeFuncionario.getNomeFuncionario();
     string funcaodofuncionario =  funcao.getFuncao();
-    list<Funcionario>::iterator it = procurarFuncionario(nomedoFuncionario, funcaodofuncionario);
+    list<Funcionario>::iterator it = procurarFuncionario(nomedoFuncionario);
     if(it == this->funcionarios.end()){
         this->funcionarios.push_back(nomeFuncionario);
         this->funcionarios.push_back(funcao);
@@ -40,10 +40,8 @@ void FuncionarioContainer::eliminarFuncionario(string&nomeFuncionario){
 }
 void FuncionarioContainer::atualizar(string&nomeFuncionario, string&funcao){
     list<Funcionario>::iterator it = procurarFuncionario(nomeFuncionario);
-    list<Funcionario>::iterator its = procurarFuncionario(funcao);
     if(it != this->funcionarios.end()){
         it->setNomeFuncionario(nomeFuncionario);
-        its->setFuncao(funcao);
 
     }
 }
