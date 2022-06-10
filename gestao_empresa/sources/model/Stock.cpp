@@ -12,7 +12,7 @@ bool Stock::isPointerNotNull(void * ptr){
     return true;
 }
 
-bool Produto::isReferenciaValid(const string &referencia) {
+bool Stock::isReferenciaValid(const string &referencia) {
     if(referencia.length() != 10){
         return false;
     }
@@ -62,9 +62,7 @@ int Stock::getQuantidade()const {
     return quantidade;
 }
 
-Produto* Stock::getProduto(){
-    return this->produto;
-}
+
 void Stock::setProduto(Produto *produto){
 
     if(isPointerNotNull(produto)==true){
@@ -89,4 +87,12 @@ void Stock::setReferencia(const string &referencia){
         string msg = "Produto: " + referencia;
         throw InformacaoInvalidaException(msg);
     }
+}
+
+Stock::~Stock() {
+
+}
+
+ const Produto Stock::getProduto()  {
+    return this->produto;
 }
