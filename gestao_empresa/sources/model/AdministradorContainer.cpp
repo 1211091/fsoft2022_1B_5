@@ -25,15 +25,15 @@ int AdministradorContainer::getAdministrador(){
     return administrador;
 }*/
 
-ClienteContainer & AdministradorContainer::getClienteContainer(){
+ClienteContainer & AdministradorContainer::getCliente(){
     return this->clientes;
 }
-ProdutoContainer & AdministradorContainer::getProdutoContainer() {
+ProdutoContainer & AdministradorContainer::getProduto() {
     return this->produtos;
 }
-StockContainer & AdministradorContainer::getStockContainer(){
+StockContainer & AdministradorContainer::getStock(){
     return this->stock;
 }
-FuncionarioContainer & AdministradorContainer::getFuncionarioContainer(){
+FuncionarioContainer & AdministradorContainer::getFuncionario(){
     return this->funcionarios;
 }
