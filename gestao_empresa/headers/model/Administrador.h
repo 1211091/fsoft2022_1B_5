@@ -11,12 +11,16 @@
 #include "Produto.h"
 #include "Cliente.h"
 using namespace std;
+
+
 class Administrador: public Nome{
 private:
     string nome;
     bool ValidacaoNome(const string& nome);
+
 public:
     int administrador;
+    Administrador();
     Administrador(const string& Nome);
     Administrador(const Administrador &obj);
     ~Administrador();
@@ -25,6 +29,11 @@ public:
     int getAdministrador();
     bool operator == (const Administrador& obj) const;
     bool operator == (const string nome) const;
+
+    ClienteContainer & getClienteContainer();
+    ProdutoContainer & getProdutoContainer();
+    StockContainer & getStockContainer();
+    FuncionarioContainer & getFuncionarioContainer();
 };
 
 #endif HEADERS_MODEL_ADMINISTRADOR_H

@@ -5,7 +5,7 @@
 #include "AdministradorContainer.h"
 
 
-Funcionario* AdministradorContainer::getFuncionario(){
+/*Funcionario* AdministradorContainer::getFuncionario(){
     list<Administrador>::iterator it = getAdministrador();
         return it;
 }
@@ -23,4 +23,17 @@ int AdministradorContainer::getProduto(){
 }
 int AdministradorContainer::getAdministrador(){
     return administrador;
+}*/
+
+ClienteContainer & AdministradorContainer::getClienteContainer(){
+    return this->clientes;
+}
+ProdutoContainer & AdministradorContainer::getProdutoContainer() {
+    return this->produtos;
+}
+StockContainer & AdministradorContainer::getStockContainer(){
+    return this->stock;
+}
+FuncionarioContainer & AdministradorContainer::getFuncionarioContainer(){
+    return this->funcionarios;
 }
