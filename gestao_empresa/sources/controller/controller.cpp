@@ -10,6 +10,7 @@
 #include "Empresa.h"
 #include "FuncionarioContainer.h"
 
+
 using namespace std;
 
 Controller::Controller(Empresa& empresa){
@@ -238,7 +239,7 @@ void Controller::runStock(){
                 try {
                     string nome = Utils::getString("Insira o nome do produto");
                     StockContainer &container = this->model.getStockContainer();
-                    container.removerStock(nome);
+                    container.eliminarStock(referencia);
                 } catch (InformacaoNaoExisteException &e) {
                     string str(e.what());
                     cout << str << endl;

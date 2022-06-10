@@ -6,7 +6,6 @@
 #define HEADERS_MODEL_PRODUTO_H
 #include <string>
 #include "Stock.h"
-#include "Referencia.h"
 
 using namespace std;
 class Produto:{
@@ -14,9 +13,11 @@ protected:
     Produto(const string &referencia, const string &tipo);
     string tipo;
     string produto;
-    Referencia* referencia;
     int quantidade;
     bool isPointerNotNull(void * ptr);
+    string referencia;
+    static bool isReferenciaValid(const string& referencia);
+    void setInformacaoNaoExisteException();
 public :
     Produto(const string &referencia, const string &tipo);
     ~Produto();
@@ -25,13 +26,15 @@ public :
     string Tipo(string &tipo);
     const string getTipo();
     void setTipo(const string &tipo);
-    Referencia * getReferencia() const;
-    int setReferencia(Referencia * referencia);
+    string Referencia();
+    string Referencia(const string& referencia);
+    const string getReferencia();
+    void setReferencia(const string &referencia);
     int Quantidade(int quantidade);
     void setQuantidade(int quantidade);
     int getQuantidade() const;
 
     bool operator == (const Produto& referencia) const;
-    bool operator == (Referencia* rfr) const;
+    bool operator == (string rfr) const;
 }
 #endif //HEADERS_MODEL_PRODUTO_H
