@@ -12,13 +12,13 @@
 -- Detecting CXX compile features
 -- Detecting CXX compile features - done
 -- Configuring done
-CMake Error at CMakeLists.txt:108 (add_executable):
+CMake Error at CMakeLists.txt:116 (add_executable):
   Cannot find source file:
 
-    C:/Users/bilax/Dropbox/PC/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/sources/exceptions/InformacaoDuplicadaException.cpp
+    C:/Users/bilax/Dropbox/PC/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/sources/model/Empresa
 
 
-CMake Error at CMakeLists.txt:108 (add_executable):
+CMake Error at CMakeLists.txt:116 (add_executable):
   No SOURCES given to target: fsoft_2022_1B_5
 
 
