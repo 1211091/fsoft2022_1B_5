@@ -26,7 +26,7 @@ bool Stock::operator == (const Produto& tp) const{
     return false;
 }
 
-Stock::Stock (Produto *tipo, Produto *referencia) {
+Stock::Stock (Produto* produto) {
     this->setReferencia(referencia);
     this->setTipo(tipo);
 }
@@ -43,17 +43,8 @@ bool Stock::produto_existe(int quantidade){
     bool resultado=true;
     return resultado;
 }
-
-int Stock::setQuantidade(int quantidade){
-    if(produto_existe(quantidade)){
-        this->quantidade = quantidade;
-    }else{
-        string str = "Quantidade de produto inválida";
-
-    }
-    this->quantidade = quantidade;
-}
-int Stock::getQuantidade(){
+/*
+Produto* Stock::getQuantidade() const{
     return quantidade;
 }
 
@@ -79,4 +70,27 @@ int Stock::setReferencia(Produto * referencia){
         string msg = "Stock: referencia = NULL";
         throw InformacaoInvalidaException(msg);
     }
+}
+*/
+
+void Stock::setQuantidade(int quantidade){
+    this->quantidade = quantidade;
+}
+
+int Stock::getQuantidade()const {
+    return quantidade;
+}
+
+Produto* Stock::getProduto(){
+    return this->produto;
+}
+void Stock::setProduto(Produto *produto){
+
+    if(isPointerNotNull(produto)==true){
+        this->produto = produto;
+    }else{
+        string msg = "Enroll: student = NULL";
+        throw InformacaoInvalidaException(msg);
+    }
+
 }

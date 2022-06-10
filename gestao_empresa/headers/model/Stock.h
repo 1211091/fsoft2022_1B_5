@@ -9,30 +9,24 @@
 #include "Produto.h"
 
 using namespace std;
-class Stock {
+class Stock:{
 protected:
-    Stock(Referencia &referencia);
-    Produto * produto;
+    Stock(Produto *produto);
+    Produto* produto;
+    int quantidade;
     bool isPointerNotNull(void * ptr);
+    bool produto_existe(int quantidade)
 public:
-<<<<<<< HEAD
-    Stock(Produto * tipo, Produto *referencia);
+
+    Stock(Produto* produto);
     Stock(const Stock& obj);
     ~Stock();
-    Produto * getTipo() const;
-=======
-    int getQuantidade();
-    int setQuantidade(int quantidade);
-    Stock (Produto * tipo, Referencia *referencia);
-    Stock (const Stock& obj);
-    Produto* getTipo();
->>>>>>> 6ef8af651b89fbb327dc85c78a425ec2f3634295
-    int setTipo(Produto *tipo);
-    Referencia * getReferencia() const;
-    int setReferencia(Produto * referencia);
-    bool produto_existe(int quantidade);
+    void setQuantidade(int quantidade);
+    int getQuantidade() const;
+    Produto* getProduto();
+    void setProduto(Produto *produto);
 
-    bool operator == (const Stock& produto) const;
+    bool operator == (const Produto& produto) const;
     bool operator == (const Produto& tp) const;
 
 

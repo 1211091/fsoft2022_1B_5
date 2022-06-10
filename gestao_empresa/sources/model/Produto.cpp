@@ -26,7 +26,7 @@ bool Produto::operator == (string rfr) const{
     return false;
 }
 
-Produto::Produto(const string& referencia, const string&tipo){
+Produto::Produto(const string& referencia, const string&tipo, int quantidade){
     setProduto(produto);
 }
 Produto::~Produto(){
@@ -41,11 +41,6 @@ string Produto::setProduto(string &produto){
     return produto;
 }
 
-
-string Produto::Tipo(string &tipo){
-
-}
-
 string Produto::getProduto() {
     return produto;
 }
@@ -55,7 +50,6 @@ void Produto::setQuantidade(int quantidade){
 int Produto::getQuantidade()const {
     return quantidade;
 }
-
 
 bool Produto::isReferenciaValid(const string &referencia){
     if(referencia.length() != 10){
@@ -80,7 +74,6 @@ string Produto::Referencia(const string &referencia) {
 }
 
 string Produto::Referencia() {
-
 }
 
 void Produto::setInformacaoNaoExisteException() {
