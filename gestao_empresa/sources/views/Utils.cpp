@@ -14,7 +14,7 @@ int Utils::getNumero(const string&  label){
         flag = false;
         cin >> numero;
         if(cin.fail()){
-            cout << "Not a number, please enter a number" << endl;
+            cout << "Não é um número, por favor insira um número" << endl;
             cin.clear();
             cin.ignore(numeric_limits<streamsize>::max(), '\n');
             flag = true;

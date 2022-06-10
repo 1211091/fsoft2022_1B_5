@@ -9,14 +9,14 @@
 
 class Cliente{
     private:
-    string nomeLoja;
+    Cliente nomeLoja;
     public:
         Cliente(const string& nomeLoja);
         ~Cliente();
-        string NomeLoja(string nomeLoja);
         string getNomeLoja() ;
         void setNomeLoja( string &nomeLoja);
-
+        bool operator == (const Cliente& NomeLoja) const;
+        bool operator == (Cliente* nl) const;
 
 
 
