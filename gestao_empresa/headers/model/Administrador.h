@@ -7,9 +7,11 @@
 
 #include <string>
 #include "Nome.h"
+#include "FuncionarioContainer.h"
+#include "ProdutoContainer.h"
+#include "ClienteContainer.h"
+#include "StockContainer.h"
 #include "Funcionario.h"
-#include "Produto.h"
-#include "Cliente.h"
 using namespace std;
 
 
@@ -17,6 +19,10 @@ class Administrador: public Nome{
 private:
     string nome;
     bool ValidacaoNome(const string& nome);
+    ClienteContainer clientes;
+    ProdutoContainer produtos;
+    StockContainer stock;
+    FuncionarioContainer funcionarios;
 
 public:
     int administrador;
@@ -30,10 +36,10 @@ public:
     bool operator == (const Administrador& obj) const;
     bool operator == (const string nome) const;
 
-    Cliente & getCliente();
-    Produto & getProduto();
-    Stock & getStock();
-    Funcionario & getFuncionario();
+    ClienteContainer & getClienteContainer();
+    ProdutoContainer & getProdutoContainer();
+    StockContainer & getStockContainer();
+    FuncionarioContainer & getFuncionarioContainer();
 };
 
 #endif HEADERS_MODEL_ADMINISTRADOR_H
