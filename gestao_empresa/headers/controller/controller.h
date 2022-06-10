@@ -15,7 +15,8 @@
 #include "View.h"
 #include "Stock.h"
 #include "Produto.h"
-
+#include "Administrador.h"
+#include "Empresa.h"
 class Controller{
 private:
     Empresa model;
