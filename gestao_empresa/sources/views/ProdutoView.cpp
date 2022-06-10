@@ -16,7 +16,7 @@ Produto ProdutoView::getProduto(){
             cout<<"Produto"<<endl;
             string produto = Utils::getString("Produto");
             produtos.setProduto(produto);
-            int referencia = Utils::getReferencia("Referencia");
+            string referencia = ProdutoView::getReferencia("Referencia");
             produtos.setReferencia(referencia);
         }catch(InformacaoInvalidaException& e){
             flag = true;
@@ -24,7 +24,9 @@ Produto ProdutoView::getProduto(){
     }while(flag == true);
     return produtos;
 }
-void ProdutoView::printProduto(Produto *produtos) {
-    cout<<produtos->getProduto()<<":"<<produtos->getReferencia()<<endl;
+string ProdutoView::printProdutos(Produto *produto, Referencia *referencias) {
+    cout<<produto->getProduto()<<":"<<referencias->getReferencia()<<endl;
 }
-
+Referencia ProdutoView::getReferencia(){
+    return referencia;
+}

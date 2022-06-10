@@ -9,12 +9,10 @@
 
 class ProdutoView{
 public:
-
+    string referencia;
     Produto getProduto();
     Referencia getReferencia();
-    void printProduto(Produto *produtos);
-    void printReferencia(Referencia *produtos);
-    Produto getReferencia();
+    string printProdutos(Produto *produto, Referencia *referencias);
 
 };
 #endif //HEADERS_VIEWS_PRODUTOVIEW_H

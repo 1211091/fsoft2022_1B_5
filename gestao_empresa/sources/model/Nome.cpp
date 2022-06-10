@@ -18,9 +18,8 @@ bool Nome::ValidacaoNome(const string& nome) {
 Nome::Nome(const string& nome){
     setNome(nome);
 }
-Nome::~Nome(){
-}
-const Nome::setNome(const string &nome){
+
+void Nome::setNome(const string &nome){
 if(ValidacaoNome(nome)){
     this->nome=nome;
 }else{
@@ -29,3 +28,9 @@ throw InformacaoInvalidaException(msg);
 }
 
 }
+
+string Nome::getNome() {
+    return this->nome;
+}
+
+

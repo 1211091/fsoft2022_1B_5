@@ -124,7 +124,13 @@
 		<Unit filename="C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/headers/model/ClienteContainer.h">
 			<Option target="fsoft_2022_1B_5"/>
 		</Unit>
+		<Unit filename="C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/headers/model/Empresa.h">
+			<Option target="fsoft_2022_1B_5"/>
+		</Unit>
 		<Unit filename="C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/headers/model/Funcionario.h">
+			<Option target="fsoft_2022_1B_5"/>
+		</Unit>
+		<Unit filename="C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/headers/model/FuncionarioContainer.h">
 			<Option target="fsoft_2022_1B_5"/>
 		</Unit>
 		<Unit filename="C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/headers/model/Nome.h">
@@ -140,6 +146,9 @@
 			<Option target="fsoft_2022_1B_5"/>
 		</Unit>
 		<Unit filename="C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/headers/model/Stock.h">
+			<Option target="fsoft_2022_1B_5"/>
+		</Unit>
+		<Unit filename="C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/headers/model/StockContainer.h">
 			<Option target="fsoft_2022_1B_5"/>
 		</Unit>
 		<Unit filename="C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/headers/views/AdministradorView.h">
@@ -196,7 +205,13 @@
 		<Unit filename="C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/sources/model/ClienteContainer.cpp">
 			<Option target="fsoft_2022_1B_5"/>
 		</Unit>
+		<Unit filename="C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/sources/model/Empresa.cpp">
+			<Option target="fsoft_2022_1B_5"/>
+		</Unit>
 		<Unit filename="C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/sources/model/Funcionario.cpp">
+			<Option target="fsoft_2022_1B_5"/>
+		</Unit>
+		<Unit filename="C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/sources/model/FuncionarioContainer.cpp">
 			<Option target="fsoft_2022_1B_5"/>
 		</Unit>
 		<Unit filename="C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/sources/model/Nome.cpp">
@@ -212,6 +227,9 @@
 			<Option target="fsoft_2022_1B_5"/>
 		</Unit>
 		<Unit filename="C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/sources/model/Stock.cpp">
+			<Option target="fsoft_2022_1B_5"/>
+		</Unit>
+		<Unit filename="C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/sources/model/StockContainer.cpp">
 			<Option target="fsoft_2022_1B_5"/>
 		</Unit>
 		<Unit filename="C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/sources/views/AdministradorView.cpp">

@@ -8,6 +8,7 @@
 #include "Utils.h"
 #include "InformacaoNaoExisteException.h"
 #include "Empresa.h"
+#include "FuncionarioContainer.h"
 
 using namespace std;
 
@@ -24,7 +25,7 @@ void Controller::run(){
             break;
             case 2:runFuncionario();
             break;
-            case3:runCliente();
+            case 3:runCliente();
             break;
             case 4:runStock();
             break;
@@ -50,6 +51,7 @@ void Controller::runAdministrador(){
             {
                 cout<<this->model.getNome()<<endl;
                 AdministradorContainer container = this-> model.getAdministradorContainer();
+                Administrador* administrador = container.getAdministrador();
                 this->administradorView.printAdministrador(administrador);
             }
             break;
@@ -66,15 +68,16 @@ void Controller::runFuncionario(){
         switch (opcao) {
             case 1: {
                 Funcionario funcionario = this->funcionarioView.getFuncionario();
+                Funcionario funcao = this->funcionarioView.getFuncao();
                 FuncionarioContainer &container = this->model.getFuncionarioContainer();
-                container.adicionar(funcionario);
+                container.adicionarFuncionario(funcionario, funcao);
             }
                 break;
             case 2: {
                 string nome = Utils::getString("Insira o nome do funcionario");
                 string funcao = Utils::getString("Insira a funcao do funcionario");
                 FuncionarioContainer &container = this->model.getFuncionarioContainer();
-                container.update(nome, funcao);
+                container.atualizar(nome, funcao);
             }
                 break;
             case 3: {
@@ -87,7 +90,7 @@ void Controller::runFuncionario(){
             case 4: {
                 string nome = Utils::getString("Insira o nome do funcioanrio");
                 FuncionarioContainer &container = this->model.getFuncionarioContainer();
-                Funcionario *ptr = container.get(nome);
+                Funcionario *ptr = container.getFuncionario(nome);
                 if (ptr != NULL) {
                     this->funcionarioView.printFuncionario(ptr);
                 } else {
@@ -99,7 +102,7 @@ void Controller::runFuncionario(){
                 try {
                     string nome = Utils::getString("Insira o nome do funcionario");
                     FuncionarioContainer &container = this->model.getFuncionarioContainer();
-                    container.remove(nome);
+                    container.eliminarFuncionario(nome);
                 } catch (InformacaoNaoExisteException &e) {
                     string str(e.what());
                     cout << str << endl;
@@ -120,27 +123,26 @@ void Controller::runCliente(){
             case 1: {
                 Cliente cliente = this->clienteView.getCliente();
                 ClienteContainer &container = this->model.getClienteContainer();
-                container.adicionar(cliente);
+                container.adicionarCliente(cliente);
             }
                 break;
             case 2: {
-                string nome = Utils::getString("Insira o nome da loja");
-                string nome_1 = Utils::getString("Insira o nome do gerente");
+                string nomeLoja = Utils::getString("Insira o nome da loja");
                 ClienteContainer &container = this->model.getClienteContainer();
-                container.update(nome, nome_1);
+                container.atualizarCliente(nomeLoja);
             }
                 break;
             case 3: {
                 cout << this->model.getNome() << endl;
                 ClienteContainer container = this->model.getClienteContainer();
                 list <Cliente> clientes = container.getAll();
-                this->clienteView.printCliente(clientes);
+                this->clienteView.printClientes(clientes);
             }
                 break;
             case 4: {
                 string nome = Utils::getString("Insira o nome da loja");
-                CLienteContainer &container = this->model.getClienteContainer();
-                Cliente *ptr = container.get(nome);
+                ClienteContainer &container = this->model.getClienteContainer();
+                Cliente *ptr = container.getCliente(nome);
                 if (ptr != NULL) {
                     this->clienteView.printCliente(ptr);
                 } else {
@@ -151,8 +153,8 @@ void Controller::runCliente(){
             case 5: {
                 try {
                     string nome = Utils::getString("Insira o nome do cliente");
-                    ClienteContainer &container = this->model.getCLienteContainer();
-                    container.eliminar(nome);
+                    ClienteContainer &container = this->model.getClienteContainer();
+                    container.eliminarCliente(nome);
                 } catch (InformacaoNaoExisteException &e) {
                     string str(e.what());
                     cout << str << endl;
@@ -170,23 +172,24 @@ void Controller::runProduto(){
         opcao=this->view.menuProduto();
         switch (opcao) {
             case 1: {
-                Produto produto = this->ProdutoView.getProduto();
+                Produto produto = this->produtoView.getProduto();
                 ProdutoContainer &container = this->model.getProdutoContainer();
-                container.adicionar(produto);
+                container.adicionarProduto(produto);
             }
                 break;
             case 2: {
-                string nome = Utils::getString("Insira o tipo do produto");
-                int numero = Utils::getNumero("Insira a referência");
+                string nomeProduto = Utils::getString("Insira o tipo do produto");
+                string referencia = Utils::getString("Insira a referência");
                 ProdutoContainer &container = this->model.getProdutoContainer();
-                container.update(nome, numero);
+                container.atualizarProduto(nomeProduto, referencia);
             }
                 break;
             case 3: {
                 cout << this->model.getNome() << endl;
                 ProdutoContainer container = this->model.getProdutoContainer();
                 list <Produto> produtos = container.getAll();
-                this->produtosView.printProduto(produtos);
+                list <Referencia> referencias = container.getAll();
+                this->produtoView.printProdutos(produtos, referencias);
             }
                 break;
             case 4: {
@@ -194,7 +197,7 @@ void Controller::runProduto(){
                     string nome = Utils::getString("Insira o nome do produto");
                     int numero = Utils::getNumero("Insira a quantidade");
                     ProdutoContainer &container = this->model.getProdutoContainer();
-                    container.eliminar(nome);
+                    container.eliminarProduto(nome);
                 } catch (InformacaoNaoExisteException &e) {
                     string str(e.what());
                     cout << str << endl;
@@ -212,16 +215,16 @@ void Controller::runStock(){
         opcao=this->view.menuStock();
         switch (opcao) {
             case 1: {
-                Stock stock = this->StockView.getStock();
+                Stock stock = this->stockView.getStock();
                 StockContainer &container = this->model.getStockContainer();
-                container.adicionar(stock);
+                container.adicionarStock(stock);
             }
                 break;
             case 2: {
                 string nome = Utils::getString("Insira o tipo do produto");
                 int numero = Utils::getNumero("Insira a quantidade que deseja");
                 StockContainer &container = this->model.getStockContainer();
-                container.update(nome, numero);
+                container.atualizarStock(nome, numero);
             }
                 break;
             case 3: {
@@ -235,7 +238,7 @@ void Controller::runStock(){
                 try {
                     string nome = Utils::getString("Insira o nome do produto");
                     StockContainer &container = this->model.getStockContainer();
-                    container.remove(nome);
+                    container.removerStock(nome);
                 } catch (InformacaoNaoExisteException &e) {
                     string str(e.what());
                     cout << str << endl;

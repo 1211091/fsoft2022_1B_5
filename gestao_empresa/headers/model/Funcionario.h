@@ -8,17 +8,22 @@
 #include <string>
 
 
-class Funcionario: public Nome{
+class Funcionario{
+private:
     string funcao;
     string nome;
-    private:
-    string Funcao(const string& funcao);
-    void setFuncao(const string &funcao);
-    const string getFuncao();
-    Funcionario(const string& nome, const string& funcao);
+    string nomeFuncionario;
+public:
+    Funcionario(const string &nomefuncionario,const string &funcao);
+    ~Funcionario();
+    string setFuncao(const string &funcao);
+    string Funcao(const string &funcao);
+    string setNomeFuncionario(const string &nomeFuncionario);
+    string getNomeFuncionario();
+    string getFuncao();
 
-
-
+    bool operator == (const Funcionario& nomeFuncionario) const;
+    bool operator == (string nf) const;
 };
 
 

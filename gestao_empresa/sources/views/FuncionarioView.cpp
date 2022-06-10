@@ -5,6 +5,7 @@
 #include "FuncionarioView.h"
 #include "Utils.h"
 #include "InformacaoInvalidaException.h"
+#include "Funcionario.h"
 using namespace std;
 
 Funcionario FuncionarioView::getFuncionario(){
@@ -15,7 +16,7 @@ Funcionario FuncionarioView::getFuncionario(){
             flag = false;
             cout<<"Funcionario"<<endl;
             string nome = Utils::getString("Nome");
-            funcionario.setNome(name);
+            funcionario.setNomeFuncionario(nome);
             string funcao = Utils::getString("Funcao");
             funcionario.setFuncao(funcao);
         }catch(InformacaoInvalidaException& e){
@@ -25,10 +26,13 @@ Funcionario FuncionarioView::getFuncionario(){
     return funcionario;
 }
 void FuncionarioView::printFuncionario(Funcionario *funcionario) {
-    cout << funcionario->getNome() << endl;
+    cout << funcionario->getNomeFuncionario() << endl;
 }
 void FuncionarioView::printFuncionarios(list<Funcionario>& funcionarios){
     for (list<Funcionario>::iterator it=funcionarios.begin(); it != funcionarios.end(); ++it){
         printFuncionario(&*it);
     }
+}
+Funcionario FuncionarioView::getFuncao(){
+    return funcao;
 }

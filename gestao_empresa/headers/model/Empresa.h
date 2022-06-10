@@ -9,7 +9,9 @@
 #include "AdministradorContainer.h"
 #include "ClienteContainer.h"
 #include "ProdutoContainer.h"
-
+#include "StockContainer.h"
+#include "FuncionarioContainer.h"
+#include "InformacaoNaoExisteException.h"
 using namespace std;
 
 class Empresa{
@@ -18,9 +20,11 @@ private :
     AdministradorContainer administrador;
     ClienteContainer clientes;
     ProdutoContainer produtos;
+    StockContainer stock;
+    FuncionarioContainer funcionarios;
 
 
-    void setDataForConsistency();
+    void setInformacaoNaoExisteException();
 public:
     Empresa();
     Empresa(const string& nome);
@@ -31,6 +35,8 @@ public:
     AdministradorContainer & getAdministradorContainer();
     ClienteContainer & getClienteContainer();
     ProdutoContainer & getProdutoContainer();
+    StockContainer & getStockContainer();
+    FuncionarioContainer & getFuncionarioContainer();
 
 
 };

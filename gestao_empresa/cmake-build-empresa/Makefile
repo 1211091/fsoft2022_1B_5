@@ -368,6 +368,30 @@ sources/model/ClienteContainer.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft_2022_1B_5.dir\build.make CMakeFiles/fsoft_2022_1B_5.dir/sources/model/ClienteContainer.cpp.s
 .PHONY : sources/model/ClienteContainer.cpp.s
 
+sources/model/Empresa.obj: sources/model/Empresa.cpp.obj
+.PHONY : sources/model/Empresa.obj
+
+# target to build an object file
+sources/model/Empresa.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft_2022_1B_5.dir\build.make CMakeFiles/fsoft_2022_1B_5.dir/sources/model/Empresa.cpp.obj
+.PHONY : sources/model/Empresa.cpp.obj
+
+sources/model/Empresa.i: sources/model/Empresa.cpp.i
+.PHONY : sources/model/Empresa.i
+
+# target to preprocess a source file
+sources/model/Empresa.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft_2022_1B_5.dir\build.make CMakeFiles/fsoft_2022_1B_5.dir/sources/model/Empresa.cpp.i
+.PHONY : sources/model/Empresa.cpp.i
+
+sources/model/Empresa.s: sources/model/Empresa.cpp.s
+.PHONY : sources/model/Empresa.s
+
+# target to generate assembly for a file
+sources/model/Empresa.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft_2022_1B_5.dir\build.make CMakeFiles/fsoft_2022_1B_5.dir/sources/model/Empresa.cpp.s
+.PHONY : sources/model/Empresa.cpp.s
+
 sources/model/Funcionario.obj: sources/model/Funcionario.cpp.obj
 .PHONY : sources/model/Funcionario.obj
 
@@ -511,6 +535,30 @@ sources/model/Stock.s: sources/model/Stock.cpp.s
 sources/model/Stock.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft_2022_1B_5.dir\build.make CMakeFiles/fsoft_2022_1B_5.dir/sources/model/Stock.cpp.s
 .PHONY : sources/model/Stock.cpp.s
+
+sources/model/StockContainer.obj: sources/model/StockContainer.cpp.obj
+.PHONY : sources/model/StockContainer.obj
+
+# target to build an object file
+sources/model/StockContainer.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft_2022_1B_5.dir\build.make CMakeFiles/fsoft_2022_1B_5.dir/sources/model/StockContainer.cpp.obj
+.PHONY : sources/model/StockContainer.cpp.obj
+
+sources/model/StockContainer.i: sources/model/StockContainer.cpp.i
+.PHONY : sources/model/StockContainer.i
+
+# target to preprocess a source file
+sources/model/StockContainer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft_2022_1B_5.dir\build.make CMakeFiles/fsoft_2022_1B_5.dir/sources/model/StockContainer.cpp.i
+.PHONY : sources/model/StockContainer.cpp.i
+
+sources/model/StockContainer.s: sources/model/StockContainer.cpp.s
+.PHONY : sources/model/StockContainer.s
+
+# target to generate assembly for a file
+sources/model/StockContainer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft_2022_1B_5.dir\build.make CMakeFiles/fsoft_2022_1B_5.dir/sources/model/StockContainer.cpp.s
+.PHONY : sources/model/StockContainer.cpp.s
 
 sources/views/AdministradorView.obj: sources/views/AdministradorView.cpp.obj
 .PHONY : sources/views/AdministradorView.obj
@@ -719,6 +767,9 @@ help:
 	@echo ... sources/model/ClienteContainer.obj
 	@echo ... sources/model/ClienteContainer.i
 	@echo ... sources/model/ClienteContainer.s
+	@echo ... sources/model/Empresa.obj
+	@echo ... sources/model/Empresa.i
+	@echo ... sources/model/Empresa.s
 	@echo ... sources/model/Funcionario.obj
 	@echo ... sources/model/Funcionario.i
 	@echo ... sources/model/Funcionario.s
@@ -737,6 +788,9 @@ help:
 	@echo ... sources/model/Stock.obj
 	@echo ... sources/model/Stock.i
 	@echo ... sources/model/Stock.s
+	@echo ... sources/model/StockContainer.obj
+	@echo ... sources/model/StockContainer.i
+	@echo ... sources/model/StockContainer.s
 	@echo ... sources/views/AdministradorView.obj
 	@echo ... sources/views/AdministradorView.i
 	@echo ... sources/views/AdministradorView.s
