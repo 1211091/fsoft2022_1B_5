@@ -12,18 +12,20 @@
 class Funcionario{
 private:
     string funcao;
-    string nome;
     string nomeFuncionario;
 public:
-    Funcionario(const string &nomefuncionario,const string &funcao);
+    Funcionario(const string &nomeFuncionario,const string &funcao);
+    Funcionario(const Funcionario& funcionario);
     ~Funcionario();
     void setFuncao(const string &funcao);
     void setNomeFuncionario(const string &nomeFuncionario);
     string getNomeFuncionario();
     string getFuncao();
 
+
     bool operator == (const Funcionario& nomeFuncionario) const;
     bool operator == (string nf) const;
+
 };
 
 

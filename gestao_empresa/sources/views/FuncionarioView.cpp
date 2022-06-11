@@ -9,7 +9,7 @@
 using namespace std;
 
 Funcionario FuncionarioView::getFuncionario(){
-    Funcionario funcionario ("Nome");
+    Funcionario funcionario ("Nome" , "Funcao");
     bool flag = false;
     do{
         try{
@@ -32,7 +32,4 @@ void FuncionarioView::printFuncionarios(list<Funcionario>& funcionarios){
     for (list<Funcionario>::iterator it=funcionarios.begin(); it != funcionarios.end(); ++it){
         printFuncionario(&*it);
     }
-}
-Funcionario FuncionarioView::getFuncao(){
-    return funcao;
 }

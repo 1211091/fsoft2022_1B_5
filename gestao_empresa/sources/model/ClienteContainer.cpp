@@ -19,15 +19,14 @@ list<Cliente> ClienteContainer::getAll(){
     list<Cliente> lista(this->clientes);
     return lista;
 }
-Cliente* ClienteContainer::getCliente(string nomeLoja){
-    list<Cliente>::iterator it= procura(nomeLoja);
-    if(it != this-> clientes.end()){
+Cliente* ClienteContainer::get(string& referencia){
+    list<Cliente>::iterator it = procurarCliente(referencia);
+    if (it != this->clientes.end()){
         return &(*it);
-    }
-    return NULL;
+    } return NULL;
 }
 void ClienteContainer:: adicionarCliente(Cliente NomeLoja){
-    string NomedaLoja = NomeLoja.getCliente();
+    string NomedaLoja = NomeLoja.getNomeLoja();
     list<Cliente>::iterator it = procurarCliente(NomedaLoja);
     if (it== this->clientes.end()) {
         this->clientes.push_back(NomeLoja);
@@ -46,7 +45,7 @@ void ClienteContainer::eliminarCliente(string &nomeLoja){
 void ClienteContainer::atualizarCliente(string&nomeLoja){
     list<Cliente>::iterator it = procurarCliente(nomeLoja);
     if(it != this->clientes.end()){
-        it->setCliente(nomeLoja);
+        it->setNomeLoja(nomeLoja);
 
     }
 }

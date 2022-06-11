@@ -4,9 +4,14 @@
 #include "Nome.h"
 #include "Funcionario.h"
 
-Funcionario::Funcionario(const string &nomefuncionario,const string &funcao){
-    this->setFuncao(funcao);
-    this->setNomeFuncionario(nomefuncionario);
+Funcionario::Funcionario(const string &nomeFuncionario,const string &funcao){
+    this->nomeFuncionario = nomeFuncionario;
+    this->funcao = funcao;
+}
+
+Funcionario::Funcionario(const Funcionario& funcionario) {
+    this->nomeFuncionario = funcionario.nomeFuncionario;
+    this->funcao = funcionario.funcao;
 }
 
 Funcionario::~Funcionario(){
@@ -39,3 +44,4 @@ bool Funcionario::operator == (string nf) const{
     }
     return false;
 }
+
