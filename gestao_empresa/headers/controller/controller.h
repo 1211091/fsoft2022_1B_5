@@ -25,11 +25,11 @@ private:
     FuncionarioView funcionarioView;
     ClienteView clienteView;
     ProdutoView produtoView;
-    StockView stockView;
+    //StockView stockView;
     void runFuncionario();
     void runProduto();
     void runAdministrador();
-    void runStock();
+    //void runStock();
     void runCliente();
 public:
     Controller(Empresa& empresa);
