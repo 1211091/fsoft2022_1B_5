@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-C:/Users/clara/Desktop/fsoft2022_1B_5/gestao_empresa/cmake-build-debug/CMakeFiles/fsoft_2022_1B_5.dir
-C:/Users/clara/Desktop/fsoft2022_1B_5/gestao_empresa/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/clara/Desktop/fsoft2022_1B_5/gestao_empresa/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-=======
-C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/cmake-build-debug/CMakeFiles/fsoft_2022_1B_5.dir
-C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/cmake-build-debug/CMakeFiles/rebuild_cache.dir
->>>>>>> bef7eb31329183d029b5c2312345fa59e3b1a087
+C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/cmake-build-debug/CMakeFiles/fsoft_2022_1B_5.dir
+C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -63,6 +63,10 @@ include_directories(
         )
 
 set(MODEL_SOURCE_FILES
+        ${PROJECT_HEADERS_MODEL_DIR}/Administrador.h
+        ${PROJECT_SOURCES_MODEL_DIR}/Administrador.cpp
+        ${PROJECT_HEADERS_MODEL_DIR}/AdministradorContainer.h
+        ${PROJECT_SOURCES_MODEL_DIR}/AdministradorContainer.cpp
         ${PROJECT_HEADERS_MODEL_DIR}/Cliente.h
         ${PROJECT_SOURCES_MODEL_DIR}/Cliente.cpp
         ${PROJECT_HEADERS_MODEL_DIR}/ClienteContainer.h
@@ -101,6 +105,8 @@ set(VIEWS_SOURCE_FILES
         ${PROJECT_SOURCES_VIEWS_DIR}/FuncionarioView.cpp
         ${PROJECT_HEADERS_VIEWS_DIR}/ClienteView.h
         ${PROJECT_SOURCES_VIEWS_DIR}/ClienteView.cpp
+        ${PROJECT_HEADERS_VIEWS_DIR}/AdministradorView.h
+        ${PROJECT_SOURCES_VIEWS_DIR}/AdministradorView.cpp
         )
 
 add_executable(

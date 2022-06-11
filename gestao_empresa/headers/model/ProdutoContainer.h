@@ -15,11 +15,9 @@ protected:
     list<Produto>::iterator procurarProduto(string& referencia);
 public:
     list<Produto>getAll();
-    Produto* get(string& referencia);
     void adicionarProduto(Produto& obj);
     void eliminarProduto(string& referencia);
     void atualizarProduto(string& referencia, string& tipo);
-
 
 
 };

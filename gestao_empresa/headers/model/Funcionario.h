@@ -12,6 +12,7 @@
 class Funcionario{
 private:
     string funcao;
+    string nome;
     string nomeFuncionario;
 public:
     Funcionario(const string &nomefuncionario,const string &funcao);
@@ -23,8 +24,6 @@ public:
 
     bool operator == (const Funcionario& nomeFuncionario) const;
     bool operator == (string nf) const;
-
-    Funcionario(string nomeFuncionario);
 };
 
 

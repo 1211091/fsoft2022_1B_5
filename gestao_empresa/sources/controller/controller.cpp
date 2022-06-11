@@ -24,11 +24,37 @@ void Controller::run(){
     do{
         opcao = this -> view.menuEmpresa();
         switch(opcao){
-            case 1:runFuncionario();
+            case 1:runAdministrador();
             break;
-            case 2:runCliente();
+            case 2:runFuncionario();
             break;
-            case 3:runProduto();
+            case 3:runCliente();
+            break;
+            case 4:runProduto();
+            break;
+            default:
+                break;
+        }
+    }while(opcao!=0);
+}
+void Controller::runAdministrador(){
+    int opcao=-1;
+    do{
+        opcao = this->view.menuAdministrador();
+        switch(opcao){
+            case 1:
+            {
+                Administrador administrador = this->administradorView.getAdministrador();
+                AdministradorContainer& container = this->model.getAdministradorContainer();
+            }
+            break;
+            case 2:
+            {
+                cout<<this->model.getNome()<<endl;
+                AdministradorContainer container = this-> model.getAdministradorContainer();
+                Administrador* administrador = container.getAdministradorContainer();
+                this->administradorView.printAdministrador(administrador);
+            }
             break;
             default:
                 break;
@@ -63,9 +89,9 @@ void Controller::runFuncionario(){
             }
                 break;
             case 4: {
-                Funcionario nomeFuncionario = Utils::getString("Insira o nome do funcionario");
+                string nome = Utils::getString("Insira o nome do funcioanrio");
                 FuncionarioContainer &container = this->model.getFuncionarioContainer();
-                Funcionario *ptr = container.getFuncionario(nomeFuncionario);
+                Funcionario *ptr = container.getFuncionario(nome);
                 if (ptr != NULL) {
                     this->funcionarioView.printFuncionario(ptr);
                 } else {
@@ -162,8 +188,9 @@ void Controller::runProduto(){
             case 3: {
                 cout << this->model.getNome() << endl;
                 ProdutoContainer container = this->model.getProdutoContainer();
-                list<Produto> produto = container.getAll();
-                this->produtoView.printProdutos(produto);
+                list <Produto> produtos = container.getAll();
+                list <Referencia> referencias = container.getAll();
+                this->produtoView.printProdutos(produtos, referencias);
             }
                 break;
             case 4: {
@@ -183,3 +210,45 @@ void Controller::runProduto(){
         }
     }while (opcao != 0);
 }
+/*void Controller::runStock(){
+    int opcao=-1;
+    do {
+        opcao=this->view.menuStock();
+        switch (opcao) {
+            case 1: {
+                Stock stock = this->stockView.getStock()(<#initializer#>,
+                                                         Produto(__cxx11::basic_string(), __cxx11::basic_string()));
+                StockContainer &container = this->model.getStockContainer();
+                container.adicionarStock(stock);
+            }
+                break;
+            case 2: {
+                string nome = Utils::getString("Insira o tipo do produto");
+                int numero = Utils::getNumero("Insira a quantidade que deseja");
+                StockContainer &container = this->model.getStockContainer();
+                container.atualizarStock(nome, numero);
+            }
+                break;
+            case 3: {
+                cout << this->model.getNome() << endl;
+                StockContainer container = this->model.getStockContainer();
+                list <Stock> stocks = container.getAll();
+                this->stockView.printStock(stocks);
+            }
+                break;
+            case 4: {
+                try {
+                    string nome = Utils::getString("Insira o nome do produto");
+                    StockContainer &container = this->model.getStockContainer();
+                    container.eliminarStock(referencia);
+                } catch (InformacaoNaoExisteException &e) {
+                    string str(e.what());
+                    cout << str << endl;
+                }
+            }
+                break;
+            default:
+                break;
+        }
+    }while (opcao != 0);
+}*/

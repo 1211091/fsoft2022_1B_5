@@ -33,4 +33,6 @@ void FuncionarioView::printFuncionarios(list<Funcionario>& funcionarios){
         printFuncionario(&*it);
     }
 }
-
+Funcionario FuncionarioView::getFuncao(){
+    return funcao;
+}

@@ -55,11 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-<<<<<<<< HEAD:gestao_empresa/cmake-build-debug/.cmake/api/v1/reply/cache-v2-00baba1c8f746ff33c44.json
-			"value" : "c:/Users/clara/Desktop/fsoft2022_1B_5/gestao_empresa/cmake-build-debug"
-========
-			"value" : "c:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/cmake-build-debug"
->>>>>>>> bef7eb31329183d029b5c2312345fa59e3b1a087:gestao_empresa/cmake-build-debug/.cmake/api/v1/reply/cache-v2-4cd6a8d0a1c62b074096.json
+			"value" : "c:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -711,11 +707,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-<<<<<<<< HEAD:gestao_empresa/cmake-build-debug/.cmake/api/v1/reply/cache-v2-00baba1c8f746ff33c44.json
-			"value" : "C:/Users/clara/Desktop/fsoft2022_1B_5/gestao_empresa"
-========
-			"value" : "C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa"
->>>>>>>> bef7eb31329183d029b5c2312345fa59e3b1a087:gestao_empresa/cmake-build-debug/.cmake/api/v1/reply/cache-v2-4cd6a8d0a1c62b074096.json
+			"value" : "C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1335,11 +1327,7 @@
 				}
 			],
 			"type" : "STATIC",
-<<<<<<<< HEAD:gestao_empresa/cmake-build-debug/.cmake/api/v1/reply/cache-v2-00baba1c8f746ff33c44.json
-			"value" : "C:/Users/clara/Desktop/fsoft2022_1B_5/gestao_empresa/cmake-build-debug"
-========
-			"value" : "C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/cmake-build-debug"
->>>>>>>> bef7eb31329183d029b5c2312345fa59e3b1a087:gestao_empresa/cmake-build-debug/.cmake/api/v1/reply/cache-v2-4cd6a8d0a1c62b074096.json
+			"value" : "C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/cmake-build-debug"
 		},
 		{
 			"name" : "fsoft_2022_1B_5_IS_TOP_LEVEL",
@@ -1363,11 +1351,7 @@
 				}
 			],
 			"type" : "STATIC",
-<<<<<<<< HEAD:gestao_empresa/cmake-build-debug/.cmake/api/v1/reply/cache-v2-00baba1c8f746ff33c44.json
-			"value" : "C:/Users/clara/Desktop/fsoft2022_1B_5/gestao_empresa"
-========
-			"value" : "C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa"
->>>>>>>> bef7eb31329183d029b5c2312345fa59e3b1a087:gestao_empresa/cmake-build-debug/.cmake/api/v1/reply/cache-v2-4cd6a8d0a1c62b074096.json
+			"value" : "C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa"
 		}
 	],
 	"kind" : "cache",
