@@ -15,9 +15,11 @@
 
 using namespace std;
 
-Controller::Controller(Empresa& empresa){
-    this->model = empresa;
+Controller::Controller(Administrador& administrador){
+    this->model = administrador;
 }
+
+
 
 void Controller::run(){
     int opcao = -1;
@@ -30,9 +32,7 @@ void Controller::run(){
             break;
             case 3:runCliente();
             break;
-            case 4:runStock();
-            break;
-            case 5:runProduto();
+            case 4:runProduto();
             break;
             default:
                 break;

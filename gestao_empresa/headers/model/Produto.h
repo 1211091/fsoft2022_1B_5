@@ -5,7 +5,7 @@
 #ifndef HEADERS_MODEL_PRODUTO_H
 #define HEADERS_MODEL_PRODUTO_H
 #include <string>
-#include "Stock.h"
+
 
 using namespace std;
 class Produto{

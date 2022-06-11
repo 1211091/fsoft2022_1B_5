@@ -9,7 +9,6 @@
 #include "AdministradorContainer.h"
 #include "ClienteContainer.h"
 #include "ProdutoContainer.h"
-#include "StockContainer.h"
 #include "FuncionarioContainer.h"
 #include "InformacaoNaoExisteException.h"
 using namespace std;
@@ -20,7 +19,6 @@ private :
     AdministradorContainer administrador;
     ClienteContainer clientes;
     ProdutoContainer produtos;
-    StockContainer stock;
     FuncionarioContainer funcionarios;
 
 public:
@@ -31,6 +29,7 @@ public:
     void setNome(const string &nome) ;
     ~Empresa();
     AdministradorContainer & getAdministradorContainer();
+
 
 
 

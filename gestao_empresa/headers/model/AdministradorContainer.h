@@ -9,7 +9,6 @@
 #include "Funcionario.h"
 #include "Produto.h"
 #include "Cliente.h"
-#include "Stock.h"
 #include <list>
 
 class AdministradorContainer{
@@ -25,7 +24,6 @@ public:
     //Funcionario* getFuncionario();
     ClienteContainer & getClienteContainer();
     ProdutoContainer & getProdutoContainer();
-    StockContainer & getStockContainer();
     FuncionarioContainer & getFuncionarioContainer();
 };
 

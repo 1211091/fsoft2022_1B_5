@@ -10,7 +10,6 @@
 #include "FuncionarioContainer.h"
 #include "ProdutoContainer.h"
 #include "ClienteContainer.h"
-#include "StockContainer.h"
 #include "Funcionario.h"
 using namespace std;
 
@@ -38,7 +37,6 @@ public:
 
     ClienteContainer & getClienteContainer();
     ProdutoContainer & getProdutoContainer();
-   // StockContainer & getStockContainer();
     FuncionarioContainer & getFuncionarioContainer();
 
 };

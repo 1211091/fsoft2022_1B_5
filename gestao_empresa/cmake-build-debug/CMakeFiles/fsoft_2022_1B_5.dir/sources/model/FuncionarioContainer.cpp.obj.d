@@ -115,7 +115,6 @@ CMakeFiles/fsoft_2022_1B_5.dir/sources/model/FuncionarioContainer.cpp.obj: \
  C:/Users/luis_/OneDrive/AMBIEN~1/FSOFT2~2/GESTAO~1/headers/model/FuncionarioContainer.h \
  C:/Users/luis_/OneDrive/AMBIEN~1/FSOFT2~2/GESTAO~1/headers/model/ProdutoContainer.h \
  C:/Users/luis_/OneDrive/AMBIEN~1/FSOFT2~2/GESTAO~1/headers/model/Produto.h \
- C:/Users/luis_/OneDrive/AMBIEN~1/FSOFT2~2/GESTAO~1/headers/model/Stock.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/list \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_list.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/allocated_ptr.h \
@@ -123,15 +122,16 @@ CMakeFiles/fsoft_2022_1B_5.dir/sources/model/FuncionarioContainer.cpp.obj: \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/list.tcc \
  C:/Users/luis_/OneDrive/AMBIEN~1/FSOFT2~2/GESTAO~1/headers/model/ClienteContainer.h \
  C:/Users/luis_/OneDrive/AMBIEN~1/FSOFT2~2/GESTAO~1/headers/model/Cliente.h \
- C:/Users/luis_/OneDrive/AMBIEN~1/FSOFT2~2/GESTAO~1/headers/model/StockContainer.h \
- C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/iostream \
- C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ostream \
- C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ios \
+ C:/Users/luis_/OneDrive/AMBIEN~1/FSOFT2~2/GESTAO~1/headers/model/Funcionario.h \
+ C:/Users/luis_/OneDrive/AMBIEN~1/FSOFT2~2/GESTAO~1/headers/EXCEPT~1/InformacaoDuplicadaException.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/exception \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/exception_ptr.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/cxxabi_init_exception.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/typeinfo \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/nested_exception.h \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/iostream \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ostream \
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ios \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/ios_base.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/locale_classes.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/locale_classes.tcc \
@@ -151,6 +151,4 @@ CMakeFiles/fsoft_2022_1B_5.dir/sources/model/FuncionarioContainer.cpp.obj: \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/basic_ios.tcc \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/ostream.tcc \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/istream \
- C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/istream.tcc \
- C:/Users/luis_/OneDrive/AMBIEN~1/FSOFT2~2/GESTAO~1/headers/model/Funcionario.h \
- C:/Users/luis_/OneDrive/AMBIEN~1/FSOFT2~2/GESTAO~1/headers/EXCEPT~1/InformacaoDuplicadaException.h
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/istream.tcc

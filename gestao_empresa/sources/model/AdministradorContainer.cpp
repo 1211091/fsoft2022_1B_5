@@ -31,9 +31,6 @@ ProdutoContainer &Administrador::getProdutoContainer() {
     return produtos;
 }
 
-StockContainer &Administrador::getStockContainer() {
-    return stock;
-}
 
 FuncionarioContainer &Administrador::getFuncionarioContainer() {
     return funcionarios;

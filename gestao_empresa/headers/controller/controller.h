@@ -10,29 +10,25 @@
 #include "ClienteView.h"
 #include "FuncionarioView.h"
 #include "ProdutoView.h."
-#include "StockView.h"
 #include "Utils.h"
 #include "View.h"
-#include "Stock.h"
 #include "Produto.h"
 #include "Administrador.h"
 #include "Empresa.h"
 class Controller{
 private:
-    Empresa model;
+    Administrador model;
     View view;
     AdministradorView administradorView;
     FuncionarioView funcionarioView;
     ClienteView clienteView;
     ProdutoView produtoView;
-    //StockView stockView;
     void runFuncionario();
     void runProduto();
     void runAdministrador();
-    //void runStock();
     void runCliente();
 public:
-    Controller(Empresa& empresa);
+    Controller(Administrador& administrador);
     void run();
 };
 
