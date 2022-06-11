@@ -11,9 +11,7 @@ using namespace std;
 class View{
 public:
     View();
-    int menuAdministrador();
     int menuFuncionario();
-    int menuStock();
     int menuCliente();
     int menuProduto();
     int menuEmpresa();

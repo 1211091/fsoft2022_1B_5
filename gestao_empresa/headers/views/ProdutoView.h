@@ -5,13 +5,14 @@
 #ifndef HEADERS_VIEWS_PRODUTOVIEW_H
 #define HEADERS_VIEWS_PRODUTOVIEW_H
 #include "Produto.h"
+#include <list>
 
 class ProdutoView{
 public:
-    string referencia;
     Produto getProduto();
-    Produto getReferencia();
-    string printProdutos(Produto *produto, Produto *referencias);
+    void printProdutos(list<Produto>& produtos);
+    void printProduto(Produto* produto);
+
 
 };
 #endif //HEADERS_VIEWS_PRODUTOVIEW_H
