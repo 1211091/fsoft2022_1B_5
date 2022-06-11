@@ -4,7 +4,7 @@
 
 #ifndef HEADERS_MODEL_PRODUTOCONTAINER_H
 #define HEADERS_MODEL_PRODUTOCONTAINER_H
-#include "Stock.h"
+
 #include "Produto.h"
 #include <list>
 

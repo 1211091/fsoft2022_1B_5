@@ -8,16 +8,16 @@
 using namespace std;
 
 Produto ProdutoView::getProduto(){
-    Produto produtos ("Nome");
+    Produto produto ;
     bool flag = false;
     do{
         try{
             flag = false;
             cout<<"Produto"<<endl;
             string produto = Utils::getString("Produto");
-            produtos.setProduto(produto);
+            produto.setProduto(produto);
             string referencia = ProdutoView::getReferencia("Referencia");
-            produtos.setReferencia(referencia);
+            produto.setReferencia(referencia);
         }catch(InformacaoInvalidaException& e){
             flag = true;
         }

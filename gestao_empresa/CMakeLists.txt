@@ -79,12 +79,8 @@ set(MODEL_SOURCE_FILES
         ${PROJECT_SOURCES_MODEL_DIR}/Produto.cpp
         ${PROJECT_HEADERS_MODEL_DIR}/ProdutoContainer.h
         ${PROJECT_SOURCES_MODEL_DIR}/ProdutoContainer.cpp
-        ${PROJECT_HEADERS_MODEL_DIR}/Stock.h
-        ${PROJECT_SOURCES_MODEL_DIR}/Stock.cpp
         ${PROJECT_HEADERS_MODEL_DIR}/Empresa.h
         ${PROJECT_SOURCES_MODEL_DIR}/Empresa.cpp
-        ${PROJECT_HEADERS_MODEL_DIR}/StockContainer.h
-        ${PROJECT_SOURCES_MODEL_DIR}/StockContainer.cpp
         ${PROJECT_HEADERS_MODEL_DIR}/FuncionarioContainer.h
         ${PROJECT_SOURCES_MODEL_DIR}/FuncionarioContainer.cpp
         )
@@ -103,8 +99,6 @@ set(VIEWS_SOURCE_FILES
         ${PROJECT_SOURCES_VIEWS_DIR}/Utils.cpp
         ${PROJECT_HEADERS_VIEWS_DIR}/View.h
         ${PROJECT_SOURCES_VIEWS_DIR}/View.cpp
-        ${PROJECT_HEADERS_VIEWS_DIR}/StockView.h
-        ${PROJECT_SOURCES_VIEWS_DIR}/StockView.cpp
         ${PROJECT_HEADERS_VIEWS_DIR}/ProdutoView.h
         ${PROJECT_SOURCES_VIEWS_DIR}/ProdutoView.cpp
         ${PROJECT_HEADERS_VIEWS_DIR}/FuncionarioView.h

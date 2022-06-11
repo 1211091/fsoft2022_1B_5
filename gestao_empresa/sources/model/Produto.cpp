@@ -46,13 +46,7 @@ string Produto::getReferencia(){
 string Produto::getProduto() {
     return produto;
 }
-/*
-void Produto::setQuantidade(int quantidade){
-    this->quantidade = quantidade;
-}
-const Stock Produto::getQuantidade()const {
-    return quantidade;
-}*/
+
 
 bool Produto::isReferenciaValid(const string &referencia){
     if(referencia.length() != 10){
@@ -72,6 +66,13 @@ void Produto::setReferencia(const string &referencia){
     }
 }
 
+void Produto::setQuantidade(int quantidade){
+    this->quantidade = quantidade;
+}
+
+int Produto::getQuantidade()const {
+    return quantidade;
+}
 string Produto::Referencia(const string &referencia) {
 
 }

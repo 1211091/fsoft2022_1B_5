@@ -17,6 +17,7 @@ list<Produto>::iterator ProdutoContainer::procurarProduto(string& referencia){
 }
 
 
+
 list<Produto> ProdutoContainer::getAll(){
     list<Produto> lista(this->produtos);
     return lista;

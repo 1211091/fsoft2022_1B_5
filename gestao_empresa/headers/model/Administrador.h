@@ -21,7 +21,7 @@ private:
     bool ValidacaoNome(const string& nome);
     ClienteContainer clientes;
     ProdutoContainer produtos;
-    StockContainer stock;
+   // StockContainer stock;
     FuncionarioContainer funcionarios;
 
 public:
@@ -38,7 +38,7 @@ public:
 
     ClienteContainer & getClienteContainer();
     ProdutoContainer & getProdutoContainer();
-    StockContainer & getStockContainer();
+   // StockContainer & getStockContainer();
     FuncionarioContainer & getFuncionarioContainer();
 
 };

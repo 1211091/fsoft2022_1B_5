@@ -1,4 +1,5 @@
 CMakeFiles/fsoft_2022_1B_5.dir/sources/views/StockView.cpp.obj: \
+<<<<<<< HEAD
  C:\Users\babis\Desktop\fsoft2022_1B_5\gestao_empresa\sources\views\StockView.cpp \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/iostream \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
@@ -151,3 +152,6 @@ CMakeFiles/fsoft_2022_1B_5.dir/sources/views/StockView.cpp.obj: \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/list.tcc \
  C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/headers/model/ProdutoContainer.h \
  C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/headers/model/Produto.h
+=======
+ C:\Users\luis_\OneDrive\Ambiente\ de\ Trabalho\fsoft2022_1B_5\gestao_empresa\sources\views\StockView.cpp
+>>>>>>> f4db38d463cf53388d8ad083d05f6235405919aa
