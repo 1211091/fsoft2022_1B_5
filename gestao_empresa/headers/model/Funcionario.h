@@ -12,7 +12,6 @@
 class Funcionario{
 private:
     string funcao;
-    string nome;
     string nomeFuncionario;
 public:
     Funcionario(const string &nomeFuncionario,const string &funcao);

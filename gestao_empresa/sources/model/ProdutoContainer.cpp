@@ -3,8 +3,9 @@
 //
 #include <iostream>
 #include "ProdutoContainer.h"
-
-
+#include <list>
+#include <string>
+using namespace std;
 
 list<Produto>::iterator ProdutoContainer::procurarProduto(string& referencia){
     list<Produto>::iterator it = this->produtos.begin();

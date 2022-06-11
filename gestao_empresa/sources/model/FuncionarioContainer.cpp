@@ -2,8 +2,10 @@
 // Created by babis on 6/9/2022.
 //
 #include "FuncionarioContainer.h"
+#include "Funcionario.h"
 #include "InformacaoDuplicadaException.h"
 #include <iostream>
+#include <string>
 
 list<Funcionario>::iterator FuncionarioContainer::procurarFuncionario(string&nomeFuncionario){
     list<Funcionario>::iterator it = this->funcionarios.begin();
@@ -49,8 +51,4 @@ void FuncionarioContainer::atualizarFuncionario(string&nomeFuncionario, string&f
         it->setNomeFuncionario(nomeFuncionario);
 
     }
-}
-
-Funcionario *FuncionarioContainer::getFuncionario(const Funcionario &nomeFuncionario) {
-    return ;
 }

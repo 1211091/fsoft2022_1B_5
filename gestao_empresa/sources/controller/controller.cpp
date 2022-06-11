@@ -63,9 +63,14 @@ void Controller::runFuncionario(){
                 break;
             case 4: {
                 string nomedofuncionario = Utils::getString("Insira o nome do funcionario");
-                string funcaodofuncionario = Utils::getString("Insira a funcao do funcionario");
                 FuncionarioContainer& container = this->model.getFuncionarioContainer();
-                container.atualizarFuncionario(nomedofuncionario,funcaodofuncionario);
+                Funcionario *ptr = container.get(nomedofuncionario);
+                if (ptr != NULL) {
+                    this->funcionarioView.printFuncionario(ptr);
+                } else {
+                    cout << "O funcionario nao existe" << endl;
+                }
+
             }
                 break;
                 break;
@@ -184,8 +189,11 @@ void Controller::runProduto() {
 
             }
             break;
+            default:
+                break;
             }
         }
+
         while (opcao != 0);
     }
 
