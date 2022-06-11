@@ -16,7 +16,7 @@ Cliente ClienteView::getCliente(){
             flag = false;
             cout<<"Cliente"<<endl;
             string nomeLoja = Utils::getString("Nome da loja");
-            cliente.setNomeLoja(nomeLoja);
+            cliente.setCliente(nomeLoja);
         }catch(InformacaoInvalidaException& e){
             flag = true;
         }
@@ -24,7 +24,7 @@ Cliente ClienteView::getCliente(){
     return cliente;
 }
 void ClienteView::printCliente(Cliente *cliente) {
-    cout << cliente->getNomeLoja() << endl;
+    cout << cliente->getCliente() << endl;
 }
 void ClienteView::printClientes(list<Cliente>& clientes){
     for (list<Cliente>::iterator it=clientes.begin(); it != clientes.end(); ++it){

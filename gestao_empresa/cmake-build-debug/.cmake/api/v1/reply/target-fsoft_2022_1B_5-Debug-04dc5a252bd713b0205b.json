@@ -28,7 +28,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 118,
+				"line" : 112,
 				"parent" : 0
 			},
 			{
@@ -58,7 +58,7 @@
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 97,
+				"line" : 93,
 				"parent" : 0
 			}
 		]
@@ -142,14 +142,11 @@
 				28,
 				30,
 				32,
-				34,
-				36,
+				33,
+				35,
 				38,
-				39,
-				41,
-				44,
-				46,
-				48
+				40,
+				42
 			]
 		}
 	],
@@ -203,14 +200,11 @@
 				28,
 				30,
 				32,
-				34,
-				36,
+				33,
+				35,
 				38,
-				39,
-				41,
-				44,
-				46,
-				48
+				40,
+				42
 			]
 		},
 		{
@@ -233,14 +227,11 @@
 				27,
 				29,
 				31,
-				33,
-				35,
+				34,
+				36,
 				37,
-				40,
-				42,
-				43,
-				45,
-				47
+				39,
+				41
 			]
 		}
 	],
@@ -272,17 +263,6 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "sources/views/View.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"path" : "headers/views/StockView.h",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "sources/views/StockView.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
@@ -419,17 +399,6 @@
 		},
 		{
 			"backtrace" : 1,
-			"path" : "headers/model/Stock.h",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "sources/model/Stock.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
 			"path" : "headers/model/Empresa.h",
 			"sourceGroupIndex" : 1
 		},
@@ -437,17 +406,6 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "sources/model/Empresa.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"path" : "headers/model/StockContainer.h",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "sources/model/StockContainer.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
