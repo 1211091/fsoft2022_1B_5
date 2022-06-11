@@ -8,6 +8,7 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
+<<<<<<< HEAD
 				<Option working_dir="C:/Users/clara/Desktop/fsoft2022_1B_5/gestao_empresa/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
@@ -20,10 +21,25 @@
 			<Target title="fsoft_2022_1B_5">
 				<Option output="C:/Users/clara/Desktop/fsoft2022_1B_5/gestao_empresa/cmake-build-debug/fsoft_2022_1B_5.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="C:/Users/clara/Desktop/fsoft2022_1B_5/gestao_empresa/cmake-build-debug"/>
+=======
+				<Option working_dir="C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="fsoft_2022_1B_5">
+				<Option output="C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/cmake-build-debug/fsoft_2022_1B_5.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/cmake-build-debug"/>
+>>>>>>> bef7eb31329183d029b5c2312345fa59e3b1a087
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+<<<<<<< HEAD
 					<Add directory="C:/Users/clara/Desktop/fsoft2022_1B_5/gestao_empresa/mock"/>
 					<Add directory="C:/Users/clara/Desktop/fsoft2022_1B_5/gestao_empresa/headers/controller"/>
 					<Add directory="C:/Users/clara/Desktop/fsoft2022_1B_5/gestao_empresa/sources/controller"/>
@@ -33,6 +49,17 @@
 					<Add directory="C:/Users/clara/Desktop/fsoft2022_1B_5/gestao_empresa/sources/model"/>
 					<Add directory="C:/Users/clara/Desktop/fsoft2022_1B_5/gestao_empresa/headers/views"/>
 					<Add directory="C:/Users/clara/Desktop/fsoft2022_1B_5/gestao_empresa/sources/views"/>
+=======
+					<Add directory="C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/mock"/>
+					<Add directory="C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/headers/controller"/>
+					<Add directory="C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/sources/controller"/>
+					<Add directory="C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/headers/exceptions"/>
+					<Add directory="C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/sources/exceptions"/>
+					<Add directory="C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/headers/model"/>
+					<Add directory="C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/sources/model"/>
+					<Add directory="C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/headers/views"/>
+					<Add directory="C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/sources/views"/>
+>>>>>>> bef7eb31329183d029b5c2312345fa59e3b1a087
 					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
@@ -42,6 +69,7 @@
 					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
+<<<<<<< HEAD
 					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/clara/Desktop/fsoft2022_1B_5/gestao_empresa/cmake-build-debug/Makefile&quot;  VERBOSE=1 fsoft_2022_1B_5"/>
 					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/clara/Desktop/fsoft2022_1B_5/gestao_empresa/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/clara/Desktop/fsoft2022_1B_5/gestao_empresa/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -51,10 +79,22 @@
 			<Target title="fsoft_2022_1B_5/fast">
 				<Option output="C:/Users/clara/Desktop/fsoft2022_1B_5/gestao_empresa/cmake-build-debug/fsoft_2022_1B_5.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="C:/Users/clara/Desktop/fsoft2022_1B_5/gestao_empresa/cmake-build-debug"/>
+=======
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/cmake-build-debug/Makefile&quot;  VERBOSE=1 fsoft_2022_1B_5"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="fsoft_2022_1B_5/fast">
+				<Option output="C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/cmake-build-debug/fsoft_2022_1B_5.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/cmake-build-debug"/>
+>>>>>>> bef7eb31329183d029b5c2312345fa59e3b1a087
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+<<<<<<< HEAD
 					<Add directory="C:/Users/clara/Desktop/fsoft2022_1B_5/gestao_empresa/mock"/>
 					<Add directory="C:/Users/clara/Desktop/fsoft2022_1B_5/gestao_empresa/headers/controller"/>
 					<Add directory="C:/Users/clara/Desktop/fsoft2022_1B_5/gestao_empresa/sources/controller"/>
@@ -64,6 +104,17 @@
 					<Add directory="C:/Users/clara/Desktop/fsoft2022_1B_5/gestao_empresa/sources/model"/>
 					<Add directory="C:/Users/clara/Desktop/fsoft2022_1B_5/gestao_empresa/headers/views"/>
 					<Add directory="C:/Users/clara/Desktop/fsoft2022_1B_5/gestao_empresa/sources/views"/>
+=======
+					<Add directory="C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/mock"/>
+					<Add directory="C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/headers/controller"/>
+					<Add directory="C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/sources/controller"/>
+					<Add directory="C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/headers/exceptions"/>
+					<Add directory="C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/sources/exceptions"/>
+					<Add directory="C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/headers/model"/>
+					<Add directory="C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/sources/model"/>
+					<Add directory="C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/headers/views"/>
+					<Add directory="C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/sources/views"/>
+>>>>>>> bef7eb31329183d029b5c2312345fa59e3b1a087
 					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
 					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
@@ -73,6 +124,7 @@
 					<Add directory="C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
+<<<<<<< HEAD
 					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/clara/Desktop/fsoft2022_1B_5/gestao_empresa/cmake-build-debug/Makefile&quot;  VERBOSE=1 fsoft_2022_1B_5/fast"/>
 					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/clara/Desktop/fsoft2022_1B_5/gestao_empresa/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/clara/Desktop/fsoft2022_1B_5/gestao_empresa/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -230,6 +282,147 @@
 			<Option target="fsoft_2022_1B_5"/>
 		</Unit>
 		<Unit filename="C:/Users/clara/Desktop/fsoft2022_1B_5/gestao_empresa/CMakeLists.txt">
+=======
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/cmake-build-debug/Makefile&quot;  VERBOSE=1 fsoft_2022_1B_5/fast"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/headers/controller/controller.h">
+			<Option target="fsoft_2022_1B_5"/>
+		</Unit>
+		<Unit filename="C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/headers/exceptions/InformacaoDuplicadaException.h">
+			<Option target="fsoft_2022_1B_5"/>
+		</Unit>
+		<Unit filename="C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/headers/exceptions/InformacaoInvalidaException.h">
+			<Option target="fsoft_2022_1B_5"/>
+		</Unit>
+		<Unit filename="C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/headers/exceptions/InformacaoNaoExisteException.h">
+			<Option target="fsoft_2022_1B_5"/>
+		</Unit>
+		<Unit filename="C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/headers/model/Cliente.h">
+			<Option target="fsoft_2022_1B_5"/>
+		</Unit>
+		<Unit filename="C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/headers/model/ClienteContainer.h">
+			<Option target="fsoft_2022_1B_5"/>
+		</Unit>
+		<Unit filename="C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/headers/model/Empresa.h">
+			<Option target="fsoft_2022_1B_5"/>
+		</Unit>
+		<Unit filename="C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/headers/model/Funcionario.h">
+			<Option target="fsoft_2022_1B_5"/>
+		</Unit>
+		<Unit filename="C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/headers/model/FuncionarioContainer.h">
+			<Option target="fsoft_2022_1B_5"/>
+		</Unit>
+		<Unit filename="C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/headers/model/Nome.h">
+			<Option target="fsoft_2022_1B_5"/>
+		</Unit>
+		<Unit filename="C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/headers/model/Produto.h">
+			<Option target="fsoft_2022_1B_5"/>
+		</Unit>
+		<Unit filename="C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/headers/model/ProdutoContainer.h">
+			<Option target="fsoft_2022_1B_5"/>
+		</Unit>
+		<Unit filename="C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/headers/views/ClienteView.h">
+			<Option target="fsoft_2022_1B_5"/>
+		</Unit>
+		<Unit filename="C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/headers/views/FuncionarioView.h">
+			<Option target="fsoft_2022_1B_5"/>
+		</Unit>
+		<Unit filename="C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/headers/views/ProdutoView.h">
+			<Option target="fsoft_2022_1B_5"/>
+		</Unit>
+		<Unit filename="C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/headers/views/Utils.h">
+			<Option target="fsoft_2022_1B_5"/>
+		</Unit>
+		<Unit filename="C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/headers/views/View.h">
+			<Option target="fsoft_2022_1B_5"/>
+		</Unit>
+		<Unit filename="C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/main.cpp">
+			<Option target="fsoft_2022_1B_5"/>
+		</Unit>
+		<Unit filename="C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/mock/MockData.cpp">
+			<Option target="fsoft_2022_1B_5"/>
+		</Unit>
+		<Unit filename="C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/mock/MockData.h">
+			<Option target="fsoft_2022_1B_5"/>
+		</Unit>
+		<Unit filename="C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/sources/controller/controller.cpp">
+			<Option target="fsoft_2022_1B_5"/>
+		</Unit>
+		<Unit filename="C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/sources/exceptions/InformacaoDuplicadaException.cpp">
+			<Option target="fsoft_2022_1B_5"/>
+		</Unit>
+		<Unit filename="C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/sources/exceptions/InformacaoInvalidaException.cpp">
+			<Option target="fsoft_2022_1B_5"/>
+		</Unit>
+		<Unit filename="C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/sources/exceptions/InformacaoNaoExisteException.cpp">
+			<Option target="fsoft_2022_1B_5"/>
+		</Unit>
+		<Unit filename="C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/sources/model/Cliente.cpp">
+			<Option target="fsoft_2022_1B_5"/>
+		</Unit>
+		<Unit filename="C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/sources/model/ClienteContainer.cpp">
+			<Option target="fsoft_2022_1B_5"/>
+		</Unit>
+		<Unit filename="C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/sources/model/Empresa.cpp">
+			<Option target="fsoft_2022_1B_5"/>
+		</Unit>
+		<Unit filename="C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/sources/model/Funcionario.cpp">
+			<Option target="fsoft_2022_1B_5"/>
+		</Unit>
+		<Unit filename="C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/sources/model/FuncionarioContainer.cpp">
+			<Option target="fsoft_2022_1B_5"/>
+		</Unit>
+		<Unit filename="C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/sources/model/Nome.cpp">
+			<Option target="fsoft_2022_1B_5"/>
+		</Unit>
+		<Unit filename="C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/sources/model/Produto.cpp">
+			<Option target="fsoft_2022_1B_5"/>
+		</Unit>
+		<Unit filename="C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/sources/model/ProdutoContainer.cpp">
+			<Option target="fsoft_2022_1B_5"/>
+		</Unit>
+		<Unit filename="C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/sources/views/ClienteView.cpp">
+			<Option target="fsoft_2022_1B_5"/>
+		</Unit>
+		<Unit filename="C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/sources/views/FuncionarioView.cpp">
+			<Option target="fsoft_2022_1B_5"/>
+		</Unit>
+		<Unit filename="C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/sources/views/ProdutoView.cpp">
+			<Option target="fsoft_2022_1B_5"/>
+		</Unit>
+		<Unit filename="C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/sources/views/Utils.cpp">
+			<Option target="fsoft_2022_1B_5"/>
+		</Unit>
+		<Unit filename="C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/sources/views/View.cpp">
+			<Option target="fsoft_2022_1B_5"/>
+		</Unit>
+		<Unit filename="C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/CMakeLists.txt">
+>>>>>>> bef7eb31329183d029b5c2312345fa59e3b1a087
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

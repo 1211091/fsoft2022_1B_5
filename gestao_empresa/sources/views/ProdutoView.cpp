@@ -8,25 +8,29 @@
 using namespace std;
 
 Produto ProdutoView::getProduto(){
-    Produto produto ;
+    Produto produto("Referencia", "Tipo");
     bool flag = false;
     do{
         try{
             flag = false;
             cout<<"Produto"<<endl;
-            string produto = Utils::getString("Produto");
-            produto.setProduto(produto);
-            string referencia = ProdutoView::getReferencia("Referencia");
+            string tipo = Utils::getString("Tipo de Produto");
+            produto.setTipo(tipo);
+            string referencia = Utils::getString("Referencia do Produto");
             produto.setReferencia(referencia);
         }catch(InformacaoInvalidaException& e){
             flag = true;
         }
     }while(flag == true);
-    return produtos;
+    return produto;
 }
-string ProdutoView::printProdutos(Produto *produto, Produto *referencias) {
-    cout<<produto->getProduto()<<":"<<referencias->getReferencia()<<endl;
+void ProdutoView::printProduto(Produto *produto) {
+    cout<<produto->getReferencia()<<" - "<<produto->getTipo()<<"."<<endl;
 }
-Produto ProdutoView::getReferencia(){
-    return referencia;
+
+void ProdutoView::printProdutos(list<Produto> &produtos) {
+    for (list<Produto>::iterator it = produtos.begin(); it != produtos.end() ; it++) {
+        printProduto(&*it);
+    }
 }
+

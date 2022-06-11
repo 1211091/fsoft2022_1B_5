@@ -14,7 +14,6 @@ Empresa::Empresa(const string& nome){
 }
 Empresa::Empresa(const Empresa& obj){
     this->nome = obj.nome;
-    this->administrador = obj.administrador;
     this->clientes = obj.clientes;
     this->produtos = obj.produtos;
 }
