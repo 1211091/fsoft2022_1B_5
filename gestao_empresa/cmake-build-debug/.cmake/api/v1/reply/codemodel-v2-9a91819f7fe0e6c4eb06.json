@@ -39,11 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "fsoft_2022_1B_5::@6890427a1f51a3e7e1df",
-<<<<<<<< HEAD:gestao_empresa/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-2f12be7fb39439b4f6ee.json
-					"jsonFile" : "target-fsoft_2022_1B_5-Debug-02f97a74e99f87ad575c.json",
-========
-					"jsonFile" : "target-fsoft_2022_1B_5-Debug-04dc5a252bd713b0205b.json",
->>>>>>>> f4db38d463cf53388d8ad083d05f6235405919aa:gestao_empresa/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-573f1537a268a45f980d.json
+					"jsonFile" : "target-fsoft_2022_1B_5-Debug-dfed158b4612592e243c.json",
 					"name" : "fsoft_2022_1B_5",
 					"projectIndex" : 0
 				}
@@ -53,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/clara/Documents/GitHub/fsoft2022_1B_5/gestao_empresa/cmake-build-debug",
-		"source" : "C:/Users/clara/Documents/GitHub/fsoft2022_1B_5/gestao_empresa"
+		"build" : "C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/cmake-build-debug",
+		"source" : "C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa"
 	},
 	"version" : 
 	{

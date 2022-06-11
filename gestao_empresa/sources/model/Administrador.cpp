@@ -1,7 +1,7 @@
 //
 // Created by clara on 08/06/2022.
 //
-
+/*
 #include "Administrador.h"
 #include "InformacaoInvalidaException.h"
 
@@ -54,7 +54,7 @@ bool Administrador::operator == (const string nome) const{
 int Administrador::getAdministrador(){
     return administrador;
 }
-
+*/
 
 
 

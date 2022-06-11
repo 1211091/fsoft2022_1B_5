@@ -1,7 +1,7 @@
 //
 // Created by bilax on 01/06/2022.
 //
-
+/*
 #ifndef HEADERS_MODEL_ADMINISTRADORCONTAINER_H
 #define HEADERS_MODEL_ADMINISTRADORCONTAINER_H
 #include "Nome.h"
@@ -28,3 +28,4 @@ public:
 };
 
 #endif //HEADERS_MODEL_ADMINISTRADORCONTAINER_H
+*/

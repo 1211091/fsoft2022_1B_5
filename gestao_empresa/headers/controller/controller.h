@@ -6,20 +6,17 @@
 #define HEADERS_CONTROLLER_CONTROLLER_H
 
 #include "Empresa.h"
-#include "AdministradorView.h"
 #include "ClienteView.h"
 #include "FuncionarioView.h"
 #include "ProdutoView.h."
 #include "Utils.h"
 #include "View.h"
 #include "Produto.h"
-#include "Administrador.h"
 #include "Empresa.h"
 class Controller{
 private:
-    Administrador model;
+    Empresa model;
     View view;
-    AdministradorView administradorView;
     FuncionarioView funcionarioView;
     ClienteView clienteView;
     ProdutoView produtoView;
@@ -28,7 +25,7 @@ private:
     void runAdministrador();
     void runCliente();
 public:
-    Controller(Administrador& administrador);
+    Controller(Empresa& empresa);
     void run();
 };
 

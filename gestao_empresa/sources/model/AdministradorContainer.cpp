@@ -1,6 +1,7 @@
 //
 // Created by bilax on 06/06/2022.
 //
+/*
 #include <iostream>
 #include "AdministradorContainer.h"
 #include "Administrador.h"
@@ -24,7 +25,7 @@ int AdministradorContainer::getProduto(){
 }
 int AdministradorContainer::getAdministrador(){
     return administrador;
-}*/
+}
 
 
 ProdutoContainer &Administrador::getProdutoContainer() {
@@ -40,4 +41,4 @@ ClienteContainer &Administrador::getClienteContainer() {
     return clientes;
 }
 
-
+*/

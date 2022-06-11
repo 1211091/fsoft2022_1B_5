@@ -6,7 +6,6 @@
 #define HEADERS_MODEL_EMPRESA_H
 
 #include <string>
-#include "AdministradorContainer.h"
 #include "ClienteContainer.h"
 #include "ProdutoContainer.h"
 #include "FuncionarioContainer.h"
@@ -16,7 +15,6 @@ using namespace std;
 class Empresa{
 private :
     string nome;
-    AdministradorContainer administrador;
     ClienteContainer clientes;
     ProdutoContainer produtos;
     FuncionarioContainer funcionarios;
@@ -28,8 +26,9 @@ public:
     const string& getNome() const ;
     void setNome(const string &nome) ;
     ~Empresa();
-    AdministradorContainer & getAdministradorContainer();
-
+    ClienteContainer & getClienteContainer();
+    ProdutoContainer & getProdutoContainer();
+    FuncionarioContainer & getFuncionarioContainer();
 
 
 

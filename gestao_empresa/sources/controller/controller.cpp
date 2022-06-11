@@ -9,14 +9,12 @@
 #include "InformacaoNaoExisteException.h"
 #include "Empresa.h"
 #include "FuncionarioContainer.h"
-#include "AdministradorContainer.h"
-#include "Administrador.h"
 
 
 using namespace std;
 
-Controller::Controller(Administrador& administrador){
-    this->model = administrador;
+Controller::Controller(Empresa& empresa){
+    this->model = empresa;
 }
 
 

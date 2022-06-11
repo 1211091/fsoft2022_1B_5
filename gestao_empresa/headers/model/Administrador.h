@@ -1,7 +1,7 @@
 //
 // Created by bilax on 01/06/2022.
 //
-
+/*
 #ifndef HEADERS_MODEL_ADMINISTRADOR_H
 #define HEADERS_MODEL_ADMINISTRADOR_H
 
@@ -43,3 +43,4 @@ public:
 
 #endif //HEADERS_MODEL_ADMINISTRADOR_H
 
+*/

@@ -26,22 +26,18 @@ const string& Empresa::getNome() const {
 void Empresa::setNome(const string &nome) {
     this->nome = nome;
 }
-
-AdministradorContainer & Empresa::getAdministradorContainer(){
-    return this->administrador;
-}
-
 Empresa::~Empresa() {
 
 }
-/*ClienteContainer & Empresa::getClienteContainer(){
-    return this->clientes;
-}
-ProdutoContainer & Empresa::getProdutoContainer() {
-    return this->produtos;
+ProdutoContainer &Empresa::getProdutoContainer() {
+    return produtos;
 }
 
-FuncionarioContainer & Empresa::getFuncionarioContainer(){
-    return this->funcionarios;
-}*/
 
+FuncionarioContainer &Empresa::getFuncionarioContainer() {
+    return funcionarios;
+}
+
+ClienteContainer &Empresa::getClienteContainer() {
+    return clientes;
+}

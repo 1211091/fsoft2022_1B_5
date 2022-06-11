@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/cmake-build-debug"
+			"value" : "c:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -707,7 +707,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa"
+			"value" : "C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1327,7 +1327,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/cmake-build-debug"
+			"value" : "C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/cmake-build-debug"
 		},
 		{
 			"name" : "fsoft_2022_1B_5_IS_TOP_LEVEL",
@@ -1351,7 +1351,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa"
+			"value" : "C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa"
 		}
 	],
 	"kind" : "cache",
