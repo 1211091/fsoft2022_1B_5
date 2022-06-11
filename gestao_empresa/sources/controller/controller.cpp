@@ -212,7 +212,7 @@ void Controller::runProduto(){
         }
     }while (opcao != 0);
 }
-void Controller::runStock(){
+/*void Controller::runStock(){
     int opcao=-1;
     do {
         opcao=this->view.menuStock();
@@ -253,4 +253,4 @@ void Controller::runStock(){
                 break;
         }
     }while (opcao != 0);
-}
+}*/
