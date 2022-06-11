@@ -12,6 +12,7 @@ class Produto{
 protected:
     string tipo;
     string produto;
+    int quantidade;
     bool isPointerNotNull(void * ptr);
     string referencia;
     static bool isReferenciaValid(const string& referencia);
@@ -20,8 +21,13 @@ public :
     ~Produto();
     string setProduto(string &produto);
     string getProduto();
+
+    void setQuantidade(int quantidade);
+    int getQuantidade() const;
+
     const string getTipo();
     void setTipo(const string &tipo);
+
     string Referencia();
     string Referencia(const string& referencia);
     string getReferencia();

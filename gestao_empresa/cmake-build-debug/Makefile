@@ -512,54 +512,6 @@ sources/model/ProdutoContainer.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft_2022_1B_5.dir\build.make CMakeFiles/fsoft_2022_1B_5.dir/sources/model/ProdutoContainer.cpp.s
 .PHONY : sources/model/ProdutoContainer.cpp.s
 
-sources/model/Stock.obj: sources/model/Stock.cpp.obj
-.PHONY : sources/model/Stock.obj
-
-# target to build an object file
-sources/model/Stock.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft_2022_1B_5.dir\build.make CMakeFiles/fsoft_2022_1B_5.dir/sources/model/Stock.cpp.obj
-.PHONY : sources/model/Stock.cpp.obj
-
-sources/model/Stock.i: sources/model/Stock.cpp.i
-.PHONY : sources/model/Stock.i
-
-# target to preprocess a source file
-sources/model/Stock.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft_2022_1B_5.dir\build.make CMakeFiles/fsoft_2022_1B_5.dir/sources/model/Stock.cpp.i
-.PHONY : sources/model/Stock.cpp.i
-
-sources/model/Stock.s: sources/model/Stock.cpp.s
-.PHONY : sources/model/Stock.s
-
-# target to generate assembly for a file
-sources/model/Stock.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft_2022_1B_5.dir\build.make CMakeFiles/fsoft_2022_1B_5.dir/sources/model/Stock.cpp.s
-.PHONY : sources/model/Stock.cpp.s
-
-sources/model/StockContainer.obj: sources/model/StockContainer.cpp.obj
-.PHONY : sources/model/StockContainer.obj
-
-# target to build an object file
-sources/model/StockContainer.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft_2022_1B_5.dir\build.make CMakeFiles/fsoft_2022_1B_5.dir/sources/model/StockContainer.cpp.obj
-.PHONY : sources/model/StockContainer.cpp.obj
-
-sources/model/StockContainer.i: sources/model/StockContainer.cpp.i
-.PHONY : sources/model/StockContainer.i
-
-# target to preprocess a source file
-sources/model/StockContainer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft_2022_1B_5.dir\build.make CMakeFiles/fsoft_2022_1B_5.dir/sources/model/StockContainer.cpp.i
-.PHONY : sources/model/StockContainer.cpp.i
-
-sources/model/StockContainer.s: sources/model/StockContainer.cpp.s
-.PHONY : sources/model/StockContainer.s
-
-# target to generate assembly for a file
-sources/model/StockContainer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft_2022_1B_5.dir\build.make CMakeFiles/fsoft_2022_1B_5.dir/sources/model/StockContainer.cpp.s
-.PHONY : sources/model/StockContainer.cpp.s
-
 sources/views/AdministradorView.obj: sources/views/AdministradorView.cpp.obj
 .PHONY : sources/views/AdministradorView.obj
 
@@ -655,30 +607,6 @@ sources/views/ProdutoView.s: sources/views/ProdutoView.cpp.s
 sources/views/ProdutoView.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft_2022_1B_5.dir\build.make CMakeFiles/fsoft_2022_1B_5.dir/sources/views/ProdutoView.cpp.s
 .PHONY : sources/views/ProdutoView.cpp.s
-
-sources/views/StockView.obj: sources/views/StockView.cpp.obj
-.PHONY : sources/views/StockView.obj
-
-# target to build an object file
-sources/views/StockView.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft_2022_1B_5.dir\build.make CMakeFiles/fsoft_2022_1B_5.dir/sources/views/StockView.cpp.obj
-.PHONY : sources/views/StockView.cpp.obj
-
-sources/views/StockView.i: sources/views/StockView.cpp.i
-.PHONY : sources/views/StockView.i
-
-# target to preprocess a source file
-sources/views/StockView.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft_2022_1B_5.dir\build.make CMakeFiles/fsoft_2022_1B_5.dir/sources/views/StockView.cpp.i
-.PHONY : sources/views/StockView.cpp.i
-
-sources/views/StockView.s: sources/views/StockView.cpp.s
-.PHONY : sources/views/StockView.s
-
-# target to generate assembly for a file
-sources/views/StockView.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft_2022_1B_5.dir\build.make CMakeFiles/fsoft_2022_1B_5.dir/sources/views/StockView.cpp.s
-.PHONY : sources/views/StockView.cpp.s
 
 sources/views/Utils.obj: sources/views/Utils.cpp.obj
 .PHONY : sources/views/Utils.obj
@@ -785,12 +713,6 @@ help:
 	@echo ... sources/model/ProdutoContainer.obj
 	@echo ... sources/model/ProdutoContainer.i
 	@echo ... sources/model/ProdutoContainer.s
-	@echo ... sources/model/Stock.obj
-	@echo ... sources/model/Stock.i
-	@echo ... sources/model/Stock.s
-	@echo ... sources/model/StockContainer.obj
-	@echo ... sources/model/StockContainer.i
-	@echo ... sources/model/StockContainer.s
 	@echo ... sources/views/AdministradorView.obj
 	@echo ... sources/views/AdministradorView.i
 	@echo ... sources/views/AdministradorView.s
@@ -803,9 +725,6 @@ help:
 	@echo ... sources/views/ProdutoView.obj
 	@echo ... sources/views/ProdutoView.i
 	@echo ... sources/views/ProdutoView.s
-	@echo ... sources/views/StockView.obj
-	@echo ... sources/views/StockView.i
-	@echo ... sources/views/StockView.s
 	@echo ... sources/views/Utils.obj
 	@echo ... sources/views/Utils.i
 	@echo ... sources/views/Utils.s
