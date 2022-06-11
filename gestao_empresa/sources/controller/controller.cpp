@@ -218,7 +218,8 @@ void Controller::runStock(){
         opcao=this->view.menuStock();
         switch (opcao) {
             case 1: {
-                Stock stock = this->stockView.getStock();
+                Stock stock = this->stockView.getStock()(<#initializer#>,
+                                                         Produto(__cxx11::basic_string(), __cxx11::basic_string()));
                 StockContainer &container = this->model.getStockContainer();
                 container.adicionarStock(stock);
             }

@@ -12,19 +12,19 @@ bool Produto::isPointerNotNull(void * ptr){
     }
     return true;
 }
-bool Produto::operator == (const Produto& obj) const{
-    if(this->referencia == obj.referencia){
+bool Produto::operator == (string& referencia) const{
+    if(this->referencia == referencia){
         return true;
     }
     return false;
 }
-
+/*
 bool Produto::operator == (string rfr) const{
     if(this->referencia == rfr){
         return true;
     }
     return false;
-}
+}*/
 
 Produto::Produto(const string& referencia, const string&tipo){
     setProduto(produto);

@@ -8,9 +8,8 @@
 #include "Stock.h"
 
 using namespace std;
-class Produto:{
+class Produto{
 protected:
-    Produto(const string &referencia, const string &tipo);
     string tipo;
     string produto;
     bool isPointerNotNull(void * ptr);
@@ -28,7 +27,7 @@ public :
     string getReferencia();
     void setReferencia(const string &referencia);
 
-    bool operator == (const Produto& referencia) const;
-    bool operator == (string rfr) const;
-}
+    bool operator == (string& referencia) const;
+    //bool operator == (string rfr) const;
+};
 #endif //HEADERS_MODEL_PRODUTO_H

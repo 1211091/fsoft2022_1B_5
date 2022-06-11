@@ -18,13 +18,13 @@ bool Stock::isReferenciaValid(const string &referencia) {
     }
     return true;
 }
-
+/*
 bool Stock::operator == (const Stock& obj) const{
     if(this->tipo == obj.tipo){
         return true;
     }
     return false;
-}
+}*/
 
 bool Stock::operator == (Produto produto) const{
     if(this->referencia == referencia){
@@ -32,23 +32,22 @@ bool Stock::operator == (Produto produto) const{
     }
     return false;
 }
-bool Stock::operator == (string& referencia) const {
+/*bool Stock::operator == (string& referencia) const {
     if(this->referencia == referencia){
         return true;
     }
     return false;
+}*/
+
+
+Stock::Stock(Produto produto, int quantidade, Produto& tipo) : produto(produto), tipo(tipo) {
+    this->produto = produto;
+    this->referencia = referencia;
+    this->tipo = tipo;
 }
 
-
-Stock::Stock (Produto* produto, Produto* tipo, int quantidade) {
-    this->setProduto(produto);
-    this->setReferencia(referencia);
-    this->setTipo(tipo);
-}
-
-Stock::Stock (const Stock& obj) {
+Stock::Stock(const Stock &obj, Produto produto, Produto &tipo) : produto(produto), tipo(tipo) {
     this->setReferencia(obj.referencia);
-    this->setTipo(obj.tipo);
 }
 
 bool Stock::produto_existe(int quantidade){
@@ -60,7 +59,7 @@ bool Stock::produto_existe(int quantidade){
 }
 
 
-Produto* Stock::setTipo(Produto *tipo){
+void Stock::setTipo(Produto *tipo){
         if(isPointerNotNull(tipo)==true){
             this->tipo = tipo;
         }else{
@@ -69,11 +68,11 @@ Produto* Stock::setTipo(Produto *tipo){
         }
     }
 
-void Stock::setQuantidade(Stock quantidade){
+void Stock::setQuantidade(int quantidade){
     this->quantidade = quantidade;
 }
 
- Stock Stock::getQuantidade()const {
+int Stock::getQuantidade()const {
     return quantidade;
 }
 
@@ -108,7 +107,7 @@ Stock::~Stock() {
 
 }
 
-Produto Stock::getProduto()  {
+Produto* Stock::getProduto()  {
     return produto;
 }
 

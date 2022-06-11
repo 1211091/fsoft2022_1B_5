@@ -18,7 +18,8 @@ Stock StockView::getStock(){
         try{
             flag = false;
             cout<<"Stock"<<endl;
-            Stock stock = Stock::getQuantidade();
+            Stock stock = Stock::getQuantidade()(<#initializer#>,
+                                                 Produto(__cxx11::basic_string(), __cxx11::basic_string()));
             stock.setQuantidade(stock);
         }catch(InformacaoInvalidaException& e){
             flag = true;

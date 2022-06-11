@@ -5,8 +5,8 @@
 #ifndef HEADERS_MODEL_NOME_H
 #define HEADERS_MODEL_NOME_H
 #include <string>
+#include <vector>
 using namespace std;
-using std::vector;
 
 class Nome{
     protected:
