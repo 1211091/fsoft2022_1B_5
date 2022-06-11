@@ -22,6 +22,7 @@ private:
     ProdutoView produtoView;
     void runFuncionario();
     void runProduto();
+    void runAdministrador();
     void runCliente();
 public:
     Controller(Empresa& empresa);

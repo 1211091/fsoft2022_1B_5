@@ -27,7 +27,7 @@ Cliente* ClienteContainer::getCliente(string nomeLoja){
     return NULL;
 }
 void ClienteContainer:: adicionarCliente(Cliente NomeLoja){
-    string NomedaLoja = NomeLoja.getNomeLoja();
+    string NomedaLoja = NomeLoja.getCliente();
     list<Cliente>::iterator it = procurarCliente(NomedaLoja);
     if (it== this->clientes.end()) {
         this->clientes.push_back(NomeLoja);
@@ -46,7 +46,7 @@ void ClienteContainer::eliminarCliente(string &nomeLoja){
 void ClienteContainer::atualizarCliente(string&nomeLoja){
     list<Cliente>::iterator it = procurarCliente(nomeLoja);
     if(it != this->clientes.end()){
-        it->setNomeLoja(nomeLoja);
+        it->setCliente(nomeLoja);
 
     }
 }

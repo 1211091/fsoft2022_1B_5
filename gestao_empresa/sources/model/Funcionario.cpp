@@ -39,9 +39,3 @@ bool Funcionario::operator == (string nf) const{
     }
     return false;
 }
-
-Funcionario::Funcionario(string nomeFuncionario) {
-
-}
-
-

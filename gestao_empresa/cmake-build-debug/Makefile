@@ -56,17 +56,10 @@ RM = "C:\Program Files\JetBrains\CLion 2021.3.3\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-<<<<<<< HEAD
 CMAKE_SOURCE_DIR = C:\Users\clara\Desktop\fsoft2022_1B_5\gestao_empresa
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = C:\Users\clara\Desktop\fsoft2022_1B_5\gestao_empresa\cmake-build-debug
-=======
-CMAKE_SOURCE_DIR = "C:\Users\luis_\OneDrive\Ambiente de Trabalho\fsoft2022_1B_5\gestao_empresa"
-
-# The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\luis_\OneDrive\Ambiente de Trabalho\fsoft2022_1B_5\gestao_empresa\cmake-build-debug"
->>>>>>> bef7eb31329183d029b5c2312345fa59e3b1a087
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -93,15 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-<<<<<<< HEAD
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\clara\Desktop\fsoft2022_1B_5\gestao_empresa\cmake-build-debug\CMakeFiles C:\Users\clara\Desktop\fsoft2022_1B_5\gestao_empresa\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\clara\Desktop\fsoft2022_1B_5\gestao_empresa\cmake-build-debug\CMakeFiles 0
-=======
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\luis_\OneDrive\Ambiente de Trabalho\fsoft2022_1B_5\gestao_empresa\cmake-build-debug\CMakeFiles" "C:\Users\luis_\OneDrive\Ambiente de Trabalho\fsoft2022_1B_5\gestao_empresa\cmake-build-debug\\CMakeFiles\progress.marks"
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\luis_\OneDrive\Ambiente de Trabalho\fsoft2022_1B_5\gestao_empresa\cmake-build-debug\CMakeFiles" 0
->>>>>>> bef7eb31329183d029b5c2312345fa59e3b1a087
 .PHONY : all
 
 # The main clean target
@@ -284,6 +271,54 @@ sources/exceptions/InformacaoNaoExisteException.s: sources/exceptions/Informacao
 sources/exceptions/InformacaoNaoExisteException.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft_2022_1B_5.dir\build.make CMakeFiles/fsoft_2022_1B_5.dir/sources/exceptions/InformacaoNaoExisteException.cpp.s
 .PHONY : sources/exceptions/InformacaoNaoExisteException.cpp.s
+
+sources/model/Administrador.obj: sources/model/Administrador.cpp.obj
+.PHONY : sources/model/Administrador.obj
+
+# target to build an object file
+sources/model/Administrador.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft_2022_1B_5.dir\build.make CMakeFiles/fsoft_2022_1B_5.dir/sources/model/Administrador.cpp.obj
+.PHONY : sources/model/Administrador.cpp.obj
+
+sources/model/Administrador.i: sources/model/Administrador.cpp.i
+.PHONY : sources/model/Administrador.i
+
+# target to preprocess a source file
+sources/model/Administrador.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft_2022_1B_5.dir\build.make CMakeFiles/fsoft_2022_1B_5.dir/sources/model/Administrador.cpp.i
+.PHONY : sources/model/Administrador.cpp.i
+
+sources/model/Administrador.s: sources/model/Administrador.cpp.s
+.PHONY : sources/model/Administrador.s
+
+# target to generate assembly for a file
+sources/model/Administrador.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft_2022_1B_5.dir\build.make CMakeFiles/fsoft_2022_1B_5.dir/sources/model/Administrador.cpp.s
+.PHONY : sources/model/Administrador.cpp.s
+
+sources/model/AdministradorContainer.obj: sources/model/AdministradorContainer.cpp.obj
+.PHONY : sources/model/AdministradorContainer.obj
+
+# target to build an object file
+sources/model/AdministradorContainer.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft_2022_1B_5.dir\build.make CMakeFiles/fsoft_2022_1B_5.dir/sources/model/AdministradorContainer.cpp.obj
+.PHONY : sources/model/AdministradorContainer.cpp.obj
+
+sources/model/AdministradorContainer.i: sources/model/AdministradorContainer.cpp.i
+.PHONY : sources/model/AdministradorContainer.i
+
+# target to preprocess a source file
+sources/model/AdministradorContainer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft_2022_1B_5.dir\build.make CMakeFiles/fsoft_2022_1B_5.dir/sources/model/AdministradorContainer.cpp.i
+.PHONY : sources/model/AdministradorContainer.cpp.i
+
+sources/model/AdministradorContainer.s: sources/model/AdministradorContainer.cpp.s
+.PHONY : sources/model/AdministradorContainer.s
+
+# target to generate assembly for a file
+sources/model/AdministradorContainer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft_2022_1B_5.dir\build.make CMakeFiles/fsoft_2022_1B_5.dir/sources/model/AdministradorContainer.cpp.s
+.PHONY : sources/model/AdministradorContainer.cpp.s
 
 sources/model/Cliente.obj: sources/model/Cliente.cpp.obj
 .PHONY : sources/model/Cliente.obj
@@ -477,6 +512,30 @@ sources/model/ProdutoContainer.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft_2022_1B_5.dir\build.make CMakeFiles/fsoft_2022_1B_5.dir/sources/model/ProdutoContainer.cpp.s
 .PHONY : sources/model/ProdutoContainer.cpp.s
 
+sources/views/AdministradorView.obj: sources/views/AdministradorView.cpp.obj
+.PHONY : sources/views/AdministradorView.obj
+
+# target to build an object file
+sources/views/AdministradorView.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft_2022_1B_5.dir\build.make CMakeFiles/fsoft_2022_1B_5.dir/sources/views/AdministradorView.cpp.obj
+.PHONY : sources/views/AdministradorView.cpp.obj
+
+sources/views/AdministradorView.i: sources/views/AdministradorView.cpp.i
+.PHONY : sources/views/AdministradorView.i
+
+# target to preprocess a source file
+sources/views/AdministradorView.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft_2022_1B_5.dir\build.make CMakeFiles/fsoft_2022_1B_5.dir/sources/views/AdministradorView.cpp.i
+.PHONY : sources/views/AdministradorView.cpp.i
+
+sources/views/AdministradorView.s: sources/views/AdministradorView.cpp.s
+.PHONY : sources/views/AdministradorView.s
+
+# target to generate assembly for a file
+sources/views/AdministradorView.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft_2022_1B_5.dir\build.make CMakeFiles/fsoft_2022_1B_5.dir/sources/views/AdministradorView.cpp.s
+.PHONY : sources/views/AdministradorView.cpp.s
+
 sources/views/ClienteView.obj: sources/views/ClienteView.cpp.obj
 .PHONY : sources/views/ClienteView.obj
 
@@ -624,6 +683,12 @@ help:
 	@echo ... sources/exceptions/InformacaoNaoExisteException.obj
 	@echo ... sources/exceptions/InformacaoNaoExisteException.i
 	@echo ... sources/exceptions/InformacaoNaoExisteException.s
+	@echo ... sources/model/Administrador.obj
+	@echo ... sources/model/Administrador.i
+	@echo ... sources/model/Administrador.s
+	@echo ... sources/model/AdministradorContainer.obj
+	@echo ... sources/model/AdministradorContainer.i
+	@echo ... sources/model/AdministradorContainer.s
 	@echo ... sources/model/Cliente.obj
 	@echo ... sources/model/Cliente.i
 	@echo ... sources/model/Cliente.s
@@ -648,6 +713,9 @@ help:
 	@echo ... sources/model/ProdutoContainer.obj
 	@echo ... sources/model/ProdutoContainer.i
 	@echo ... sources/model/ProdutoContainer.s
+	@echo ... sources/views/AdministradorView.obj
+	@echo ... sources/views/AdministradorView.i
+	@echo ... sources/views/AdministradorView.s
 	@echo ... sources/views/ClienteView.obj
 	@echo ... sources/views/ClienteView.i
 	@echo ... sources/views/ClienteView.s

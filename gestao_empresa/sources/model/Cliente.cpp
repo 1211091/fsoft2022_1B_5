@@ -11,15 +11,11 @@ Cliente::Cliente(const string& nomeLoja){
 Cliente::~Cliente(){
 }
 
-string Cliente::getNomeLoja()  {
+string Cliente::getCliente() {
     return nomeLoja;
 }
 
-void Cliente::setNomeLoja(string &nomeLoja){
+void Cliente::setCliente(string &nomeLoja){
     this-> nomeLoja = nomeLoja;
-}
-
-Cliente::Cliente(const Cliente &cliente) {
-    this->nomeLoja = cliente.nomeLoja;
 }
 

@@ -40,7 +40,6 @@ void Produto::setTipo(const string &tipo){
 string Produto::setProduto(string &produto){
     return produto;
 }
-
 string Produto::getReferencia(){
     return referencia;
 }
@@ -50,7 +49,7 @@ string Produto::getProduto() {
 
 
 bool Produto::isReferenciaValid(const string &referencia){
-    if(referencia.length() < 10){
+    if(referencia.length() != 10){
         return false;
     }
     return true;
@@ -79,9 +78,4 @@ string Produto::Referencia(const string &referencia) {
 }
 
 string Produto::Referencia() {
-}
-
-Produto::Produto(const Produto &produto) {
-    this->tipo = produto.tipo;
-    this->referencia = produto.referencia;
 }
