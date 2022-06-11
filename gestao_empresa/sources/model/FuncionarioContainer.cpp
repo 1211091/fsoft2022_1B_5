@@ -15,17 +15,23 @@ list<Funcionario>::iterator FuncionarioContainer::procurarFuncionario(string&nom
     return it;
 }
 
+Funcionario* FuncionarioContainer::get(string& referencia){
+    list<Funcionario>::iterator it = procurarFuncionario(referencia);
+    if (it != this->funcionarios.end()){
+        return &(*it);
+    } return NULL;
+}
+
 list<Funcionario> FuncionarioContainer::getAll(){
     list<Funcionario> lista(this->funcionarios);
     return lista;
 }
-void FuncionarioContainer::adicionarFuncionario(Funcionario nomeFuncionario, Funcionario funcao){
+void FuncionarioContainer::adicionarFuncionario(Funcionario nomeFuncionario){
     string nomedoFuncionario =  nomeFuncionario.getNomeFuncionario();
-    string funcaodofuncionario =  funcao.getFuncao();
     list<Funcionario>::iterator it = procurarFuncionario(nomedoFuncionario);
     if(it == this->funcionarios.end()){
         this->funcionarios.push_back(nomeFuncionario);
-        this->funcionarios.push_back(funcao);
+
     }
 }
 void FuncionarioContainer::eliminarFuncionario(string&nomeFuncionario){
@@ -43,4 +49,8 @@ void FuncionarioContainer::atualizarFuncionario(string&nomeFuncionario, string&f
         it->setNomeFuncionario(nomeFuncionario);
 
     }
+}
+
+Funcionario *FuncionarioContainer::getFuncionario(const Funcionario &nomeFuncionario) {
+    return ;
 }

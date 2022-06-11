@@ -18,6 +18,7 @@ protected:
     static bool isReferenciaValid(const string& referencia);
 public :
     Produto(const string &referencia, const string &tipo);
+    Produto(const Produto& produto);
     ~Produto();
     string setProduto(string &produto);
     string getProduto();

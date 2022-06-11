@@ -16,7 +16,8 @@ private:
 
 public:
     list<Cliente> getAll();
-    Cliente* getCliente(string nomeLoja);
+    Cliente* get(string& referencia);
+    Cliente* getNomeLoja(string nomeLoja);
     void adicionarCliente(Cliente NomeLoja);
     void eliminarCliente (string& NomeLoja);
     list<Cliente>::iterator procurarCliente(string&nomeLoja);
