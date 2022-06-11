@@ -16,24 +16,12 @@ int View::menuEmpresa() {
     int op = -1;
     do{
         cout<<"\n\n********** Menu Empresa **********\n";
-        cout<<"1 - Administrador\n";
-        cout<<"\n0 - Exit\n";
-        op = Utils::getNumero("Option");
-
-    }while(op < 0 || op > 1);
-    return op;
-}
-int View::menuAdministrador() {
-    int op = -1;
-    do{
-        cout<<"\n\n********** Menu Administrador **********\n";
         cout<<"1 - Funcionario\n";
-        cout<<"2 - Stock\n";
-        cout<<"3 - Cliente\n";
-        cout<<"4 - Produto\n";
+        cout<<"2 - Cliente\n";
+        cout<<"3 - Produto\n";
         cout<<"\n0 - Exit\n";
         op = Utils::getNumero("Option");
-    }while(op < 0 || op > 4);
+    }while(op < 0 || op > 3);
     return op;
 }
 int View::menuFuncionario() {
@@ -51,19 +39,6 @@ int View::menuFuncionario() {
     return op;
 }
 
-
-int View::menuStock() {
-    int op = -1;
-    do{
-        cout<<"\n\n********** Menu Stock **********\n";
-        cout<<"1 - Lista dos Produtos em stock \n";
-        cout<<"2 - Atualizar lista\n";
-        cout<<"3 - Encontrar Produto em Stock\n";
-        cout<<"\n0 - Exit\n";
-        op = Utils::getNumero("Option");
-    }while(op < 0 || op > 3);
-    return op;
-}
 int View::menuCliente() {
     int op = -1;
     do{
@@ -85,9 +60,12 @@ int View::menuProduto() {
         cout<<"1 - Criar produto\n";
         cout<<"2 - Lista dos tipos de produto\n";
         cout<<"3 - Vender produto\n";
+        cout<<"4 - Lista da quantidade de produtos em stock \n";
+        cout<<"5 - Atualizar lista\n";
+        cout<<"6 - Encontrar Produto em Stock\n";
         cout<<"\n0 - Exit\n";
         op = Utils::getNumero("Option");
-    }while(op < 0 || op > 3);
+    }while(op < 0 || op > 6);
     return op;
 }
 

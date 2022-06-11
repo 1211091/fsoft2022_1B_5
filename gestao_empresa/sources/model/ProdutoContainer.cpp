@@ -16,7 +16,12 @@ list<Produto>::iterator ProdutoContainer::procurarProduto(string& referencia){
     return it;
 }
 
-
+Produto* ProdutoContainer::get(string& referencia){
+    list<Produto>::iterator it = procurarProduto(referencia);
+    if (it != this->produtos.end()){
+        return &(*it);
+    } return NULL;
+}
 
 list<Produto> ProdutoContainer::getAll(){
     list<Produto> lista(this->produtos);
@@ -25,8 +30,8 @@ list<Produto> ProdutoContainer::getAll(){
 
 
 void ProdutoContainer::adicionarProduto(Produto&obj) {
-    string referencia1 = obj.getReferencia();
-    list<Produto>::iterator it = procurarProduto(referencia1);
+    string referencia = obj.getReferencia();
+    list<Produto>::iterator it = procurarProduto(referencia);
     if (it == this->produtos.end()) {
         this->produtos.push_back(obj);
 
