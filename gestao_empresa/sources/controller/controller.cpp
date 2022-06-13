@@ -118,7 +118,7 @@ void Controller::runCliente(){
             case 4: {
                 string nome = Utils::getString("Insira o nome da loja");
                 ClienteContainer &container = this->model.getClienteContainer();
-                Cliente *ptr = container.getNomeLoja(nome);
+                Cliente *ptr = container.get(nome);
                 if (ptr != NULL) {
                     this->clienteView.printCliente(ptr);
                 } else {

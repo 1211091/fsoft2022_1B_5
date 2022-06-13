@@ -7,22 +7,21 @@
 
 #include <list>
 #include "Cliente.h"
+#include <string>
 
 class ClienteContainer {
 private:
     list<Cliente> clientes;
-    list<Cliente>::iterator procura(string nomeLoja);
+    //list<Cliente>::iterator procurarCliente(string nomeLoja);
     string nomeLoja;
 
 public:
     list<Cliente> getAll();
     Cliente* get(string& referencia);
-    Cliente* getNomeLoja(string nomeLoja);
     void adicionarCliente(Cliente NomeLoja);
     void eliminarCliente (string& NomeLoja);
     list<Cliente>::iterator procurarCliente(string&nomeLoja);
     void atualizarCliente(string&nomeLoja);
-    string getNomeLoja();
 
 };
 

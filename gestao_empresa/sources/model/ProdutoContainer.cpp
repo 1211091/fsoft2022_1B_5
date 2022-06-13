@@ -3,8 +3,10 @@
 //
 #include <iostream>
 #include "ProdutoContainer.h"
-#include <list>
+#include "Produto.h"
 #include <string>
+#include "InformacaoDuplicadaException.h"
+#include "InformacaoNaoExisteException.h"
 using namespace std;
 
 list<Produto>::iterator ProdutoContainer::procurarProduto(string& referencia){
@@ -31,11 +33,10 @@ list<Produto> ProdutoContainer::getAll(){
 
 
 void ProdutoContainer::adicionarProduto(Produto&obj) {
-    string referencia = obj.getReferencia();
+    string referencia =  obj.getReferencia();
     list<Produto>::iterator it = procurarProduto(referencia);
     if (it == this->produtos.end()) {
         this->produtos.push_back(obj);
-
     }
 }
 void ProdutoContainer::eliminarProduto(string&referencia){

@@ -2,7 +2,6 @@
 // Created by luis_ on 06/06/2022.
 //
 #include "ClienteContainer.h"
-#include "InformacaoDuplicadaException.h"
 #include <string>
 #include <iostream>
 using namespace std;
@@ -50,6 +49,3 @@ void ClienteContainer::atualizarCliente(string&nomeLoja){
     }
 }
 
-string ClienteContainer::getNomeLoja() {
-    return nomeLoja;
-}

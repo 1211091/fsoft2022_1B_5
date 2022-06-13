@@ -3,7 +3,6 @@
 //
 #include "Produto.h"
 #include "ProdutoContainer.cpp"
-#include "ProdutoContainer.h"
 #include "InformacaoInvalidaException.h"
 
 bool Produto::isPointerNotNull(void * ptr){
@@ -31,7 +30,7 @@ Produto::Produto(const string& referencia, const string&tipo){
 }
 Produto::~Produto(){
 }
-const string Produto::getTipo(){
+const string& Produto::getTipo() const{
     return this->tipo;
 }
 void Produto::setTipo(const string &tipo){
@@ -40,7 +39,7 @@ void Produto::setTipo(const string &tipo){
 string Produto::setProduto(string &produto){
     return produto;
 }
-string Produto::getReferencia(){
+const string& Produto::getReferencia() const{
     return referencia;
 }
 string Produto::getProduto() {
@@ -73,13 +72,6 @@ void Produto::setQuantidade(int quantidade){
 int Produto::getQuantidade()const {
     return quantidade;
 }
-string Produto::Referencia(const string &referencia) {
-
-}
-
-string Produto::Referencia() {
-}
-
 Produto::Produto(const Produto &produto) {
     this->tipo = produto.tipo;
     this->referencia = produto.referencia;

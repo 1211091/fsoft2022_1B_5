@@ -3,7 +3,6 @@
 //
 #include "FuncionarioContainer.h"
 #include "Funcionario.h"
-#include "InformacaoDuplicadaException.h"
 #include <iostream>
 #include <string>
 
