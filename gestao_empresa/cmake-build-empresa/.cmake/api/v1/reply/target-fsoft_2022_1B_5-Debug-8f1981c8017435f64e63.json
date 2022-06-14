@@ -79,39 +79,39 @@
 			[
 				{
 					"backtrace" : 2,
-					"path" : "C:/Users/clara/Desktop/fsoft2022_1B_5/gestao_empresa/mock"
+					"path" : "C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/mock"
 				},
 				{
 					"backtrace" : 3,
-					"path" : "C:/Users/clara/Desktop/fsoft2022_1B_5/gestao_empresa/headers/controller"
+					"path" : "C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/headers/controller"
 				},
 				{
 					"backtrace" : 3,
-					"path" : "C:/Users/clara/Desktop/fsoft2022_1B_5/gestao_empresa/sources/controller"
+					"path" : "C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/sources/controller"
 				},
 				{
 					"backtrace" : 4,
-					"path" : "C:/Users/clara/Desktop/fsoft2022_1B_5/gestao_empresa/headers/exceptions"
+					"path" : "C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/headers/exceptions"
 				},
 				{
 					"backtrace" : 4,
-					"path" : "C:/Users/clara/Desktop/fsoft2022_1B_5/gestao_empresa/sources/exceptions"
+					"path" : "C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/sources/exceptions"
 				},
 				{
 					"backtrace" : 5,
-					"path" : "C:/Users/clara/Desktop/fsoft2022_1B_5/gestao_empresa/headers/model"
+					"path" : "C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/headers/model"
 				},
 				{
 					"backtrace" : 5,
-					"path" : "C:/Users/clara/Desktop/fsoft2022_1B_5/gestao_empresa/sources/model"
+					"path" : "C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/sources/model"
 				},
 				{
 					"backtrace" : 6,
-					"path" : "C:/Users/clara/Desktop/fsoft2022_1B_5/gestao_empresa/headers/views"
+					"path" : "C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/headers/views"
 				},
 				{
 					"backtrace" : 6,
-					"path" : "C:/Users/clara/Desktop/fsoft2022_1B_5/gestao_empresa/sources/views"
+					"path" : "C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/sources/views"
 				}
 			],
 			"language" : "CXX",

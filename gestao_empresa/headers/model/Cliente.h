@@ -18,8 +18,8 @@ class Cliente{
         void setNomeLoja(string &nomeLoja);
 
 
-        bool operator == (const Cliente& NomeLoja) const;
-        bool operator == (Cliente* nl) const;
+    bool operator == (const Cliente& obj) const;
+    bool operator == (string nl) const;
 
 
 

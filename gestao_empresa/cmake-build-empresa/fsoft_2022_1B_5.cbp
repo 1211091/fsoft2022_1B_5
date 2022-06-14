@@ -112,12 +112,6 @@
 		<Unit filename="C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/headers/exceptions/InformacaoNaoExisteException.h">
 			<Option target="fsoft_2022_1B_5"/>
 		</Unit>
-		<Unit filename="C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/headers/model/Administrador.h">
-			<Option target="fsoft_2022_1B_5"/>
-		</Unit>
-		<Unit filename="C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/headers/model/AdministradorContainer.h">
-			<Option target="fsoft_2022_1B_5"/>
-		</Unit>
 		<Unit filename="C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/headers/model/Cliente.h">
 			<Option target="fsoft_2022_1B_5"/>
 		</Unit>
@@ -142,18 +136,6 @@
 		<Unit filename="C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/headers/model/ProdutoContainer.h">
 			<Option target="fsoft_2022_1B_5"/>
 		</Unit>
-		<Unit filename="C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/headers/model/Stock.h">
-			<Option target="fsoft_2022_1B_5"/>
-		</Unit>
-		<Unit filename="C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/headers/model/StockContainer.h">
-			<Option target="fsoft_2022_1B_5"/>
-		</Unit>
-		<Unit filename="C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/headers/model/administrador1.h">
-			<Option target="fsoft_2022_1B_5"/>
-		</Unit>
-		<Unit filename="C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/headers/views/AdministradorView.h">
-			<Option target="fsoft_2022_1B_5"/>
-		</Unit>
 		<Unit filename="C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/headers/views/ClienteView.h">
 			<Option target="fsoft_2022_1B_5"/>
 		</Unit>
@@ -161,9 +143,6 @@
 			<Option target="fsoft_2022_1B_5"/>
 		</Unit>
 		<Unit filename="C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/headers/views/ProdutoView.h">
-			<Option target="fsoft_2022_1B_5"/>
-		</Unit>
-		<Unit filename="C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/headers/views/StockView.h">
 			<Option target="fsoft_2022_1B_5"/>
 		</Unit>
 		<Unit filename="C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/headers/views/Utils.h">
@@ -193,12 +172,6 @@
 		<Unit filename="C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/sources/exceptions/InformacaoNaoExisteException.cpp">
 			<Option target="fsoft_2022_1B_5"/>
 		</Unit>
-		<Unit filename="C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/sources/model/Administrador.cpp">
-			<Option target="fsoft_2022_1B_5"/>
-		</Unit>
-		<Unit filename="C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/sources/model/AdministradorContainer.cpp">
-			<Option target="fsoft_2022_1B_5"/>
-		</Unit>
 		<Unit filename="C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/sources/model/Cliente.cpp">
 			<Option target="fsoft_2022_1B_5"/>
 		</Unit>
@@ -223,15 +196,6 @@
 		<Unit filename="C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/sources/model/ProdutoContainer.cpp">
 			<Option target="fsoft_2022_1B_5"/>
 		</Unit>
-		<Unit filename="C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/sources/model/Stock.cpp">
-			<Option target="fsoft_2022_1B_5"/>
-		</Unit>
-		<Unit filename="C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/sources/model/StockContainer.cpp">
-			<Option target="fsoft_2022_1B_5"/>
-		</Unit>
-		<Unit filename="C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/sources/views/AdministradorView.cpp">
-			<Option target="fsoft_2022_1B_5"/>
-		</Unit>
 		<Unit filename="C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/sources/views/ClienteView.cpp">
 			<Option target="fsoft_2022_1B_5"/>
 		</Unit>
@@ -239,9 +203,6 @@
 			<Option target="fsoft_2022_1B_5"/>
 		</Unit>
 		<Unit filename="C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/sources/views/ProdutoView.cpp">
-			<Option target="fsoft_2022_1B_5"/>
-		</Unit>
-		<Unit filename="C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/sources/views/StockView.cpp">
 			<Option target="fsoft_2022_1B_5"/>
 		</Unit>
 		<Unit filename="C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/sources/views/Utils.cpp">

@@ -1,9 +1,8 @@
 //
-// Created by clara on 09/06/2022.
+// Created by babis on 6/14/2022.
 //
 #include <iostream>
 #include "ProdutoContainer.h"
-#include <list>
 #include <string>
 using namespace std;
 
@@ -31,11 +30,10 @@ list<Produto> ProdutoContainer::getAll(){
 
 
 void ProdutoContainer::adicionarProduto(Produto&obj) {
-    string referencia = obj.getReferencia();
+    string referencia =  obj.getReferencia();
     list<Produto>::iterator it = procurarProduto(referencia);
     if (it == this->produtos.end()) {
         this->produtos.push_back(obj);
-
     }
 }
 void ProdutoContainer::eliminarProduto(string&referencia){
@@ -51,9 +49,9 @@ void ProdutoContainer::eliminarProduto(string&referencia){
 }
 
 
-void ProdutoContainer::atualizarProduto(string& referencia, string& tipo){
+void ProdutoContainer::atualizarProduto(string& referencia, string& tipo) {
     list<Produto>::iterator it = procurarProduto(referencia);
-    if(it != this->produtos.end()){
+    if (it != this->produtos.end()) {
         it->setReferencia(referencia);
         it->setTipo(tipo);
     }

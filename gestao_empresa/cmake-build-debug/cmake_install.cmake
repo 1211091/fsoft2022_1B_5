@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/clara/Desktop/fsoft2022_1B_5/gestao_empresa
+# Install script for directory: C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/clara/Desktop/fsoft2022_1B_5/gestao_empresa/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -2,8 +2,6 @@
 // Created by luis_ on 06/06/2022.
 //
 #include "Produto.h"
-#include "ProdutoContainer.cpp"
-#include "ProdutoContainer.h"
 #include "InformacaoInvalidaException.h"
 
 bool Produto::isPointerNotNull(void * ptr){
@@ -18,29 +16,21 @@ bool Produto::operator == (string& referencia) const{
     }
     return false;
 }
-/*
-bool Produto::operator == (string rfr) const{
-    if(this->referencia == rfr){
-        return true;
-    }
-    return false;
-}*/
-
 Produto::Produto(const string& referencia, const string&tipo){
     setProduto(produto);
 }
 Produto::~Produto(){
 }
-const string Produto::getTipo(){
-    return this->tipo;
+const string& Produto::getTipo() const{
+    return tipo;
 }
 void Produto::setTipo(const string &tipo){
-    this-> tipo;
+    this-> tipo = tipo;
 }
 string Produto::setProduto(string &produto){
-    return produto;
+    return this->produto = produto;
 }
-string Produto::getReferencia(){
+const string& Produto::getReferencia() const{
     return referencia;
 }
 string Produto::getProduto() {
@@ -55,15 +45,15 @@ bool Produto::isReferenciaValid(const string &referencia){
     return true;
 }
 void Produto::setReferencia(const string &referencia){
-
-    if(isReferenciaValid(referencia)){
+    this->referencia = referencia;
+   /* if(isReferenciaValid(referencia)){
         this->referencia = referencia;
     }
     else{
 
         string msg = "Produto: " + referencia;
         throw InformacaoInvalidaException(msg);
-    }
+    }*/
 }
 
 void Produto::setQuantidade(int quantidade){
@@ -72,12 +62,6 @@ void Produto::setQuantidade(int quantidade){
 
 int Produto::getQuantidade()const {
     return quantidade;
-}
-string Produto::Referencia(const string &referencia) {
-
-}
-
-string Produto::Referencia() {
 }
 
 Produto::Produto(const Produto &produto) {

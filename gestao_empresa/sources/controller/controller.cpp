@@ -118,7 +118,7 @@ void Controller::runCliente(){
             case 4: {
                 string nome = Utils::getString("Insira o nome da loja");
                 ClienteContainer &container = this->model.getClienteContainer();
-                Cliente *ptr = container.getNomeLoja(nome);
+                Cliente *ptr = container.get(nome);
                 if (ptr != NULL) {
                     this->clienteView.printCliente(ptr);
                 } else {
@@ -162,9 +162,9 @@ void Controller::runProduto() {
                 break;
             case 3: {
                 try {
-                    string nomedoproduto = Utils::getString("Insira o nome do produto");
+                    string referenciadoproduto = Utils::getString("Insira a referencia do produto");
                     ProdutoContainer &container = this->model.getProdutoContainer();
-                    container.eliminarProduto(nomedoproduto);
+                    container.eliminarProduto(referenciadoproduto);
                 } catch (InformacaoNaoExisteException &e) {
                     string str(e.what());
                     cout << str << endl;
@@ -177,6 +177,8 @@ void Controller::runProduto() {
                 list<Produto> produtos = container.getAll();
                 this->produtoView.printProdutos(produtos);
             }
+
+            break;
             case 5:{
                 string nomedoproduto = Utils::getString("Insira o nome da produto");
                 ProdutoContainer& container = this->model.getProdutoContainer();

@@ -272,54 +272,6 @@ sources/exceptions/InformacaoNaoExisteException.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft_2022_1B_5.dir\build.make CMakeFiles/fsoft_2022_1B_5.dir/sources/exceptions/InformacaoNaoExisteException.cpp.s
 .PHONY : sources/exceptions/InformacaoNaoExisteException.cpp.s
 
-sources/model/Administrador.obj: sources/model/Administrador.cpp.obj
-.PHONY : sources/model/Administrador.obj
-
-# target to build an object file
-sources/model/Administrador.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft_2022_1B_5.dir\build.make CMakeFiles/fsoft_2022_1B_5.dir/sources/model/Administrador.cpp.obj
-.PHONY : sources/model/Administrador.cpp.obj
-
-sources/model/Administrador.i: sources/model/Administrador.cpp.i
-.PHONY : sources/model/Administrador.i
-
-# target to preprocess a source file
-sources/model/Administrador.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft_2022_1B_5.dir\build.make CMakeFiles/fsoft_2022_1B_5.dir/sources/model/Administrador.cpp.i
-.PHONY : sources/model/Administrador.cpp.i
-
-sources/model/Administrador.s: sources/model/Administrador.cpp.s
-.PHONY : sources/model/Administrador.s
-
-# target to generate assembly for a file
-sources/model/Administrador.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft_2022_1B_5.dir\build.make CMakeFiles/fsoft_2022_1B_5.dir/sources/model/Administrador.cpp.s
-.PHONY : sources/model/Administrador.cpp.s
-
-sources/model/AdministradorContainer.obj: sources/model/AdministradorContainer.cpp.obj
-.PHONY : sources/model/AdministradorContainer.obj
-
-# target to build an object file
-sources/model/AdministradorContainer.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft_2022_1B_5.dir\build.make CMakeFiles/fsoft_2022_1B_5.dir/sources/model/AdministradorContainer.cpp.obj
-.PHONY : sources/model/AdministradorContainer.cpp.obj
-
-sources/model/AdministradorContainer.i: sources/model/AdministradorContainer.cpp.i
-.PHONY : sources/model/AdministradorContainer.i
-
-# target to preprocess a source file
-sources/model/AdministradorContainer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft_2022_1B_5.dir\build.make CMakeFiles/fsoft_2022_1B_5.dir/sources/model/AdministradorContainer.cpp.i
-.PHONY : sources/model/AdministradorContainer.cpp.i
-
-sources/model/AdministradorContainer.s: sources/model/AdministradorContainer.cpp.s
-.PHONY : sources/model/AdministradorContainer.s
-
-# target to generate assembly for a file
-sources/model/AdministradorContainer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft_2022_1B_5.dir\build.make CMakeFiles/fsoft_2022_1B_5.dir/sources/model/AdministradorContainer.cpp.s
-.PHONY : sources/model/AdministradorContainer.cpp.s
-
 sources/model/Cliente.obj: sources/model/Cliente.cpp.obj
 .PHONY : sources/model/Cliente.obj
 
@@ -512,78 +464,6 @@ sources/model/ProdutoContainer.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft_2022_1B_5.dir\build.make CMakeFiles/fsoft_2022_1B_5.dir/sources/model/ProdutoContainer.cpp.s
 .PHONY : sources/model/ProdutoContainer.cpp.s
 
-sources/model/Stock.obj: sources/model/Stock.cpp.obj
-.PHONY : sources/model/Stock.obj
-
-# target to build an object file
-sources/model/Stock.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft_2022_1B_5.dir\build.make CMakeFiles/fsoft_2022_1B_5.dir/sources/model/Stock.cpp.obj
-.PHONY : sources/model/Stock.cpp.obj
-
-sources/model/Stock.i: sources/model/Stock.cpp.i
-.PHONY : sources/model/Stock.i
-
-# target to preprocess a source file
-sources/model/Stock.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft_2022_1B_5.dir\build.make CMakeFiles/fsoft_2022_1B_5.dir/sources/model/Stock.cpp.i
-.PHONY : sources/model/Stock.cpp.i
-
-sources/model/Stock.s: sources/model/Stock.cpp.s
-.PHONY : sources/model/Stock.s
-
-# target to generate assembly for a file
-sources/model/Stock.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft_2022_1B_5.dir\build.make CMakeFiles/fsoft_2022_1B_5.dir/sources/model/Stock.cpp.s
-.PHONY : sources/model/Stock.cpp.s
-
-sources/model/StockContainer.obj: sources/model/StockContainer.cpp.obj
-.PHONY : sources/model/StockContainer.obj
-
-# target to build an object file
-sources/model/StockContainer.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft_2022_1B_5.dir\build.make CMakeFiles/fsoft_2022_1B_5.dir/sources/model/StockContainer.cpp.obj
-.PHONY : sources/model/StockContainer.cpp.obj
-
-sources/model/StockContainer.i: sources/model/StockContainer.cpp.i
-.PHONY : sources/model/StockContainer.i
-
-# target to preprocess a source file
-sources/model/StockContainer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft_2022_1B_5.dir\build.make CMakeFiles/fsoft_2022_1B_5.dir/sources/model/StockContainer.cpp.i
-.PHONY : sources/model/StockContainer.cpp.i
-
-sources/model/StockContainer.s: sources/model/StockContainer.cpp.s
-.PHONY : sources/model/StockContainer.s
-
-# target to generate assembly for a file
-sources/model/StockContainer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft_2022_1B_5.dir\build.make CMakeFiles/fsoft_2022_1B_5.dir/sources/model/StockContainer.cpp.s
-.PHONY : sources/model/StockContainer.cpp.s
-
-sources/views/AdministradorView.obj: sources/views/AdministradorView.cpp.obj
-.PHONY : sources/views/AdministradorView.obj
-
-# target to build an object file
-sources/views/AdministradorView.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft_2022_1B_5.dir\build.make CMakeFiles/fsoft_2022_1B_5.dir/sources/views/AdministradorView.cpp.obj
-.PHONY : sources/views/AdministradorView.cpp.obj
-
-sources/views/AdministradorView.i: sources/views/AdministradorView.cpp.i
-.PHONY : sources/views/AdministradorView.i
-
-# target to preprocess a source file
-sources/views/AdministradorView.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft_2022_1B_5.dir\build.make CMakeFiles/fsoft_2022_1B_5.dir/sources/views/AdministradorView.cpp.i
-.PHONY : sources/views/AdministradorView.cpp.i
-
-sources/views/AdministradorView.s: sources/views/AdministradorView.cpp.s
-.PHONY : sources/views/AdministradorView.s
-
-# target to generate assembly for a file
-sources/views/AdministradorView.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft_2022_1B_5.dir\build.make CMakeFiles/fsoft_2022_1B_5.dir/sources/views/AdministradorView.cpp.s
-.PHONY : sources/views/AdministradorView.cpp.s
-
 sources/views/ClienteView.obj: sources/views/ClienteView.cpp.obj
 .PHONY : sources/views/ClienteView.obj
 
@@ -655,30 +535,6 @@ sources/views/ProdutoView.s: sources/views/ProdutoView.cpp.s
 sources/views/ProdutoView.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft_2022_1B_5.dir\build.make CMakeFiles/fsoft_2022_1B_5.dir/sources/views/ProdutoView.cpp.s
 .PHONY : sources/views/ProdutoView.cpp.s
-
-sources/views/StockView.obj: sources/views/StockView.cpp.obj
-.PHONY : sources/views/StockView.obj
-
-# target to build an object file
-sources/views/StockView.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft_2022_1B_5.dir\build.make CMakeFiles/fsoft_2022_1B_5.dir/sources/views/StockView.cpp.obj
-.PHONY : sources/views/StockView.cpp.obj
-
-sources/views/StockView.i: sources/views/StockView.cpp.i
-.PHONY : sources/views/StockView.i
-
-# target to preprocess a source file
-sources/views/StockView.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft_2022_1B_5.dir\build.make CMakeFiles/fsoft_2022_1B_5.dir/sources/views/StockView.cpp.i
-.PHONY : sources/views/StockView.cpp.i
-
-sources/views/StockView.s: sources/views/StockView.cpp.s
-.PHONY : sources/views/StockView.s
-
-# target to generate assembly for a file
-sources/views/StockView.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft_2022_1B_5.dir\build.make CMakeFiles/fsoft_2022_1B_5.dir/sources/views/StockView.cpp.s
-.PHONY : sources/views/StockView.cpp.s
 
 sources/views/Utils.obj: sources/views/Utils.cpp.obj
 .PHONY : sources/views/Utils.obj
@@ -755,12 +611,6 @@ help:
 	@echo ... sources/exceptions/InformacaoNaoExisteException.obj
 	@echo ... sources/exceptions/InformacaoNaoExisteException.i
 	@echo ... sources/exceptions/InformacaoNaoExisteException.s
-	@echo ... sources/model/Administrador.obj
-	@echo ... sources/model/Administrador.i
-	@echo ... sources/model/Administrador.s
-	@echo ... sources/model/AdministradorContainer.obj
-	@echo ... sources/model/AdministradorContainer.i
-	@echo ... sources/model/AdministradorContainer.s
 	@echo ... sources/model/Cliente.obj
 	@echo ... sources/model/Cliente.i
 	@echo ... sources/model/Cliente.s
@@ -785,15 +635,6 @@ help:
 	@echo ... sources/model/ProdutoContainer.obj
 	@echo ... sources/model/ProdutoContainer.i
 	@echo ... sources/model/ProdutoContainer.s
-	@echo ... sources/model/Stock.obj
-	@echo ... sources/model/Stock.i
-	@echo ... sources/model/Stock.s
-	@echo ... sources/model/StockContainer.obj
-	@echo ... sources/model/StockContainer.i
-	@echo ... sources/model/StockContainer.s
-	@echo ... sources/views/AdministradorView.obj
-	@echo ... sources/views/AdministradorView.i
-	@echo ... sources/views/AdministradorView.s
 	@echo ... sources/views/ClienteView.obj
 	@echo ... sources/views/ClienteView.i
 	@echo ... sources/views/ClienteView.s
@@ -803,9 +644,6 @@ help:
 	@echo ... sources/views/ProdutoView.obj
 	@echo ... sources/views/ProdutoView.i
 	@echo ... sources/views/ProdutoView.s
-	@echo ... sources/views/StockView.obj
-	@echo ... sources/views/StockView.i
-	@echo ... sources/views/StockView.s
 	@echo ... sources/views/Utils.obj
 	@echo ... sources/views/Utils.i
 	@echo ... sources/views/Utils.s

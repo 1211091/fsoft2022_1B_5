@@ -13,7 +13,6 @@
 class FuncionarioContainer{
 private:
     list<Funcionario> funcionarios;
-    FuncionarioContainer *funcionario;
     list<Funcionario>::iterator procurarFuncionario(string&nomeFuncionario);
 public:
     list<Funcionario> getAll();

@@ -2,7 +2,6 @@
 // Created by luis_ on 06/06/2022.
 //
 #include "ClienteContainer.h"
-#include "InformacaoDuplicadaException.h"
 #include <string>
 #include <iostream>
 using namespace std;
@@ -14,6 +13,7 @@ list<Cliente>::iterator ClienteContainer::procurarCliente(string&nomeLoja) {
             return it;
         }
     }
+    return it;
 }
 list<Cliente> ClienteContainer::getAll(){
     list<Cliente> lista(this->clientes);
@@ -36,9 +36,9 @@ void ClienteContainer::eliminarCliente(string &nomeLoja){
     list<Cliente> ::iterator it = procurarCliente(nomeLoja);
     if(it != this-> clientes.end()){
             this-> clientes.erase(it);
-            cout << "O funcionario"<< nomeLoja << "foi removido" <<endl;
+            cout << "O cliente "<< nomeLoja << "foi removido" <<endl;
         }else {
-            cout << "O funcionario"<< nomeLoja << "nao existe" <<endl;
+            cout << "O cliente "<< nomeLoja << "nao existe" <<endl;
         }
     }
 
@@ -50,6 +50,3 @@ void ClienteContainer::atualizarCliente(string&nomeLoja){
     }
 }
 
-string ClienteContainer::getNomeLoja() {
-    return nomeLoja;
-}
