@@ -26,7 +26,7 @@ Funcionario FuncionarioView::getFuncionario(){
     return funcionario;
 }
 void FuncionarioView::printFuncionario(Funcionario *funcionario) {
-    cout << funcionario->getNomeFuncionario() << endl;
+    cout << funcionario->getNomeFuncionario() <<" - " <<funcionario->getFuncao()<< endl;
 }
 void FuncionarioView::printFuncionarios(list<Funcionario>& funcionarios){
     for (list<Funcionario>::iterator it=funcionarios.begin(); it != funcionarios.end(); ++it){

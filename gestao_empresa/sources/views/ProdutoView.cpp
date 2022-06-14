@@ -27,7 +27,7 @@ void ProdutoView::printProduto(Produto *produto) {
     cout<<produto->getReferencia()<<" - "<<produto->getTipo()<<"."<<endl;
 }
 void ProdutoView::printProdutos(list<Produto> &produtos) {
-    for (list<Produto>::iterator it = produtos.begin(); it != produtos.end() ; it++) {
+    for (list<Produto>::iterator it = produtos.begin(); it != produtos.end() ; ++it) {
         printProduto(&*it);
     }
 }

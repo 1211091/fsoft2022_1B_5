@@ -22,13 +22,13 @@ Produto::Produto(const string& referencia, const string&tipo){
 Produto::~Produto(){
 }
 const string& Produto::getTipo() const{
-    return this->tipo;
+    return tipo;
 }
 void Produto::setTipo(const string &tipo){
-    this-> tipo;
+    this-> tipo = tipo;
 }
 string Produto::setProduto(string &produto){
-    return produto;
+    return this->produto = produto;
 }
 const string& Produto::getReferencia() const{
     return referencia;
@@ -45,15 +45,15 @@ bool Produto::isReferenciaValid(const string &referencia){
     return true;
 }
 void Produto::setReferencia(const string &referencia){
-
-    if(isReferenciaValid(referencia)){
+    this->referencia = referencia;
+   /* if(isReferenciaValid(referencia)){
         this->referencia = referencia;
     }
     else{
 
         string msg = "Produto: " + referencia;
         throw InformacaoInvalidaException(msg);
-    }
+    }*/
 }
 
 void Produto::setQuantidade(int quantidade){
@@ -63,6 +63,7 @@ void Produto::setQuantidade(int quantidade){
 int Produto::getQuantidade()const {
     return quantidade;
 }
+
 Produto::Produto(const Produto &produto) {
     this->tipo = produto.tipo;
     this->referencia = produto.referencia;

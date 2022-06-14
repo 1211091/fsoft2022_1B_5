@@ -138,7 +138,4 @@ CMakeFiles/fsoft_2022_1B_5.dir/sources/model/ProdutoContainer.cpp.obj: \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_list.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/allocated_ptr.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/aligned_buffer.h \
- C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/list.tcc \
- C:/Users/luis_/OneDrive/AMBIEN~1/FSOFT2~2/GESTAO~1/headers/model/Produto.h \
- C:/Users/luis_/OneDrive/AMBIEN~1/FSOFT2~2/GESTAO~1/headers/EXCEPT~1/InformacaoDuplicadaException.h \
- C:/Users/luis_/OneDrive/AMBIEN~1/FSOFT2~2/GESTAO~1/headers/EXCEPT~1/InformacaoNaoExisteException.h
+ C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/list.tcc

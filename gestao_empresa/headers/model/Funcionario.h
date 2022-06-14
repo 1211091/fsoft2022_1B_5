@@ -23,7 +23,7 @@ public:
     string getFuncao();
 
 
-    bool operator == (const Funcionario& nomeFuncionario) const;
+    bool operator == (const Funcionario& obj) const;
     bool operator == (string nf) const;
 
 };

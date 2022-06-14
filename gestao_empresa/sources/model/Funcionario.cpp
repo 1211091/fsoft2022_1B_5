@@ -17,14 +17,14 @@ Funcionario::Funcionario(const Funcionario& funcionario) {
 Funcionario::~Funcionario(){
 }
 void Funcionario::setFuncao(const string &funcao) {
-  this->funcao;
+  this->funcao = funcao;
 }
 string Funcionario::getFuncao(){
     return funcao;
 }
 
 void Funcionario::setNomeFuncionario(const string &nomeFuncionario){
-    this->nomeFuncionario;
+    this->nomeFuncionario = nomeFuncionario;
 }
 
 string Funcionario::getNomeFuncionario(){
