@@ -2,7 +2,6 @@
 // Created by luis_ on 06/06/2022.
 //
 #include "Produto.h"
-#include "ProdutoContainer.cpp"
 #include "InformacaoInvalidaException.h"
 
 bool Produto::isPointerNotNull(void * ptr){
@@ -17,14 +16,6 @@ bool Produto::operator == (string& referencia) const{
     }
     return false;
 }
-/*
-bool Produto::operator == (string rfr) const{
-    if(this->referencia == rfr){
-        return true;
-    }
-    return false;
-}*/
-
 Produto::Produto(const string& referencia, const string&tipo){
     setProduto(produto);
 }

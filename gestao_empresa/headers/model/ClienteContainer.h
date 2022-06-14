@@ -12,8 +12,6 @@
 class ClienteContainer {
 private:
     list<Cliente> clientes;
-    //list<Cliente>::iterator procurarCliente(string nomeLoja);
-    string nomeLoja;
 
 public:
     list<Cliente> getAll();

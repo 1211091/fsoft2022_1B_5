@@ -22,3 +22,15 @@ void Cliente::setNomeLoja(string &nomeLoja){
 Cliente::Cliente(const Cliente &cliente) {
     this->nomeLoja = cliente.nomeLoja;
 }
+bool operator == (const string& nomeLoja)const{
+    if(this->nomeLoja == nomeLoja){
+        return true;
+    }
+    return false;
+}
+bool operator == (const string nl) const{
+    if(this->nomeLoja == nl){
+        return true;
+    }
+    return false;
+}

@@ -1,12 +1,9 @@
 //
-// Created by clara on 09/06/2022.
+// Created by babis on 6/14/2022.
 //
 #include <iostream>
 #include "ProdutoContainer.h"
-#include "Produto.h"
 #include <string>
-#include "InformacaoDuplicadaException.h"
-#include "InformacaoNaoExisteException.h"
 using namespace std;
 
 list<Produto>::iterator ProdutoContainer::procurarProduto(string& referencia){
@@ -52,9 +49,9 @@ void ProdutoContainer::eliminarProduto(string&referencia){
 }
 
 
-void ProdutoContainer::atualizarProduto(string& referencia, string& tipo){
+void ProdutoContainer::atualizarProduto(string& referencia, string& tipo) {
     list<Produto>::iterator it = procurarProduto(referencia);
-    if(it != this->produtos.end()){
+    if (it != this->produtos.end()) {
         it->setReferencia(referencia);
         it->setTipo(tipo);
     }
