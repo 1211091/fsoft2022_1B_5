@@ -2,7 +2,6 @@
 // Created by luis_ on 06/06/2022.
 //
 #include "Produto.h"
-#include "InformacaoInvalidaException.h"
 
 bool Produto::isPointerNotNull(void * ptr){
     if(ptr == NULL){
@@ -16,7 +15,7 @@ bool Produto::operator == (string& referencia) const{
     }
     return false;
 }
-Produto::Produto(const string& referencia, const string&tipo){
+Produto::Produto(const string& referencia, const string&tipo, int &quantidade){
     setProduto(produto);
 }
 Produto::~Produto(){
@@ -26,6 +25,9 @@ const string& Produto::getTipo() const{
 }
 void Produto::setTipo(const string &tipo){
     this-> tipo = tipo;
+}
+void Produto::setQuantidade(int quantidade){
+    this-> quantidade = quantidade;
 }
 string Produto::setProduto(string &produto){
     return this->produto = produto;
@@ -46,18 +48,6 @@ bool Produto::isReferenciaValid(const string &referencia){
 }
 void Produto::setReferencia(const string &referencia){
     this->referencia = referencia;
-   /* if(isReferenciaValid(referencia)){
-        this->referencia = referencia;
-    }
-    else{
-
-        string msg = "Produto: " + referencia;
-        throw InformacaoInvalidaException(msg);
-    }*/
-}
-
-void Produto::setQuantidade(int quantidade){
-    this->quantidade = quantidade;
 }
 
 int Produto::getQuantidade()const {

@@ -4,7 +4,7 @@
 #include "ClienteContainer.h"
 #include <string>
 #include <iostream>
-using namespace std;
+
 
 list<Cliente>::iterator ClienteContainer::procurarCliente(string&nomeLoja) {
     list<Cliente>::iterator it = this->clientes.begin();
@@ -36,9 +36,9 @@ void ClienteContainer::eliminarCliente(string &nomeLoja){
     list<Cliente> ::iterator it = procurarCliente(nomeLoja);
     if(it != this-> clientes.end()){
             this-> clientes.erase(it);
-            cout << "O cliente "<< nomeLoja << "foi removido" <<endl;
+            cout << "O cliente "<< nomeLoja << " foi removido com sucessor!" <<endl;
         }else {
-            cout << "O cliente "<< nomeLoja << "nao existe" <<endl;
+            cout << "O cliente "<< nomeLoja << "nao existe." <<endl;
         }
     }
 

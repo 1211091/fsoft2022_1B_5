@@ -5,9 +5,8 @@
 #ifndef HEADERS_MODEL_PRODUTO_H
 #define HEADERS_MODEL_PRODUTO_H
 #include <string>
-
-
 using namespace std;
+
 class Produto{
 protected:
     string tipo;
@@ -17,7 +16,7 @@ protected:
     string referencia;
     static bool isReferenciaValid(const string& referencia);
 public :
-    Produto(const string &referencia, const string &tipo);
+    Produto(const string &referencia, const string &tipo, int &quantidade);
     Produto(const Produto& produto);
     ~Produto();
     string setProduto(string &produto);

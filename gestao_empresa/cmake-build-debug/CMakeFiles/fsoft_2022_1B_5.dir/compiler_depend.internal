@@ -784,6 +784,7 @@ CMakeFiles/fsoft_2022_1B_5.dir/sources/model/Cliente.cpp.obj
  C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_vector.h
  C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_bvector.h
  C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/vector.tcc
+<<<<<<< HEAD
  C:/Users/bilax/Desktop/fsoft2022_1B_5/gestao_empresa/headers/model/ClienteContainer.h
  C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/list
  C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_list.h
@@ -819,6 +820,8 @@ CMakeFiles/fsoft_2022_1B_5.dir/sources/model/Cliente.cpp.obj
  C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/ostream.tcc
  C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/istream
  C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/istream.tcc
+=======
+>>>>>>> b5ebc70559af6c154bbaa3d4935d0fbbfcd4f521
 
 CMakeFiles/fsoft_2022_1B_5.dir/sources/model/ClienteContainer.cpp.obj
  C:/Users/bilax/Desktop/fsoft2022_1B_5/gestao_empresa/sources/model/ClienteContainer.cpp
@@ -1591,12 +1594,15 @@ CMakeFiles/fsoft_2022_1B_5.dir/sources/model/Produto.cpp.obj
  C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/functional_hash.h
  C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/hash_bytes.h
  C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/basic_string.tcc
+<<<<<<< HEAD
  C:/Users/bilax/Desktop/fsoft2022_1B_5/gestao_empresa/headers/exceptions/InformacaoInvalidaException.h
  C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/exception
  C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/exception_ptr.h
  C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/cxxabi_init_exception.h
  C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/typeinfo
  C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/nested_exception.h
+=======
+>>>>>>> b5ebc70559af6c154bbaa3d4935d0fbbfcd4f521
 
 CMakeFiles/fsoft_2022_1B_5.dir/sources/model/ProdutoContainer.cpp.obj
  C:/Users/bilax/Desktop/fsoft2022_1B_5/gestao_empresa/sources/model/ProdutoContainer.cpp
@@ -1739,6 +1745,8 @@ CMakeFiles/fsoft_2022_1B_5.dir/sources/model/ProdutoContainer.cpp.obj
  C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/allocated_ptr.h
  C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/aligned_buffer.h
  C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/list.tcc
+ C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/headers/exceptions/InformacaoDuplicadaException.h
+ C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/headers/exceptions/InformacaoNaoExisteException.h
 
 CMakeFiles/fsoft_2022_1B_5.dir/sources/views/ClienteView.cpp.obj
  C:/Users/bilax/Desktop/fsoft2022_1B_5/gestao_empresa/sources/views/ClienteView.cpp
