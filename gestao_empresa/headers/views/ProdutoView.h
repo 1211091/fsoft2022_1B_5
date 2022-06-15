@@ -9,9 +9,7 @@
 
 class ProdutoView{
 public:
-    string referencia;
     Produto getProduto();
-    Produto getReferencia();
     void printProduto(Produto *produto);
     void printProdutos(list<Produto> &produtos);
 

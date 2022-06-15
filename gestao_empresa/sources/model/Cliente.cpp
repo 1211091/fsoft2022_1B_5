@@ -2,8 +2,6 @@
 // Created by luis_ on 06/06/2022.
 //
 #include "Cliente.h"
-#include "ClienteContainer.h"
-#include <iostream>
 
 Cliente::Cliente(const string& nomeLoja){
   this->nomeLoja =nomeLoja;

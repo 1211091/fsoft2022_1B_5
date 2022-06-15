@@ -17,8 +17,6 @@ Controller::Controller(Empresa& empresa){
     this->model = empresa;
 }
 
-
-
 void Controller::run(){
     int opcao = -1;
     do{
@@ -55,7 +53,7 @@ void Controller::runFuncionario(){
             }
                 break;
             case 3: {
-                cout << this->model.getNome() << endl;
+                cout <<"******** Lista de Funcionarios ********"<< endl;
                 FuncionarioContainer container = this->model.getFuncionarioContainer();
                 list <Funcionario> funcionarios = container.getAll();
                 this->funcionarioView.printFuncionarios(funcionarios);
@@ -109,7 +107,7 @@ void Controller::runCliente(){
             }
                 break;
             case 3: {
-                cout << this->model.getNome() << endl;
+                cout <<"******** Lista de Clientes ********"<< endl;
                 ClienteContainer container = this->model.getClienteContainer();
                 list <Cliente> clientes = container.getAll();
                 this->clienteView.printClientes(clientes);
@@ -155,9 +153,10 @@ void Controller::runProduto() {
                 break;
             case 2: {
                 string nomeProduto = Utils::getString("Insira o tipo do produto");
-                string referencia = Utils::getString("Insira a referência");
+                string referencia = Utils::getString("Insira a referencia");
+                int quantidade = Utils::getNumero("Insira a quantidade");
                 ProdutoContainer &container = this->model.getProdutoContainer();
-                container.atualizarProduto(nomeProduto, referencia);
+                container.atualizarProduto(nomeProduto, referencia, quantidade);
             }
                 break;
             case 3: {
@@ -172,7 +171,7 @@ void Controller::runProduto() {
             }
                 break;
             case 4: {
-                cout << this->model.getNome() << endl;
+                cout <<"******** Lista de Produtos em Stock ********"<< endl;
                 ProdutoContainer container = this->model.getProdutoContainer();
                 list<Produto> produtos = container.getAll();
                 this->produtoView.printProdutos(produtos);
@@ -180,10 +179,11 @@ void Controller::runProduto() {
 
             break;
             case 5:{
-                string nomedoproduto = Utils::getString("Insira o nome da produto");
+                string referenciadoproduto = Utils::getString("Insira a referencia do produto");
                 ProdutoContainer& container = this->model.getProdutoContainer();
-                Produto *ptr = container.get(nomedoproduto);
+                Produto *ptr = container.get(referenciadoproduto);
                 if (ptr != NULL) {
+                    cout << "O produto foi encontrado: " << endl;
                     this->produtoView.printProduto(ptr);
                 } else {
                     cout << "O produto nao existe" << endl;

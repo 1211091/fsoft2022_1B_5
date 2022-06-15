@@ -10,7 +10,6 @@
 #include "ProdutoContainer.h"
 #include "FuncionarioContainer.h"
 #include "InformacaoNaoExisteException.h"
-using namespace std;
 
 class Empresa{
 private :

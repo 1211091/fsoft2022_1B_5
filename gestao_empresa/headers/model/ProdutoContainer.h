@@ -18,7 +18,7 @@ public:
     Produto* get(string& referencia);
     void adicionarProduto(Produto& obj);
     void eliminarProduto(string& referencia);
-    void atualizarProduto(string& referencia, string& tipo);
+    void atualizarProduto(string& referencia, string& tipo, int quantidade);
 
 
 };
