@@ -20,9 +20,6 @@ class Cliente{
 
     bool operator == (const Cliente& obj) const;
     bool operator == (string nl) const;
-
-
-
 };
 
 #endif //HEADERS_MODEL_CLIENTE_H

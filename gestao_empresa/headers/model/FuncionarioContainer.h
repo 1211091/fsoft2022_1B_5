@@ -19,6 +19,6 @@ public:
     Funcionario* get(string& referencia);
     void adicionarFuncionario(Funcionario nomeFuncionario);
     void eliminarFuncionario(string&nomeFuncionario);
-    void atualizarFuncionario( string& nomeFuncionario, string& funcao);
+    void atualizarFuncionario(string& nomeFuncionario, string& funcao);
 };
 #endif //HEADERS_MODEL_FUNCIONARIOCONTAINER_H

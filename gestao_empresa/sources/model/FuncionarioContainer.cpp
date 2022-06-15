@@ -46,9 +46,27 @@ void FuncionarioContainer::eliminarFuncionario(string&nomeFuncionario){
 }
 void FuncionarioContainer::atualizarFuncionario(string&nomeFuncionario, string&funcao){
     list<Funcionario>::iterator it = procurarFuncionario(nomeFuncionario);
+    if(it == this->funcionarios.end()){
+        cout<<"O funcionario nao existe"<<endl;
+    }
     list<Funcionario>::iterator its = procurarFuncionario(funcao);
+    if(its == this->funcionarios.end()){
+        cout<< "Funcionario com funcao errada"<<endl;
+    }
     if(it != this->funcionarios.end()){
-        it->setNomeFuncionario(nomeFuncionario);
-        its->setFuncao(funcao);
+        int opcao=0;
+        cout<<"Para atualizar o nome digite 1, para atualizar funcao digite 2"<<endl;
+        switch(opcao){
+            case 1: {
+                it->setNomeFuncionario(nomeFuncionario);
+                break;
+            }
+            case 2: {
+                its->setFuncao(funcao);
+                break;
+            }
+            default:
+                break;
+        }
     }
 }

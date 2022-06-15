@@ -35,7 +35,7 @@ string Funcionario::getNomeFuncionario(){
 bool Funcionario::operator == (const Funcionario& obj) const{
     if(this->nomeFuncionario == obj.nomeFuncionario){
         return true;
-    }
+ }
     return false;
 }
 bool Funcionario::operator == (string nf) const{
@@ -44,4 +44,3 @@ bool Funcionario::operator == (string nf) const{
     }
     return false;
 }
-
