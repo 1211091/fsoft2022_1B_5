@@ -3,12 +3,12 @@
 //
 #include "Produto.h"
 int Produto::Numero=1;
-bool Produto::isPointerNotNull(void * ptr){
+/*bool Produto::isPointerNotNull(void * ptr){
     if(ptr == NULL){
         return false;
     }
     return true;
-}
+}*/
 bool Produto::operator == (int numeroproduto) const{
     if(this->numeroproduto == numeroproduto){
         return true;
@@ -38,12 +38,12 @@ const string& Produto::getReferencia() const{
     return referencia;
 }
 
-bool Produto::isReferenciaValid(const string &referencia){
+/*bool Produto::isReferenciaValid(const string &referencia){
     if(referencia.length() < 10){
         return false;
     }
     return true;
-}
+}*/
 void Produto::setReferencia(const string &referencia){
     this->referencia = referencia;
 }

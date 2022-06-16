@@ -15,9 +15,7 @@ protected:
     int quantidadevendida=0;
     static int Numero;
     int numeroproduto;
-    bool isPointerNotNull(void * ptr);
     string referencia;
-    static bool isReferenciaValid(const string& referencia);
 public :
     Produto(const string &referencia, const string &tipo, int &quantidade);
     Produto(const Produto& produto);

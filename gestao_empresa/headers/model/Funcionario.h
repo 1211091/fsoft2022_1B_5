@@ -9,7 +9,6 @@
 #include <string>
 using namespace std;
 
-
 class Funcionario{
 private:
     string funcao;
@@ -31,6 +30,4 @@ public:
     bool operator == (const Funcionario& obj) const;
     bool operator == (int numf) const;
 };
-
-
 #endif //HEADERS_MODEL_FUNCIONARIO_H
