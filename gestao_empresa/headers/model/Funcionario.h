@@ -14,6 +14,9 @@ class Funcionario{
 private:
     string funcao;
     string nomeFuncionario;
+    int numerofuncionario;
+    static int Numero;
+    string funcionario;
 public:
     Funcionario(const string &nomeFuncionario,const string &funcao);
     Funcionario(const Funcionario& funcionario);
@@ -22,11 +25,12 @@ public:
     void setNomeFuncionario(const string &nomeFuncionario);
     string getNomeFuncionario();
     string getFuncao();
-
+    int getNumeroFuncionario();
+    void setNumeroFuncionario(const int &numerofuncionario);
+    string setFuncionario(const string &funcionario);
 
     bool operator == (const Funcionario& obj) const;
-    bool operator == (string nf) const;
-
+    bool operator == (int numf) const;
 };
 
 

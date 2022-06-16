@@ -13,12 +13,12 @@
 class FuncionarioContainer{
 private:
     list<Funcionario> funcionarios;
-    list<Funcionario>::iterator procurarFuncionario(string&nomeFuncionario);
+    list<Funcionario>::iterator procurarFuncionario(int &numerofuncionario);
 public:
     list<Funcionario> getAll();
-    Funcionario* get(string& referencia);
-    void adicionarFuncionario(Funcionario nomeFuncionario);
-    void eliminarFuncionario(string&nomeFuncionario);
-    void atualizarFuncionario(string& nomeFuncionario, string& funcao);
+    Funcionario* get(int numerofuncionario);
+    void adicionarFuncionario(Funcionario &obj);
+    void eliminarFuncionario(int numerofuncionario);
+    void atualizarFuncionario(string& nomeFuncionario, string& funcao, int numerofuncionario);
 };
 #endif //HEADERS_MODEL_FUNCIONARIOCONTAINER_H

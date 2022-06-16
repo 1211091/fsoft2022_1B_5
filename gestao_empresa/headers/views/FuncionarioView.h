@@ -13,7 +13,6 @@ public:
     Funcionario getFuncionario();
     void printFuncionario(Funcionario *funcionario);
     void printFuncionarios (list<Funcionario>& funcionarios);
-    Funcionario getFuncao();
 
 };
 

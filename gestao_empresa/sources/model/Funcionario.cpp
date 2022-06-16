@@ -3,17 +3,20 @@
 //
 #include "Nome.h"
 #include "Funcionario.h"
-
+int Funcionario::Numero=1;
 Funcionario::Funcionario(const string &nomeFuncionario,const string &funcao){
-    this->nomeFuncionario = nomeFuncionario;
-    this->funcao = funcao;
+   setFuncionario(funcionario);
+    this->numerofuncionario = Numero++;
 }
 
 Funcionario::Funcionario(const Funcionario& funcionario) {
     this->nomeFuncionario = funcionario.nomeFuncionario;
     this->funcao = funcionario.funcao;
+    this->numerofuncionario = funcionario.numerofuncionario;
 }
-
+string Funcionario::setFuncionario(const string&funcionario){
+    return this->funcionario;
+}
 Funcionario::~Funcionario(){
 }
 void Funcionario::setFuncao(const string &funcao) {
@@ -33,14 +36,22 @@ string Funcionario::getNomeFuncionario(){
 
 
 bool Funcionario::operator == (const Funcionario& obj) const{
-    if(this->nomeFuncionario == obj.nomeFuncionario){
+    if(this->nomeFuncionario == obj.nomeFuncionario || this->numerofuncionario == obj.numerofuncionario){
         return true;
  }
     return false;
 }
-bool Funcionario::operator == (string nf) const{
-    if(this->nomeFuncionario == nf){
+
+bool Funcionario::operator == (int numf) const{
+    if(this->numerofuncionario == numf){
         return true;
     }
     return false;
+}
+
+int Funcionario::getNumeroFuncionario() {
+    return numerofuncionario;
+}
+void Funcionario::setNumeroFuncionario(const int &numerofuncionario){
+    this->numerofuncionario = numerofuncionario;
 }

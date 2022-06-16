@@ -57,5 +57,6 @@ int Produto::getQuantidade()const {
 Produto::Produto(const Produto &produto) {
     this->tipo = produto.tipo;
     this->referencia = produto.referencia;
+    this->quantidade = produto.quantidade;
 
 }

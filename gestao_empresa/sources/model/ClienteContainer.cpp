@@ -36,7 +36,7 @@ void ClienteContainer::eliminarCliente(string &nomeLoja){
     list<Cliente> ::iterator it = procurarCliente(nomeLoja);
     if(it != this-> clientes.end()){
             this-> clientes.erase(it);
-            cout << "O cliente "<< nomeLoja << " foi removido com sucessor!" <<endl;
+            cout << "O cliente "<< nomeLoja << " foi removido com sucesso!" <<endl;
         }else {
             cout << "O cliente "<< nomeLoja << "nao existe." <<endl;
         }

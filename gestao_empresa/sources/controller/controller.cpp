@@ -40,16 +40,17 @@ void Controller::runFuncionario(){
         opcao=this->view.menuFuncionario();
         switch (opcao) {
             case 1: {
-                Funcionario funcionario = this->funcionarioView.getFuncionario();
+                Funcionario funcionarios = this->funcionarioView.getFuncionario();
                 FuncionarioContainer &container = this->model.getFuncionarioContainer();
-                container.adicionarFuncionario(funcionario);
+                container.adicionarFuncionario(funcionarios);
             }
                 break;
             case 2: {
+                int numero = Utils::getNumero("Insira o numero do funcionario a alterar");
                 string nome = Utils::getString("Insira o nome do funcionario");
                 string funcao = Utils::getString("Insira a funcao do funcionario");
                 FuncionarioContainer &container = this->model.getFuncionarioContainer();
-                container.atualizarFuncionario(nome, funcao);
+                container.atualizarFuncionario(nome, funcao, numero);
             }
                 break;
             case 3: {
@@ -60,9 +61,9 @@ void Controller::runFuncionario(){
             }
                 break;
             case 4: {
-                string nomedofuncionario = Utils::getString("Insira o nome do funcionario");
+                int numerodofuncionario = Utils::getNumero("Insira o numero do funcionario");
                 FuncionarioContainer& container = this->model.getFuncionarioContainer();
-                Funcionario *ptr = container.get(nomedofuncionario);
+                Funcionario *ptr = container.get(numerodofuncionario);
                 if (ptr != NULL) {
                     this->funcionarioView.printFuncionario(ptr);
                 } else {
@@ -74,9 +75,9 @@ void Controller::runFuncionario(){
                 break;
             case 5: {
                 try {
-                    string nome = Utils::getString("Insira o nome do funcionario");
+                    int numero = Utils::getNumero("Insira o numero do funcionario");
                     FuncionarioContainer &container = this->model.getFuncionarioContainer();
-                    container.eliminarFuncionario(nome);
+                    container.eliminarFuncionario(numero);
                 } catch (InformacaoNaoExisteException &e) {
                     string str(e.what());
                     cout << str << endl;
@@ -101,7 +102,7 @@ void Controller::runCliente(){
             }
                 break;
             case 2: {
-                string nomeLoja = Utils::getString("Insira o nome da loja");
+                string nomeLoja = Utils::getString("Insira o novo nome da loja");
                 ClienteContainer &container = this->model.getClienteContainer();
                 container.atualizarCliente(nomeLoja);
             }

@@ -9,24 +9,24 @@
 using namespace std;
 
 Funcionario FuncionarioView::getFuncionario(){
-    Funcionario funcionario ("Nome" , "Funcao");
+    Funcionario funcionarios ("Nome", "Funcao");
     bool flag = false;
     do{
         try{
             flag = false;
             cout<<"Funcionario"<<endl;
             string nome = Utils::getString("Nome");
-            funcionario.setNomeFuncionario(nome);
+            funcionarios.setNomeFuncionario(nome);
             string funcao = Utils::getString("Funcao");
-            funcionario.setFuncao(funcao);
+            funcionarios.setFuncao(funcao);
         }catch(InformacaoInvalidaException& e){
             flag = true;
         }
     }while(flag == true);
-    return funcionario;
+    return funcionarios;
 }
 void FuncionarioView::printFuncionario(Funcionario *funcionario) {
-    cout << funcionario->getNomeFuncionario() <<" - " <<funcionario->getFuncao()<< endl;
+    cout << "Nome:"<<funcionario->getNomeFuncionario() <<" Funcao: " <<funcionario->getFuncao()<<" Numero: "<<funcionario->getNumeroFuncionario()<< endl;
 }
 void FuncionarioView::printFuncionarios(list<Funcionario>& funcionarios){
     for (list<Funcionario>::iterator it=funcionarios.begin(); it != funcionarios.end(); ++it){

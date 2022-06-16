@@ -1317,7 +1317,9 @@ CMakeFiles/fsoft_2022_1B_5.dir/sources/model/FuncionarioContainer.cpp.obj: ../so
   C:/Program\ Files/JetBrains/CLion\ 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/basic_ios.tcc \
   C:/Program\ Files/JetBrains/CLion\ 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/ostream.tcc \
   C:/Program\ Files/JetBrains/CLion\ 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/istream \
-  C:/Program\ Files/JetBrains/CLion\ 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/istream.tcc
+  C:/Program\ Files/JetBrains/CLion\ 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/istream.tcc \
+  ../headers/exceptions/InformacaoDuplicadaException.h \
+  ../headers/exceptions/InformacaoNaoExisteException.h
 
 CMakeFiles/fsoft_2022_1B_5.dir/sources/model/Nome.cpp.obj: ../sources/model/Nome.cpp \
   ../headers/model/Nome.h \
