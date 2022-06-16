@@ -12,6 +12,9 @@ protected:
     string tipo;
     string produto;
     int quantidade;
+    int quantidadevendida=0;
+    static int Numero;
+    int numeroproduto;
     bool isPointerNotNull(void * ptr);
     string referencia;
     static bool isReferenciaValid(const string& referencia);
@@ -20,18 +23,19 @@ public :
     Produto(const Produto& produto);
     ~Produto();
     string setProduto(string &produto);
-    string getProduto();
 
     void setQuantidade(int quantidade);
     int getQuantidade() const;
-
+    int getQuantidadeVendida();
+    int getNumeroProduto();
+    void setQuantidadeVendida(int q);
     const string& getTipo() const;
     void setTipo(const string &tipo);
 
     const string &getReferencia() const;
     void setReferencia(const string &referencia);
 
-    bool operator == (string &referencia) const;
+    bool operator == (int numeroproduto) const;
     //bool operator == (string rfr) const;
 };
 #endif //HEADERS_MODEL_PRODUTO_H

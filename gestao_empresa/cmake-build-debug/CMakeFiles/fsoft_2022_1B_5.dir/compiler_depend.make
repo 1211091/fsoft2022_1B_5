@@ -666,7 +666,6 @@ CMakeFiles/fsoft_2022_1B_5.dir/sources/exceptions/InformacaoNaoExisteException.c
   C:/Program\ Files/JetBrains/CLion\ 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/basic_string.tcc
 
 CMakeFiles/fsoft_2022_1B_5.dir/sources/model/Cliente.cpp.obj: ../sources/model/Cliente.cpp \
-  ../headers/model/Cliente.h \
   ../headers/model/Nome.h \
   C:/Program\ Files/JetBrains/CLion\ 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/string \
   C:/Program\ Files/JetBrains/CLion\ 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
@@ -776,7 +775,9 @@ CMakeFiles/fsoft_2022_1B_5.dir/sources/model/Cliente.cpp.obj: ../sources/model/C
   C:/Program\ Files/JetBrains/CLion\ 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_uninitialized.h \
   C:/Program\ Files/JetBrains/CLion\ 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_vector.h \
   C:/Program\ Files/JetBrains/CLion\ 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_bvector.h \
-  C:/Program\ Files/JetBrains/CLion\ 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/vector.tcc
+  C:/Program\ Files/JetBrains/CLion\ 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/vector.tcc \
+  ../headers/model/Cliente.h \
+  ../headers/model/Nome.h
 
 CMakeFiles/fsoft_2022_1B_5.dir/sources/model/ClienteContainer.cpp.obj: ../sources/model/ClienteContainer.cpp \
   ../headers/model/ClienteContainer.h \
@@ -923,7 +924,9 @@ CMakeFiles/fsoft_2022_1B_5.dir/sources/model/ClienteContainer.cpp.obj: ../source
   C:/Program\ Files/JetBrains/CLion\ 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/basic_ios.tcc \
   C:/Program\ Files/JetBrains/CLion\ 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/ostream.tcc \
   C:/Program\ Files/JetBrains/CLion\ 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/istream \
-  C:/Program\ Files/JetBrains/CLion\ 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/istream.tcc
+  C:/Program\ Files/JetBrains/CLion\ 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/istream.tcc \
+  ../headers/exceptions/InformacaoDuplicadaException.h \
+  ../headers/exceptions/InformacaoNaoExisteException.h
 
 CMakeFiles/fsoft_2022_1B_5.dir/sources/model/Empresa.cpp.obj: ../sources/model/Empresa.cpp \
   ../headers/model/Empresa.h \

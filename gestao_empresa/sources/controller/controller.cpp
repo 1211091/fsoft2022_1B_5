@@ -102,9 +102,10 @@ void Controller::runCliente(){
             }
                 break;
             case 2: {
-                string nomeLoja = Utils::getString("Insira o novo nome da loja");
+                string nome = Utils::getString("Insira o novo nome da loja");
+                int numero = Utils::getNumero("Insira o numero do funcionario");
                 ClienteContainer &container = this->model.getClienteContainer();
-                container.atualizarCliente(nomeLoja);
+                container.atualizarCliente(nome, numero);
             }
                 break;
             case 3: {
@@ -115,9 +116,9 @@ void Controller::runCliente(){
             }
                 break;
             case 4: {
-                string nome = Utils::getString("Insira o nome da loja");
+                int numero = Utils::getNumero("Insira o numero do cliente");
                 ClienteContainer &container = this->model.getClienteContainer();
-                Cliente *ptr = container.get(nome);
+                Cliente *ptr = container.get(numero);
                 if (ptr != NULL) {
                     this->clienteView.printCliente(ptr);
                 } else {
@@ -127,9 +128,9 @@ void Controller::runCliente(){
                 break;
             case 5: {
                 try {
-                    string nome = Utils::getString("Insira o nome do cliente");
+                    int numero = Utils::getNumero("Insira o numero do cliente a eliminar");
                     ClienteContainer &container = this->model.getClienteContainer();
-                    container.eliminarCliente(nome);
+                    container.eliminarCliente(numero);
                 } catch (InformacaoNaoExisteException &e) {
                     string str(e.what());
                     cout << str << endl;
@@ -153,18 +154,20 @@ void Controller::runProduto() {
             }
                 break;
             case 2: {
-                string nomeProduto = Utils::getString("Insira o tipo do produto");
+                int numero = Utils::getNumero("Insira o numero do produto a atualizar");
+                string tipo = Utils::getString("Insira o tipo do produto");
                 string referencia = Utils::getString("Insira a referencia");
                 int quantidade = Utils::getNumero("Insira a quantidade");
                 ProdutoContainer &container = this->model.getProdutoContainer();
-                container.atualizarProduto(nomeProduto, referencia, quantidade);
+                container.atualizarProduto(referencia, tipo, quantidade, numero);
             }
                 break;
             case 3: {
                 try {
-                    string referenciadoproduto = Utils::getString("Insira a referencia do produto");
+                    int numeroproduto = Utils::getNumero("Insira o numero do produto a vender");
+                    int quantidade = Utils::getNumero("Insira a quantidade de produto a vender");
                     ProdutoContainer &container = this->model.getProdutoContainer();
-                    container.eliminarProduto(referenciadoproduto);
+                    container.venderProduto(numeroproduto, quantidade);
                 } catch (InformacaoNaoExisteException &e) {
                     string str(e.what());
                     cout << str << endl;
@@ -180,9 +183,9 @@ void Controller::runProduto() {
 
             break;
             case 5:{
-                string referenciadoproduto = Utils::getString("Insira a referencia do produto");
+                int numeroproduto = Utils::getNumero("Insira o numero do produto");
                 ProdutoContainer& container = this->model.getProdutoContainer();
-                Produto *ptr = container.get(referenciadoproduto);
+                Produto *ptr = container.get(numeroproduto);
                 if (ptr != NULL) {
                     cout << "O produto foi encontrado: " << endl;
                     this->produtoView.printProduto(ptr);

@@ -12,14 +12,14 @@ class ProdutoContainer {
 protected:
     ProdutoContainer* produto;
     list<Produto> produtos;
-    list<Produto>::iterator procurarProduto(string& referencia);
+    list<Produto>::iterator procurarProduto(int &numeroproduto);
 public:
     list<Produto>getAll();
-    Produto* get(string& referencia);
+    Produto* get(int numeroproduto);
     void adicionarProduto(Produto& obj);
-    void eliminarProduto(string& referencia);
-    void atualizarProduto(string& referencia, string& tipo, int quantidade);
-
+    void venderProduto(int numeroproduto, int quantidade);
+    void atualizarProduto(string& referencia, string& tipo, int quantidade, int numeroproduto);
+    void atualizarQuantidade(int numeroproduto, int q);
 
 };
 

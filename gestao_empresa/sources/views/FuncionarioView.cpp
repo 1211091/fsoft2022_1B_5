@@ -10,7 +10,7 @@ using namespace std;
 
 Funcionario FuncionarioView::getFuncionario(){
     Funcionario funcionarios ("Nome", "Funcao");
-    bool flag = false;
+    bool flag;
     do{
         try{
             flag = false;
@@ -26,7 +26,7 @@ Funcionario FuncionarioView::getFuncionario(){
     return funcionarios;
 }
 void FuncionarioView::printFuncionario(Funcionario *funcionario) {
-    cout << "Nome:"<<funcionario->getNomeFuncionario() <<" Funcao: " <<funcionario->getFuncao()<<" Numero: "<<funcionario->getNumeroFuncionario()<< endl;
+    cout <<funcionario->getNumeroFuncionario()<< ". Nome:"<<funcionario->getNomeFuncionario() <<" Funcao: " <<funcionario->getFuncao()<< endl;
 }
 void FuncionarioView::printFuncionarios(list<Funcionario>& funcionarios){
     for (list<Funcionario>::iterator it=funcionarios.begin(); it != funcionarios.end(); ++it){

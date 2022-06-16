@@ -2,21 +2,23 @@
 // Created by luis_ on 06/06/2022.
 //
 #include "Produto.h"
-
+int Produto::Numero=1;
 bool Produto::isPointerNotNull(void * ptr){
     if(ptr == NULL){
         return false;
     }
     return true;
 }
-bool Produto::operator == (string& referencia) const{
-    if(this->referencia == referencia){
+bool Produto::operator == (int numeroproduto) const{
+    if(this->numeroproduto == numeroproduto){
         return true;
     }
     return false;
 }
 Produto::Produto(const string& referencia, const string&tipo, int &quantidade){
     setProduto(produto);
+    this->quantidadevendida=0;
+    this->numeroproduto = Numero++;
 }
 Produto::~Produto(){
 }
@@ -35,10 +37,6 @@ string Produto::setProduto(string &produto){
 const string& Produto::getReferencia() const{
     return referencia;
 }
-string Produto::getProduto() {
-    return produto;
-}
-
 
 bool Produto::isReferenciaValid(const string &referencia){
     if(referencia.length() < 10){
@@ -58,5 +56,16 @@ Produto::Produto(const Produto &produto) {
     this->tipo = produto.tipo;
     this->referencia = produto.referencia;
     this->quantidade = produto.quantidade;
+    this->numeroproduto = produto.numeroproduto;
 
+}
+int Produto::getNumeroProduto(){
+    return numeroproduto;
+}
+void Produto::setQuantidadeVendida(int q){
+    int aux = this->quantidadevendida;
+    this->quantidadevendida = aux + q;
+}
+int Produto::getQuantidadeVendida(){
+    return quantidadevendida;
 }

@@ -28,7 +28,7 @@ Produto ProdutoView::getProduto(){
     return produto;
 }
 void ProdutoView::printProduto(Produto *produto) {
-    cout<<"Referencia: "<<produto->getReferencia()<<"; Tipo: "<<produto->getTipo()<<"; Quantidade: "<<produto->getQuantidade()<<endl;
+    cout<<produto->getNumeroProduto()<<". Referencia: "<<produto->getReferencia()<<"; Tipo: "<<produto->getTipo()<<"; Quantidade: "<<produto->getQuantidade()<<endl;
 }
 void ProdutoView::printProdutos(list<Produto> &produtos) {
     for (list<Produto>::iterator it = produtos.begin(); it != produtos.end() ; ++it) {
