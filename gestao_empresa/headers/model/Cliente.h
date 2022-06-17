@@ -11,16 +11,21 @@ using namespace std;
 class Cliente{
     private:
     string nomeLoja;
+    static int Numero;
+    int numerocliente;
+    string cliente;
     public:
         Cliente(const string& nomeLoja);
         Cliente(const Cliente &cliente);
         ~Cliente();
         string getNomeLoja();
         void setNomeLoja(string &nomeLoja);
+        string setCliente(const string &cliente);
+        int getNumeroCliente();
 
 
     bool operator == (const Cliente& obj) const;
-    bool operator == (string nl) const;
+    bool operator == (int nc) const;
 };
 
 #endif //HEADERS_MODEL_CLIENTE_H

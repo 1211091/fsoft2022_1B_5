@@ -673,7 +673,6 @@ CMakeFiles/fsoft_2022_1B_5.dir/sources/exceptions/InformacaoNaoExisteException.c
 
 CMakeFiles/fsoft_2022_1B_5.dir/sources/model/Cliente.cpp.obj
  C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/sources/model/Cliente.cpp
- C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/headers/model/Cliente.h
  C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/headers/model/Nome.h
  C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/string
  C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/c++config.h
@@ -784,6 +783,8 @@ CMakeFiles/fsoft_2022_1B_5.dir/sources/model/Cliente.cpp.obj
  C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_vector.h
  C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_bvector.h
  C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/vector.tcc
+ C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/headers/model/Cliente.h
+ C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/headers/model/Nome.h
 
 CMakeFiles/fsoft_2022_1B_5.dir/sources/model/ClienteContainer.cpp.obj
  C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/sources/model/ClienteContainer.cpp
@@ -932,6 +933,8 @@ CMakeFiles/fsoft_2022_1B_5.dir/sources/model/ClienteContainer.cpp.obj
  C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/ostream.tcc
  C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/istream
  C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/istream.tcc
+ C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/headers/exceptions/InformacaoDuplicadaException.h
+ C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/headers/exceptions/InformacaoNaoExisteException.h
 
 CMakeFiles/fsoft_2022_1B_5.dir/sources/model/Empresa.cpp.obj
  C:/Users/babis/Desktop/fsoft2022_1B_5/gestao_empresa/sources/model/Empresa.cpp

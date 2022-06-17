@@ -7,18 +7,18 @@
 #include "InformacaoDuplicadaException.h"
 #include "InformacaoNaoExisteException.h"
 
-list<Produto>::iterator ProdutoContainer::procurarProduto(string& referencia){
+list<Produto>::iterator ProdutoContainer::procurarProduto(int &numeroproduto){
     list<Produto>::iterator it = this->produtos.begin();
     for(; it != this->produtos.end(); ++it){
-        if((*it) == referencia){
+        if((*it) == numeroproduto){
             return it;
         }
     }
     return it;
 }
 
-Produto* ProdutoContainer::get(string& referencia){
-    list<Produto>::iterator it = procurarProduto(referencia);
+Produto* ProdutoContainer::get(int numeroproduto){
+    list<Produto>::iterator it = procurarProduto(numeroproduto);
     if (it != this->produtos.end()){
         return &(*it);
     } return NULL;
@@ -31,8 +31,8 @@ list<Produto> ProdutoContainer::getAll(){
 
 
 void ProdutoContainer::adicionarProduto(Produto&obj) {
-    string referencia =  obj.getReferencia();
-    list<Produto>::iterator it = procurarProduto(referencia);
+    int numerodoproduto =  obj.getNumeroProduto();
+    list<Produto>::iterator it = procurarProduto(numerodoproduto);
     if (it == this->produtos.end()) {
         this->produtos.push_back(obj);
     }else{
@@ -41,22 +41,34 @@ void ProdutoContainer::adicionarProduto(Produto&obj) {
     }
 }
 
-void ProdutoContainer::eliminarProduto(string&referencia){
-    list<Produto>::iterator it = procurarProduto(referencia);
-    if (it != this->produtos.end()) {
-        this->produtos.erase(it);
-        cout << "Produto com referencia: " << referencia << " vendido com sucesso!" << endl;
-
-    } else {
-        string msg = "Produto: " + std::string(referencia);
+void ProdutoContainer::venderProduto(int numeroproduto, int quantidade){
+    list<Produto>::iterator it = procurarProduto(numeroproduto);
+    atualizarQuantidade(numeroproduto, quantidade);
+    if (it == this->produtos.end()) {
+        string msg = "Produto: " + to_string(numeroproduto);
         throw InformacaoNaoExisteException(msg);
     }
 
 }
+void ProdutoContainer::atualizarQuantidade(int numeroproduto, int q){
+    list<Produto>::iterator it = procurarProduto(numeroproduto);
+    if(it!=this->produtos.end()){
+        Produto *produto = &*it;
+        int a = produto->getQuantidade();
+        int b = produto->getQuantidadeVendida();
+        q = a - q;
+        if(q<0){
+            cout<<"Nao existe a quantidade desejada."<<endl;
+        }else{
+            cout << "Produto numero " << numeroproduto << " vendido com sucesso!" << endl;
+            it->setQuantidade(q);
+            it->setQuantidadeVendida(b+q);
+        }
+    }
+}
 
-
-void ProdutoContainer::atualizarProduto(string& referencia, string& tipo, int quantidade) {
-    list<Produto>::iterator it = procurarProduto(referencia);
+void ProdutoContainer::atualizarProduto(string& referencia, string& tipo, int quantidade, int numeroproduto) {
+    list<Produto>::iterator it = procurarProduto(numeroproduto);
     if (it != this->produtos.end()) {
         it->setReferencia(referencia);
         it->setTipo(tipo);
