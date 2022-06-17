@@ -15,11 +15,11 @@ private:
 
 public:
     list<Cliente> getAll();
-    Cliente* get(string& referencia);
-    void adicionarCliente(Cliente NomeLoja);
-    void eliminarCliente (string& NomeLoja);
-    list<Cliente>::iterator procurarCliente(string&nomeLoja);
-    void atualizarCliente(string&nomeLoja);
+    Cliente* get(int referencia);
+    void adicionarCliente(Cliente &obj);
+    void eliminarCliente (int numerocliente);
+    list<Cliente>::iterator procurarCliente(int &numerocliente);
+    void atualizarCliente(string&nomeLoja, int numerocliente);
 
 };
 

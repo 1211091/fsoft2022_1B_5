@@ -23,7 +23,7 @@ Cliente ClienteView::getCliente(){
     return cliente;
 }
 void ClienteView::printCliente(Cliente *cliente) {
-    cout << cliente->getNomeLoja() << endl;
+    cout<<cliente->getNumeroCliente()<<". Nome da loja: "<< cliente->getNomeLoja() << endl;
 }
 void ClienteView::printClientes(list<Cliente>& clientes){
     for (list<Cliente>::iterator it=clientes.begin(); it != clientes.end(); ++it){

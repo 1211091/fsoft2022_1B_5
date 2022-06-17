@@ -4,12 +4,14 @@
 #include "ClienteContainer.h"
 #include <string>
 #include <iostream>
+#include "InformacaoDuplicadaException.h"
+#include "InformacaoNaoExisteException.h"
 
 
-list<Cliente>::iterator ClienteContainer::procurarCliente(string&nomeLoja) {
+list<Cliente>::iterator ClienteContainer::procurarCliente(int&numerocliente) {
     list<Cliente>::iterator it = this->clientes.begin();
     for (it = this->clientes.begin(); it != this->clientes.end(); ++it) {
-        if ((*it) == nomeLoja) {
+        if ((*it) == numerocliente) {
             return it;
         }
     }
@@ -19,31 +21,35 @@ list<Cliente> ClienteContainer::getAll(){
     list<Cliente> lista(this->clientes);
     return lista;
 }
-Cliente* ClienteContainer::get(string& referencia){
-    list<Cliente>::iterator it = procurarCliente(referencia);
+Cliente* ClienteContainer::get(int numerocliente){
+    list<Cliente>::iterator it = procurarCliente(numerocliente);
     if (it != this->clientes.end()){
         return &(*it);
     } return NULL;
 }
-void ClienteContainer:: adicionarCliente(Cliente NomeLoja){
-    string NomedaLoja = NomeLoja.getNomeLoja();
-    list<Cliente>::iterator it = procurarCliente(NomedaLoja);
+void ClienteContainer:: adicionarCliente(Cliente &obj){
+    int numerodocliente = obj.getNumeroCliente();
+    list<Cliente>::iterator it = procurarCliente(numerodocliente);
     if (it== this->clientes.end()) {
-        this->clientes.push_back(NomeLoja);
+        this->clientes.push_back(obj);
+    }else{
+        string msg = "Cliente: " + std::string(obj.getNomeLoja());
+        throw InformacaoDuplicadaException(msg);
     }
 }
-void ClienteContainer::eliminarCliente(string &nomeLoja){
-    list<Cliente> ::iterator it = procurarCliente(nomeLoja);
+void ClienteContainer::eliminarCliente(int numerocliente){
+    list<Cliente> ::iterator it = procurarCliente(numerocliente);
     if(it != this-> clientes.end()){
             this-> clientes.erase(it);
-            cout << "O cliente "<< nomeLoja << " foi removido com sucesso!" <<endl;
+            cout << "O cliente "<< numerocliente << " foi removido com sucesso!" <<endl;
         }else {
-            cout << "O cliente "<< nomeLoja << "nao existe." <<endl;
+        string msg = "Cliente: " + to_string(numerocliente);
+        throw InformacaoNaoExisteException(msg);
         }
     }
 
-void ClienteContainer::atualizarCliente(string&nomeLoja){
-    list<Cliente>::iterator it = procurarCliente(nomeLoja);
+void ClienteContainer::atualizarCliente(string&nomeLoja, int numerocliente){
+    list<Cliente>::iterator it = procurarCliente(numerocliente);
     if(it != this->clientes.end()){
         it->setNomeLoja(nomeLoja);
 

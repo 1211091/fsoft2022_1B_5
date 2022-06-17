@@ -52,6 +52,3 @@ bool Funcionario::operator == (int numf) const{
 int Funcionario::getNumeroFuncionario() {
     return numerofuncionario;
 }
-void Funcionario::setNumeroFuncionario(const int &numerofuncionario){
-    this->numerofuncionario = numerofuncionario;
-}
