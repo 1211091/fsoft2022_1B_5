@@ -10,84 +10,83 @@
 
 TEST(FuncionarioContainerAdicionarTeste, FuncionarioValido) {
 
-    Funcionario funcionario("Joao");
+    Funcionario funcionarios("Joao", "Diretor");
     FuncionarioContainer container;
     bool flag = true;
 
     try{
-        container.adicionarFuncionario(funcionario);
+         container.adicionarFuncionario(funcionarios);
     }catch(InformacaoDuplicadaException& e){
          flag = false;
     }
     if(flag == true){
-        int numero = cliente.getNumeroCliente();
-         Cliente * ptr = container.get(numero);
-         flag = (*ptr) == cliente;
+        int numerofuncionario = funcionarios.getNumeroFuncionario();
+         Funcionario * ptr = container.get(numerofuncionario);
+         flag = (*ptr) == funcionarios;
     }
 
     EXPECT_TRUE(flag);
 }
 
 
-TEST(ClienteContainerAdicionarTeste, ClienteDuplicado) {
+TEST(FuncionarioContainerAdicionarTeste, FuncionarioDuplicado) {
 
-Cliente cliente ("Adidas");
-ClienteContainer container;
-bool flag = true;
+    Funcionario funcionario ("Ricardo","Secretário");
+    FuncionarioContainer container;
+    bool flag = true;
 
-//Act
-try{
-container.adicionarCliente(cliente);
-container.adicionarCliente(cliente);
-}catch(InformacaoDuplicadaException& e){
-flag = false;
+    //Act
+    try{
+        container.adicionarFuncionario(funcionario);
+    }catch(InformacaoDuplicadaException& e){
+        flag = false;
+    }
+
+
+    EXPECT_FALSE(flag);
 }
 
 
-EXPECT_FALSE(flag);
+
+TEST(FuncionarioContainerEliminarTeste, Naoexiste) {
+
+    Funcionario funcionario("Mariana", "Secretária");
+    Funcionario funcionario1 ("Beatriz", "Supervisora");
+    FuncionarioContainer container;
+    container.adicionarFuncionario(funcionario);
+    container.adicionarFuncionario(funcionario1);
+    int numerofuncionario = funcionario1.getNumeroFuncionario();
+    bool flag = true;
+
+
+    try{
+         container.eliminarFuncionario(numerofuncionario);
+    }catch(InformacaoNaoExisteException& e){
+         flag = false;
+    }
+    if(flag == true){ //check if it actually was removed
+        Funcionario * ptr = container.get(numerofuncionario);
+    if(ptr != NULL)
+        flag = false;
 }
 
-
-
-TEST(ClienteContainerEliminarTeste, Naoexiste) {
-
-Cliente cliente("Adidas");
-Cliente cliente1 ("Snipes");
-ClienteContainer container;
-container.adicionarCliente(cliente);
-container.adicionarCliente(cliente1);
-int numero = cliente1.getNumeroCliente();
-bool flag = true;
-
-
-try{
-container.eliminarCiente(numero);
-}catch(InformacaoNaoExisteException& e){
-flag = false;
-}
-if(flag == true){ //check if it actually was removed
-Cliente * ptr = container.get(numero);
-if(ptr != NULL)
-flag = false;
+    EXPECT_TRUE(flag);
 }
 
-EXPECT_TRUE(flag);
-}
+TEST(FuncionarioContainerEliminarTeste, Existe) {
 
-TEST(ClienteContainerEliminarTeste, Existe) {
+    Funcionario funcionario ("Inês","chefe de recursos humanos");
+    FuncionarioContainer container;
+    container.adicionarFuncionario(funcionario);
+    int numerofuncionario = funcionario.getNumeroFuncionario();
+    bool flag = true;
 
-Cliente cliente ("Tiffosi");
-ClienteContainer container;
-container.adicionarCliente(cliente);
-int numero = Cliente.getNumeroCliente();
-bool flag = true;
+    try{
+        container.eliminarFuncionario(numerofuncionario);
+    }catch(InformacaoNaoExisteException& e){
+        flag = false;
+    }
 
-try{
-container.eliminarCliente(numero);
-}catch(InformacaoNaoExisteException& e){
-flag = false;
-}
-
-EXPECT_FALSE(flag);
+    EXPECT_FALSE(flag);
 }
 

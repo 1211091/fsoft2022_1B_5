@@ -1,5 +1,4 @@
-"C:\Program Files\JetBrains\CLion 2021.3.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" "C:\Users\luis_\OneDrive\Ambiente de Trabalho\fsoft2022_1B_5\GestaoEmpresaTester"
--- Could NOT find Python (missing: Python_EXECUTABLE Interpreter) 
+"C:\Program Files\JetBrains\CLion 2021.3.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2021.3.3/bin/ninja/win/ninja.exe" -G Ninja C:\Users\clara\Desktop\fsoft2022_1B_5\GestaoEmpresaTester
 -- Configuring done
 -- Generating done
--- Build files have been written to: C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/GestaoEmpresaTester/cmake-build-debug
+-- Build files have been written to: C:/Users/clara/Desktop/fsoft2022_1B_5/GestaoEmpresaTester/cmake-build-debug
