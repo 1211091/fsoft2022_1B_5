@@ -1,0 +1,9 @@
+"C:\Program Files\JetBrains\CLion 2021.3.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2021.3.3/bin/ninja/win/ninja.exe" -G Ninja C:\Users\clara\Desktop\GestaoEmpresaTester
+CMake Error at CMakeLists.txt:59 (add_subdirectory):
+  add_subdirectory given source
+  "C:/Users/clara/Desktop/GestaoEmpresaTester/googleTestLib/googletest-main"
+  which is not an existing directory.
+
+
+-- Configuring incomplete, errors occurred!
+See also "C:/Users/clara/Desktop/GestaoEmpresaTester/cmake-build-debug/CMakeFiles/CMakeOutput.log".
