@@ -25,7 +25,9 @@ Cliente::Cliente(const Cliente &cliente) {
     this->nomeLoja = cliente.nomeLoja;
     this->numerocliente = cliente.numerocliente;
 }
-
+int Cliente::getNumeroCliente(){
+    return numerocliente;
+}
 bool Cliente::operator == (const Cliente& obj) const{
     if(this->numerocliente == obj.numerocliente){
         return true;
@@ -38,7 +40,4 @@ bool Cliente::operator == (int nc) const{
         return true;
     }
     return false;
-}
-int Cliente::getNumeroCliente(){
-    return numerocliente;
 }
