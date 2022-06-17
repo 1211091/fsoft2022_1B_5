@@ -3,8 +3,8 @@ project(GestaoEmpresaTester)
 
 set(CMAKE_CXX_STANDARD 14)
 
-set(PROJECT_HEADERS_DIR ../fsoft2022_1B_5/headers)
-set(PROJECT_SOURCES_DIR ../fsoft2022_1B_5/sources)
+set(PROJECT_HEADERS_DIR ../gestao_empresa/headers)
+set(PROJECT_SOURCES_DIR ../gestao_empresa/sources)
 
 set(PROJECT_HEADERS_EXCEPTIONS_DIR
         ${PROJECT_HEADERS_DIR}/exceptions)
@@ -35,10 +35,7 @@ include_directories(
         ${PROJECT_SOURCES_MODEL_DIR}
 )
 set(MODEL_SOURCE_FILES
-        ${PROJECT_HEADERS_MODEL_DIR}/Administrador.h
-        ${PROJECT_SOURCES_MODEL_DIR}/Administrador.cpp
-        ${PROJECT_HEADERS_MODEL_DIR}/AdministradorContainer.h
-        ${PROJECT_SOURCES_MODEL_DIR}/AdministradorContainer.cpp
+
         ${PROJECT_HEADERS_MODEL_DIR}/Cliente.h
         ${PROJECT_SOURCES_MODEL_DIR}/Cliente.cpp
         ${PROJECT_HEADERS_MODEL_DIR}/ClienteContainer.h
@@ -50,8 +47,7 @@ set(MODEL_SOURCE_FILES
         ${PROJECT_HEADERS_MODEL_DIR}/Produto.h
         ${PROJECT_SOURCES_MODEL_DIR}/Produto.cpp
         ${PROJECT_HEADERS_MODEL_DIR}/ProdutoContainer.h
-        ${PROJECT_SOURCES_MODEL_DIR}/ProdutoContainer.cpp
-        )
+        ${PROJECT_SOURCES_MODEL_DIR}/ProdutoContainer.cpp)
 
 set(GOOGLE_TEST_LIB ${PROJECT_SOURCE_DIR}/googleTestLib/googletest-main)
 set(GOOGLE_TEST_LIB_INCLUDE ${GOOGLE_TEST_LIB}/googletest/include)
