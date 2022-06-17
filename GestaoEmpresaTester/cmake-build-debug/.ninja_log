@@ -1,0 +1,16 @@
+# ninja log v5
+63	1430	6771885289024463	CMakeFiles/GestaoEmpresaTester.dir/produto_teste.cpp.obj	73884f822cc638de
+38	3314	6771889208185811	googleTestLib/googletest-main/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.obj	1fc0c213b68f17c1
+22	1915	6771885294728459	CMakeFiles/GestaoEmpresaTester.dir/C_/Users/clara/Desktop/fsoft2022_1B_5/gestao_empresa/sources/model/Cliente.cpp.obj	35e6ae52594f4d3c
+3	2538	6771885301047980	CMakeFiles/GestaoEmpresaTester.dir/main.cpp.obj	90109de207e96cdb
+26	1919	6771885294782453	CMakeFiles/GestaoEmpresaTester.dir/C_/Users/clara/Desktop/fsoft2022_1B_5/gestao_empresa/sources/model/Produto.cpp.obj	117d4c2bbce9012b
+42	1958	6771885295165610	CMakeFiles/GestaoEmpresaTester.dir/C_/Users/clara/Desktop/fsoft2022_1B_5/gestao_empresa/sources/model/Funcionario.cpp.obj	70a4aeea6dc0f893
+52	1301	6771889188137607	googleTestLib/googletest-main/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj	8f291b1620dbb9fe
+47	1458	6771889189724668	googleTestLib/googletest-main/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.obj	49d666e01d2f2cea
+94	7553	6771889250540976	googleTestLib/googletest-main/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj	14bd445dd97ad6f7
+2	366	6771898332007562	build.ninja	b91f2b0791a39483
+26	1901	6771897966607693	lib/libgtest.a	7c1c69a7bfbe212a
+2	350	6771898332007562	build.ninja	b91f2b0791a39483
+28	150	6771898334362776	lib/libgtest_main.a	39800dfae225ad06
+23	347	6771898336338163	lib/libgmock.a	d06c2dd5f463d52
+40	182	6771898417016112	lib/libgmock_main.a	2ba2d48a2f2d8e72
