@@ -36,7 +36,7 @@ TEST(ClienteSetNomeLojaTeste, NomeInvalido) {
     bool flag = false;
     try{
         cliente.setNomeLoja("b");
-    }catch(InformacaoinvalidaException& e){
+    }catch(InformacaoInvalidaException& e){
         flag = true;
     }
 
@@ -48,7 +48,7 @@ TEST(ClienteSetNomeLojaTeste, NomeValido) {
     bool flag = false;
     try{
         Cliente cliente ("Nike");
-    }catch(InformacaoinvalidaException& e){
+    }catch(InformacaoInvalidaException& e){
          flag = true;
     }
 

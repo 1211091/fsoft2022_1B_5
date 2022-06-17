@@ -28,7 +28,8 @@ public:
     FuncionarioContainer & getFuncionarioContainer();
 
 
-
+    void setNome(const string &nome);
+    const string &getNome() const;
 };
 
 
