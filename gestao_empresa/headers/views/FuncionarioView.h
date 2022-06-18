@@ -15,6 +15,4 @@ public:
     void printFuncionarios (list<Funcionario>& funcionarios);
 
 };
-
-
 #endif //HEADERS_VIEWS_FUNCIONARIOVIEW_H

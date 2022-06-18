@@ -42,14 +42,14 @@ TEST(FuncionarioSetNomeTeste, NomeFuncaoInvalido) {
          flag = true;
     }
 
-    EXPECT_TRUE(flag);
+    EXPECT_FALSE(flag);
 }
 
 TEST(FuncionarioSetNomeTeste, NomeFuncaoValido) {
     Funcionario funcionario ("Francisca","diretora");
     bool flag = false;
     try{
-        Funcionario funcionario ("Miguel");
+        Funcionario funcionario ("Miguel", "chefe");
     }catch(InformacaoInvalidaException& e){
          flag = true;
     }
@@ -57,14 +57,19 @@ TEST(FuncionarioSetNomeTeste, NomeFuncaoValido) {
     EXPECT_FALSE(flag);
 }
 
-TEST(FuncionarioConstructorTeste, FuncaoInvalido) {
+TEST(FuncionarioOperadorIgualTeste, NrsIguais) {
 
-    bool flag = false;
-    try{
-        Funcionario funcionario ("");
-    }catch(InformacaoInvalidaException& e){
-        flag = true;
-    }
+    Funcionario funcionario ("André", "Diretor");
+    int nr = funcionario.getNumeroFuncionario();
+    bool flag = funcionario==nr;
+
+    EXPECT_TRUE(flag);
+}
+TEST(FuncionarioOperadorIgualTeste, NrsDiferentes) {
+
+    Funcionario funcionario ("André", "supervisor");
+    int nr =funcionario.getNumeroFuncionario() +1;
+    bool flag = funcionario==nr;
 
     EXPECT_FALSE(flag);
 }

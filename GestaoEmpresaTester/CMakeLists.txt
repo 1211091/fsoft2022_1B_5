@@ -50,7 +50,7 @@ set(MODEL_SOURCE_FILES
         ${PROJECT_HEADERS_MODEL_DIR}/Produto.h
         ${PROJECT_SOURCES_MODEL_DIR}/Produto.cpp
         ${PROJECT_HEADERS_MODEL_DIR}/ProdutoContainer.h
-        ${PROJECT_SOURCES_MODEL_DIR}/ProdutoContainer.cpp)
+        ${PROJECT_SOURCES_MODEL_DIR}/ProdutoContainer.cpp Produto_Container_Teste.cpp)
 
 set(GOOGLE_TEST_LIB
         ${PROJECT_SOURCE_DIR}/googleTestLib/googletest-main)

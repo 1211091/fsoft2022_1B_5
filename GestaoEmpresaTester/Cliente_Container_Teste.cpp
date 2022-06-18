@@ -61,7 +61,7 @@ TEST(ClienteContainerEliminarTeste, Naoexiste) {
 
 
     try{
-        container.eliminarCiente(numero);
+        container.eliminarCliente(numero);
     }catch(InformacaoNaoExisteException& e){
         flag = false;
     }
@@ -79,7 +79,7 @@ TEST(ClienteContainerEliminarTeste, Existe) {
     Cliente cliente ("Tiffosi");
     ClienteContainer container;
     container.adicionarCliente(cliente);
-    int numero = Cliente.getNumeroCliente();
+    int numero = cliente.getNumeroCliente();
     bool flag = true;
 
     try{
@@ -88,6 +88,6 @@ TEST(ClienteContainerEliminarTeste, Existe) {
         flag = false;
     }
 
-    EXPECT_FALSE(flag);
+    EXPECT_TRUE(flag);
 }
 
