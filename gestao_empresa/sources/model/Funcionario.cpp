@@ -66,9 +66,6 @@ void Funcionario::setNomeFuncionario(const string &nomeFuncionario){
         throw InformacaoInvalidaException(msg);
     }
 }
-
-
-
 string Funcionario::getNomeFuncionario() const{
     return nomeFuncionario;
 }
