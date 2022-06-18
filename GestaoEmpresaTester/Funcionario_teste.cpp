@@ -54,7 +54,7 @@ TEST(FuncionarioSetNomeTeste, NomeFuncaoValido) {
          flag = true;
     }
 
-    EXPECT_TRUE(flag);
+    EXPECT_FALSE(flag);
 }
 
 TEST(FuncionarioOperadorIgualTeste, NrsIguais) {

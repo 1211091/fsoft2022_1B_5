@@ -3,7 +3,6 @@
 //
 
 # include "gtest/gtest.h"
-#include <tuple>
 #include "InformacaoDuplicadaException.h"
 #include "InformacaoNaoExisteException.h"
 #include "ProdutoContainer.h"
@@ -22,7 +21,7 @@ TEST(ProdutoContainerAdicionarTeste,ProdutoValido) {
     if(flag == true){
         int numeroproduto = produto.getNumeroProduto();
         Produto * ptr = container.get(numeroproduto);
-        flag = (*ptr) == produto;
+        flag = (*ptr) == numeroproduto;
     }
 
     EXPECT_TRUE(flag);
