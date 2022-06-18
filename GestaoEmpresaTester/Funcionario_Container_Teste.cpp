@@ -88,4 +88,3 @@ TEST(FuncionarioContainerEliminarTeste, Existe) {
 
     EXPECT_FALSE(flag);
 }
-

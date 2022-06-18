@@ -4,6 +4,7 @@
 #include "Produto.h"
 #include <iostream>
 #include "InformacaoInvalidaException.h"
+#include <string>
 int Produto::Numero=1;
 bool Produto::operator == (int numeroproduto) const{
     if(this->numeroproduto == numeroproduto){
@@ -69,7 +70,7 @@ void Produto::setProduto(const string &referencia, const string &tipo,const int 
         this->quantidade = quantidade;
     }
     else{
-        string msg =std::string(referencia)+ "/"+std::string(tipo)+"/"+to_string(quantidade);
+        string msg = referencia + "/"+ tipo +"/"+to_string(quantidade);
         throw InformacaoInvalidaException(msg);
     }
 }
