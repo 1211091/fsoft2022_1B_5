@@ -9,7 +9,7 @@
 using namespace std;
 
 Produto ProdutoView::getProduto(){
-    Produto produto("Referencia" , "Tipo", (int &) "Quantidade") ;
+    Produto produto("Referencia" , "Tipo", (int&)"Quantidade") ;
     bool flag;
     do{
         try{

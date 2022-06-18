@@ -55,6 +55,7 @@ void FuncionarioContainer::atualizarFuncionario(string&nomeFuncionario, string&f
     if(it != this->funcionarios.end()){
         it -> setFuncao(funcao);
         it -> setNomeFuncionario(nomeFuncionario);
+        it ->setNumeroFuncionario(numerofuncionario);
     }
 
 }

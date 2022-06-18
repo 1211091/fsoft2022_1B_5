@@ -56,7 +56,7 @@ set(MODEL_SOURCE_FILES
         )
 
 set(GOOGLE_TEST_LIB
-        ${PROJECT_SOURCE_DIR}/googleTestLib/googletest-main)
+        googleTestLib/googletest-main)
 set(GOOGLE_TEST_LIB_INCLUDE
         ${GOOGLE_TEST_LIB}/googletest/include)
 

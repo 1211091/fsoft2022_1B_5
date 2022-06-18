@@ -37,7 +37,7 @@ bool Produto::QuantidadeValida(const int &quantidade) {
 
 
 Produto::Produto(const string& referencia, const string&tipo,const int &quantidade){
-    setProduto(referencia, tipo, quantidade);
+    setProduto(produto);
     this->quantidadevendida=0;
     this->numeroproduto = Numero++;
 }
@@ -63,16 +63,8 @@ void Produto::setQuantidade(int quantidade){
         throw InformacaoInvalidaException(msg);
     }
 }
-void Produto::setProduto(const string &referencia, const string &tipo,const int &quantidade){
-    if(ReferenciaValida(referencia) && TipoValido(tipo) && QuantidadeValida(quantidade)){
-        this->referencia = referencia;
-        this->tipo = tipo;
-        this->quantidade = quantidade;
-    }
-    else{
-        string msg = referencia + "/"+ tipo +"/"+to_string(quantidade);
-        throw InformacaoInvalidaException(msg);
-    }
+string Produto::setProduto(string& produto){
+    return this->produto = produto;
 }
 const string& Produto::getReferencia() const{
     return referencia;
