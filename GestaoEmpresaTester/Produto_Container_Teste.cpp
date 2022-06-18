@@ -89,6 +89,6 @@ TEST(ProdutoContainerEliminarTeste, Existe) {
         flag = false;
     }
 
-    EXPECT_TRUE(flag);
+        EXPECT_TRUE(flag);
 }
 
