@@ -16,16 +16,19 @@ protected:
     static int Numero;
     int numeroproduto;
     string referencia;
+    bool ReferenciaValida(const string& referencia);
+    bool TipoValido(const string& tipo);
+    bool QuantidadeValida(const int& quantidade);
 public :
-    Produto(const string &referencia, const string &tipo, int &quantidade);
+    Produto(const string &referencia, const string &tipo,const int &quantidade);
     Produto(const Produto& produto);
     ~Produto();
-    string setProduto(string &produto);
+    void setProduto(const string &referencia, const string &tipo,const int &quantidade);
 
     void setQuantidade(int quantidade);
     int getQuantidade() const;
-    int getQuantidadeVendida();
-    int getNumeroProduto();
+    int getQuantidadeVendida() const;
+    int getNumeroProduto() const;
     void setQuantidadeVendida(int q);
     const string& getTipo() const;
     void setTipo(const string &tipo);

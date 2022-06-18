@@ -30,7 +30,7 @@ list<Produto> ProdutoContainer::getAll(){
 }
 
 
-void ProdutoContainer::adicionarProduto(Produto&obj) {
+void ProdutoContainer::adicionarProduto(const Produto&obj) {
     int numerodoproduto =  obj.getNumeroProduto();
     list<Produto>::iterator it = procurarProduto(numerodoproduto);
     if (it == this->produtos.end()) {
@@ -64,6 +64,10 @@ void ProdutoContainer::atualizarQuantidade(int numeroproduto, int q){
             it->setQuantidade(q);
             it->setQuantidadeVendida(b+q);
         }
+        if(q == 0){
+            produtos.erase(it);
+        }
+
     }
 }
 

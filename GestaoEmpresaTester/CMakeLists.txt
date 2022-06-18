@@ -45,12 +45,15 @@ set(MODEL_SOURCE_FILES
         ${PROJECT_SOURCES_MODEL_DIR}/ClienteContainer.cpp
         ${PROJECT_HEADERS_MODEL_DIR}/Funcionario.h
         ${PROJECT_SOURCES_MODEL_DIR}/Funcionario.cpp
+        ${PROJECT_HEADERS_MODEL_DIR}/FuncionarioContainer.h
+        ${PROJECT_SOURCES_MODEL_DIR}/FuncionarioContainer.cpp
         ${PROJECT_HEADERS_MODEL_DIR}/Nome.h
         ${PROJECT_SOURCES_MODEL_DIR}/Nome.cpp
         ${PROJECT_HEADERS_MODEL_DIR}/Produto.h
         ${PROJECT_SOURCES_MODEL_DIR}/Produto.cpp
         ${PROJECT_HEADERS_MODEL_DIR}/ProdutoContainer.h
-        ${PROJECT_SOURCES_MODEL_DIR}/ProdutoContainer.cpp Produto_Container_Teste.cpp)
+        ${PROJECT_SOURCES_MODEL_DIR}/ProdutoContainer.cpp
+        )
 
 set(GOOGLE_TEST_LIB
         ${PROJECT_SOURCE_DIR}/googleTestLib/googletest-main)

@@ -29,7 +29,7 @@ list<Funcionario> FuncionarioContainer::getAll(){
     list<Funcionario> lista(this->funcionarios);
     return lista;
 }
-void FuncionarioContainer::adicionarFuncionario(Funcionario &obj){
+void FuncionarioContainer::adicionarFuncionario(const Funcionario &obj){
     int numerodofuncionario =  obj.getNumeroFuncionario();
     list<Funcionario>::iterator it = procurarFuncionario(numerodofuncionario);
     if (it == this->funcionarios.end()) {

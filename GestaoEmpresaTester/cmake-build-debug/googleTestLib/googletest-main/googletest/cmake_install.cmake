@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/babis/Desktop/fsoft2022_1B_5/GestaoEmpresaTester/googleTestLib/googletest-main/googletest
+# Install script for directory: C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/GestaoEmpresaTester/googleTestLib/googletest-main/googletest
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -41,7 +41,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/GTest/GTestTargets.cmake")
     file(DIFFERENT EXPORT_FILE_CHANGED FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/GTest/GTestTargets.cmake"
-         "C:/Users/babis/Desktop/fsoft2022_1B_5/GestaoEmpresaTester/cmake-build-debug/googleTestLib/googletest-main/googletest/CMakeFiles/Export/lib/cmake/GTest/GTestTargets.cmake")
+         "C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/GestaoEmpresaTester/cmake-build-debug/googleTestLib/googletest-main/googletest/CMakeFiles/Export/lib/cmake/GTest/GTestTargets.cmake")
     if(EXPORT_FILE_CHANGED)
       file(GLOB OLD_CONFIG_FILES "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/GTest/GTestTargets-*.cmake")
       if(OLD_CONFIG_FILES)
@@ -50,36 +50,36 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
       endif()
     endif()
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/GTest" TYPE FILE FILES "C:/Users/babis/Desktop/fsoft2022_1B_5/GestaoEmpresaTester/cmake-build-debug/googleTestLib/googletest-main/googletest/CMakeFiles/Export/lib/cmake/GTest/GTestTargets.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/GTest" TYPE FILE FILES "C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/GestaoEmpresaTester/cmake-build-debug/googleTestLib/googletest-main/googletest/CMakeFiles/Export/lib/cmake/GTest/GTestTargets.cmake")
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/GTest" TYPE FILE FILES "C:/Users/babis/Desktop/fsoft2022_1B_5/GestaoEmpresaTester/cmake-build-debug/googleTestLib/googletest-main/googletest/CMakeFiles/Export/lib/cmake/GTest/GTestTargets-debug.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/GTest" TYPE FILE FILES "C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/GestaoEmpresaTester/cmake-build-debug/googleTestLib/googletest-main/googletest/CMakeFiles/Export/lib/cmake/GTest/GTestTargets-debug.cmake")
   endif()
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/GTest" TYPE FILE FILES
-    "C:/Users/babis/Desktop/fsoft2022_1B_5/GestaoEmpresaTester/cmake-build-debug/googleTestLib/googletest-main/googletest/generated/GTestConfigVersion.cmake"
-    "C:/Users/babis/Desktop/fsoft2022_1B_5/GestaoEmpresaTester/cmake-build-debug/googleTestLib/googletest-main/googletest/generated/GTestConfig.cmake"
+    "C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/GestaoEmpresaTester/cmake-build-debug/googleTestLib/googletest-main/googletest/generated/GTestConfigVersion.cmake"
+    "C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/GestaoEmpresaTester/cmake-build-debug/googleTestLib/googletest-main/googletest/generated/GTestConfig.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "C:/Users/babis/Desktop/fsoft2022_1B_5/GestaoEmpresaTester/googleTestLib/googletest-main/googletest/include/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/GestaoEmpresaTester/googleTestLib/googletest-main/googletest/include/")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/babis/Desktop/fsoft2022_1B_5/GestaoEmpresaTester/cmake-build-debug/lib/libgtest.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/GestaoEmpresaTester/cmake-build-debug/lib/libgtest.a")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/babis/Desktop/fsoft2022_1B_5/GestaoEmpresaTester/cmake-build-debug/lib/libgtest_main.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/GestaoEmpresaTester/cmake-build-debug/lib/libgtest_main.a")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "C:/Users/babis/Desktop/fsoft2022_1B_5/GestaoEmpresaTester/cmake-build-debug/googleTestLib/googletest-main/googletest/generated/gtest.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/GestaoEmpresaTester/cmake-build-debug/googleTestLib/googletest-main/googletest/generated/gtest.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "C:/Users/babis/Desktop/fsoft2022_1B_5/GestaoEmpresaTester/cmake-build-debug/googleTestLib/googletest-main/googletest/generated/gtest_main.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/GestaoEmpresaTester/cmake-build-debug/googleTestLib/googletest-main/googletest/generated/gtest_main.pc")
 endif()
 

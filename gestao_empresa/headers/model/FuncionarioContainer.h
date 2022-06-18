@@ -17,7 +17,7 @@ private:
 public:
     list<Funcionario> getAll();
     Funcionario* get(int numerofuncionario);
-    void adicionarFuncionario(Funcionario &obj);
+    void adicionarFuncionario(const Funcionario &obj);
     void eliminarFuncionario(int numerofuncionario);
     void atualizarFuncionario(string& nomeFuncionario, string& funcao, int numerofuncionario);
 };

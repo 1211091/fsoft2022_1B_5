@@ -19,9 +19,9 @@ TEST(ProdutoContainerAdicionarTeste,ProdutoValido) {
         flag = false;
     }
     if(flag == true){
-        int numeroproduto = produto.getNumeroProduto();
-        Produto * ptr = container.get(numeroproduto);
-        flag = (*ptr) == numeroproduto;
+        int nr = produto.getNumeroProduto();
+        Produto * ptr = container.get(nr);
+        flag = (*ptr) == nr;
     }
 
     EXPECT_TRUE(flag);
@@ -37,6 +37,7 @@ TEST(ProdutoContainerAdicionarTeste, ProdutoDuplicado) {
     //Act
     try{
         container.adicionarProduto(produto);
+        container.adicionarProduto(produto);
     }catch(InformacaoDuplicadaException& e){
         flag = false;
     }
@@ -49,28 +50,28 @@ TEST(ProdutoContainerAdicionarTeste, ProdutoDuplicado) {
 
 TEST(ProdutoContainerEliminarTeste, Naoexiste) {
 
-    Produto produto("r","calcas",(int &)"1");
-    Produto produto1 ("f","camisolas",(int &)"5");
+    Produto produto("12","calcas",(int &)"1");
+    Produto produto1 ("10","camisolas",(int &)"5");
     ProdutoContainer container;
     container.adicionarProduto(produto);
     container.adicionarProduto(produto1);
-    int numeroproduto = produto1.getNumeroProduto();
-    int quantidade = produto.getQuantidade();
+    int nr = produto1.getNumeroProduto();
+    int qnt = produto.getQuantidade();
     bool flag = true;
 
 
     try{
-        container.venderProduto(numeroproduto, quantidade);
+        container.venderProduto(nr, qnt);
     }catch(InformacaoNaoExisteException& e){
         flag = false;
     }
-    if(flag == true){ //check if it actually was removed
-        Produto * ptr = container.get(numeroproduto);
+    if(flag == true){
+        Produto * ptr = container.get(nr);
         if(ptr != NULL)
             flag = false;
     }
 
-    EXPECT_TRUE(flag);
+    EXPECT_FALSE(flag);
 }
 
 TEST(ProdutoContainerEliminarTeste, Existe) {
@@ -78,16 +79,16 @@ TEST(ProdutoContainerEliminarTeste, Existe) {
     Produto produto ("r","calcas",(int &)"1");
     ProdutoContainer container;
     container.adicionarProduto(produto);
-    int numeroproduto = produto.getNumeroProduto();
-    int quantidade = produto.getQuantidade();
+    int nr = produto.getNumeroProduto();
+    int qnt = produto.getQuantidade();
     bool flag = true;
 
     try{
-        container.venderProduto(numeroproduto, quantidade);
+        container.venderProduto(nr, qnt);
     }catch(InformacaoNaoExisteException& e){
         flag = false;
     }
 
-    EXPECT_FALSE(flag);
+    EXPECT_TRUE(flag);
 }
 

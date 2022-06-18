@@ -16,15 +16,17 @@ private:
     int numerofuncionario;
     static int Numero;
     string funcionario;
+    bool NomeValido(const string& nomeFuncionario);
+    bool FuncaoValida(const string& funcao);
 public:
     Funcionario(const string &nomeFuncionario,const string &funcao);
     Funcionario(const Funcionario& funcionario);
     ~Funcionario();
     void setFuncao(const string &funcao);
     void setNomeFuncionario(const string &nomeFuncionario);
-    string getNomeFuncionario();
+    string getNomeFuncionario() const;
     string getFuncao();
-    int getNumeroFuncionario();
+    int getNumeroFuncionario() const;
     string setFuncionario(const string &funcionario);
 
     bool operator == (const Funcionario& obj) const;

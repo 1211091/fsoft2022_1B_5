@@ -3,7 +3,6 @@
 //
 
 # include "gtest/gtest.h"
-#include <tuple>
 #include "InformacaoDuplicadaException.h"
 #include "InformacaoNaoExisteException.h"
 #include "FuncionarioContainer.h"
@@ -20,8 +19,8 @@ TEST(FuncionarioContainerAdicionarTeste, FuncionarioValido) {
          flag = false;
     }
     if(flag == true){
-        int numerofuncionario = funcionarios.getNumeroFuncionario();
-         Funcionario * ptr = container.get(numerofuncionario);
+        int nr = funcionarios.getNumeroFuncionario();
+         Funcionario * ptr = container.get(nr);
          flag = (*ptr) == funcionarios;
     }
 
@@ -35,8 +34,8 @@ TEST(FuncionarioContainerAdicionarTeste, FuncionarioDuplicado) {
     FuncionarioContainer container;
     bool flag = true;
 
-    //Act
     try{
+        container.adicionarFuncionario(funcionario);
         container.adicionarFuncionario(funcionario);
     }catch(InformacaoDuplicadaException& e){
         flag = false;
@@ -55,17 +54,17 @@ TEST(FuncionarioContainerEliminarTeste, Naoexiste) {
     FuncionarioContainer container;
     container.adicionarFuncionario(funcionario);
     container.adicionarFuncionario(funcionario1);
-    int numerofuncionario = funcionario1.getNumeroFuncionario();
+    int nr = funcionario1.getNumeroFuncionario();
     bool flag = true;
 
 
     try{
-         container.eliminarFuncionario(numerofuncionario);
+         container.eliminarFuncionario(nr);
     }catch(InformacaoNaoExisteException& e){
          flag = false;
     }
-    if(flag == true){ //check if it actually was removed
-        Funcionario * ptr = container.get(numerofuncionario);
+    if(flag == true){
+        Funcionario * ptr = container.get(nr);
     if(ptr != NULL)
         flag = false;
 }
@@ -78,11 +77,11 @@ TEST(FuncionarioContainerEliminarTeste, Existe) {
     Funcionario funcionario ("Inês","chefe de recursos humanos");
     FuncionarioContainer container;
     container.adicionarFuncionario(funcionario);
-    int numerofuncionario = funcionario.getNumeroFuncionario();
+    int nr = funcionario.getNumeroFuncionario();
     bool flag = true;
 
     try{
-        container.eliminarFuncionario(numerofuncionario);
+        container.eliminarFuncionario(nr);
     }catch(InformacaoNaoExisteException& e){
         flag = false;
     }

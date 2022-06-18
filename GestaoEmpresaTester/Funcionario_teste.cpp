@@ -11,12 +11,12 @@ TEST(FuncionarioConstructorTeste, NomeFuncaoInvalido) {
 
     bool flag = false;
     try{
-        Funcionario funcionario ("c", "desempregado");
+        Funcionario funcionario ("g", "desempregada");
     }catch(InformacaoInvalidaException& e){
         flag = true;
     }
 
-    EXPECT_FALSE(flag);
+    EXPECT_TRUE(flag);
 }
 
 TEST(FuncionarioConstructorTeste, NomeFuncaoValido) {
@@ -28,7 +28,7 @@ TEST(FuncionarioConstructorTeste, NomeFuncaoValido) {
         flag = true;
     }
 
-    EXPECT_TRUE(flag);
+    EXPECT_FALSE(flag);
 }
 
 TEST(FuncionarioSetNomeTeste, NomeFuncaoInvalido) {
@@ -42,7 +42,7 @@ TEST(FuncionarioSetNomeTeste, NomeFuncaoInvalido) {
          flag = true;
     }
 
-    EXPECT_FALSE(flag);
+    EXPECT_TRUE(flag);
 }
 
 TEST(FuncionarioSetNomeTeste, NomeFuncaoValido) {

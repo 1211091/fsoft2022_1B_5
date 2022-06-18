@@ -20,7 +20,7 @@ int Utils::getNumero(const string&  label){
             flag = true;
         }
     }while(flag == true);
-    cin.clear(); //corrects stream
+    cin.clear();
     cin.ignore(numeric_limits<streamsize>::max(), '\n');
     return numero;
 }

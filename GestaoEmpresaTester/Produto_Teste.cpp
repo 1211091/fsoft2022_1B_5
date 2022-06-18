@@ -7,23 +7,11 @@
 # include "InformacaoInvalidaException.h"
 
 
-TEST(ProdutoConstructorTeste, ReferenciaTipoQuantidadeInvalido) {
+TEST(ProdutoConstructorTeste, ProdutoInvalido) {
 
     bool flag = false;
     try{
-        Produto produto ("r", "casacas", (int &) "1");
-    }catch(InformacaoInvalidaException& e){
-        flag = true;
-    }
-
-    EXPECT_FALSE(flag);
-}
-
-TEST(ProdutoConstructorTeste, ReferenciaTipoQuantidadeValido) {
-
-    bool flag = false;
-    try{
-        Produto produto ("Calças", "123", (int &) "5");
+        Produto produto ("12", "cs", (int &) "10");
     }catch(InformacaoInvalidaException& e){
         flag = true;
     }
@@ -31,9 +19,21 @@ TEST(ProdutoConstructorTeste, ReferenciaTipoQuantidadeValido) {
     EXPECT_TRUE(flag);
 }
 
-TEST(ProdutoSetTeste, ReferenciaTipoQuantidadeInvalido) {
+TEST(ProdutoConstructorTeste, ProdutoValido) {
 
-    Produto produto ("M", "C", (int &) "0");
+    bool flag = false;
+    try{
+        Produto produto ("123", "calcas", (int &) "5");
+    }catch(InformacaoInvalidaException& e){
+        flag = true;
+    }
+
+    EXPECT_FALSE(flag);
+}
+
+TEST(ProdutoSetTeste, ProdutoInvalido) {
+
+    Produto produto ("10", "CALCAS", (int &) "2");
     bool flag = false;
     try{
         produto.setReferencia("b");
@@ -43,10 +43,10 @@ TEST(ProdutoSetTeste, ReferenciaTipoQuantidadeInvalido) {
         flag = true;
     }
 
-    EXPECT_FALSE(flag);
+    EXPECT_TRUE(flag);
 }
 
-TEST(ProdutoSetTeste, ReferenciaTipoQuantidadeValido) {
+TEST(ProdutoSetTeste, ProdutoValido) {
     Produto produto  ("12", "calcas", (int &) "5");
     bool flag = false;
     try{
@@ -55,7 +55,7 @@ TEST(ProdutoSetTeste, ReferenciaTipoQuantidadeValido) {
         flag = true;
     }
 
-    EXPECT_TRUE(flag);
+    EXPECT_FALSE(flag);
 }
 
 TEST(ProdutoOperadorIgualTeste, Iguais) {
