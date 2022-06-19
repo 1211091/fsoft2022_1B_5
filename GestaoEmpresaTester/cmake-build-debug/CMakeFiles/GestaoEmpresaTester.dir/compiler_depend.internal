@@ -116,7 +116,7 @@ CMakeFiles/GestaoEmpresaTester.dir/26dc513fc839c449b40526e71f53c06b/fsoft2022_1B
 
 CMakeFiles/GestaoEmpresaTester.dir/C_/Users/luis_/OneDrive/Ambiente_de_Trabalho/fsoft2022_1B_5/gestao_empresa/sources/model/Cliente.cpp.obj
  C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/sources/model/Cliente.cpp
- C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/headers/model/Nome.h
+ C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/headers/model/Cliente.h
  C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/string
  C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/c++config.h
  C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h
@@ -221,13 +221,6 @@ CMakeFiles/GestaoEmpresaTester.dir/C_/Users/luis_/OneDrive/Ambiente_de_Trabalho/
  C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/functional_hash.h
  C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/hash_bytes.h
  C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/basic_string.tcc
- C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/vector
- C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_uninitialized.h
- C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_vector.h
- C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_bvector.h
- C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/vector.tcc
- C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/headers/model/Cliente.h
- C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/headers/model/Nome.h
  C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/headers/exceptions/InformacaoInvalidaException.h
  C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/exception
  C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/exception_ptr.h
@@ -298,7 +291,6 @@ CMakeFiles/GestaoEmpresaTester.dir/C_/Users/luis_/OneDrive/Ambiente_de_Trabalho/
  C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/aligned_buffer.h
  C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/list.tcc
  C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/headers/model/Cliente.h
- C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/headers/model/Nome.h
  C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/string
  C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stringfwd.h
  C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/char_traits.h
@@ -372,11 +364,6 @@ CMakeFiles/GestaoEmpresaTester.dir/C_/Users/luis_/OneDrive/Ambiente_de_Trabalho/
  C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/functional_hash.h
  C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/hash_bytes.h
  C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/basic_string.tcc
- C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/vector
- C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_uninitialized.h
- C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_vector.h
- C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_bvector.h
- C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/vector.tcc
  C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/iostream
  C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ostream
  C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ios
@@ -410,7 +397,7 @@ CMakeFiles/GestaoEmpresaTester.dir/C_/Users/luis_/OneDrive/Ambiente_de_Trabalho/
 
 CMakeFiles/GestaoEmpresaTester.dir/C_/Users/luis_/OneDrive/Ambiente_de_Trabalho/fsoft2022_1B_5/gestao_empresa/sources/model/Funcionario.cpp.obj
  C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/sources/model/Funcionario.cpp
- C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/headers/model/Nome.h
+ C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/headers/model/Funcionario.h
  C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/string
  C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/c++config.h
  C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h
@@ -515,13 +502,6 @@ CMakeFiles/GestaoEmpresaTester.dir/C_/Users/luis_/OneDrive/Ambiente_de_Trabalho/
  C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/functional_hash.h
  C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/hash_bytes.h
  C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/basic_string.tcc
- C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/vector
- C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_uninitialized.h
- C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_vector.h
- C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_bvector.h
- C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/vector.tcc
- C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/headers/model/Funcionario.h
- C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/headers/model/Nome.h
  C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/headers/exceptions/InformacaoInvalidaException.h
  C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/exception
  C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/exception_ptr.h
@@ -555,7 +535,7 @@ CMakeFiles/GestaoEmpresaTester.dir/C_/Users/luis_/OneDrive/Ambiente_de_Trabalho/
 CMakeFiles/GestaoEmpresaTester.dir/C_/Users/luis_/OneDrive/Ambiente_de_Trabalho/fsoft2022_1B_5/gestao_empresa/sources/model/FuncionarioContainer.cpp.obj
  C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/sources/model/FuncionarioContainer.cpp
  C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/headers/model/FuncionarioContainer.h
- C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/headers/model/Nome.h
+ C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/headers/model/Funcionario.h
  C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/string
  C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/c++config.h
  C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h
@@ -660,12 +640,6 @@ CMakeFiles/GestaoEmpresaTester.dir/C_/Users/luis_/OneDrive/Ambiente_de_Trabalho/
  C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/functional_hash.h
  C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/hash_bytes.h
  C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/basic_string.tcc
- C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/vector
- C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_uninitialized.h
- C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_vector.h
- C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_bvector.h
- C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/vector.tcc
- C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/headers/model/Funcionario.h
  C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/headers/model/Produto.h
  C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/headers/model/Cliente.h
  C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/list
@@ -704,125 +678,6 @@ CMakeFiles/GestaoEmpresaTester.dir/C_/Users/luis_/OneDrive/Ambiente_de_Trabalho/
  C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/istream.tcc
  C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/headers/exceptions/InformacaoDuplicadaException.h
  C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/headers/exceptions/InformacaoNaoExisteException.h
-
-CMakeFiles/GestaoEmpresaTester.dir/C_/Users/luis_/OneDrive/Ambiente_de_Trabalho/fsoft2022_1B_5/gestao_empresa/sources/model/Nome.cpp.obj
- C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/sources/model/Nome.cpp
- C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/headers/model/Nome.h
- C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/string
- C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/c++config.h
- C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h
- C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/cpu_defines.h
- C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stringfwd.h
- C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/memoryfwd.h
- C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/char_traits.h
- C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_algobase.h
- C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/functexcept.h
- C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/exception_defines.h
- C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/cpp_type_traits.h
- C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/type_traits.h
- C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/numeric_traits.h
- C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_pair.h
- C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/move.h
- C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/type_traits
- C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_iterator_base_types.h
- C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_iterator_base_funcs.h
- C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/concept_check.h
- C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/debug/assertions.h
- C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_iterator.h
- C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/ptr_traits.h
- C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/debug/debug.h
- C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/predefined_ops.h
- C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/postypes.h
- C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cwchar
- C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/x86_64-w64-mingw32/include/wchar.h
- C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/x86_64-w64-mingw32/include/corecrt.h
- C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/x86_64-w64-mingw32/include/_mingw.h
- C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/x86_64-w64-mingw32/include/_mingw_mac.h
- C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/x86_64-w64-mingw32/include/_mingw_secapi.h
- C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/x86_64-w64-mingw32/include/vadefs.h
- C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h
- C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/x86_64-w64-mingw32/include/corecrt_stdio_config.h
- C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/x86_64-w64-mingw32/include/corecrt_wstdlib.h
- C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/x86_64-w64-mingw32/include/_mingw_off_t.h
- C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/x86_64-w64-mingw32/include/_mingw_stat64.h
- C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/x86_64-w64-mingw32/include/swprintf.inl
- C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/x86_64-w64-mingw32/include/sec_api/wchar_s.h
- C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cstdint
- C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/stdint.h
- C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/x86_64-w64-mingw32/include/stdint.h
- C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/x86_64-w64-mingw32/include/crtdefs.h
- C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/stddef.h
- C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/x86_64-w64-mingw32/include/stddef.h
- C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/allocator.h
- C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/c++allocator.h
- C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/new_allocator.h
- C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/new
- C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/exception.h
- C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/localefwd.h
- C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/c++locale.h
- C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/clocale
- C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/x86_64-w64-mingw32/include/locale.h
- C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/x86_64-w64-mingw32/include/stdio.h
- C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdio_s.h
- C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/iosfwd
- C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cctype
- C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/x86_64-w64-mingw32/include/ctype.h
- C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/ostream_insert.h
- C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/cxxabi_forced.h
- C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_function.h
- C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward/binders.h
- C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/range_access.h
- C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/initializer_list
- C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/basic_string.h
- C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/atomicity.h
- C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/gthr.h
- C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/gthr-default.h
- C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/x86_64-w64-mingw32/include/pthread.h
- C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/x86_64-w64-mingw32/include/errno.h
- C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/x86_64-w64-mingw32/include/sys/types.h
- C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/x86_64-w64-mingw32/include/process.h
- C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/x86_64-w64-mingw32/include/corecrt_startup.h
- C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/limits.h
- C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/syslimits.h
- C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/x86_64-w64-mingw32/include/limits.h
- C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/x86_64-w64-mingw32/include/signal.h
- C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/x86_64-w64-mingw32/include/pthread_signal.h
- C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/x86_64-w64-mingw32/include/time.h
- C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/x86_64-w64-mingw32/include/_timeval.h
- C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/x86_64-w64-mingw32/include/sys/timeb.h
- C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/x86_64-w64-mingw32/include/sec_api/sys/timeb_s.h
- C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/x86_64-w64-mingw32/include/pthread_time.h
- C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/x86_64-w64-mingw32/include/pthread_compat.h
- C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/x86_64-w64-mingw32/include/pthread_unistd.h
- C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/atomic_word.h
- C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/alloc_traits.h
- C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/alloc_traits.h
- C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_construct.h
- C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/string_conversions.h
- C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cstdlib
- C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/x86_64-w64-mingw32/include/stdlib.h
- C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/x86_64-w64-mingw32/include/sec_api/stdlib_s.h
- C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/stdlib.h
- C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/x86_64-w64-mingw32/include/malloc.h
- C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/mm_malloc.h
- C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/std_abs.h
- C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cstdio
- C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cerrno
- C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/charconv.h
- C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/functional_hash.h
- C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/hash_bytes.h
- C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/basic_string.tcc
- C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/vector
- C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_uninitialized.h
- C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_vector.h
- C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_bvector.h
- C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/vector.tcc
- C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/headers/exceptions/InformacaoInvalidaException.h
- C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/exception
- C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/exception_ptr.h
- C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/cxxabi_init_exception.h
- C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/typeinfo
- C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/nested_exception.h
 
 CMakeFiles/GestaoEmpresaTester.dir/C_/Users/luis_/OneDrive/Ambiente_de_Trabalho/fsoft2022_1B_5/gestao_empresa/sources/model/Produto.cpp.obj
  C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/sources/model/Produto.cpp
@@ -1560,7 +1415,6 @@ CMakeFiles/GestaoEmpresaTester.dir/main.cpp.obj
  C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/GestaoEmpresaTester/googleTestLib/googletest-main/googletest/include/gtest/gtest_prod.h
  C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/GestaoEmpresaTester/Cliente_Teste.cpp
  C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/headers/model/Cliente.h
- C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/headers/model/Nome.h
  C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/headers/exceptions/InformacaoInvalidaException.h
  C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/GestaoEmpresaTester/Cliente_Container_Teste.cpp
  C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/headers/exceptions/InformacaoDuplicadaException.h

@@ -5,7 +5,7 @@
 
 #ifndef HEADERS_MODEL_FUNCIONARIO_H
 #define HEADERS_MODEL_FUNCIONARIO_H
-#include "Nome.h"
+
 #include <string>
 using namespace std;
 

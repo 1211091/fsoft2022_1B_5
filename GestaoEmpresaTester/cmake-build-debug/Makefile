@@ -345,30 +345,6 @@ C_/Users/luis_/OneDrive/Ambiente_de_Trabalho/fsoft2022_1B_5/gestao_empresa/sourc
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GestaoEmpresaTester.dir\build.make CMakeFiles/GestaoEmpresaTester.dir/C_/Users/luis_/OneDrive/Ambiente_de_Trabalho/fsoft2022_1B_5/gestao_empresa/sources/model/FuncionarioContainer.cpp.s
 .PHONY : C_/Users/luis_/OneDrive/Ambiente_de_Trabalho/fsoft2022_1B_5/gestao_empresa/sources/model/FuncionarioContainer.cpp.s
 
-C_/Users/luis_/OneDrive/Ambiente_de_Trabalho/fsoft2022_1B_5/gestao_empresa/sources/model/Nome.obj: C_/Users/luis_/OneDrive/Ambiente_de_Trabalho/fsoft2022_1B_5/gestao_empresa/sources/model/Nome.cpp.obj
-.PHONY : C_/Users/luis_/OneDrive/Ambiente_de_Trabalho/fsoft2022_1B_5/gestao_empresa/sources/model/Nome.obj
-
-# target to build an object file
-C_/Users/luis_/OneDrive/Ambiente_de_Trabalho/fsoft2022_1B_5/gestao_empresa/sources/model/Nome.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GestaoEmpresaTester.dir\build.make CMakeFiles/GestaoEmpresaTester.dir/C_/Users/luis_/OneDrive/Ambiente_de_Trabalho/fsoft2022_1B_5/gestao_empresa/sources/model/Nome.cpp.obj
-.PHONY : C_/Users/luis_/OneDrive/Ambiente_de_Trabalho/fsoft2022_1B_5/gestao_empresa/sources/model/Nome.cpp.obj
-
-C_/Users/luis_/OneDrive/Ambiente_de_Trabalho/fsoft2022_1B_5/gestao_empresa/sources/model/Nome.i: C_/Users/luis_/OneDrive/Ambiente_de_Trabalho/fsoft2022_1B_5/gestao_empresa/sources/model/Nome.cpp.i
-.PHONY : C_/Users/luis_/OneDrive/Ambiente_de_Trabalho/fsoft2022_1B_5/gestao_empresa/sources/model/Nome.i
-
-# target to preprocess a source file
-C_/Users/luis_/OneDrive/Ambiente_de_Trabalho/fsoft2022_1B_5/gestao_empresa/sources/model/Nome.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GestaoEmpresaTester.dir\build.make CMakeFiles/GestaoEmpresaTester.dir/C_/Users/luis_/OneDrive/Ambiente_de_Trabalho/fsoft2022_1B_5/gestao_empresa/sources/model/Nome.cpp.i
-.PHONY : C_/Users/luis_/OneDrive/Ambiente_de_Trabalho/fsoft2022_1B_5/gestao_empresa/sources/model/Nome.cpp.i
-
-C_/Users/luis_/OneDrive/Ambiente_de_Trabalho/fsoft2022_1B_5/gestao_empresa/sources/model/Nome.s: C_/Users/luis_/OneDrive/Ambiente_de_Trabalho/fsoft2022_1B_5/gestao_empresa/sources/model/Nome.cpp.s
-.PHONY : C_/Users/luis_/OneDrive/Ambiente_de_Trabalho/fsoft2022_1B_5/gestao_empresa/sources/model/Nome.s
-
-# target to generate assembly for a file
-C_/Users/luis_/OneDrive/Ambiente_de_Trabalho/fsoft2022_1B_5/gestao_empresa/sources/model/Nome.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GestaoEmpresaTester.dir\build.make CMakeFiles/GestaoEmpresaTester.dir/C_/Users/luis_/OneDrive/Ambiente_de_Trabalho/fsoft2022_1B_5/gestao_empresa/sources/model/Nome.cpp.s
-.PHONY : C_/Users/luis_/OneDrive/Ambiente_de_Trabalho/fsoft2022_1B_5/gestao_empresa/sources/model/Nome.cpp.s
-
 C_/Users/luis_/OneDrive/Ambiente_de_Trabalho/fsoft2022_1B_5/gestao_empresa/sources/model/Produto.obj: C_/Users/luis_/OneDrive/Ambiente_de_Trabalho/fsoft2022_1B_5/gestao_empresa/sources/model/Produto.cpp.obj
 .PHONY : C_/Users/luis_/OneDrive/Ambiente_de_Trabalho/fsoft2022_1B_5/gestao_empresa/sources/model/Produto.obj
 
@@ -521,9 +497,6 @@ help:
 	@echo ... C_/Users/luis_/OneDrive/Ambiente_de_Trabalho/fsoft2022_1B_5/gestao_empresa/sources/model/FuncionarioContainer.obj
 	@echo ... C_/Users/luis_/OneDrive/Ambiente_de_Trabalho/fsoft2022_1B_5/gestao_empresa/sources/model/FuncionarioContainer.i
 	@echo ... C_/Users/luis_/OneDrive/Ambiente_de_Trabalho/fsoft2022_1B_5/gestao_empresa/sources/model/FuncionarioContainer.s
-	@echo ... C_/Users/luis_/OneDrive/Ambiente_de_Trabalho/fsoft2022_1B_5/gestao_empresa/sources/model/Nome.obj
-	@echo ... C_/Users/luis_/OneDrive/Ambiente_de_Trabalho/fsoft2022_1B_5/gestao_empresa/sources/model/Nome.i
-	@echo ... C_/Users/luis_/OneDrive/Ambiente_de_Trabalho/fsoft2022_1B_5/gestao_empresa/sources/model/Nome.s
 	@echo ... C_/Users/luis_/OneDrive/Ambiente_de_Trabalho/fsoft2022_1B_5/gestao_empresa/sources/model/Produto.obj
 	@echo ... C_/Users/luis_/OneDrive/Ambiente_de_Trabalho/fsoft2022_1B_5/gestao_empresa/sources/model/Produto.i
 	@echo ... C_/Users/luis_/OneDrive/Ambiente_de_Trabalho/fsoft2022_1B_5/gestao_empresa/sources/model/Produto.s

@@ -64,7 +64,7 @@ TEST(FuncionarioOperadorIgualTeste, NrsDiferentes) {
     EXPECT_FALSE(flag);
 }
 
-/*TEST(FuncionarioConstructorTeste, NomeFuncaoInvalido) {
+TEST(FuncionarioConstructorTeste, NomeFuncaoInvalido) {
 
     bool flag = false;
     try{
@@ -74,4 +74,4 @@ TEST(FuncionarioOperadorIgualTeste, NrsDiferentes) {
     }
 
     EXPECT_TRUE(flag);
-}*/
+}

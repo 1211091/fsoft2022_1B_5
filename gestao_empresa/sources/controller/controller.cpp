@@ -103,7 +103,7 @@ void Controller::runCliente(){
                 break;
             case 2: {
                 string nome = Utils::getString("Insira o novo nome da loja");
-                int numero = Utils::getNumero("Insira o numero do funcionario");
+                int numero = Utils::getNumero("Insira o numero do cliente");
                 ClienteContainer &container = this->model.getClienteContainer();
                 container.atualizarCliente(nome, numero);
             }

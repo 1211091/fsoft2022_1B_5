@@ -4,12 +4,12 @@ project(fsoft_2022_1B_5)
 set(CMAKE_CXX_STANDARD 14)
 
 set(PROJECT_HEADERS_DIR
-        ${PROJECT_SOURCE_DIR}/headers)
+        headers)
 set(PROJECT_SOURCES_DIR
-        ${PROJECT_SOURCE_DIR}/sources)
+        sources)
 
 set(PROJECT_MOCK_DIR
-        ${PROJECT_SOURCE_DIR}/mock)
+        Mock)
 
 include_directories(
         ${PROJECT_MOCK_DIR}
@@ -32,10 +32,10 @@ set(CONTROLLER_SOURCE_FILES
         )
 
 set(PROJECT_HEADERS_EXCEPTIONS_DIR
-        ${PROJECT_SOURCE_DIR}/headers/exceptions
+        headers/exceptions
         )
 set(PROJECT_SOURCES_EXCEPTIONS_DIR
-        ${PROJECT_SOURCE_DIR}/sources/exceptions
+        sources/exceptions
         )
 include_directories(
         ${PROJECT_HEADERS_EXCEPTIONS_DIR}
@@ -69,8 +69,6 @@ set(MODEL_SOURCE_FILES
         ${PROJECT_SOURCES_MODEL_DIR}/ClienteContainer.cpp
         ${PROJECT_HEADERS_MODEL_DIR}/Funcionario.h
         ${PROJECT_SOURCES_MODEL_DIR}/Funcionario.cpp
-        ${PROJECT_HEADERS_MODEL_DIR}/Nome.h
-        ${PROJECT_SOURCES_MODEL_DIR}/Nome.cpp
         ${PROJECT_HEADERS_MODEL_DIR}/Produto.h
         ${PROJECT_SOURCES_MODEL_DIR}/Produto.cpp
         ${PROJECT_HEADERS_MODEL_DIR}/ProdutoContainer.h

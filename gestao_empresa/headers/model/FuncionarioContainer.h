@@ -4,7 +4,7 @@
 
 #ifndef HEADERS_MODEL_FUNCIONARIOCONTAINER_H
 #define HEADERS_MODEL_FUNCIONARIOCONTAINER_H
-#include "Nome.h"
+
 #include "Funcionario.h"
 #include "Produto.h"
 #include "Cliente.h"

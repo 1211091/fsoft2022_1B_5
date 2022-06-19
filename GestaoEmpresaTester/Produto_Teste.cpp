@@ -62,7 +62,7 @@ TEST(ProdutoOperadorIgualTeste, Diferentes) {
     EXPECT_FALSE(flag);
 }
 
-/*TEST(ProdutoConstructorTeste, ProdutoInvalido) {
+TEST(ProdutoConstructorTeste, ProdutoInvalido) {
 
     bool flag = false;
     try{
@@ -72,4 +72,4 @@ TEST(ProdutoOperadorIgualTeste, Diferentes) {
     }
 
     EXPECT_TRUE(flag);
-}*/
+}

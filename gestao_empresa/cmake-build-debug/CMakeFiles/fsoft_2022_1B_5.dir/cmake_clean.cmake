@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/fsoft_2022_1B_5.dir/Mock/MockData.cpp.obj"
+  "CMakeFiles/fsoft_2022_1B_5.dir/Mock/MockData.cpp.obj.d"
   "CMakeFiles/fsoft_2022_1B_5.dir/main.cpp.obj"
   "CMakeFiles/fsoft_2022_1B_5.dir/main.cpp.obj.d"
   "CMakeFiles/fsoft_2022_1B_5.dir/sources/controller/controller.cpp.obj"
@@ -19,8 +21,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/fsoft_2022_1B_5.dir/sources/model/Funcionario.cpp.obj.d"
   "CMakeFiles/fsoft_2022_1B_5.dir/sources/model/FuncionarioContainer.cpp.obj"
   "CMakeFiles/fsoft_2022_1B_5.dir/sources/model/FuncionarioContainer.cpp.obj.d"
-  "CMakeFiles/fsoft_2022_1B_5.dir/sources/model/Nome.cpp.obj"
-  "CMakeFiles/fsoft_2022_1B_5.dir/sources/model/Nome.cpp.obj.d"
   "CMakeFiles/fsoft_2022_1B_5.dir/sources/model/Produto.cpp.obj"
   "CMakeFiles/fsoft_2022_1B_5.dir/sources/model/Produto.cpp.obj.d"
   "CMakeFiles/fsoft_2022_1B_5.dir/sources/model/ProdutoContainer.cpp.obj"

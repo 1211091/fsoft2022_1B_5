@@ -1,7 +1,7 @@
 //
 // Created by bilax on 06/06/2022.
 //
-#include "Nome.h"
+
 #include "Funcionario.h"
 #include "InformacaoInvalidaException.h"
 #include <iostream>

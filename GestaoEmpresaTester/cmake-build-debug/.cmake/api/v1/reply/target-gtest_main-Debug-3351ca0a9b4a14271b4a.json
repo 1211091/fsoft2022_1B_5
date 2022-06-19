@@ -115,29 +115,29 @@
 			[
 				{
 					"backtrace" : 8,
-					"path" : "C:/Users/clara/Desktop/fsoft2022_1B_5/GestaoEmpresaTester/../gestao_empresa/headers/exceptions"
+					"path" : "C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/GestaoEmpresaTester/../gestao_empresa/headers/exceptions"
 				},
 				{
 					"backtrace" : 8,
-					"path" : "C:/Users/clara/Desktop/fsoft2022_1B_5/GestaoEmpresaTester/../gestao_empresa/sources/exceptions"
+					"path" : "C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/GestaoEmpresaTester/../gestao_empresa/sources/exceptions"
 				},
 				{
 					"backtrace" : 9,
-					"path" : "C:/Users/clara/Desktop/fsoft2022_1B_5/GestaoEmpresaTester/../gestao_empresa/headers/model"
+					"path" : "C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/GestaoEmpresaTester/../gestao_empresa/headers/model"
 				},
 				{
 					"backtrace" : 9,
-					"path" : "C:/Users/clara/Desktop/fsoft2022_1B_5/GestaoEmpresaTester/../gestao_empresa/sources/model"
+					"path" : "C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/GestaoEmpresaTester/../gestao_empresa/sources/model"
 				},
 				{
 					"backtrace" : 10,
 					"isSystem" : true,
-					"path" : "C:/Users/clara/Desktop/fsoft2022_1B_5/GestaoEmpresaTester/googleTestLib/googletest-main/googletest/include"
+					"path" : "C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/GestaoEmpresaTester/googleTestLib/googletest-main/googletest/include"
 				},
 				{
 					"backtrace" : 10,
 					"isSystem" : true,
-					"path" : "C:/Users/clara/Desktop/fsoft2022_1B_5/GestaoEmpresaTester/googleTestLib/googletest-main/googletest"
+					"path" : "C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/GestaoEmpresaTester/googleTestLib/googletest-main/googletest"
 				}
 			],
 			"language" : "CXX",

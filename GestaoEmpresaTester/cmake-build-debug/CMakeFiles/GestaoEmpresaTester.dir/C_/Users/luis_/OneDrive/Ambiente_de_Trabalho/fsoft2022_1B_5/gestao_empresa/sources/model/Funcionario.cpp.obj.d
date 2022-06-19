@@ -1,6 +1,6 @@
 CMakeFiles/GestaoEmpresaTester.dir/C_/Users/luis_/OneDrive/Ambiente_de_Trabalho/fsoft2022_1B_5/gestao_empresa/sources/model/Funcionario.cpp.obj: \
  C:\Users\luis_\OneDrive\Ambiente\ de\ Trabalho\fsoft2022_1B_5\gestao_empresa\sources\model\Funcionario.cpp \
- C:/Users/luis_/OneDrive/AMBIEN~1/FSOFT2~2/GESTAO~1/headers/model/Nome.h \
+ C:/Users/luis_/OneDrive/AMBIEN~1/FSOFT2~2/GESTAO~1/headers/model/Funcionario.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/string \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h \
@@ -105,13 +105,6 @@ CMakeFiles/GestaoEmpresaTester.dir/C_/Users/luis_/OneDrive/Ambiente_de_Trabalho/
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/functional_hash.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/hash_bytes.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/basic_string.tcc \
- C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/vector \
- C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_uninitialized.h \
- C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_vector.h \
- C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_bvector.h \
- C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/vector.tcc \
- C:/Users/luis_/OneDrive/AMBIEN~1/FSOFT2~2/GESTAO~1/headers/model/Funcionario.h \
- C:/Users/luis_/OneDrive/AMBIEN~1/FSOFT2~2/GESTAO~1/headers/model/Nome.h \
  C:/Users/luis_/OneDrive/AMBIEN~1/FSOFT2~2/GESTAO~1/headers/EXCEPT~1/InformacaoInvalidaException.h \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/exception \
  C:/PROGRA~1/JETBRA~1/CLION2~1.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/exception_ptr.h \

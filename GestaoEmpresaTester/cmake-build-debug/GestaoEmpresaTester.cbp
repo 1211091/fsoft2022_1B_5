@@ -402,9 +402,6 @@
 		<Unit filename="C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/headers/model/FuncionarioContainer.h">
 			<Option target="GestaoEmpresaTester"/>
 		</Unit>
-		<Unit filename="C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/headers/model/Nome.h">
-			<Option target="GestaoEmpresaTester"/>
-		</Unit>
 		<Unit filename="C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/headers/model/Produto.h">
 			<Option target="GestaoEmpresaTester"/>
 		</Unit>
@@ -430,9 +427,6 @@
 			<Option target="GestaoEmpresaTester"/>
 		</Unit>
 		<Unit filename="C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/sources/model/FuncionarioContainer.cpp">
-			<Option target="GestaoEmpresaTester"/>
-		</Unit>
-		<Unit filename="C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/sources/model/Nome.cpp">
 			<Option target="GestaoEmpresaTester"/>
 		</Unit>
 		<Unit filename="C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/sources/model/Produto.cpp">

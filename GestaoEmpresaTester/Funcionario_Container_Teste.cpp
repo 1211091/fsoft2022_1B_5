@@ -71,7 +71,7 @@ TEST(FuncionarioContainerEliminarTeste, NaoexisteProblema) {
     EXPECT_TRUE(flag);
 }
 
-/*TEST(FuncionarioContainerEliminarTeste, ExisteProblema) {
+TEST(FuncionarioContainerEliminarTeste, ExisteProblema) {
 
     Funcionario funcionario("Mariana", "Secretária");
     FuncionarioContainer container;
@@ -84,4 +84,4 @@ TEST(FuncionarioContainerEliminarTeste, NaoexisteProblema) {
          flag = false;
     }
     EXPECT_FALSE(flag);
-}*/
+}

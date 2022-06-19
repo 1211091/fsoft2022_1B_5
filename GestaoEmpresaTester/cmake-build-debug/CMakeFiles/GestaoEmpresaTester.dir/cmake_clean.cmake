@@ -9,8 +9,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/GestaoEmpresaTester.dir/C_/Users/luis_/OneDrive/Ambiente_de_Trabalho/fsoft2022_1B_5/gestao_empresa/sources/model/Funcionario.cpp.obj.d"
   "CMakeFiles/GestaoEmpresaTester.dir/C_/Users/luis_/OneDrive/Ambiente_de_Trabalho/fsoft2022_1B_5/gestao_empresa/sources/model/FuncionarioContainer.cpp.obj"
   "CMakeFiles/GestaoEmpresaTester.dir/C_/Users/luis_/OneDrive/Ambiente_de_Trabalho/fsoft2022_1B_5/gestao_empresa/sources/model/FuncionarioContainer.cpp.obj.d"
-  "CMakeFiles/GestaoEmpresaTester.dir/C_/Users/luis_/OneDrive/Ambiente_de_Trabalho/fsoft2022_1B_5/gestao_empresa/sources/model/Nome.cpp.obj"
-  "CMakeFiles/GestaoEmpresaTester.dir/C_/Users/luis_/OneDrive/Ambiente_de_Trabalho/fsoft2022_1B_5/gestao_empresa/sources/model/Nome.cpp.obj.d"
   "CMakeFiles/GestaoEmpresaTester.dir/C_/Users/luis_/OneDrive/Ambiente_de_Trabalho/fsoft2022_1B_5/gestao_empresa/sources/model/Produto.cpp.obj"
   "CMakeFiles/GestaoEmpresaTester.dir/C_/Users/luis_/OneDrive/Ambiente_de_Trabalho/fsoft2022_1B_5/gestao_empresa/sources/model/Produto.cpp.obj.d"
   "CMakeFiles/GestaoEmpresaTester.dir/C_/Users/luis_/OneDrive/Ambiente_de_Trabalho/fsoft2022_1B_5/gestao_empresa/sources/model/ProdutoContainer.cpp.obj"

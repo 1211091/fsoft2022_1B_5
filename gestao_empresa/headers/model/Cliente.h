@@ -4,7 +4,7 @@
 
 #ifndef HEADERS_MODEL_CLIENTE_H
 #define HEADERS_MODEL_CLIENTE_H
-#include "Nome.h"
+
 #include <string>
 using namespace std;
 
