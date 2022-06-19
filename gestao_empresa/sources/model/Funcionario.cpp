@@ -65,10 +65,10 @@ void Funcionario::setNomeFuncionario(const string &nomeFuncionario){
         throw InformacaoInvalidaException(msg);
     }
 }
+
 string Funcionario::getNomeFuncionario() const{
     return nomeFuncionario;
 }
-
 
 bool Funcionario::operator == (const Funcionario& obj) const{
     if(this->numerofuncionario == obj.numerofuncionario){
