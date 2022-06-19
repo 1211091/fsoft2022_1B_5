@@ -56,10 +56,10 @@ RM = "C:\Program Files\JetBrains\CLion 2021.3.3\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\bilax\Desktop\fsoft2022_1B_5\gestao_empresa
+CMAKE_SOURCE_DIR = C:\Users\babis\Desktop\fsoft2022_1B_5\gestao_empresa
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\bilax\Desktop\fsoft2022_1B_5\gestao_empresa\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\babis\Desktop\fsoft2022_1B_5\gestao_empresa\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\bilax\Desktop\fsoft2022_1B_5\gestao_empresa\cmake-build-debug\CMakeFiles C:\Users\bilax\Desktop\fsoft2022_1B_5\gestao_empresa\cmake-build-debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\babis\Desktop\fsoft2022_1B_5\gestao_empresa\cmake-build-debug\CMakeFiles C:\Users\babis\Desktop\fsoft2022_1B_5\gestao_empresa\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\bilax\Desktop\fsoft2022_1B_5\gestao_empresa\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\babis\Desktop\fsoft2022_1B_5\gestao_empresa\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -151,30 +151,6 @@ main.s: main.cpp.s
 main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft_2022_1B_5.dir\build.make CMakeFiles/fsoft_2022_1B_5.dir/main.cpp.s
 .PHONY : main.cpp.s
-
-mock/MockData.obj: mock/MockData.cpp.obj
-.PHONY : mock/MockData.obj
-
-# target to build an object file
-mock/MockData.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft_2022_1B_5.dir\build.make CMakeFiles/fsoft_2022_1B_5.dir/mock/MockData.cpp.obj
-.PHONY : mock/MockData.cpp.obj
-
-mock/MockData.i: mock/MockData.cpp.i
-.PHONY : mock/MockData.i
-
-# target to preprocess a source file
-mock/MockData.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft_2022_1B_5.dir\build.make CMakeFiles/fsoft_2022_1B_5.dir/mock/MockData.cpp.i
-.PHONY : mock/MockData.cpp.i
-
-mock/MockData.s: mock/MockData.cpp.s
-.PHONY : mock/MockData.s
-
-# target to generate assembly for a file
-mock/MockData.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft_2022_1B_5.dir\build.make CMakeFiles/fsoft_2022_1B_5.dir/mock/MockData.cpp.s
-.PHONY : mock/MockData.cpp.s
 
 sources/controller/controller.obj: sources/controller/controller.cpp.obj
 .PHONY : sources/controller/controller.obj
@@ -596,9 +572,6 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
-	@echo ... mock/MockData.obj
-	@echo ... mock/MockData.i
-	@echo ... mock/MockData.s
 	@echo ... sources/controller/controller.obj
 	@echo ... sources/controller/controller.i
 	@echo ... sources/controller/controller.s
