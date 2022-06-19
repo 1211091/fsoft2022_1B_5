@@ -15,7 +15,6 @@ private:
     string nomeFuncionario;
     int numerofuncionario;
     static int Numero;
-    string funcionario;
     bool NomeValido(const string& nomeFuncionario);
     bool FuncaoValida(const string& funcao);
     bool NumeroFuncionarioValido(const int& numerofuncionario);
