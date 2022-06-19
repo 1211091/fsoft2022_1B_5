@@ -74,29 +74,29 @@
 			[
 				{
 					"backtrace" : 3,
-					"path" : "C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/GestaoEmpresaTester/../gestao_empresa/headers/exceptions"
+					"path" : "C:/Users/clara/Desktop/fsoft2022_1B_5/GestaoEmpresaTester/../gestao_empresa/headers/exceptions"
 				},
 				{
 					"backtrace" : 3,
-					"path" : "C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/GestaoEmpresaTester/../gestao_empresa/sources/exceptions"
+					"path" : "C:/Users/clara/Desktop/fsoft2022_1B_5/GestaoEmpresaTester/../gestao_empresa/sources/exceptions"
 				},
 				{
 					"backtrace" : 4,
-					"path" : "C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/GestaoEmpresaTester/../gestao_empresa/headers/model"
+					"path" : "C:/Users/clara/Desktop/fsoft2022_1B_5/GestaoEmpresaTester/../gestao_empresa/headers/model"
 				},
 				{
 					"backtrace" : 4,
-					"path" : "C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/GestaoEmpresaTester/../gestao_empresa/sources/model"
+					"path" : "C:/Users/clara/Desktop/fsoft2022_1B_5/GestaoEmpresaTester/../gestao_empresa/sources/model"
 				},
 				{
 					"backtrace" : 5,
 					"isSystem" : true,
-					"path" : "C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/GestaoEmpresaTester/googleTestLib/googletest-main/googletest/include"
+					"path" : "C:/Users/clara/Desktop/fsoft2022_1B_5/GestaoEmpresaTester/googleTestLib/googletest-main/googletest/include"
 				},
 				{
 					"backtrace" : 2,
 					"isSystem" : true,
-					"path" : "C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/GestaoEmpresaTester/googleTestLib/googletest-main/googletest"
+					"path" : "C:/Users/clara/Desktop/fsoft2022_1B_5/GestaoEmpresaTester/googleTestLib/googletest-main/googletest"
 				}
 			],
 			"language" : "CXX",
@@ -223,112 +223,112 @@
 		},
 		{
 			"backtrace" : 1,
-			"path" : "C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/headers/model/Cliente.h",
+			"path" : "C:/Users/clara/Desktop/fsoft2022_1B_5/gestao_empresa/headers/model/Cliente.h",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/sources/model/Cliente.cpp",
+			"path" : "C:/Users/clara/Desktop/fsoft2022_1B_5/gestao_empresa/sources/model/Cliente.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
-			"path" : "C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/headers/model/ClienteContainer.h",
+			"path" : "C:/Users/clara/Desktop/fsoft2022_1B_5/gestao_empresa/headers/model/ClienteContainer.h",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/sources/model/ClienteContainer.cpp",
+			"path" : "C:/Users/clara/Desktop/fsoft2022_1B_5/gestao_empresa/sources/model/ClienteContainer.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
-			"path" : "C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/headers/model/Funcionario.h",
+			"path" : "C:/Users/clara/Desktop/fsoft2022_1B_5/gestao_empresa/headers/model/Funcionario.h",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/sources/model/Funcionario.cpp",
+			"path" : "C:/Users/clara/Desktop/fsoft2022_1B_5/gestao_empresa/sources/model/Funcionario.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
-			"path" : "C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/headers/model/FuncionarioContainer.h",
+			"path" : "C:/Users/clara/Desktop/fsoft2022_1B_5/gestao_empresa/headers/model/FuncionarioContainer.h",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/sources/model/FuncionarioContainer.cpp",
+			"path" : "C:/Users/clara/Desktop/fsoft2022_1B_5/gestao_empresa/sources/model/FuncionarioContainer.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
-			"path" : "C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/headers/model/Nome.h",
+			"path" : "C:/Users/clara/Desktop/fsoft2022_1B_5/gestao_empresa/headers/model/Nome.h",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/sources/model/Nome.cpp",
+			"path" : "C:/Users/clara/Desktop/fsoft2022_1B_5/gestao_empresa/sources/model/Nome.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
-			"path" : "C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/headers/model/Produto.h",
+			"path" : "C:/Users/clara/Desktop/fsoft2022_1B_5/gestao_empresa/headers/model/Produto.h",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/sources/model/Produto.cpp",
+			"path" : "C:/Users/clara/Desktop/fsoft2022_1B_5/gestao_empresa/sources/model/Produto.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
-			"path" : "C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/headers/model/ProdutoContainer.h",
+			"path" : "C:/Users/clara/Desktop/fsoft2022_1B_5/gestao_empresa/headers/model/ProdutoContainer.h",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/sources/model/ProdutoContainer.cpp",
+			"path" : "C:/Users/clara/Desktop/fsoft2022_1B_5/gestao_empresa/sources/model/ProdutoContainer.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
-			"path" : "C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/headers/exceptions/InformacaoNaoExisteException.h",
+			"path" : "C:/Users/clara/Desktop/fsoft2022_1B_5/gestao_empresa/headers/exceptions/InformacaoNaoExisteException.h",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/sources/exceptions/InformacaoNaoExisteException.cpp",
+			"path" : "C:/Users/clara/Desktop/fsoft2022_1B_5/gestao_empresa/sources/exceptions/InformacaoNaoExisteException.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
-			"path" : "C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/headers/exceptions/InformacaoDuplicadaException.h",
+			"path" : "C:/Users/clara/Desktop/fsoft2022_1B_5/gestao_empresa/headers/exceptions/InformacaoDuplicadaException.h",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/sources/exceptions/InformacaoDuplicadaException.cpp",
+			"path" : "C:/Users/clara/Desktop/fsoft2022_1B_5/gestao_empresa/sources/exceptions/InformacaoDuplicadaException.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
-			"path" : "C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/headers/exceptions/InformacaoInvalidaException.h",
+			"path" : "C:/Users/clara/Desktop/fsoft2022_1B_5/gestao_empresa/headers/exceptions/InformacaoInvalidaException.h",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/sources/exceptions/InformacaoInvalidaException.cpp",
+			"path" : "C:/Users/clara/Desktop/fsoft2022_1B_5/gestao_empresa/sources/exceptions/InformacaoInvalidaException.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],
