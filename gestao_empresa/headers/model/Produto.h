@@ -23,7 +23,6 @@ public :
     Produto(const string &referencia, const string &tipo,const int &quantidade);
     Produto(const Produto &produto);
     ~Produto();
-    string setProduto(string &produto);
 
     void setQuantidade(int quantidade);
     int getQuantidade() const;

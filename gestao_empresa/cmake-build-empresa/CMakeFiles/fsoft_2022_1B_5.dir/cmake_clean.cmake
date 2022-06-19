@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/fsoft_2022_1B_5.dir/Mock/MockData.cpp.obj"
+  "CMakeFiles/fsoft_2022_1B_5.dir/Mock/MockData.cpp.obj.d"
   "CMakeFiles/fsoft_2022_1B_5.dir/main.cpp.obj"
   "CMakeFiles/fsoft_2022_1B_5.dir/main.cpp.obj.d"
   "CMakeFiles/fsoft_2022_1B_5.dir/sources/controller/controller.cpp.obj"

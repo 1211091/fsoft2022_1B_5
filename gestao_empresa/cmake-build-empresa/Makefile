@@ -128,6 +128,30 @@ fsoft_2022_1B_5/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft_2022_1B_5.dir\build.make CMakeFiles/fsoft_2022_1B_5.dir/build
 .PHONY : fsoft_2022_1B_5/fast
 
+Mock/MockData.obj: Mock/MockData.cpp.obj
+.PHONY : Mock/MockData.obj
+
+# target to build an object file
+Mock/MockData.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft_2022_1B_5.dir\build.make CMakeFiles/fsoft_2022_1B_5.dir/Mock/MockData.cpp.obj
+.PHONY : Mock/MockData.cpp.obj
+
+Mock/MockData.i: Mock/MockData.cpp.i
+.PHONY : Mock/MockData.i
+
+# target to preprocess a source file
+Mock/MockData.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft_2022_1B_5.dir\build.make CMakeFiles/fsoft_2022_1B_5.dir/Mock/MockData.cpp.i
+.PHONY : Mock/MockData.cpp.i
+
+Mock/MockData.s: Mock/MockData.cpp.s
+.PHONY : Mock/MockData.s
+
+# target to generate assembly for a file
+Mock/MockData.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft_2022_1B_5.dir\build.make CMakeFiles/fsoft_2022_1B_5.dir/Mock/MockData.cpp.s
+.PHONY : Mock/MockData.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -569,6 +593,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... fsoft_2022_1B_5
+	@echo ... Mock/MockData.obj
+	@echo ... Mock/MockData.i
+	@echo ... Mock/MockData.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

@@ -35,12 +35,12 @@ TEST(ClienteSetNomeTeste, NomeInvalido) {
     Cliente cliente ("Zara");
     bool flag = false;
     try{
-        cliente.setCliente("a");
+        cliente.setNomeLoja("a");
     }catch(InformacaoInvalidaException& e){
         flag = true;
     }
 
-        EXPECT_FALSE(flag);
+        EXPECT_TRUE(flag);
 }
 
 TEST(ClienteSetNomeTeste, NomeValido) {
