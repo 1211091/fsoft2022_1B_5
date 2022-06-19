@@ -7,7 +7,8 @@
 #include <iostream>
 int Funcionario::Numero=1;
 Funcionario::Funcionario(const string &nomeFuncionario,const string &funcao){
-   setFuncionario(funcionario);
+    this->funcao = funcao;
+    this->nomeFuncionario = nomeFuncionario;
     this->numerofuncionario = Numero++;
 }
 bool Funcionario::FuncaoValida(const string& funcao){
@@ -39,9 +40,7 @@ Funcionario::Funcionario(const Funcionario& funcionario) {
     this->funcao = funcionario.funcao;
     this->numerofuncionario = funcionario.numerofuncionario;
 }
-string Funcionario::setFuncionario(const string&funcionario){
-    return this->funcionario;
-}
+
 Funcionario::~Funcionario(){
 }
 void Funcionario::setFuncao(const string &funcao) {
@@ -59,7 +58,7 @@ string Funcionario::getFuncao(){
 
 void Funcionario::setNomeFuncionario(const string &nomeFuncionario){
     //this->nomeFuncionario = nomeFuncionario;
-    if(NomeValido(nomeFuncionario)    ){
+    if(NomeValido(nomeFuncionario)){
         this->nomeFuncionario = nomeFuncionario;
     }else{
         string msg = "Funcionario: " + nomeFuncionario;
@@ -75,7 +74,7 @@ string Funcionario::getNomeFuncionario() const{
 
 
 bool Funcionario::operator == (const Funcionario& obj) const{
-    if(this->nomeFuncionario == obj.nomeFuncionario || this->numerofuncionario == obj.numerofuncionario){
+    if(this->numerofuncionario == obj.numerofuncionario){
         return true;
  }
     return false;

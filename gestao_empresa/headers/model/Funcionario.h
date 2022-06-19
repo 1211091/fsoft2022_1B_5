@@ -29,7 +29,6 @@ public:
     string getFuncao();
     int getNumeroFuncionario() const;
     void setNumeroFuncionario(const int &numerofuncionario);
-    string setFuncionario(const string &funcionario);
 
     bool operator == (const Funcionario& obj) const;
     bool operator == (int numf) const;

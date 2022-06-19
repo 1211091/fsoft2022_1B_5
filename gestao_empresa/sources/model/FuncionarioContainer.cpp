@@ -8,7 +8,7 @@
 #include "InformacaoDuplicadaException.h"
 #include "InformacaoNaoExisteException.h"
 
-list<Funcionario>::iterator FuncionarioContainer::procurarFuncionario(int&numerofuncionario){
+list<Funcionario>::iterator FuncionarioContainer::procurarFuncionario(int numerofuncionario){
     list<Funcionario>::iterator it = this->funcionarios.begin();
     for(it = this->funcionarios.begin(); it != this->funcionarios.end(); ++it){
         if((*it) == numerofuncionario){
@@ -30,8 +30,7 @@ list<Funcionario> FuncionarioContainer::getAll(){
     return lista;
 }
 void FuncionarioContainer::adicionarFuncionario(const Funcionario &obj){
-    int numerodofuncionario =  obj.getNumeroFuncionario();
-    list<Funcionario>::iterator it = procurarFuncionario(numerodofuncionario);
+    list<Funcionario>::iterator it = procurarFuncionario(obj.getNumeroFuncionario());
     if (it == this->funcionarios.end()) {
         this->funcionarios.push_back(obj);
     }else{

@@ -8,20 +8,21 @@
 #include <string>
 using namespace std;
 
-class Cliente{
+class Cliente {
     private:
     string nomeLoja;
     static int Numero;
     int numerocliente;
     string cliente;
+    bool NomeValido(const string& nomeLoja);
     public:
         Cliente(const string& nomeLoja);
         Cliente(const Cliente &cliente);
         ~Cliente();
         string getNomeLoja();
-        void setNomeLoja(string &nomeLoja);
-        string setCliente(const string &cliente);
+        void setNomeLoja(const string &nomeLoja);
         int getNumeroCliente();
+
 
 
     bool operator == (const Cliente& obj) const;

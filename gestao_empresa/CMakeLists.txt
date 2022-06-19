@@ -110,5 +110,6 @@ add_executable(
         ${MODEL_SOURCE_FILES}
         ${EXCEPTIONS_SOURCE_FILES}
         ${CONTROLLER_SOURCE_FILES}
+        ${MOCK_SOURCE_FILES}
 )
 

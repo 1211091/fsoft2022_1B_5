@@ -3,9 +3,12 @@
 //
 #include "Nome.h"
 #include "Cliente.h"
+#include "InformacaoInvalidaException.h"
+#include <iostream>
+
 int Cliente::Numero=1;
 Cliente::Cliente(const string& nomeLoja){
-  setCliente(cliente);
+  this->nomeLoja = nomeLoja;
   this->numerocliente = Numero++;
 }
 Cliente::~Cliente(){
@@ -14,11 +17,14 @@ Cliente::~Cliente(){
 string Cliente::getNomeLoja() {
     return nomeLoja;
 }
-string Cliente::setCliente(const string&cliente){
-    return this->cliente;
-}
-void Cliente::setNomeLoja(string &nomeLoja){
-    this-> nomeLoja = nomeLoja;
+
+void Cliente::setNomeLoja(const string &nomeLoja){
+    if(NomeValido(nomeLoja)){
+        this->nomeLoja = nomeLoja;
+    }else{
+        string msg = "Cliente: " +nomeLoja;
+        throw InformacaoInvalidaException(msg);
+    }
 }
 
 Cliente::Cliente(const Cliente &cliente) {
@@ -41,3 +47,12 @@ bool Cliente::operator == (int nc) const{
     }
     return false;
 }
+
+bool Cliente::NomeValido(const string &nomeLoja) {
+    if(nomeLoja.length() < 2){
+        cout<<"O nome tem de ter no minimo 2 caracteres."<<endl;
+        return false;
+    }
+    return true;
+}
+
