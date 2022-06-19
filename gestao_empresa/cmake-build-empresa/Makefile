@@ -152,30 +152,6 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft_2022_1B_5.dir\build.make CMakeFiles/fsoft_2022_1B_5.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-mock/MockData.obj: mock/MockData.cpp.obj
-.PHONY : mock/MockData.obj
-
-# target to build an object file
-mock/MockData.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft_2022_1B_5.dir\build.make CMakeFiles/fsoft_2022_1B_5.dir/mock/MockData.cpp.obj
-.PHONY : mock/MockData.cpp.obj
-
-mock/MockData.i: mock/MockData.cpp.i
-.PHONY : mock/MockData.i
-
-# target to preprocess a source file
-mock/MockData.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft_2022_1B_5.dir\build.make CMakeFiles/fsoft_2022_1B_5.dir/mock/MockData.cpp.i
-.PHONY : mock/MockData.cpp.i
-
-mock/MockData.s: mock/MockData.cpp.s
-.PHONY : mock/MockData.s
-
-# target to generate assembly for a file
-mock/MockData.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft_2022_1B_5.dir\build.make CMakeFiles/fsoft_2022_1B_5.dir/mock/MockData.cpp.s
-.PHONY : mock/MockData.cpp.s
-
 sources/controller/controller.obj: sources/controller/controller.cpp.obj
 .PHONY : sources/controller/controller.obj
 
@@ -596,9 +572,6 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
-	@echo ... mock/MockData.obj
-	@echo ... mock/MockData.i
-	@echo ... mock/MockData.s
 	@echo ... sources/controller/controller.obj
 	@echo ... sources/controller/controller.i
 	@echo ... sources/controller/controller.s

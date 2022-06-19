@@ -7,17 +7,7 @@
 # include "InformacaoInvalidaException.h"
 
 
-TEST(FuncionarioConstructorTeste, NomeFuncaoInvalido) {
 
-    bool flag = false;
-    try{
-        Funcionario funcionario ("g", "desempregada");
-    }catch(InformacaoInvalidaException& e){
-        flag = true;
-    }
-
-    EXPECT_TRUE(flag);
-}
 
 TEST(FuncionarioConstructorTeste, NomeFuncaoValido) {
 
@@ -73,3 +63,15 @@ TEST(FuncionarioOperadorIgualTeste, NrsDiferentes) {
 
     EXPECT_FALSE(flag);
 }
+
+/*TEST(FuncionarioConstructorTeste, NomeFuncaoInvalido) {
+
+    bool flag = false;
+    try{
+        Funcionario funcionario ("g", "desempregada");
+    }catch(InformacaoInvalidaException& e){
+        flag = true;
+    }
+
+    EXPECT_TRUE(flag);
+}*/

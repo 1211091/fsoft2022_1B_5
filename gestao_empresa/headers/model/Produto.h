@@ -21,9 +21,9 @@ protected:
     bool QuantidadeValida(const int& quantidade);
 public :
     Produto(const string &referencia, const string &tipo,const int &quantidade);
-    Produto(const Produto& produto);
+    Produto(const Produto &produto);
     ~Produto();
-    void setProduto(const string &referencia, const string &tipo,const int &quantidade);
+    string setProduto(string &produto);
 
     void setQuantidade(int quantidade);
     int getQuantidade() const;
@@ -33,10 +33,11 @@ public :
     const string& getTipo() const;
     void setTipo(const string &tipo);
 
+
     const string &getReferencia() const;
     void setReferencia(const string &referencia);
 
     bool operator == (int numeroproduto) const;
-    //bool operator == (string rfr) const;
+
 };
 #endif //HEADERS_MODEL_PRODUTO_H

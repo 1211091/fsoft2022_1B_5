@@ -154,12 +154,6 @@
 		<Unit filename="C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/main.cpp">
 			<Option target="fsoft_2022_1B_5"/>
 		</Unit>
-		<Unit filename="C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/mock/MockData.cpp">
-			<Option target="fsoft_2022_1B_5"/>
-		</Unit>
-		<Unit filename="C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/mock/MockData.h">
-			<Option target="fsoft_2022_1B_5"/>
-		</Unit>
 		<Unit filename="C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/gestao_empresa/sources/controller/controller.cpp">
 			<Option target="fsoft_2022_1B_5"/>
 		</Unit>

@@ -7,6 +7,7 @@
 #include "InformacaoNaoExisteException.h"
 #include "ProdutoContainer.h"
 
+
 TEST(ProdutoContainerAdicionarTeste,ProdutoValido) {
 
     Produto produto("r", "casacos", (int &) "1");
@@ -76,7 +77,7 @@ TEST(ProdutoContainerEliminarTeste, Naoexiste) {
 
 TEST(ProdutoContainerEliminarTeste, Existe) {
 
-    Produto produto ("r","calcas",(int &)"1");
+    Produto produto ("r","calcas",(int&)"1");
     ProdutoContainer container;
     container.adicionarProduto(produto);
     int nr = produto.getNumeroProduto();

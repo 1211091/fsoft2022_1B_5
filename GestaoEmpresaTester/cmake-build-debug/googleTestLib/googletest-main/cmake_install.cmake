@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/bilax/Desktop/fsoft2022_1B_5/GestaoEmpresaTester/googleTestLib/googletest-main
+# Install script for directory: C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/GestaoEmpresaTester/googleTestLib/googletest-main
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/bilax/Desktop/fsoft2022_1B_5/GestaoEmpresaTester/cmake-build-debug/googleTestLib/googletest-main/googlemock/cmake_install.cmake")
+  include("C:/Users/luis_/OneDrive/Ambiente de Trabalho/fsoft2022_1B_5/GestaoEmpresaTester/cmake-build-debug/googleTestLib/googletest-main/googlemock/cmake_install.cmake")
 
 endif()
 

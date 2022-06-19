@@ -18,6 +18,7 @@ private:
     string funcionario;
     bool NomeValido(const string& nomeFuncionario);
     bool FuncaoValida(const string& funcao);
+    bool NumeroFuncionarioValido(const int& numerofuncionario);
 public:
     Funcionario(const string &nomeFuncionario,const string &funcao);
     Funcionario(const Funcionario& funcionario);
@@ -27,6 +28,7 @@ public:
     string getNomeFuncionario() const;
     string getFuncao();
     int getNumeroFuncionario() const;
+    void setNumeroFuncionario(const int &numerofuncionario);
     string setFuncionario(const string &funcionario);
 
     bool operator == (const Funcionario& obj) const;

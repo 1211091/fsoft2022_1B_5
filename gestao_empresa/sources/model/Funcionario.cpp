@@ -25,6 +25,14 @@ bool Funcionario::NomeValido(const string& nomeFuncionario){
     }
     return true;
 }
+bool Funcionario::NumeroFuncionarioValido(const int &numerofuncionario) {
+    if(numerofuncionario < 1){
+        cout<<"O funcionario com o numero "<<numerofuncionario<<" nao existe."<<endl;
+        return false;
+    }
+    return true;
+}
+
 
 Funcionario::Funcionario(const Funcionario& funcionario) {
     this->nomeFuncionario = funcionario.nomeFuncionario;
@@ -83,3 +91,15 @@ bool Funcionario::operator == (int numf) const{
 int Funcionario::getNumeroFuncionario() const {
     return numerofuncionario;
 }
+
+void Funcionario::setNumeroFuncionario(const int &numerofuncionario) {
+    if(NumeroFuncionarioValido(numerofuncionario)){
+        this->numerofuncionario = numerofuncionario;
+    }else{
+        string msg = "Funcionario: " + numerofuncionario;
+        throw InformacaoInvalidaException(msg);
+    }
+}
+
+
+

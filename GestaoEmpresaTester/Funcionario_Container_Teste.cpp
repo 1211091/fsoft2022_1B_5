@@ -46,38 +46,14 @@ TEST(FuncionarioContainerAdicionarTeste, FuncionarioDuplicado) {
 }
 
 
+TEST(FuncionarioContainerEliminarTeste, NaoexisteProblema) {
 
-TEST(FuncionarioContainerEliminarTeste, Naoexiste) {
-
-    Funcionario funcionario("Mariana", "Secretária");
-    Funcionario funcionario1 ("Beatriz", "Supervisora");
+    Funcionario funcionario ("Inês","chefe de recursos humanos");
+    Funcionario funcionario1 ("Ana","chefe de caixa");
     FuncionarioContainer container;
     container.adicionarFuncionario(funcionario);
     container.adicionarFuncionario(funcionario1);
     int nr = funcionario1.getNumeroFuncionario();
-    bool flag = true;
-
-
-    try{
-         container.eliminarFuncionario(nr);
-    }catch(InformacaoNaoExisteException& e){
-         flag = false;
-    }
-    if(flag == true){
-        Funcionario * ptr = container.get(nr);
-    if(ptr != NULL)
-        flag = false;
-}
-
-    EXPECT_TRUE(flag);
-}
-
-TEST(FuncionarioContainerEliminarTeste, Existe) {
-
-    Funcionario funcionario ("Inês","chefe de recursos humanos");
-    FuncionarioContainer container;
-    container.adicionarFuncionario(funcionario);
-    int nr = funcionario.getNumeroFuncionario();
     bool flag = true;
 
     try{
@@ -85,6 +61,27 @@ TEST(FuncionarioContainerEliminarTeste, Existe) {
     }catch(InformacaoNaoExisteException& e){
         flag = false;
     }
+    if(flag == true){
+        Funcionario * ptr = container.get(nr);
+        if(ptr != NULL)
+            flag = false;
+    }
 
-    EXPECT_FALSE(flag);
+
+    EXPECT_TRUE(flag);
 }
+
+/*TEST(FuncionarioContainerEliminarTeste, ExisteProblema) {
+
+    Funcionario funcionario("Mariana", "Secretária");
+    FuncionarioContainer container;
+    container.adicionarFuncionario(funcionario);
+    int nr = funcionario.getNumeroFuncionario();
+    bool flag = true;
+    try{
+         container.eliminarFuncionario(nr);
+    }catch(InformacaoNaoExisteException& e){
+         flag = false;
+    }
+    EXPECT_FALSE(flag);
+}*/

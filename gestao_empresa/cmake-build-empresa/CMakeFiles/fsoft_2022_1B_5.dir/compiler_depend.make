@@ -153,7 +153,6 @@ CMakeFiles/fsoft_2022_1B_5.dir/main.cpp.obj: ../main.cpp \
   ../headers/model/FuncionarioContainer.h \
   ../headers/model/Funcionario.h \
   ../headers/exceptions/InformacaoNaoExisteException.h \
-  ../mock/MockData.h \
   ../headers/controller/controller.h \
   ../headers/views/ClienteView.h \
   ../headers/model/Cliente.h \
@@ -163,8 +162,6 @@ CMakeFiles/fsoft_2022_1B_5.dir/main.cpp.obj: ../main.cpp \
   ../headers/model/Produto.h \
   ../headers/views/Utils.h \
   ../headers/views/View.h
-
-CMakeFiles/fsoft_2022_1B_5.dir/mock/MockData.cpp.obj: ../mock/MockData.cpp
 
 CMakeFiles/fsoft_2022_1B_5.dir/sources/controller/controller.cpp.obj: ../sources/controller/controller.cpp \
   C:/Program\ Files/JetBrains/CLion\ 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/iostream \
@@ -2786,8 +2783,6 @@ C:/Program\ Files/JetBrains/CLion\ 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32
 
 ../headers/exceptions/InformacaoNaoExisteException.h:
 
-../mock/MockData.h:
-
 ../headers/controller/controller.h:
 
 ../headers/views/ClienteView.h:
@@ -2797,8 +2792,6 @@ C:/Program\ Files/JetBrains/CLion\ 2021.3.3/bin/mingw/lib/gcc/x86_64-w64-mingw32
 ../headers/views/Utils.h:
 
 ../headers/views/View.h:
-
-../mock/MockData.cpp:
 
 ../sources/controller/controller.cpp:
 
